@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #1d1d1f;
+  --text-secondary: #6e6e73;
+
+  --blue: #007aff;
+  --background: #f5f5f7;
+
+  --shadow: 2px 4px 12px #00000014;
+}
+
+body {
+  background-color: var(--background);
+}
+
+body, button, textarea, input {
+  font: 400 1rem 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+fieldset {
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  color: var(--text);
+}
+
+p, span, li, td, th {
+  color: var(--text-secondary);
+}
+
+button {
+  border: 0;
+  transition: all 0.4s;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.card {
+  overflow: hidden;
+  padding: 24px 32px;
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
