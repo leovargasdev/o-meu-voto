@@ -1,0 +1,80 @@
+.container { 
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+
+.form {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 16px;
+
+  fieldset {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+
+    label {
+      font-size: 14px;
+    }
+  }
+
+  button {
+    padding: 8px 24px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: var(--blue);
+  }
+}
+
+.candidates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.candidate {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+
+  padding: 8px 16px;
+  border-radius: 4px;
+
+  .info {
+    strong, p {
+      line-height: 1;
+      display: block;
+    }
+
+    
+    strong {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    p {
+      color: var(--text-secondary);
+      font-size: 12px;
+    }
+  }
+
+  .code {
+    display: flex;
+    column-gap: 4px;
+
+    margin-left: auto;
+
+    span {
+      background: #519548;
+      padding: 3px 6px;
+      border-radius: 2px;
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+}

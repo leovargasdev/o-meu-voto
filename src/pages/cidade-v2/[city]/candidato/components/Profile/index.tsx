@@ -46,7 +46,10 @@ export const Profile = (candidate: Candidate) => {
           ))}
         </div>
 
-        <h1>{candidate.nomeCompleto.toLocaleLowerCase()}</h1>
+        <h1>
+          {/* {candidate.nomeCompleto.toLocaleLowerCase()} <br /> */}
+          {candidate.nomeUrna}
+        </h1>
 
         <p className={styles.description}>
           O candidato(a) está concorrendo ao{' '}

@@ -11,12 +11,19 @@ interface Property {
   valor: string
 }
 
-export interface Candidate {
+export interface CandidateSimple {
   nomeCompleto: string
+  ufCandidatura: string
+  id: number
+  numero: number
+  nomeUrna: string
+  descricaoSituacao: string
+}
+
+export interface Candidate extends CandidateSimple {
   arquivos: File[]
   sites: string[]
   fotoUrl: string
-  numero: string
   localCandidatura: string
   cargo: {
     nome: string
@@ -33,4 +40,5 @@ export interface Candidate {
   emails: string[]
   cnpjcampanha: string
   bens: Property[]
+  totalDeBens: number
 }

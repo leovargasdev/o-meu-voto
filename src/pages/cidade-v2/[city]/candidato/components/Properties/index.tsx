@@ -13,7 +13,7 @@ import type { Candidate } from 'types/candidate'
 import styles from './styles.module.scss'
 
 export const Properties = (candidate: Candidate) => {
-  const convertFloatToCurrency = (currency: string) => {
+  const convertFloatToCurrency = (currency: string | number) => {
     const value = Number(currency)
 
     if (!value) {
@@ -66,7 +66,7 @@ export const Properties = (candidate: Candidate) => {
     <div>
       <h2>
         <Receipt />
-        Patrimônio declarado
+        Patrimônio declarado - {convertFloatToCurrency(candidate.totalDeBens)}
       </h2>
 
       <div className={styles.properties}>

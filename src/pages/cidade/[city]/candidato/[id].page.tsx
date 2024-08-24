@@ -272,7 +272,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { city, id } = params as never
 
   try {
-    const response = await api.get(`/${city}/2045202024/candidato/${id}`)
+    const response = await api.get(
+      `/buscar/2024/${city}/2045202024/candidato/${id}`
+    )
     return { props: response.data }
   } catch (e) {
     console.log(e)
