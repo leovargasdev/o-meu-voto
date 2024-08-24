@@ -35,7 +35,7 @@
     border: 4px solid #fff;
   }
 
-  div {
+  .code {
     display: flex;
     column-gap: 4px;
 
@@ -55,7 +55,7 @@
     text-transform: capitalize;
   }
 
-  p {
+  p.description {
     font-size: 16px;
     line-height: 1.6;
     padding: 0 16px;
@@ -64,7 +64,7 @@
       font-weight: 500;
       color: var(--blue);
       
-      &:last-child {
+      &:not(:first-child) {
         text-transform: capitalize;
       }
     }

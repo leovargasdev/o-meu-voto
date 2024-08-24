@@ -26,11 +26,13 @@ export const Profile = (candidate: Candidate) => {
     )
   }
 
+  const code = candidate.numero.toString().split('')
+
   return (
     <div className={classNames('card', styles.profile)}>
       <picture className={styles.cover}>
         <img
-          src="https://www.eccobandeiras.com.br/image/cache/catalog/antigas/Santa-Catarina-1111x740.jpg"
+          src="https://www.eccobandeiras.com.br/image/cache/catalog/antigas/SP-1111x740.jpg"
           alt=""
         />
       </picture>
@@ -38,21 +40,19 @@ export const Profile = (candidate: Candidate) => {
       <div className={styles.profile__content}>
         <img src={candidate.fotoUrl} alt="" />
 
-        <div>
-          {candidate.numero
-            .toString()
-            .split('')
-            .map(item => (
-              <span key={item}>{item}</span>
-            ))}
+        <div className={styles.code}>
+          {code.map(item => (
+            <span key={item}>{item}</span>
+          ))}
         </div>
 
         <h1>{candidate.nomeCompleto.toLocaleLowerCase()}</h1>
 
-        <p>
+        <p className={styles.description}>
           O candidato(a) está concorrendo ao{' '}
           <i>cargo de {candidate.cargo.nome.toLocaleLowerCase()}</i> no
-          municipio de <i>{candidate.localCandidatura.toLocaleLowerCase()}</i>.
+          municipio de <i>{candidate.localCandidatura.toLocaleLowerCase()}</i>{' '}
+          pelo partido <i>{candidate.partido.sigla}</i>.
         </p>
 
         {proposta && (
