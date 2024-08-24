@@ -1,0 +1,45 @@
+.properties {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  
+  width: 100%;
+}
+
+.property {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+
+  > span {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: var(--background);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    strong {
+      font-size: 15px;
+
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+
+    p {
+      font-size: 17px;
+    }
+  }
+}
+
+ 
