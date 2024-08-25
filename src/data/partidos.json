@@ -1,0 +1,50 @@
+{
+  "pode": {
+    "nome": "Podemos",
+    "image": "/icons/PODE.png"
+  },
+  "psd": {
+    "nome": "Partido Social Democrático",
+    "image": "/icons/PSD.png"
+  },
+  "republicanos": {
+    "nome": "Republicanos",
+    "image": "/icons/REPUBLICANOS.png"
+  },
+  "pl": {
+    "nome": "Partido Liberal",
+    "image": "/icons/PL.png"
+  },
+  "pp": {
+    "nome": "Progressistas",
+    "image": "/icons/PP.png"
+  },
+  "pdt": {
+    "nome": "Partido Democrático Trabalhista",
+    "image": "/icons/PDT.png"
+  },
+  "uniao": {
+    "nome": "União",
+    "image": "/icons/.png"
+  },
+  "pt": {
+    "nome": "Partido dos Trabalhadores",
+    "image": "/icons/PT.png"
+  },
+  "mdb": {
+    "nome": "Movimento Democrático Brasileiro",
+    "image": "/icons/MDB.png"
+  },
+  "pcdob": {
+    "nome": "Partido Comunista do Brasil",
+    "image": "/icons/PCDOB.png"
+  },
+  "novo": {
+    "nome": "Partido Novo",
+    "image": "/icons/NOVO.png"
+  },
+  "psol": {
+    "nome": "Partido Socialismo e Liberdade",
+    "image": "/icons/PSOL.png"
+  }
+}

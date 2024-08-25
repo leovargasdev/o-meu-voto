@@ -9,6 +9,7 @@ import { SearchForm } from './components/Form'
 import type { CandidateSimple } from 'types/candidate'
 
 import styles from './styles.module.scss'
+import { SearchFilter } from './components/Filter'
 
 const loadCandidates = async (city: string, role: string) => {
   try {
@@ -25,6 +26,14 @@ const loadCandidates = async (city: string, role: string) => {
   return []
 }
 
+const formatSigla = (value: string) => {
+  return value
+    .normalize('NFD')
+    .replace(/\s/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toUpperCase()
+}
+
 const SearchPage = () => {
   const { query } = useRouter()
 
@@ -38,14 +47,6 @@ const SearchPage = () => {
   })
 
   const loading = !data || isFetching || isLoading
-
-  const partidos = data?.reduce((acc, item) => {
-    const key = item.partido.sigla
-
-    acc[key] = acc[key] ? acc[key] + 1 : 1
-
-    return acc
-  }, {} as Record<string, number>)
 
   const [filter, setFilter] = useState<string[]>([])
 
@@ -67,61 +68,52 @@ const SearchPage = () => {
 
   return (
     <div className={styles.container}>
-      <SearchForm />
+      <div className={styles.form__and__filter}>
+        <SearchForm />
+        {!loading && (
+          <SearchFilter
+            candidates={data}
+            setFilter={handleChangeFilter}
+            filter={filter}
+          />
+        )}
+      </div>
 
       <div className={styles.content}>
         <h1>Lista dos candidatos</h1>
 
         {!loading && (
-          <>
-            {partidos && (
-              <div className={styles.filter}>
-                {Object.keys(partidos).map(partido => (
-                  <button
-                    type="button"
-                    key={partido}
-                    onClick={() => handleChangeFilter(partido)}
+          <div className={styles.candidates}>
+            {data
+              .filter(candidate =>
+                filter.length === 0
+                  ? candidate
+                  : filter.includes(formatSigla(candidate.partido.sigla))
+              )
+              .map(candidate => {
+                const code = candidate.numero.toString().split('')
+
+                return (
+                  <Link
+                    target="_blank"
+                    href={`/cidade/${candidate.ufCandidatura}/candidato/${candidate.id}`}
+                    className={classNames('card', styles.candidate)}
+                    key={candidate.id}
                   >
-                    {partido} ({partidos[partido]})
-                  </button>
-                ))}
-              </div>
-            )}
+                    <div className={styles.info}>
+                      <strong>{candidate.nomeUrna}</strong>
+                      <p>{candidate.nomeCompleto}</p>
+                    </div>
 
-            <div className={styles.candidates}>
-              {data
-                .filter(candidate =>
-                  filter.length === 0
-                    ? candidate
-                    : filter.includes(candidate.partido.sigla)
+                    <div className={styles.code}>
+                      {code.map(item => (
+                        <span key={item}>{item}</span>
+                      ))}
+                    </div>
+                  </Link>
                 )
-                .map(candidate => {
-                  const code = candidate.numero.toString().split('')
-
-                  return (
-                    <Link
-                      target="_blank"
-                      href={`/cidade/${candidate.ufCandidatura}/candidato/${candidate.id}`}
-                      className={classNames('card', styles.candidate)}
-                      key={candidate.id}
-                    >
-                      <img src="/icons/MDB.png" width="auto" height={48} />
-
-                      <div className={styles.info}>
-                        <strong>{candidate.nomeUrna}</strong>
-                        <p>{candidate.nomeCompleto}</p>
-                      </div>
-
-                      <div className={styles.code}>
-                        {code.map(item => (
-                          <span key={item}>{item}</span>
-                        ))}
-                      </div>
-                    </Link>
-                  )
-                })}
-            </div>
-          </>
+              })}
+          </div>
         )}
       </div>
     </div>
