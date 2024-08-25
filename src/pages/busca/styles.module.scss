@@ -1,33 +1,23 @@
 .container { 
   display: flex;
-  flex-direction: column;
-  row-gap: 32px;
+  flex-direction: row-reverse;
+  column-gap: 32px;
+
+  h1 {
+    margin-bottom: 16px;
+  }
 }
 
+.content {
+  flex: 1;
+}
 
-.form {
+.filter {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   column-gap: 16px;
 
-  fieldset {
-    flex: 1;
-
-    display: flex;
-    flex-direction: column;
-    row-gap: 2px;
-
-    label {
-      font-size: 14px;
-    }
-  }
-
-  button {
-    padding: 8px 24px;
-    border-radius: 6px;
-    color: #fff;
-    background-color: var(--blue);
-  }
+  margin-bottom: 16px;
 }
 
 .candidates {

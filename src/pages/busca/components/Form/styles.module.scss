@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 300px;
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+
+    margin-bottom: 16px;
+
+    label {
+      font-size: 14px;
+    }
+  }
+
+  button {
+    padding: 8px 24px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: var(--blue);
+  }
+}

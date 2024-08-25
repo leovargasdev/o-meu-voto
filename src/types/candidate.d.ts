@@ -18,6 +18,10 @@ export interface CandidateSimple {
   numero: number
   nomeUrna: string
   descricaoSituacao: string
+  partido: {
+    sigla: string
+    nome: string
+  }
 }
 
 export interface Candidate extends CandidateSimple {
@@ -26,10 +30,6 @@ export interface Candidate extends CandidateSimple {
   fotoUrl: string
   localCandidatura: string
   cargo: {
-    nome: string
-  }
-  partido: {
-    sigla: string
     nome: string
   }
   nomeMunicipioNascimento: string
