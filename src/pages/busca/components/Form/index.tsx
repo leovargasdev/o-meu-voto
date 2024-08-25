@@ -1,3 +1,4 @@
+import Select from 'react-select'
 import { useRouter } from 'next/router'
 import { FormEvent, useState } from 'react'
 
@@ -5,49 +6,76 @@ import cities from 'data/mock-cities.json'
 
 import styles from './styles.module.scss'
 
+const cityOptions = cities.map(city => ({
+  value: city.codigo,
+  label: city.nome
+}))
+
+interface Option {
+  value: string
+  label: string
+}
+
 export const SearchForm = () => {
   const router = useRouter()
 
-  const [state, setState] = useState('')
-  const [city, setCity] = useState('')
-  const [role, setRole] = useState('')
+  const [state, setState] = useState<Option | null>(null)
+  const [city, setCity] = useState<Option | null>(null)
+  const [role, setRole] = useState<Option | null>({
+    value: '11',
+    label: 'Prefeito'
+  })
 
   const handleSearchCandidates = async (event: FormEvent) => {
     event.preventDefault()
-    router.replace({ query: { role, city, state } })
+
+    if (city && role) {
+      const query = {
+        role: role.value,
+        city: city.value
+      }
+      router.replace({ query })
+    }
   }
 
   return (
     <form className={styles.form} onSubmit={handleSearchCandidates}>
-      <h1>Filtros</h1>
-
       <fieldset>
-        <label htmlFor="">Estado</label>
-        <select name="state" onChange={e => setState(e.target.value)}>
-          <option value="sc">Santa Catarina</option>
-          <option value="pr">Paraná</option>
-          <option value="rs">Rio Grande do Sul</option>
-        </select>
+        <label>Estado</label>
+        <Select
+          placeholder="Selecionar"
+          onChange={setState}
+          options={[
+            { value: 'SC', label: 'Santa Catarina' },
+            { value: 'PR', label: 'Paraná' },
+            { value: 'RS', label: 'Rio Grande do Sul' }
+          ]}
+        />
       </fieldset>
 
       <fieldset>
-        <label htmlFor="">Cidade</label>
-        <select name="city" onChange={e => setCity(e.target.value)}>
-          {cities.map(city => (
-            <option value={city.codigo} key={city.codigo}>
-              {city.nome}
-            </option>
-          ))}
-        </select>
+        <label>Cidade</label>
+        <Select
+          placeholder="Selecionar"
+          onChange={setCity}
+          defaultValue={cityOptions[4]}
+          isSearchable
+          options={cityOptions}
+        />
       </fieldset>
 
       <fieldset>
-        <label htmlFor="">Cargo</label>
-        <select name="role" onChange={e => setRole(e.target.value)}>
-          <option value="11">Prefeito</option>
-          <option value="12">Vice-prefeito</option>
-          <option value="13">Vereador</option>
-        </select>
+        <label>Cargo</label>
+        <Select
+          placeholder="Selecionar"
+          onChange={setRole}
+          defaultValue={role}
+          options={[
+            { value: '11', label: 'Prefeito' },
+            { value: '12', label: 'Vice-prefeito' },
+            { value: '13', label: 'Vereador' }
+          ]}
+        />
       </fieldset>
 
       <button type="submit">Buscar</button>
