@@ -1,20 +1,11 @@
+import { Option } from 'types'
 import Select from 'react-select'
 import { useRouter } from 'next/router'
 import { FormEvent, useState } from 'react'
 
-import cities from 'data/mock-cities.json'
+import { citiesByState, states } from 'data/cities/'
 
 import styles from './styles.module.scss'
-
-const cityOptions = cities.map(city => ({
-  value: city.codigo,
-  label: city.nome
-}))
-
-interface Option {
-  value: string
-  label: string
-}
 
 export const SearchForm = () => {
   const router = useRouter()
@@ -38,19 +29,13 @@ export const SearchForm = () => {
     }
   }
 
+  const cities = state ? citiesByState[state.value] : []
+
   return (
     <form className={styles.form} onSubmit={handleSearchCandidates}>
       <fieldset>
         <label>Estado</label>
-        <Select
-          placeholder="Selecionar"
-          onChange={setState}
-          options={[
-            { value: 'SC', label: 'Santa Catarina' },
-            { value: 'PR', label: 'Paraná' },
-            { value: 'RS', label: 'Rio Grande do Sul' }
-          ]}
-        />
+        <Select placeholder="Selecionar" onChange={setState} options={states} />
       </fieldset>
 
       <fieldset>
@@ -58,9 +43,8 @@ export const SearchForm = () => {
         <Select
           placeholder="Selecionar"
           onChange={setCity}
-          defaultValue={cityOptions[4]}
           isSearchable
-          options={cityOptions}
+          options={cities}
         />
       </fieldset>
 

@@ -1,0 +1,3414 @@
+[
+  {
+      "value": "40010",
+      "label": "ABADIA DOS DOURADOS"
+  },
+  {
+      "value": "40037",
+      "label": "ABAETÉ"
+  },
+  {
+      "value": "40053",
+      "label": "ABRE CAMPO"
+  },
+  {
+      "value": "40070",
+      "label": "ACAIACA"
+  },
+  {
+      "value": "40096",
+      "label": "AÇUCENA"
+  },
+  {
+      "value": "40118",
+      "label": "ÁGUA BOA"
+  },
+  {
+      "value": "40134",
+      "label": "ÁGUA COMPRIDA"
+  },
+  {
+      "value": "40150",
+      "label": "AGUANIL"
+  },
+  {
+      "value": "40177",
+      "label": "ÁGUAS FORMOSAS"
+  },
+  {
+      "value": "40193",
+      "label": "ÁGUAS VERMELHAS"
+  },
+  {
+      "value": "40215",
+      "label": "AIMORÉS"
+  },
+  {
+      "value": "40231",
+      "label": "AIURUOCA"
+  },
+  {
+      "value": "40258",
+      "label": "ALAGOA"
+  },
+  {
+      "value": "40274",
+      "label": "ALBERTINA"
+  },
+  {
+      "value": "40290",
+      "label": "ALÉM PARAÍBA"
+  },
+  {
+      "value": "40312",
+      "label": "ALFENAS"
+  },
+  {
+      "value": "40002",
+      "label": "ALFREDO VASCONCELOS"
+  },
+  {
+      "value": "40339",
+      "label": "ALMENARA"
+  },
+  {
+      "value": "40355",
+      "label": "ALPERCATA"
+  },
+  {
+      "value": "40371",
+      "label": "ALPINÓPOLIS"
+  },
+  {
+      "value": "40398",
+      "label": "ALTEROSA"
+  },
+  {
+      "value": "41661",
+      "label": "ALTO CAPARAÓ"
+  },
+  {
+      "value": "50695",
+      "label": "ALTO JEQUITIBÁ"
+  },
+  {
+      "value": "40410",
+      "label": "ALTO RIO DOCE"
+  },
+  {
+      "value": "40436",
+      "label": "ALVARENGA"
+  },
+  {
+      "value": "40452",
+      "label": "ALVINÓPOLIS"
+  },
+  {
+      "value": "40479",
+      "label": "ALVORADA DE MINAS"
+  },
+  {
+      "value": "40495",
+      "label": "AMPARO DO SERRA"
+  },
+  {
+      "value": "40517",
+      "label": "ANDRADAS"
+  },
+  {
+      "value": "40550",
+      "label": "ANDRELÂNDIA"
+  },
+  {
+      "value": "41688",
+      "label": "ANGELÂNDIA"
+  },
+  {
+      "value": "40576",
+      "label": "ANTÔNIO CARLOS"
+  },
+  {
+      "value": "40592",
+      "label": "ANTÔNIO DIAS"
+  },
+  {
+      "value": "40614",
+      "label": "ANTÔNIO PRADO DE MINAS"
+  },
+  {
+      "value": "40630",
+      "label": "ARAÇAÍ"
+  },
+  {
+      "value": "40657",
+      "label": "ARACITABA"
+  },
+  {
+      "value": "40673",
+      "label": "ARAÇUAÍ"
+  },
+  {
+      "value": "40690",
+      "label": "ARAGUARI"
+  },
+  {
+      "value": "40711",
+      "label": "ARANTINA"
+  },
+  {
+      "value": "40738",
+      "label": "ARAPONGA"
+  },
+  {
+      "value": "40029",
+      "label": "ARAPORÃ"
+  },
+  {
+      "value": "40754",
+      "label": "ARAPUÁ"
+  },
+  {
+      "value": "40770",
+      "label": "ARAÚJOS"
+  },
+  {
+      "value": "40797",
+      "label": "ARAXÁ"
+  },
+  {
+      "value": "40819",
+      "label": "ARCEBURGO"
+  },
+  {
+      "value": "40835",
+      "label": "ARCOS"
+  },
+  {
+      "value": "40851",
+      "label": "AREADO"
+  },
+  {
+      "value": "40878",
+      "label": "ARGIRITA"
+  },
+  {
+      "value": "41700",
+      "label": "ARICANDUVA"
+  },
+  {
+      "value": "40894",
+      "label": "ARINOS"
+  },
+  {
+      "value": "40916",
+      "label": "ASTOLFO DUTRA"
+  },
+  {
+      "value": "40932",
+      "label": "ATALÉIA"
+  },
+  {
+      "value": "40959",
+      "label": "AUGUSTO DE LIMA"
+  },
+  {
+      "value": "40975",
+      "label": "BAEPENDI"
+  },
+  {
+      "value": "40991",
+      "label": "BALDIM"
+  },
+  {
+      "value": "41017",
+      "label": "BAMBUÍ"
+  },
+  {
+      "value": "41033",
+      "label": "BANDEIRA"
+  },
+  {
+      "value": "41050",
+      "label": "BANDEIRA DO SUL"
+  },
+  {
+      "value": "41076",
+      "label": "BARÃO DE COCAIS"
+  },
+  {
+      "value": "41092",
+      "label": "BARÃO DE MONTE ALTO"
+  },
+  {
+      "value": "41114",
+      "label": "BARBACENA"
+  },
+  {
+      "value": "41130",
+      "label": "BARRA LONGA"
+  },
+  {
+      "value": "41173",
+      "label": "BARROSO"
+  },
+  {
+      "value": "41190",
+      "label": "BELA VISTA DE MINAS"
+  },
+  {
+      "value": "41211",
+      "label": "BELMIRO BRAGA"
+  },
+  {
+      "value": "41238",
+      "label": "BELO HORIZONTE"
+  },
+  {
+      "value": "41254",
+      "label": "BELO ORIENTE"
+  },
+  {
+      "value": "41270",
+      "label": "BELO VALE"
+  },
+  {
+      "value": "41297",
+      "label": "BERILO"
+  },
+  {
+      "value": "41726",
+      "label": "BERIZAL"
+  },
+  {
+      "value": "41319",
+      "label": "BERTÓPOLIS"
+  },
+  {
+      "value": "41335",
+      "label": "BETIM"
+  },
+  {
+      "value": "41351",
+      "label": "BIAS FORTES"
+  },
+  {
+      "value": "41378",
+      "label": "BICAS"
+  },
+  {
+      "value": "41394",
+      "label": "BIQUINHAS"
+  },
+  {
+      "value": "41416",
+      "label": "BOA ESPERANÇA"
+  },
+  {
+      "value": "41432",
+      "label": "BOCAINA DE MINAS"
+  },
+  {
+      "value": "41459",
+      "label": "BOCAIÚVA"
+  },
+  {
+      "value": "41475",
+      "label": "BOM DESPACHO"
+  },
+  {
+      "value": "41491",
+      "label": "BOM JARDIM DE MINAS"
+  },
+  {
+      "value": "41513",
+      "label": "BOM JESUS DA PENHA"
+  },
+  {
+      "value": "41530",
+      "label": "BOM JESUS DO AMPARO"
+  },
+  {
+      "value": "41556",
+      "label": "BOM JESUS DO GALHO"
+  },
+  {
+      "value": "41572",
+      "label": "BOM REPOUSO"
+  },
+  {
+      "value": "41599",
+      "label": "BOM SUCESSO"
+  },
+  {
+      "value": "41610",
+      "label": "BONFIM"
+  },
+  {
+      "value": "41637",
+      "label": "BONFINÓPOLIS DE MINAS"
+  },
+  {
+      "value": "41742",
+      "label": "BONITO DE MINAS"
+  },
+  {
+      "value": "41653",
+      "label": "BORDA DA MATA"
+  },
+  {
+      "value": "41670",
+      "label": "BOTELHOS"
+  },
+  {
+      "value": "41696",
+      "label": "BOTUMIRIM"
+  },
+  {
+      "value": "41734",
+      "label": "BRÁS PIRES"
+  },
+  {
+      "value": "40045",
+      "label": "BRASILÂNDIA DE MINAS"
+  },
+  {
+      "value": "41718",
+      "label": "BRASÍLIA DE MINAS"
+  },
+  {
+      "value": "41750",
+      "label": "BRAÚNAS"
+  },
+  {
+      "value": "41777",
+      "label": "BRAZÓPOLIS"
+  },
+  {
+      "value": "41793",
+      "label": "BRUMADINHO"
+  },
+  {
+      "value": "41815",
+      "label": "BUENO BRANDÃO"
+  },
+  {
+      "value": "41831",
+      "label": "BUENÓPOLIS"
+  },
+  {
+      "value": "41769",
+      "label": "BUGRE"
+  },
+  {
+      "value": "41858",
+      "label": "BURITIS"
+  },
+  {
+      "value": "41874",
+      "label": "BURITIZEIRO"
+  },
+  {
+      "value": "41785",
+      "label": "CABECEIRA GRANDE"
+  },
+  {
+      "value": "41890",
+      "label": "CABO VERDE"
+  },
+  {
+      "value": "41912",
+      "label": "CACHOEIRA DA PRATA"
+  },
+  {
+      "value": "41939",
+      "label": "CACHOEIRA DE MINAS"
+  },
+  {
+      "value": "40533",
+      "label": "CACHOEIRA DE PAJEÚ"
+  },
+  {
+      "value": "41955",
+      "label": "CACHOEIRA DOURADA"
+  },
+  {
+      "value": "41971",
+      "label": "CAETANÓPOLIS"
+  },
+  {
+      "value": "41998",
+      "label": "CAETÉ"
+  },
+  {
+      "value": "42013",
+      "label": "CAIANA"
+  },
+  {
+      "value": "42030",
+      "label": "CAJURI"
+  },
+  {
+      "value": "42056",
+      "label": "CALDAS"
+  },
+  {
+      "value": "42072",
+      "label": "CAMACHO"
+  },
+  {
+      "value": "42099",
+      "label": "CAMANDUCAIA"
+  },
+  {
+      "value": "42110",
+      "label": "CAMBUÍ"
+  },
+  {
+      "value": "42137",
+      "label": "CAMBUQUIRA"
+  },
+  {
+      "value": "42153",
+      "label": "CAMPANÁRIO"
+  },
+  {
+      "value": "42170",
+      "label": "CAMPANHA"
+  },
+  {
+      "value": "42196",
+      "label": "CAMPESTRE"
+  },
+  {
+      "value": "42218",
+      "label": "CAMPINA VERDE"
+  },
+  {
+      "value": "41807",
+      "label": "CAMPO AZUL"
+  },
+  {
+      "value": "42234",
+      "label": "CAMPO BELO"
+  },
+  {
+      "value": "42250",
+      "label": "CAMPO DO MEIO"
+  },
+  {
+      "value": "42277",
+      "label": "CAMPO FLORIDO"
+  },
+  {
+      "value": "42293",
+      "label": "CAMPOS ALTOS"
+  },
+  {
+      "value": "42315",
+      "label": "CAMPOS GERAIS"
+  },
+  {
+      "value": "42374",
+      "label": "CANA VERDE"
+  },
+  {
+      "value": "42331",
+      "label": "CANAÃ"
+  },
+  {
+      "value": "42358",
+      "label": "CANÁPOLIS"
+  },
+  {
+      "value": "42390",
+      "label": "CANDEIAS"
+  },
+  {
+      "value": "41823",
+      "label": "CANTAGALO"
+  },
+  {
+      "value": "42412",
+      "label": "CAPARAÓ"
+  },
+  {
+      "value": "42439",
+      "label": "CAPELA NOVA"
+  },
+  {
+      "value": "42455",
+      "label": "CAPELINHA"
+  },
+  {
+      "value": "42471",
+      "label": "CAPETINGA"
+  },
+  {
+      "value": "42498",
+      "label": "CAPIM BRANCO"
+  },
+  {
+      "value": "42510",
+      "label": "CAPINÓPOLIS"
+  },
+  {
+      "value": "40061",
+      "label": "CAPITÃO ANDRADE"
+  },
+  {
+      "value": "42536",
+      "label": "CAPITÃO ENÉAS"
+  },
+  {
+      "value": "42552",
+      "label": "CAPITÓLIO"
+  },
+  {
+      "value": "42579",
+      "label": "CAPUTIRA"
+  },
+  {
+      "value": "42595",
+      "label": "CARAÍ"
+  },
+  {
+      "value": "42617",
+      "label": "CARANAÍBA"
+  },
+  {
+      "value": "42633",
+      "label": "CARANDAÍ"
+  },
+  {
+      "value": "42650",
+      "label": "CARANGOLA"
+  },
+  {
+      "value": "42676",
+      "label": "CARATINGA"
+  },
+  {
+      "value": "42692",
+      "label": "CARBONITA"
+  },
+  {
+      "value": "42714",
+      "label": "CAREAÇU"
+  },
+  {
+      "value": "42730",
+      "label": "CARLOS CHAGAS"
+  },
+  {
+      "value": "42757",
+      "label": "CARMÉSIA"
+  },
+  {
+      "value": "42773",
+      "label": "CARMO DA CACHOEIRA"
+  },
+  {
+      "value": "42790",
+      "label": "CARMO DA MATA"
+  },
+  {
+      "value": "42811",
+      "label": "CARMO DE MINAS"
+  },
+  {
+      "value": "42838",
+      "label": "CARMO DO CAJURU"
+  },
+  {
+      "value": "42854",
+      "label": "CARMO DO PARANAÍBA"
+  },
+  {
+      "value": "42870",
+      "label": "CARMO DO RIO CLARO"
+  },
+  {
+      "value": "42897",
+      "label": "CARMÓPOLIS DE MINAS"
+  },
+  {
+      "value": "40088",
+      "label": "CARNEIRINHO"
+  },
+  {
+      "value": "42919",
+      "label": "CARRANCAS"
+  },
+  {
+      "value": "42935",
+      "label": "CARVALHÓPOLIS"
+  },
+  {
+      "value": "42951",
+      "label": "CARVALHOS"
+  },
+  {
+      "value": "42978",
+      "label": "CASA GRANDE"
+  },
+  {
+      "value": "42994",
+      "label": "CASCALHO RICO"
+  },
+  {
+      "value": "43010",
+      "label": "CÁSSIA"
+  },
+  {
+      "value": "43052",
+      "label": "CATAGUASES"
+  },
+  {
+      "value": "41840",
+      "label": "CATAS ALTAS"
+  },
+  {
+      "value": "43079",
+      "label": "CATAS ALTAS DA NORUEGA"
+  },
+  {
+      "value": "40100",
+      "label": "CATUJI"
+  },
+  {
+      "value": "41866",
+      "label": "CATUTI"
+  },
+  {
+      "value": "43095",
+      "label": "CAXAMBU"
+  },
+  {
+      "value": "43117",
+      "label": "CEDRO DO ABAETÉ"
+  },
+  {
+      "value": "43133",
+      "label": "CENTRAL DE MINAS"
+  },
+  {
+      "value": "43150",
+      "label": "CENTRALINA"
+  },
+  {
+      "value": "43176",
+      "label": "CHÁCARA"
+  },
+  {
+      "value": "43192",
+      "label": "CHALÉ"
+  },
+  {
+      "value": "43214",
+      "label": "CHAPADA DO NORTE"
+  },
+  {
+      "value": "41882",
+      "label": "CHAPADA GAÚCHA"
+  },
+  {
+      "value": "43230",
+      "label": "CHIADOR"
+  },
+  {
+      "value": "43257",
+      "label": "CIPOTÂNEA"
+  },
+  {
+      "value": "43273",
+      "label": "CLARAVAL"
+  },
+  {
+      "value": "43290",
+      "label": "CLARO DOS POÇÕES"
+  },
+  {
+      "value": "43311",
+      "label": "CLÁUDIO"
+  },
+  {
+      "value": "43338",
+      "label": "COIMBRA"
+  },
+  {
+      "value": "43354",
+      "label": "COLUNA"
+  },
+  {
+      "value": "43370",
+      "label": "COMENDADOR GOMES"
+  },
+  {
+      "value": "43397",
+      "label": "COMERCINHO"
+  },
+  {
+      "value": "43419",
+      "label": "CONCEIÇÃO DA APARECIDA"
+  },
+  {
+      "value": "43036",
+      "label": "CONCEIÇÃO DA BARRA DE MINAS"
+  },
+  {
+      "value": "43451",
+      "label": "CONCEIÇÃO DAS ALAGOAS"
+  },
+  {
+      "value": "43435",
+      "label": "CONCEIÇÃO DAS PEDRAS"
+  },
+  {
+      "value": "43478",
+      "label": "CONCEIÇÃO DE IPANEMA"
+  },
+  {
+      "value": "43494",
+      "label": "CONCEIÇÃO DO MATO DENTRO"
+  },
+  {
+      "value": "43516",
+      "label": "CONCEIÇÃO DO PARÁ"
+  },
+  {
+      "value": "43532",
+      "label": "CONCEIÇÃO DO RIO VERDE"
+  },
+  {
+      "value": "43559",
+      "label": "CONCEIÇÃO DOS OUROS"
+  },
+  {
+      "value": "41904",
+      "label": "CÔNEGO MARINHO"
+  },
+  {
+      "value": "41920",
+      "label": "CONFINS"
+  },
+  {
+      "value": "43575",
+      "label": "CONGONHAL"
+  },
+  {
+      "value": "43591",
+      "label": "CONGONHAS"
+  },
+  {
+      "value": "43613",
+      "label": "CONGONHAS DO NORTE"
+  },
+  {
+      "value": "43630",
+      "label": "CONQUISTA"
+  },
+  {
+      "value": "43656",
+      "label": "CONSELHEIRO LAFAIETE"
+  },
+  {
+      "value": "43672",
+      "label": "CONSELHEIRO PENA"
+  },
+  {
+      "value": "43699",
+      "label": "CONSOLAÇÃO"
+  },
+  {
+      "value": "43710",
+      "label": "CONTAGEM"
+  },
+  {
+      "value": "43737",
+      "label": "COQUEIRAL"
+  },
+  {
+      "value": "43753",
+      "label": "CORAÇÃO DE JESUS"
+  },
+  {
+      "value": "43770",
+      "label": "CORDISBURGO"
+  },
+  {
+      "value": "43796",
+      "label": "CORDISLÂNDIA"
+  },
+  {
+      "value": "43818",
+      "label": "CORINTO"
+  },
+  {
+      "value": "43834",
+      "label": "COROACI"
+  },
+  {
+      "value": "43850",
+      "label": "COROMANDEL"
+  },
+  {
+      "value": "43877",
+      "label": "CORONEL FABRICIANO"
+  },
+  {
+      "value": "43893",
+      "label": "CORONEL MURTA"
+  },
+  {
+      "value": "43915",
+      "label": "CORONEL PACHECO"
+  },
+  {
+      "value": "43931",
+      "label": "CORONEL XAVIER CHAVES"
+  },
+  {
+      "value": "43958",
+      "label": "CÓRREGO DANTA"
+  },
+  {
+      "value": "43974",
+      "label": "CÓRREGO DO BOM JESUS"
+  },
+  {
+      "value": "41947",
+      "label": "CÓRREGO FUNDO"
+  },
+  {
+      "value": "43990",
+      "label": "CÓRREGO NOVO"
+  },
+  {
+      "value": "44016",
+      "label": "COUTO DE MAGALHÃES DE MINAS"
+  },
+  {
+      "value": "41963",
+      "label": "CRISÓLITA"
+  },
+  {
+      "value": "44032",
+      "label": "CRISTAIS"
+  },
+  {
+      "value": "44059",
+      "label": "CRISTÁLIA"
+  },
+  {
+      "value": "44075",
+      "label": "CRISTIANO OTONI"
+  },
+  {
+      "value": "44091",
+      "label": "CRISTINA"
+  },
+  {
+      "value": "44113",
+      "label": "CRUCILÂNDIA"
+  },
+  {
+      "value": "44130",
+      "label": "CRUZEIRO DA FORTALEZA"
+  },
+  {
+      "value": "44156",
+      "label": "CRUZÍLIA"
+  },
+  {
+      "value": "41980",
+      "label": "CUPARAQUE"
+  },
+  {
+      "value": "42005",
+      "label": "CURRAL DE DENTRO"
+  },
+  {
+      "value": "44172",
+      "label": "CURVELO"
+  },
+  {
+      "value": "44199",
+      "label": "DATAS"
+  },
+  {
+      "value": "44210",
+      "label": "DELFIM MOREIRA"
+  },
+  {
+      "value": "44237",
+      "label": "DELFINÓPOLIS"
+  },
+  {
+      "value": "42021",
+      "label": "DELTA"
+  },
+  {
+      "value": "44253",
+      "label": "DESCOBERTO"
+  },
+  {
+      "value": "44270",
+      "label": "DESTERRO DE ENTRE RIOS"
+  },
+  {
+      "value": "44296",
+      "label": "DESTERRO DO MELO"
+  },
+  {
+      "value": "44318",
+      "label": "DIAMANTINA"
+  },
+  {
+      "value": "44334",
+      "label": "DIOGO DE VASCONCELOS"
+  },
+  {
+      "value": "44350",
+      "label": "DIONÍSIO"
+  },
+  {
+      "value": "44377",
+      "label": "DIVINÉSIA"
+  },
+  {
+      "value": "44393",
+      "label": "DIVINO"
+  },
+  {
+      "value": "44415",
+      "label": "DIVINO DAS LARANJEIRAS"
+  },
+  {
+      "value": "44431",
+      "label": "DIVINOLÂNDIA DE MINAS"
+  },
+  {
+      "value": "44458",
+      "label": "DIVINÓPOLIS"
+  },
+  {
+      "value": "40126",
+      "label": "DIVISA ALEGRE"
+  },
+  {
+      "value": "44474",
+      "label": "DIVISA NOVA"
+  },
+  {
+      "value": "40142",
+      "label": "DIVISÓPOLIS"
+  },
+  {
+      "value": "42048",
+      "label": "DOM BOSCO"
+  },
+  {
+      "value": "44490",
+      "label": "DOM CAVATI"
+  },
+  {
+      "value": "44512",
+      "label": "DOM JOAQUIM"
+  },
+  {
+      "value": "44539",
+      "label": "DOM SILVÉRIO"
+  },
+  {
+      "value": "44555",
+      "label": "DOM VIÇOSO"
+  },
+  {
+      "value": "44571",
+      "label": "DONA EUSÉBIA"
+  },
+  {
+      "value": "44598",
+      "label": "DORES DE CAMPOS"
+  },
+  {
+      "value": "44610",
+      "label": "DORES DE GUANHÃES"
+  },
+  {
+      "value": "44636",
+      "label": "DORES DO INDAIÁ"
+  },
+  {
+      "value": "44652",
+      "label": "DORES DO TURVO"
+  },
+  {
+      "value": "44679",
+      "label": "DORESÓPOLIS"
+  },
+  {
+      "value": "44695",
+      "label": "DOURADOQUARA"
+  },
+  {
+      "value": "40169",
+      "label": "DURANDÉ"
+  },
+  {
+      "value": "44717",
+      "label": "ELÓI MENDES"
+  },
+  {
+      "value": "44733",
+      "label": "ENGENHEIRO CALDAS"
+  },
+  {
+      "value": "44750",
+      "label": "ENGENHEIRO NAVARRO"
+  },
+  {
+      "value": "40185",
+      "label": "ENTRE FOLHAS"
+  },
+  {
+      "value": "44776",
+      "label": "ENTRE RIOS DE MINAS"
+  },
+  {
+      "value": "44792",
+      "label": "ERVÁLIA"
+  },
+  {
+      "value": "44814",
+      "label": "ESMERALDAS"
+  },
+  {
+      "value": "44830",
+      "label": "ESPERA FELIZ"
+  },
+  {
+      "value": "44857",
+      "label": "ESPINOSA"
+  },
+  {
+      "value": "44873",
+      "label": "ESPÍRITO SANTO DO DOURADO"
+  },
+  {
+      "value": "44890",
+      "label": "ESTIVA"
+  },
+  {
+      "value": "44911",
+      "label": "ESTRELA DALVA"
+  },
+  {
+      "value": "44938",
+      "label": "ESTRELA DO INDAIÁ"
+  },
+  {
+      "value": "44954",
+      "label": "ESTRELA DO SUL"
+  },
+  {
+      "value": "44970",
+      "label": "EUGENÓPOLIS"
+  },
+  {
+      "value": "44997",
+      "label": "EWBANK DA CÂMARA"
+  },
+  {
+      "value": "45012",
+      "label": "EXTREMA"
+  },
+  {
+      "value": "45039",
+      "label": "FAMA"
+  },
+  {
+      "value": "45055",
+      "label": "FARIA LEMOS"
+  },
+  {
+      "value": "45071",
+      "label": "FELÍCIO DOS SANTOS"
+  },
+  {
+      "value": "45110",
+      "label": "FELISBURGO"
+  },
+  {
+      "value": "45136",
+      "label": "FELIXLÂNDIA"
+  },
+  {
+      "value": "45152",
+      "label": "FERNANDES TOURINHO"
+  },
+  {
+      "value": "45179",
+      "label": "FERROS"
+  },
+  {
+      "value": "40207",
+      "label": "FERVEDOURO"
+  },
+  {
+      "value": "45195",
+      "label": "FLORESTAL"
+  },
+  {
+      "value": "45217",
+      "label": "FORMIGA"
+  },
+  {
+      "value": "45233",
+      "label": "FORMOSO"
+  },
+  {
+      "value": "45250",
+      "label": "FORTALEZA DE MINAS"
+  },
+  {
+      "value": "45276",
+      "label": "FORTUNA DE MINAS"
+  },
+  {
+      "value": "45292",
+      "label": "FRANCISCO BADARÓ"
+  },
+  {
+      "value": "45314",
+      "label": "FRANCISCO DUMONT"
+  },
+  {
+      "value": "45330",
+      "label": "FRANCISCO SÁ"
+  },
+  {
+      "value": "40223",
+      "label": "FRANCISCÓPOLIS"
+  },
+  {
+      "value": "45357",
+      "label": "FREI GASPAR"
+  },
+  {
+      "value": "45373",
+      "label": "FREI INOCÊNCIO"
+  },
+  {
+      "value": "42064",
+      "label": "FREI LAGONEGRO"
+  },
+  {
+      "value": "45390",
+      "label": "FRONTEIRA"
+  },
+  {
+      "value": "49352",
+      "label": "FRONTEIRA DOS VALES"
+  },
+  {
+      "value": "42080",
+      "label": "FRUTA DE LEITE"
+  },
+  {
+      "value": "45411",
+      "label": "FRUTAL"
+  },
+  {
+      "value": "45438",
+      "label": "FUNILÂNDIA"
+  },
+  {
+      "value": "45454",
+      "label": "GALILÉIA"
+  },
+  {
+      "value": "42102",
+      "label": "GAMELEIRAS"
+  },
+  {
+      "value": "42129",
+      "label": "GLAUCILÂNDIA"
+  },
+  {
+      "value": "42145",
+      "label": "GOIABEIRA"
+  },
+  {
+      "value": "42161",
+      "label": "GOIANÁ"
+  },
+  {
+      "value": "45470",
+      "label": "GONÇALVES"
+  },
+  {
+      "value": "45497",
+      "label": "GONZAGA"
+  },
+  {
+      "value": "45519",
+      "label": "GOUVEIA"
+  },
+  {
+      "value": "45535",
+      "label": "GOVERNADOR VALADARES"
+  },
+  {
+      "value": "45551",
+      "label": "GRÃO MOGOL"
+  },
+  {
+      "value": "45578",
+      "label": "GRUPIARA"
+  },
+  {
+      "value": "45594",
+      "label": "GUANHÃES"
+  },
+  {
+      "value": "45616",
+      "label": "GUAPÉ"
+  },
+  {
+      "value": "45632",
+      "label": "GUARACIABA"
+  },
+  {
+      "value": "42188",
+      "label": "GUARACIAMA"
+  },
+  {
+      "value": "45659",
+      "label": "GUARANÉSIA"
+  },
+  {
+      "value": "45675",
+      "label": "GUARANI"
+  },
+  {
+      "value": "45691",
+      "label": "GUARARÁ"
+  },
+  {
+      "value": "45713",
+      "label": "GUARDA-MOR"
+  },
+  {
+      "value": "45730",
+      "label": "GUAXUPÉ"
+  },
+  {
+      "value": "45756",
+      "label": "GUIDOVAL"
+  },
+  {
+      "value": "45772",
+      "label": "GUIMARÂNIA"
+  },
+  {
+      "value": "45799",
+      "label": "GUIRICEMA"
+  },
+  {
+      "value": "45810",
+      "label": "GURINHATÃ"
+  },
+  {
+      "value": "45837",
+      "label": "HELIODORA"
+  },
+  {
+      "value": "45853",
+      "label": "IAPU"
+  },
+  {
+      "value": "45870",
+      "label": "IBERTIOGA"
+  },
+  {
+      "value": "45896",
+      "label": "IBIÁ"
+  },
+  {
+      "value": "45918",
+      "label": "IBIAÍ"
+  },
+  {
+      "value": "42200",
+      "label": "IBIRACATU"
+  },
+  {
+      "value": "45934",
+      "label": "IBIRACI"
+  },
+  {
+      "value": "45950",
+      "label": "IBIRITÉ"
+  },
+  {
+      "value": "45977",
+      "label": "IBITIÚRA DE MINAS"
+  },
+  {
+      "value": "45993",
+      "label": "IBITURUNA"
+  },
+  {
+      "value": "40240",
+      "label": "ICARAÍ DE MINAS"
+  },
+  {
+      "value": "46019",
+      "label": "IGARAPÉ"
+  },
+  {
+      "value": "46035",
+      "label": "IGARATINGA"
+  },
+  {
+      "value": "46051",
+      "label": "IGUATAMA"
+  },
+  {
+      "value": "46078",
+      "label": "IJACI"
+  },
+  {
+      "value": "46094",
+      "label": "ILICÍNEA"
+  },
+  {
+      "value": "42226",
+      "label": "IMBÉ DE MINAS"
+  },
+  {
+      "value": "46116",
+      "label": "INCONFIDENTES"
+  },
+  {
+      "value": "42242",
+      "label": "INDAIABIRA"
+  },
+  {
+      "value": "46132",
+      "label": "INDIANÓPOLIS"
+  },
+  {
+      "value": "46159",
+      "label": "INGAÍ"
+  },
+  {
+      "value": "46175",
+      "label": "INHAPIM"
+  },
+  {
+      "value": "46191",
+      "label": "INHAÚMA"
+  },
+  {
+      "value": "46213",
+      "label": "INIMUTABA"
+  },
+  {
+      "value": "40266",
+      "label": "IPABA"
+  },
+  {
+      "value": "46230",
+      "label": "IPANEMA"
+  },
+  {
+      "value": "46256",
+      "label": "IPATINGA"
+  },
+  {
+      "value": "46272",
+      "label": "IPIAÇU"
+  },
+  {
+      "value": "46299",
+      "label": "IPUIÚNA"
+  },
+  {
+      "value": "46310",
+      "label": "IRAÍ DE MINAS"
+  },
+  {
+      "value": "46337",
+      "label": "ITABIRA"
+  },
+  {
+      "value": "46353",
+      "label": "ITABIRINHA"
+  },
+  {
+      "value": "46370",
+      "label": "ITABIRITO"
+  },
+  {
+      "value": "46396",
+      "label": "ITACAMBIRA"
+  },
+  {
+      "value": "46418",
+      "label": "ITACARAMBI"
+  },
+  {
+      "value": "46434",
+      "label": "ITAGUARA"
+  },
+  {
+      "value": "46450",
+      "label": "ITAIPÉ"
+  },
+  {
+      "value": "46477",
+      "label": "ITAJUBÁ"
+  },
+  {
+      "value": "46493",
+      "label": "ITAMARANDIBA"
+  },
+  {
+      "value": "46515",
+      "label": "ITAMARATI DE MINAS"
+  },
+  {
+      "value": "46531",
+      "label": "ITAMBACURI"
+  },
+  {
+      "value": "46558",
+      "label": "ITAMBÉ DO MATO DENTRO"
+  },
+  {
+      "value": "46574",
+      "label": "ITAMOGI"
+  },
+  {
+      "value": "46590",
+      "label": "ITAMONTE"
+  },
+  {
+      "value": "46612",
+      "label": "ITANHANDU"
+  },
+  {
+      "value": "46639",
+      "label": "ITANHOMI"
+  },
+  {
+      "value": "46655",
+      "label": "ITAOBIM"
+  },
+  {
+      "value": "46671",
+      "label": "ITAPAGIPE"
+  },
+  {
+      "value": "46698",
+      "label": "ITAPECERICA"
+  },
+  {
+      "value": "46710",
+      "label": "ITAPEVA"
+  },
+  {
+      "value": "46736",
+      "label": "ITATIAIUÇU"
+  },
+  {
+      "value": "54453",
+      "label": "ITAÚ DE MINAS"
+  },
+  {
+      "value": "46752",
+      "label": "ITAÚNA"
+  },
+  {
+      "value": "46779",
+      "label": "ITAVERAVA"
+  },
+  {
+      "value": "46795",
+      "label": "ITINGA"
+  },
+  {
+      "value": "46817",
+      "label": "ITUETA"
+  },
+  {
+      "value": "46833",
+      "label": "ITUIUTABA"
+  },
+  {
+      "value": "46850",
+      "label": "ITUMIRIM"
+  },
+  {
+      "value": "46876",
+      "label": "ITURAMA"
+  },
+  {
+      "value": "46892",
+      "label": "ITUTINGA"
+  },
+  {
+      "value": "46914",
+      "label": "JABOTICATUBAS"
+  },
+  {
+      "value": "46930",
+      "label": "JACINTO"
+  },
+  {
+      "value": "46957",
+      "label": "JACUÍ"
+  },
+  {
+      "value": "46973",
+      "label": "JACUTINGA"
+  },
+  {
+      "value": "46990",
+      "label": "JAGUARAÇU"
+  },
+  {
+      "value": "40282",
+      "label": "JAÍBA"
+  },
+  {
+      "value": "40304",
+      "label": "JAMPRUCA"
+  },
+  {
+      "value": "47015",
+      "label": "JANAÚBA"
+  },
+  {
+      "value": "47031",
+      "label": "JANUÁRIA"
+  },
+  {
+      "value": "47058",
+      "label": "JAPARAÍBA"
+  },
+  {
+      "value": "42269",
+      "label": "JAPONVAR"
+  },
+  {
+      "value": "47074",
+      "label": "JECEABA"
+  },
+  {
+      "value": "42285",
+      "label": "JENIPAPO DE MINAS"
+  },
+  {
+      "value": "47090",
+      "label": "JEQUERI"
+  },
+  {
+      "value": "47112",
+      "label": "JEQUITAÍ"
+  },
+  {
+      "value": "47139",
+      "label": "JEQUITIBÁ"
+  },
+  {
+      "value": "47155",
+      "label": "JEQUITINHONHA"
+  },
+  {
+      "value": "47171",
+      "label": "JESUÂNIA"
+  },
+  {
+      "value": "47198",
+      "label": "JOAÍMA"
+  },
+  {
+      "value": "47210",
+      "label": "JOANÉSIA"
+  },
+  {
+      "value": "47236",
+      "label": "JOÃO MONLEVADE"
+  },
+  {
+      "value": "47252",
+      "label": "JOÃO PINHEIRO"
+  },
+  {
+      "value": "47279",
+      "label": "JOAQUIM FELÍCIO"
+  },
+  {
+      "value": "47295",
+      "label": "JORDÂNIA"
+  },
+  {
+      "value": "42307",
+      "label": "JOSÉ GONÇALVES DE MINAS"
+  },
+  {
+      "value": "42323",
+      "label": "JOSÉ RAYDAN"
+  },
+  {
+      "value": "40924",
+      "label": "JOSENÓPOLIS"
+  },
+  {
+      "value": "40320",
+      "label": "JUATUBA"
+  },
+  {
+      "value": "47333",
+      "label": "JUIZ DE FORA"
+  },
+  {
+      "value": "47350",
+      "label": "JURAMENTO"
+  },
+  {
+      "value": "47376",
+      "label": "JURUAIA"
+  },
+  {
+      "value": "40940",
+      "label": "JUVENÍLIA"
+  },
+  {
+      "value": "47392",
+      "label": "LADAINHA"
+  },
+  {
+      "value": "47414",
+      "label": "LAGAMAR"
+  },
+  {
+      "value": "47430",
+      "label": "LAGOA DA PRATA"
+  },
+  {
+      "value": "47457",
+      "label": "LAGOA DOS PATOS"
+  },
+  {
+      "value": "47473",
+      "label": "LAGOA DOURADA"
+  },
+  {
+      "value": "47490",
+      "label": "LAGOA FORMOSA"
+  },
+  {
+      "value": "40347",
+      "label": "LAGOA GRANDE"
+  },
+  {
+      "value": "47511",
+      "label": "LAGOA SANTA"
+  },
+  {
+      "value": "47538",
+      "label": "LAJINHA"
+  },
+  {
+      "value": "47554",
+      "label": "LAMBARI"
+  },
+  {
+      "value": "47570",
+      "label": "LAMIM"
+  },
+  {
+      "value": "47597",
+      "label": "LARANJAL"
+  },
+  {
+      "value": "47619",
+      "label": "LASSANCE"
+  },
+  {
+      "value": "47635",
+      "label": "LAVRAS"
+  },
+  {
+      "value": "47651",
+      "label": "LEANDRO FERREIRA"
+  },
+  {
+      "value": "40967",
+      "label": "LEME DO PRADO"
+  },
+  {
+      "value": "47678",
+      "label": "LEOPOLDINA"
+  },
+  {
+      "value": "47694",
+      "label": "LIBERDADE"
+  },
+  {
+      "value": "47716",
+      "label": "LIMA DUARTE"
+  },
+  {
+      "value": "40363",
+      "label": "LIMEIRA DO OESTE"
+  },
+  {
+      "value": "40380",
+      "label": "LONTRA"
+  },
+  {
+      "value": "40983",
+      "label": "LUISBURGO"
+  },
+  {
+      "value": "41009",
+      "label": "LUISLÂNDIA"
+  },
+  {
+      "value": "47732",
+      "label": "LUMINÁRIAS"
+  },
+  {
+      "value": "47759",
+      "label": "LUZ"
+  },
+  {
+      "value": "47775",
+      "label": "MACHACALIS"
+  },
+  {
+      "value": "47791",
+      "label": "MACHADO"
+  },
+  {
+      "value": "47813",
+      "label": "MADRE DE DEUS DE MINAS"
+  },
+  {
+      "value": "47830",
+      "label": "MALACACHETA"
+  },
+  {
+      "value": "40401",
+      "label": "MAMONAS"
+  },
+  {
+      "value": "47856",
+      "label": "MANGA"
+  },
+  {
+      "value": "47872",
+      "label": "MANHUAÇU"
+  },
+  {
+      "value": "47899",
+      "label": "MANHUMIRIM"
+  },
+  {
+      "value": "47910",
+      "label": "MANTENA"
+  },
+  {
+      "value": "47953",
+      "label": "MAR DE ESPANHA"
+  },
+  {
+      "value": "47937",
+      "label": "MARAVILHAS"
+  },
+  {
+      "value": "47970",
+      "label": "MARIA DA FÉ"
+  },
+  {
+      "value": "47996",
+      "label": "MARIANA"
+  },
+  {
+      "value": "48011",
+      "label": "MARILAC"
+  },
+  {
+      "value": "41025",
+      "label": "MÁRIO CAMPOS"
+  },
+  {
+      "value": "48038",
+      "label": "MARIPÁ DE MINAS"
+  },
+  {
+      "value": "48054",
+      "label": "MARLIÉRIA"
+  },
+  {
+      "value": "48070",
+      "label": "MARMELÓPOLIS"
+  },
+  {
+      "value": "48097",
+      "label": "MARTINHO CAMPOS"
+  },
+  {
+      "value": "41041",
+      "label": "MARTINS SOARES"
+  },
+  {
+      "value": "40428",
+      "label": "MATA VERDE"
+  },
+  {
+      "value": "48119",
+      "label": "MATERLÂNDIA"
+  },
+  {
+      "value": "48135",
+      "label": "MATEUS LEME"
+  },
+  {
+      "value": "54313",
+      "label": "MATHIAS LOBATO"
+  },
+  {
+      "value": "48151",
+      "label": "MATIAS BARBOSA"
+  },
+  {
+      "value": "40444",
+      "label": "MATIAS CARDOSO"
+  },
+  {
+      "value": "48178",
+      "label": "MATIPÓ"
+  },
+  {
+      "value": "48194",
+      "label": "MATO VERDE"
+  },
+  {
+      "value": "48216",
+      "label": "MATOZINHOS"
+  },
+  {
+      "value": "48232",
+      "label": "MATUTINA"
+  },
+  {
+      "value": "48259",
+      "label": "MEDEIROS"
+  },
+  {
+      "value": "48275",
+      "label": "MEDINA"
+  },
+  {
+      "value": "48291",
+      "label": "MENDES PIMENTEL"
+  },
+  {
+      "value": "48313",
+      "label": "MERCÊS"
+  },
+  {
+      "value": "48330",
+      "label": "MESQUITA"
+  },
+  {
+      "value": "48356",
+      "label": "MINAS NOVAS"
+  },
+  {
+      "value": "48372",
+      "label": "MINDURI"
+  },
+  {
+      "value": "48399",
+      "label": "MIRABELA"
+  },
+  {
+      "value": "48410",
+      "label": "MIRADOURO"
+  },
+  {
+      "value": "48437",
+      "label": "MIRAÍ"
+  },
+  {
+      "value": "41068",
+      "label": "MIRAVÂNIA"
+  },
+  {
+      "value": "48453",
+      "label": "MOEDA"
+  },
+  {
+      "value": "48470",
+      "label": "MOEMA"
+  },
+  {
+      "value": "48496",
+      "label": "MONJOLOS"
+  },
+  {
+      "value": "48518",
+      "label": "MONSENHOR PAULO"
+  },
+  {
+      "value": "48534",
+      "label": "MONTALVÂNIA"
+  },
+  {
+      "value": "48550",
+      "label": "MONTE ALEGRE DE MINAS"
+  },
+  {
+      "value": "48577",
+      "label": "MONTE AZUL"
+  },
+  {
+      "value": "48593",
+      "label": "MONTE BELO"
+  },
+  {
+      "value": "48615",
+      "label": "MONTE CARMELO"
+  },
+  {
+      "value": "41084",
+      "label": "MONTE FORMOSO"
+  },
+  {
+      "value": "48631",
+      "label": "MONTE SANTO DE MINAS"
+  },
+  {
+      "value": "48674",
+      "label": "MONTE SIÃO"
+  },
+  {
+      "value": "48658",
+      "label": "MONTES CLAROS"
+  },
+  {
+      "value": "40460",
+      "label": "MONTEZUMA"
+  },
+  {
+      "value": "48690",
+      "label": "MORADA NOVA DE MINAS"
+  },
+  {
+      "value": "48712",
+      "label": "MORRO DA GARÇA"
+  },
+  {
+      "value": "48739",
+      "label": "MORRO DO PILAR"
+  },
+  {
+      "value": "48755",
+      "label": "MUNHOZ"
+  },
+  {
+      "value": "48771",
+      "label": "MURIAÉ"
+  },
+  {
+      "value": "48798",
+      "label": "MUTUM"
+  },
+  {
+      "value": "48810",
+      "label": "MUZAMBINHO"
+  },
+  {
+      "value": "48836",
+      "label": "NACIP RAYDAN"
+  },
+  {
+      "value": "48852",
+      "label": "NANUQUE"
+  },
+  {
+      "value": "40487",
+      "label": "NAQUE"
+  },
+  {
+      "value": "41106",
+      "label": "NATALÂNDIA"
+  },
+  {
+      "value": "48879",
+      "label": "NATÉRCIA"
+  },
+  {
+      "value": "48895",
+      "label": "NAZARENO"
+  },
+  {
+      "value": "48917",
+      "label": "NEPOMUCENO"
+  },
+  {
+      "value": "41122",
+      "label": "NINHEIRA"
+  },
+  {
+      "value": "41149",
+      "label": "NOVA BELÉM"
+  },
+  {
+      "value": "48933",
+      "label": "NOVA ERA"
+  },
+  {
+      "value": "48950",
+      "label": "NOVA LIMA"
+  },
+  {
+      "value": "48976",
+      "label": "NOVA MÓDICA"
+  },
+  {
+      "value": "48992",
+      "label": "NOVA PONTE"
+  },
+  {
+      "value": "41165",
+      "label": "NOVA PORTEIRINHA"
+  },
+  {
+      "value": "49018",
+      "label": "NOVA RESENDE"
+  },
+  {
+      "value": "49034",
+      "label": "NOVA SERRANA"
+  },
+  {
+      "value": "47317",
+      "label": "NOVA UNIÃO"
+  },
+  {
+      "value": "49050",
+      "label": "NOVO CRUZEIRO"
+  },
+  {
+      "value": "40509",
+      "label": "NOVO ORIENTE DE MINAS"
+  },
+  {
+      "value": "41181",
+      "label": "NOVORIZONTE"
+  },
+  {
+      "value": "49077",
+      "label": "OLARIA"
+  },
+  {
+      "value": "41203",
+      "label": "OLHOS D'ÁGUA"
+  },
+  {
+      "value": "49093",
+      "label": "OLÍMPIO NORONHA"
+  },
+  {
+      "value": "49115",
+      "label": "OLIVEIRA"
+  },
+  {
+      "value": "49131",
+      "label": "OLIVEIRA FORTES"
+  },
+  {
+      "value": "49158",
+      "label": "ONÇA DE PITANGUI"
+  },
+  {
+      "value": "41220",
+      "label": "ORATÓRIOS"
+  },
+  {
+      "value": "41246",
+      "label": "ORIZÂNIA"
+  },
+  {
+      "value": "49174",
+      "label": "OURO BRANCO"
+  },
+  {
+      "value": "49190",
+      "label": "OURO FINO"
+  },
+  {
+      "value": "49212",
+      "label": "OURO PRETO"
+  },
+  {
+      "value": "49239",
+      "label": "OURO VERDE DE MINAS"
+  },
+  {
+      "value": "41262",
+      "label": "PADRE CARVALHO"
+  },
+  {
+      "value": "49255",
+      "label": "PADRE PARAÍSO"
+  },
+  {
+      "value": "41289",
+      "label": "PAI PEDRO"
+  },
+  {
+      "value": "49271",
+      "label": "PAINEIRAS"
+  },
+  {
+      "value": "49298",
+      "label": "PAINS"
+  },
+  {
+      "value": "49310",
+      "label": "PAIVA"
+  },
+  {
+      "value": "49336",
+      "label": "PALMA"
+  },
+  {
+      "value": "40525",
+      "label": "PALMÓPOLIS"
+  },
+  {
+      "value": "49379",
+      "label": "PAPAGAIOS"
+  },
+  {
+      "value": "49417",
+      "label": "PARÁ DE MINAS"
+  },
+  {
+      "value": "49395",
+      "label": "PARACATU"
+  },
+  {
+      "value": "49433",
+      "label": "PARAGUAÇU"
+  },
+  {
+      "value": "49450",
+      "label": "PARAISÓPOLIS"
+  },
+  {
+      "value": "49476",
+      "label": "PARAOPEBA"
+  },
+  {
+      "value": "49514",
+      "label": "PASSA QUATRO"
+  },
+  {
+      "value": "49530",
+      "label": "PASSA TEMPO"
+  },
+  {
+      "value": "49557",
+      "label": "PASSA VINTE"
+  },
+  {
+      "value": "49492",
+      "label": "PASSABÉM"
+  },
+  {
+      "value": "49573",
+      "label": "PASSOS"
+  },
+  {
+      "value": "41300",
+      "label": "PATIS"
+  },
+  {
+      "value": "49590",
+      "label": "PATOS DE MINAS"
+  },
+  {
+      "value": "49611",
+      "label": "PATROCÍNIO"
+  },
+  {
+      "value": "49638",
+      "label": "PATROCÍNIO DO MURIAÉ"
+  },
+  {
+      "value": "49654",
+      "label": "PAULA CÂNDIDO"
+  },
+  {
+      "value": "49670",
+      "label": "PAULISTAS"
+  },
+  {
+      "value": "49697",
+      "label": "PAVÃO"
+  },
+  {
+      "value": "49719",
+      "label": "PEÇANHA"
+  },
+  {
+      "value": "49735",
+      "label": "PEDRA AZUL"
+  },
+  {
+      "value": "41327",
+      "label": "PEDRA BONITA"
+  },
+  {
+      "value": "49751",
+      "label": "PEDRA DO ANTA"
+  },
+  {
+      "value": "49778",
+      "label": "PEDRA DO INDAIÁ"
+  },
+  {
+      "value": "49794",
+      "label": "PEDRA DOURADA"
+  },
+  {
+      "value": "49816",
+      "label": "PEDRALVA"
+  },
+  {
+      "value": "40541",
+      "label": "PEDRAS DE MARIA DA CRUZ"
+  },
+  {
+      "value": "49832",
+      "label": "PEDRINÓPOLIS"
+  },
+  {
+      "value": "49859",
+      "label": "PEDRO LEOPOLDO"
+  },
+  {
+      "value": "49875",
+      "label": "PEDRO TEIXEIRA"
+  },
+  {
+      "value": "49891",
+      "label": "PEQUERI"
+  },
+  {
+      "value": "49913",
+      "label": "PEQUI"
+  },
+  {
+      "value": "49930",
+      "label": "PERDIGÃO"
+  },
+  {
+      "value": "49956",
+      "label": "PERDIZES"
+  },
+  {
+      "value": "49972",
+      "label": "PERDÕES"
+  },
+  {
+      "value": "40568",
+      "label": "PERIQUITO"
+  },
+  {
+      "value": "49999",
+      "label": "PESCADOR"
+  },
+  {
+      "value": "50016",
+      "label": "PIAU"
+  },
+  {
+      "value": "41343",
+      "label": "PIEDADE DE CARATINGA"
+  },
+  {
+      "value": "50032",
+      "label": "PIEDADE DE PONTE NOVA"
+  },
+  {
+      "value": "50059",
+      "label": "PIEDADE DO RIO GRANDE"
+  },
+  {
+      "value": "50075",
+      "label": "PIEDADE DOS GERAIS"
+  },
+  {
+      "value": "50091",
+      "label": "PIMENTA"
+  },
+  {
+      "value": "41360",
+      "label": "PINGO D'ÁGUA"
+  },
+  {
+      "value": "41386",
+      "label": "PINTÓPOLIS"
+  },
+  {
+      "value": "50113",
+      "label": "PIRACEMA"
+  },
+  {
+      "value": "50130",
+      "label": "PIRAJUBA"
+  },
+  {
+      "value": "50156",
+      "label": "PIRANGA"
+  },
+  {
+      "value": "50172",
+      "label": "PIRANGUÇU"
+  },
+  {
+      "value": "50199",
+      "label": "PIRANGUINHO"
+  },
+  {
+      "value": "50210",
+      "label": "PIRAPETINGA"
+  },
+  {
+      "value": "50237",
+      "label": "PIRAPORA"
+  },
+  {
+      "value": "50253",
+      "label": "PIRAÚBA"
+  },
+  {
+      "value": "50270",
+      "label": "PITANGUI"
+  },
+  {
+      "value": "50296",
+      "label": "PIUMHI"
+  },
+  {
+      "value": "50318",
+      "label": "PLANURA"
+  },
+  {
+      "value": "50334",
+      "label": "POÇO FUNDO"
+  },
+  {
+      "value": "50350",
+      "label": "POÇOS DE CALDAS"
+  },
+  {
+      "value": "50377",
+      "label": "POCRANE"
+  },
+  {
+      "value": "50393",
+      "label": "POMPÉU"
+  },
+  {
+      "value": "50415",
+      "label": "PONTE NOVA"
+  },
+  {
+      "value": "41408",
+      "label": "PONTO CHIQUE"
+  },
+  {
+      "value": "40584",
+      "label": "PONTO DOS VOLANTES"
+  },
+  {
+      "value": "50431",
+      "label": "PORTEIRINHA"
+  },
+  {
+      "value": "50458",
+      "label": "PORTO FIRME"
+  },
+  {
+      "value": "50474",
+      "label": "POTÉ"
+  },
+  {
+      "value": "50490",
+      "label": "POUSO ALEGRE"
+  },
+  {
+      "value": "50512",
+      "label": "POUSO ALTO"
+  },
+  {
+      "value": "50539",
+      "label": "PRADOS"
+  },
+  {
+      "value": "50555",
+      "label": "PRATA"
+  },
+  {
+      "value": "50571",
+      "label": "PRATÁPOLIS"
+  },
+  {
+      "value": "50598",
+      "label": "PRATINHA"
+  },
+  {
+      "value": "50610",
+      "label": "PRESIDENTE BERNARDES"
+  },
+  {
+      "value": "50636",
+      "label": "PRESIDENTE JUSCELINO"
+  },
+  {
+      "value": "50652",
+      "label": "PRESIDENTE KUBITSCHEK"
+  },
+  {
+      "value": "50679",
+      "label": "PRESIDENTE OLEGÁRIO"
+  },
+  {
+      "value": "50717",
+      "label": "PRUDENTE DE MORAIS"
+  },
+  {
+      "value": "50733",
+      "label": "QUARTEL GERAL"
+  },
+  {
+      "value": "50750",
+      "label": "QUELUZITO"
+  },
+  {
+      "value": "50776",
+      "label": "RAPOSOS"
+  },
+  {
+      "value": "50792",
+      "label": "RAUL SOARES"
+  },
+  {
+      "value": "50814",
+      "label": "RECREIO"
+  },
+  {
+      "value": "41424",
+      "label": "REDUTO"
+  },
+  {
+      "value": "50830",
+      "label": "RESENDE COSTA"
+  },
+  {
+      "value": "50857",
+      "label": "RESPLENDOR"
+  },
+  {
+      "value": "50873",
+      "label": "RESSAQUINHA"
+  },
+  {
+      "value": "40606",
+      "label": "RIACHINHO"
+  },
+  {
+      "value": "50890",
+      "label": "RIACHO DOS MACHADOS"
+  },
+  {
+      "value": "50911",
+      "label": "RIBEIRÃO DAS NEVES"
+  },
+  {
+      "value": "50938",
+      "label": "RIBEIRÃO VERMELHO"
+  },
+  {
+      "value": "50954",
+      "label": "RIO ACIMA"
+  },
+  {
+      "value": "50970",
+      "label": "RIO CASCA"
+  },
+  {
+      "value": "51012",
+      "label": "RIO DO PRADO"
+  },
+  {
+      "value": "50997",
+      "label": "RIO DOCE"
+  },
+  {
+      "value": "51039",
+      "label": "RIO ESPERA"
+  },
+  {
+      "value": "51055",
+      "label": "RIO MANSO"
+  },
+  {
+      "value": "51071",
+      "label": "RIO NOVO"
+  },
+  {
+      "value": "51098",
+      "label": "RIO PARANAÍBA"
+  },
+  {
+      "value": "51110",
+      "label": "RIO PARDO DE MINAS"
+  },
+  {
+      "value": "51136",
+      "label": "RIO PIRACICABA"
+  },
+  {
+      "value": "51152",
+      "label": "RIO POMBA"
+  },
+  {
+      "value": "51179",
+      "label": "RIO PRETO"
+  },
+  {
+      "value": "51195",
+      "label": "RIO VERMELHO"
+  },
+  {
+      "value": "51217",
+      "label": "RITÁPOLIS"
+  },
+  {
+      "value": "51233",
+      "label": "ROCHEDO DE MINAS"
+  },
+  {
+      "value": "51250",
+      "label": "RODEIRO"
+  },
+  {
+      "value": "51276",
+      "label": "ROMARIA"
+  },
+  {
+      "value": "40622",
+      "label": "ROSÁRIO DA LIMEIRA"
+  },
+  {
+      "value": "51292",
+      "label": "RUBELITA"
+  },
+  {
+      "value": "51314",
+      "label": "RUBIM"
+  },
+  {
+      "value": "51330",
+      "label": "SABARÁ"
+  },
+  {
+      "value": "51357",
+      "label": "SABINÓPOLIS"
+  },
+  {
+      "value": "51373",
+      "label": "SACRAMENTO"
+  },
+  {
+      "value": "51390",
+      "label": "SALINAS"
+  },
+  {
+      "value": "51411",
+      "label": "SALTO DA DIVISA"
+  },
+  {
+      "value": "51438",
+      "label": "SANTA BÁRBARA"
+  },
+  {
+      "value": "40649",
+      "label": "SANTA BÁRBARA DO LESTE"
+  },
+  {
+      "value": "41440",
+      "label": "SANTA BÁRBARA DO MONTE VERDE"
+  },
+  {
+      "value": "51454",
+      "label": "SANTA BÁRBARA DO TUGÚRIO"
+  },
+  {
+      "value": "41467",
+      "label": "SANTA CRUZ DE MINAS"
+  },
+  {
+      "value": "41483",
+      "label": "SANTA CRUZ DE SALINAS"
+  },
+  {
+      "value": "51470",
+      "label": "SANTA CRUZ DO ESCALVADO"
+  },
+  {
+      "value": "51497",
+      "label": "SANTA EFIGÊNIA DE MINAS"
+  },
+  {
+      "value": "51519",
+      "label": "SANTA FÉ DE MINAS"
+  },
+  {
+      "value": "41505",
+      "label": "SANTA HELENA DE MINAS"
+  },
+  {
+      "value": "51535",
+      "label": "SANTA JULIANA"
+  },
+  {
+      "value": "51551",
+      "label": "SANTA LUZIA"
+  },
+  {
+      "value": "51578",
+      "label": "SANTA MARGARIDA"
+  },
+  {
+      "value": "51594",
+      "label": "SANTA MARIA DE ITABIRA"
+  },
+  {
+      "value": "51616",
+      "label": "SANTA MARIA DO SALTO"
+  },
+  {
+      "value": "51632",
+      "label": "SANTA MARIA DO SUAÇUÍ"
+  },
+  {
+      "value": "51837",
+      "label": "SANTA RITA DE CALDAS"
+  },
+  {
+      "value": "51870",
+      "label": "SANTA RITA DE IBITIPOCA"
+  },
+  {
+      "value": "51853",
+      "label": "SANTA RITA DE JACUTINGA"
+  },
+  {
+      "value": "40665",
+      "label": "SANTA RITA DE MINAS"
+  },
+  {
+      "value": "51896",
+      "label": "SANTA RITA DO ITUETO"
+  },
+  {
+      "value": "51918",
+      "label": "SANTA RITA DO SAPUCAÍ"
+  },
+  {
+      "value": "51934",
+      "label": "SANTA ROSA DA SERRA"
+  },
+  {
+      "value": "51950",
+      "label": "SANTA VITÓRIA"
+  },
+  {
+      "value": "51659",
+      "label": "SANTANA DA VARGEM"
+  },
+  {
+      "value": "51675",
+      "label": "SANTANA DE CATAGUASES"
+  },
+  {
+      "value": "51691",
+      "label": "SANTANA DE PIRAPAMA"
+  },
+  {
+      "value": "51713",
+      "label": "SANTANA DO DESERTO"
+  },
+  {
+      "value": "51730",
+      "label": "SANTANA DO GARAMBÉU"
+  },
+  {
+      "value": "51756",
+      "label": "SANTANA DO JACARÉ"
+  },
+  {
+      "value": "51772",
+      "label": "SANTANA DO MANHUAÇU"
+  },
+  {
+      "value": "40681",
+      "label": "SANTANA DO PARAÍSO"
+  },
+  {
+      "value": "51799",
+      "label": "SANTANA DO RIACHO"
+  },
+  {
+      "value": "51810",
+      "label": "SANTANA DOS MONTES"
+  },
+  {
+      "value": "51977",
+      "label": "SANTO ANTÔNIO DO AMPARO"
+  },
+  {
+      "value": "51993",
+      "label": "SANTO ANTÔNIO DO AVENTUREIRO"
+  },
+  {
+      "value": "52019",
+      "label": "SANTO ANTÔNIO DO GRAMA"
+  },
+  {
+      "value": "52035",
+      "label": "SANTO ANTÔNIO DO ITAMBÉ"
+  },
+  {
+      "value": "52051",
+      "label": "SANTO ANTÔNIO DO JACINTO"
+  },
+  {
+      "value": "52078",
+      "label": "SANTO ANTÔNIO DO MONTE"
+  },
+  {
+      "value": "41521",
+      "label": "SANTO ANTÔNIO DO RETIRO"
+  },
+  {
+      "value": "52094",
+      "label": "SANTO ANTÔNIO DO RIO ABAIXO"
+  },
+  {
+      "value": "52116",
+      "label": "SANTO HIPÓLITO"
+  },
+  {
+      "value": "52132",
+      "label": "SANTOS DUMONT"
+  },
+  {
+      "value": "52159",
+      "label": "SÃO BENTO ABADE"
+  },
+  {
+      "value": "52175",
+      "label": "SÃO BRÁS DO SUAÇUÍ"
+  },
+  {
+      "value": "41548",
+      "label": "SÃO DOMINGOS DAS DORES"
+  },
+  {
+      "value": "52191",
+      "label": "SÃO DOMINGOS DO PRATA"
+  },
+  {
+      "value": "41564",
+      "label": "SÃO FÉLIX DE MINAS"
+  },
+  {
+      "value": "52213",
+      "label": "SÃO FRANCISCO"
+  },
+  {
+      "value": "52230",
+      "label": "SÃO FRANCISCO DE PAULA"
+  },
+  {
+      "value": "52256",
+      "label": "SÃO FRANCISCO DE SALES"
+  },
+  {
+      "value": "52272",
+      "label": "SÃO FRANCISCO DO GLÓRIA"
+  },
+  {
+      "value": "52299",
+      "label": "SÃO GERALDO"
+  },
+  {
+      "value": "52310",
+      "label": "SÃO GERALDO DA PIEDADE"
+  },
+  {
+      "value": "41580",
+      "label": "SÃO GERALDO DO BAIXIO"
+  },
+  {
+      "value": "52337",
+      "label": "SÃO GONÇALO DO ABAETÉ"
+  },
+  {
+      "value": "52353",
+      "label": "SÃO GONÇALO DO PARÁ"
+  },
+  {
+      "value": "52370",
+      "label": "SÃO GONÇALO DO RIO ABAIXO"
+  },
+  {
+      "value": "45098",
+      "label": "SÃO GONÇALO DO RIO PRETO"
+  },
+  {
+      "value": "52396",
+      "label": "SÃO GONÇALO DO SAPUCAÍ"
+  },
+  {
+      "value": "52418",
+      "label": "SÃO GOTARDO"
+  },
+  {
+      "value": "52434",
+      "label": "SÃO JOÃO BATISTA DO GLÓRIA"
+  },
+  {
+      "value": "40703",
+      "label": "SÃO JOÃO DA LAGOA"
+  },
+  {
+      "value": "52450",
+      "label": "SÃO JOÃO DA MATA"
+  },
+  {
+      "value": "52477",
+      "label": "SÃO JOÃO DA PONTE"
+  },
+  {
+      "value": "41602",
+      "label": "SÃO JOÃO DAS MISSÕES"
+  },
+  {
+      "value": "52493",
+      "label": "SÃO JOÃO DEL REI"
+  },
+  {
+      "value": "40720",
+      "label": "SÃO JOÃO DO MANHUAÇU"
+  },
+  {
+      "value": "40746",
+      "label": "SÃO JOÃO DO MANTENINHA"
+  },
+  {
+      "value": "52515",
+      "label": "SÃO JOÃO DO ORIENTE"
+  },
+  {
+      "value": "40762",
+      "label": "SÃO JOÃO DO PACUÍ"
+  },
+  {
+      "value": "52531",
+      "label": "SÃO JOÃO DO PARAÍSO"
+  },
+  {
+      "value": "52558",
+      "label": "SÃO JOÃO EVANGELISTA"
+  },
+  {
+      "value": "52574",
+      "label": "SÃO JOÃO NEPOMUCENO"
+  },
+  {
+      "value": "41629",
+      "label": "SÃO JOAQUIM DE BICAS"
+  },
+  {
+      "value": "41645",
+      "label": "SÃO JOSÉ DA BARRA"
+  },
+  {
+      "value": "40789",
+      "label": "SÃO JOSÉ DA LAPA"
+  },
+  {
+      "value": "52590",
+      "label": "SÃO JOSÉ DA SAFIRA"
+  },
+  {
+      "value": "52612",
+      "label": "SÃO JOSÉ DA VARGINHA"
+  },
+  {
+      "value": "52639",
+      "label": "SÃO JOSÉ DO ALEGRE"
+  },
+  {
+      "value": "52655",
+      "label": "SÃO JOSÉ DO DIVINO"
+  },
+  {
+      "value": "52671",
+      "label": "SÃO JOSÉ DO GOIABAL"
+  },
+  {
+      "value": "52698",
+      "label": "SÃO JOSÉ DO JACURI"
+  },
+  {
+      "value": "52710",
+      "label": "SÃO JOSÉ DO MANTIMENTO"
+  },
+  {
+      "value": "52736",
+      "label": "SÃO LOURENÇO"
+  },
+  {
+      "value": "52752",
+      "label": "SÃO MIGUEL DO ANTA"
+  },
+  {
+      "value": "52779",
+      "label": "SÃO PEDRO DA UNIÃO"
+  },
+  {
+      "value": "52817",
+      "label": "SÃO PEDRO DO SUAÇUÍ"
+  },
+  {
+      "value": "52795",
+      "label": "SÃO PEDRO DOS FERROS"
+  },
+  {
+      "value": "52833",
+      "label": "SÃO ROMÃO"
+  },
+  {
+      "value": "52850",
+      "label": "SÃO ROQUE DE MINAS"
+  },
+  {
+      "value": "52876",
+      "label": "SÃO SEBASTIÃO DA BELA VISTA"
+  },
+  {
+      "value": "42340",
+      "label": "SÃO SEBASTIÃO DA VARGEM ALEGRE"
+  },
+  {
+      "value": "42366",
+      "label": "SÃO SEBASTIÃO DO ANTA"
+  },
+  {
+      "value": "52892",
+      "label": "SÃO SEBASTIÃO DO MARANHÃO"
+  },
+  {
+      "value": "52914",
+      "label": "SÃO SEBASTIÃO DO OESTE"
+  },
+  {
+      "value": "52930",
+      "label": "SÃO SEBASTIÃO DO PARAÍSO"
+  },
+  {
+      "value": "52957",
+      "label": "SÃO SEBASTIÃO DO RIO PRETO"
+  },
+  {
+      "value": "52973",
+      "label": "SÃO SEBASTIÃO DO RIO VERDE"
+  },
+  {
+      "value": "53031",
+      "label": "SÃO THOMÉ DAS LETRAS"
+  },
+  {
+      "value": "52990",
+      "label": "SÃO TIAGO"
+  },
+  {
+      "value": "53015",
+      "label": "SÃO TOMÁS DE AQUINO"
+  },
+  {
+      "value": "53058",
+      "label": "SÃO VICENTE DE MINAS"
+  },
+  {
+      "value": "53074",
+      "label": "SAPUCAÍ-MIRIM"
+  },
+  {
+      "value": "53090",
+      "label": "SARDOÁ"
+  },
+  {
+      "value": "40800",
+      "label": "SARZEDO"
+  },
+  {
+      "value": "40827",
+      "label": "SEM PEIXE"
+  },
+  {
+      "value": "40843",
+      "label": "SENADOR AMARAL"
+  },
+  {
+      "value": "53112",
+      "label": "SENADOR CORTES"
+  },
+  {
+      "value": "53139",
+      "label": "SENADOR FIRMINO"
+  },
+  {
+      "value": "53155",
+      "label": "SENADOR JOSÉ BENTO"
+  },
+  {
+      "value": "53171",
+      "label": "SENADOR MODESTINO GONÇALVES"
+  },
+  {
+      "value": "53198",
+      "label": "SENHORA DE OLIVEIRA"
+  },
+  {
+      "value": "53210",
+      "label": "SENHORA DO PORTO"
+  },
+  {
+      "value": "53236",
+      "label": "SENHORA DOS REMÉDIOS"
+  },
+  {
+      "value": "53252",
+      "label": "SERICITA"
+  },
+  {
+      "value": "53279",
+      "label": "SERITINGA"
+  },
+  {
+      "value": "53295",
+      "label": "SERRA AZUL DE MINAS"
+  },
+  {
+      "value": "53317",
+      "label": "SERRA DA SAUDADE"
+  },
+  {
+      "value": "53350",
+      "label": "SERRA DO SALITRE"
+  },
+  {
+      "value": "53333",
+      "label": "SERRA DOS AIMORÉS"
+  },
+  {
+      "value": "53376",
+      "label": "SERRANIA"
+  },
+  {
+      "value": "42382",
+      "label": "SERRANÓPOLIS DE MINAS"
+  },
+  {
+      "value": "53392",
+      "label": "SERRANOS"
+  },
+  {
+      "value": "53414",
+      "label": "SERRO"
+  },
+  {
+      "value": "53430",
+      "label": "SETE LAGOAS"
+  },
+  {
+      "value": "42404",
+      "label": "SETUBINHA"
+  },
+  {
+      "value": "53457",
+      "label": "SILVEIRÂNIA"
+  },
+  {
+      "value": "53473",
+      "label": "SILVIANÓPOLIS"
+  },
+  {
+      "value": "53490",
+      "label": "SIMÃO PEREIRA"
+  },
+  {
+      "value": "53511",
+      "label": "SIMONÉSIA"
+  },
+  {
+      "value": "53538",
+      "label": "SOBRÁLIA"
+  },
+  {
+      "value": "53554",
+      "label": "SOLEDADE DE MINAS"
+  },
+  {
+      "value": "53570",
+      "label": "TABULEIRO"
+  },
+  {
+      "value": "53597",
+      "label": "TAIOBEIRAS"
+  },
+  {
+      "value": "42420",
+      "label": "TAPARUBA"
+  },
+  {
+      "value": "53619",
+      "label": "TAPIRA"
+  },
+  {
+      "value": "53635",
+      "label": "TAPIRAÍ"
+  },
+  {
+      "value": "53651",
+      "label": "TAQUARAÇU DE MINAS"
+  },
+  {
+      "value": "53678",
+      "label": "TARUMIRIM"
+  },
+  {
+      "value": "53694",
+      "label": "TEIXEIRAS"
+  },
+  {
+      "value": "53716",
+      "label": "TEÓFILO OTONI"
+  },
+  {
+      "value": "53732",
+      "label": "TIMÓTEO"
+  },
+  {
+      "value": "53759",
+      "label": "TIRADENTES"
+  },
+  {
+      "value": "53775",
+      "label": "TIROS"
+  },
+  {
+      "value": "53791",
+      "label": "TOCANTINS"
+  },
+  {
+      "value": "42587",
+      "label": "TOCOS DO MOJI"
+  },
+  {
+      "value": "53813",
+      "label": "TOLEDO"
+  },
+  {
+      "value": "53830",
+      "label": "TOMBOS"
+  },
+  {
+      "value": "53856",
+      "label": "TRÊS CORAÇÕES"
+  },
+  {
+      "value": "41157",
+      "label": "TRÊS MARIAS"
+  },
+  {
+      "value": "53872",
+      "label": "TRÊS PONTAS"
+  },
+  {
+      "value": "53899",
+      "label": "TUMIRITINGA"
+  },
+  {
+      "value": "53910",
+      "label": "TUPACIGUARA"
+  },
+  {
+      "value": "53937",
+      "label": "TURMALINA"
+  },
+  {
+      "value": "53953",
+      "label": "TURVOLÂNDIA"
+  },
+  {
+      "value": "53970",
+      "label": "UBÁ"
+  },
+  {
+      "value": "53996",
+      "label": "UBAÍ"
+  },
+  {
+      "value": "40860",
+      "label": "UBAPORANGA"
+  },
+  {
+      "value": "54011",
+      "label": "UBERABA"
+  },
+  {
+      "value": "54038",
+      "label": "UBERLÂNDIA"
+  },
+  {
+      "value": "54054",
+      "label": "UMBURATIBA"
+  },
+  {
+      "value": "54070",
+      "label": "UNAÍ"
+  },
+  {
+      "value": "42447",
+      "label": "UNIÃO DE MINAS"
+  },
+  {
+      "value": "42463",
+      "label": "URUANA DE MINAS"
+  },
+  {
+      "value": "54097",
+      "label": "URUCÂNIA"
+  },
+  {
+      "value": "40886",
+      "label": "URUCUIA"
+  },
+  {
+      "value": "40908",
+      "label": "VARGEM ALEGRE"
+  },
+  {
+      "value": "54119",
+      "label": "VARGEM BONITA"
+  },
+  {
+      "value": "42480",
+      "label": "VARGEM GRANDE DO RIO PARDO"
+  },
+  {
+      "value": "54135",
+      "label": "VARGINHA"
+  },
+  {
+      "value": "42501",
+      "label": "VARJÃO DE MINAS"
+  },
+  {
+      "value": "54151",
+      "label": "VÁRZEA DA PALMA"
+  },
+  {
+      "value": "54178",
+      "label": "VARZELÂNDIA"
+  },
+  {
+      "value": "54194",
+      "label": "VAZANTE"
+  },
+  {
+      "value": "42528",
+      "label": "VERDELÂNDIA"
+  },
+  {
+      "value": "42544",
+      "label": "VEREDINHA"
+  },
+  {
+      "value": "54232",
+      "label": "VERÍSSIMO"
+  },
+  {
+      "value": "42560",
+      "label": "VERMELHO NOVO"
+  },
+  {
+      "value": "54259",
+      "label": "VESPASIANO"
+  },
+  {
+      "value": "54275",
+      "label": "VIÇOSA"
+  },
+  {
+      "value": "54291",
+      "label": "VIEIRAS"
+  },
+  {
+      "value": "54330",
+      "label": "VIRGEM DA LAPA"
+  },
+  {
+      "value": "54356",
+      "label": "VIRGÍNIA"
+  },
+  {
+      "value": "54372",
+      "label": "VIRGINÓPOLIS"
+  },
+  {
+      "value": "54399",
+      "label": "VIRGOLÂNDIA"
+  },
+  {
+      "value": "54410",
+      "label": "VISCONDE DO RIO BRANCO"
+  },
+  {
+      "value": "54437",
+      "label": "VOLTA GRANDE"
+  },
+  {
+      "value": "54216",
+      "label": "WENCESLAU BRAZ"
+  }
+]
