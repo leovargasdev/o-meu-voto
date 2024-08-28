@@ -4,7 +4,7 @@ interface MapBrazilProps {
   selectState: (state: string) => void
 }
 
-const MapBrazil = ({ selectState }: MapBrazilProps) => (
+export const MapBrazil = ({ selectState }: MapBrazilProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="220mm"
@@ -317,5 +317,3 @@ const MapBrazil = ({ selectState }: MapBrazilProps) => (
     </g>
   </svg>
 )
-
-export default MapBrazil

@@ -69,10 +69,11 @@ const SearchPage = () => {
 
   return (
     <div className={styles.container}>
-      <AnimationForm />
+      {!city && !role && <AnimationForm />}
 
-      {/* <div className={styles.form__and__filter}>
+      <div className={styles.form__and__filter}>
         <SearchForm />
+
         {!loading && (
           <SearchFilter
             candidates={data}
@@ -80,7 +81,7 @@ const SearchPage = () => {
             filter={filter}
           />
         )}
-      </div> */}
+      </div>
 
       <div className={styles.content}>
         <h1>Lista dos candidatos</h1>

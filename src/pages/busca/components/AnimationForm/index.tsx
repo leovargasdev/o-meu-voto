@@ -1,34 +1,34 @@
 import { useState } from 'react'
 import Select from 'react-select'
 import classNames from 'classnames'
+import { useRouter } from 'next/router'
 import { citiesByState } from 'data/cities/'
 
-import BrazilSVG from 'components/BrazilSVG'
+import { MapBrazil } from 'components'
 
 import styles from './styles.module.scss'
-import { useRouter } from 'next/router'
 
 export const AnimationForm = () => {
   const router = useRouter()
   const [question, setQuestion] = useState(0)
   const [search, setSearch] = useState({
-    uf: '',
+    state: '',
     city: '',
     role: ''
   })
 
-  const handleQuestionUF = (uf: string) => {
-    setSearch(state => ({ ...state, uf }))
+  const handleQuestionUF = (state: string) => {
+    setSearch(currentState => ({ ...currentState, state }))
     setQuestion(1)
   }
 
   const handleQuestionCity = (city: string) => {
-    setSearch(state => ({ ...state, city }))
+    setSearch(currentState => ({ ...currentState, city }))
     setQuestion(2)
   }
 
   const handleQuestionRole = (role: string) => {
-    const query = { role, city: search.city }
+    const query = { ...search, role }
     router.replace({ query })
     setQuestion(3)
   }
@@ -47,7 +47,7 @@ export const AnimationForm = () => {
         <div className={styles.question}>
           <label>Escolha um estado do Brasil</label>
           <div className={styles.map}>
-            <BrazilSVG selectState={handleQuestionUF} />
+            <MapBrazil selectState={handleQuestionUF} />
           </div>
         </div>
       </span>
@@ -65,7 +65,7 @@ export const AnimationForm = () => {
             <Select
               placeholder="Selecionar"
               isSearchable
-              options={citiesByState.sc}
+              options={citiesByState[search.state]}
               onChange={option => handleQuestionCity(option?.value as string)}
             />
           </div>
