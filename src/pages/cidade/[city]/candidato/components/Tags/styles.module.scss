@@ -15,6 +15,15 @@
     border-radius: 20px;
     padding: 7px 18px 7px 12px;
     background: rgba(0,0,0,0.05);
+
+    @media(max-width: 600px) {
+      font-size: 15px;
+      padding: 6px 14px 6px 9px;
+
+      span {
+        transform: scale(0.9);
+      }
+    }
   }
 
   a {

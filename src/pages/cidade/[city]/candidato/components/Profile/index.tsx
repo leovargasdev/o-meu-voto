@@ -32,7 +32,7 @@ export const Profile = (candidate: Candidate) => {
     <div className={classNames('card', styles.profile)}>
       <picture className={styles.cover}>
         <img
-          src="https://www.eccobandeiras.com.br/image/cache/catalog/antigas/SP-1111x740.jpg"
+          src="https://www.eccobandeiras.com.br/image/cache/catalog/antigas/Santa-Catarina-1111x740.jpg"
           alt=""
         />
       </picture>

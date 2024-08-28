@@ -53,4 +53,8 @@ button {
   background-color: #fff;
   border-radius: 18px;
   box-shadow: var(--shadow);
+
+  @media(max-width: 600px) {
+    padding: 24px;
+  }
 }

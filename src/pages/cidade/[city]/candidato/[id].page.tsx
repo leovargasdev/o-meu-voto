@@ -28,14 +28,16 @@ const CandidatePage = (candidate: Candidate) => {
       <div className={classNames('card', styles.content)}>
         <Tags {...candidate} />
 
-        <div>
-          <h2>
-            <Mailbox />
-            Emails para contato
-          </h2>
+        {candidate.emails && (
+          <div>
+            <h2>
+              <Mailbox />
+              Emails para contato
+            </h2>
 
-          <p>{candidate.emails.join(', ')}</p>
-        </div>
+            <p>{candidate.emails.join(', ')}</p>
+          </div>
+        )}
 
         <News {...candidate} />
 

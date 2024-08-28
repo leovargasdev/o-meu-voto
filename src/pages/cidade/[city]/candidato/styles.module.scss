@@ -3,6 +3,14 @@
   display: flex;
   align-items: flex-start;
   column-gap: 64px;
+
+  @media(max-width: 600px) {
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: center;
+
+    transform: scale(0.92);
+  }
 }
 
 .profile {
@@ -118,6 +126,10 @@
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 12px;
+
+    @media(max-width: 600px) {
+      font-size: 18px;
+    }
   }
 }
 
@@ -151,6 +163,10 @@
   display: flex;
   align-items: center;
   column-gap: 16px;
+
+  @media(max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .properties {

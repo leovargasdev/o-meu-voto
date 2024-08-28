@@ -4,6 +4,10 @@
   gap: 16px;
   
   width: 100%;
+
+  @media(max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .property {
