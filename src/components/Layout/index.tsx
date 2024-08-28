@@ -7,7 +7,7 @@ interface LayoutProps {
 export const Layout = ({ children }: LayoutProps) => {
   return (
     <div className={styles.container}>
-      <header>header</header>
+      {/* <header>header</header> */}
       <main>{children}</main>
       {/* <footer>rodape</footer> */}
     </div>

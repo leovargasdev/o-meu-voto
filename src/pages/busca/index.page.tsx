@@ -10,6 +10,7 @@ import type { CandidateSimple } from 'types/candidate'
 
 import styles from './styles.module.scss'
 import { SearchFilter } from './components/Filter'
+import { AnimationForm } from './components/AnimationForm'
 
 const loadCandidates = async (city: string, role: string) => {
   try {
@@ -68,7 +69,9 @@ const SearchPage = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.form__and__filter}>
+      <AnimationForm />
+
+      {/* <div className={styles.form__and__filter}>
         <SearchForm />
         {!loading && (
           <SearchFilter
@@ -77,7 +80,7 @@ const SearchPage = () => {
             filter={filter}
           />
         )}
-      </div>
+      </div> */}
 
       <div className={styles.content}>
         <h1>Lista dos candidatos</h1>
