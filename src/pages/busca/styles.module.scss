@@ -83,13 +83,14 @@
     strong, p {
       line-height: 1;
       display: block;
+      text-transform: capitalize;
     }
 
     
     strong {
       font-size: 16px;
       font-weight: 600;
-      margin-bottom: 2px;
+      margin-bottom: 4px;
     }
 
     p {

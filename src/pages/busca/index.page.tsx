@@ -106,7 +106,7 @@ const SearchPage = () => {
                   >
                     <div className={styles.info}>
                       <strong>{candidate.nomeUrna}</strong>
-                      <p>{candidate.nomeCompleto}</p>
+                      <p>{candidate.nomeCompleto.toLocaleLowerCase()}</p>
                     </div>
 
                     <div className={styles.code}>
