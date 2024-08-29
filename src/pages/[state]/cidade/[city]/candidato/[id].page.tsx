@@ -10,6 +10,8 @@ import { Tags } from './components/Tags'
 import { News } from './components/News'
 import { Properties } from './components/Properties'
 
+import { maskNumber } from 'utils/mask'
+
 import styles from './styles.module.scss'
 
 const CandidatePage = (candidate: Candidate) => {
@@ -52,7 +54,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const { city, id } = params as never
+  const id = maskNumber(params?.id as string)
+  const city = maskNumber(params?.city as string)
 
   try {
     const response = await api.get(

@@ -1,0 +1,15 @@
+.container { 
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  column-gap: 32px;
+}
+
+.form__and__filter {
+  width: 100%;
+  max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}

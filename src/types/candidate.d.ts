@@ -14,6 +14,8 @@ interface Property {
 export interface CandidateSimple {
   nomeCompleto: string
   ufCandidatura: string
+  localCandidatura: string
+  ufSuperiorCandidatura: string
   id: number
   numero: number
   nomeUrna: string

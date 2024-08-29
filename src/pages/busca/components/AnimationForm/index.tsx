@@ -4,7 +4,10 @@ import classNames from 'classnames'
 import { useRouter } from 'next/router'
 import { citiesByState } from 'data/cities/'
 
+import { Option } from 'types'
+import { maskToParamsURL } from 'utils/mask'
 import { MapBrazil } from 'components'
+
 import styles from './styles.module.scss'
 
 interface QuestionProps {
@@ -25,32 +28,30 @@ const Question = ({ label, enabled, children }: QuestionProps) => (
 export const AnimationForm = () => {
   const router = useRouter()
   const [question, setQuestion] = useState<number>(0)
-  const [search, setSearch] = useState({
-    state: '',
-    city: '',
-    role: ''
-  })
+  const [state, setState] = useState<string>('')
+  const [city, setCity] = useState<Option | null>()
 
-  const handleQuestionUF = (state: string) => {
-    setSearch(currentState => ({ ...currentState, state }))
+  const handleQuestionUF = (value: string) => {
+    setState(value)
     setQuestion(1)
   }
 
-  const handleQuestionCity = (city: string) => {
-    setSearch(currentState => ({ ...currentState, city }))
+  const handleQuestionCity = (option: Option | null) => {
+    setCity(option)
     setQuestion(2)
   }
 
-  const handleQuestionRole = (role: string) => {
-    setQuestion(3)
+  const handleSearch = (role?: string) => {
+    if (!city) return
 
-    setTimeout(() => {
-      const query = { ...search, role }
-      router.replace({ query })
-    }, 500)
+    const roleQuery = role ? `?role=${role}` : ''
+    const cityPath = city.value + '-' + maskToParamsURL(city.label)
+    const route = `/${state}/cidade/${cityPath}/candidatos` + roleQuery
+
+    router.push(route)
   }
 
-  const cities = search?.state ? citiesByState[search.state] : []
+  const cities = state ? citiesByState[state] : []
 
   return (
     <div className={styles.container}>
@@ -74,7 +75,7 @@ export const AnimationForm = () => {
               placeholder="Selecionar"
               isSearchable
               options={cities}
-              onChange={option => handleQuestionCity(option?.value as string)}
+              onChange={handleQuestionCity}
             />
           </div>
         </Question>
@@ -84,13 +85,13 @@ export const AnimationForm = () => {
           enabled={question === 2}
         >
           <div className={styles.roles}>
-            <button type="button" onClick={() => handleQuestionRole('11')}>
+            <button type="button" onClick={() => handleSearch('11')}>
               Prefeito
             </button>
-            <button type="button" onClick={() => handleQuestionRole('12')}>
+            <button type="button" onClick={() => handleSearch('12')}>
               Vice-prefeito
             </button>
-            <button type="button" onClick={() => handleQuestionRole('13')}>
+            <button type="button" onClick={() => handleSearch('13')}>
               Vereador
             </button>
           </div>

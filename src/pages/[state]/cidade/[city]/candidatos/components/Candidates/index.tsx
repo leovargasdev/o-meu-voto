@@ -4,6 +4,7 @@ import classNames from 'classnames'
 import type { CandidateSimple } from 'types/candidate'
 
 import styles from './styles.module.scss'
+import { useRouter } from 'next/router'
 
 const formatSigla = (value: string) => {
   return value
@@ -21,12 +22,14 @@ interface CandidatesProps {
 const converString = (str: string) => str.toLocaleLowerCase().replace(/ /g, '-')
 
 const Candidate = (candidate: CandidateSimple) => {
+  const { asPath } = useRouter()
   const code = candidate.numero.toString().split('')
   const name = candidate.nomeUrna && converString(candidate.nomeUrna)
-  const href = `/cidade/${candidate.ufCandidatura}-abaia/candidato/${candidate.id}-${name}`
+  const href =
+    asPath.replace('/candidatos', '') + `/candidato/${candidate.id}-${name}`
 
   return (
-    <Link href={href} className={classNames('card', styles.candidate)}>
+    <Link href={href} className={classNames('card', styles.candidate)} replace>
       <div className={styles.info}>
         <strong>{candidate.nomeUrna}</strong>
         <p>{candidate.nomeCompleto.toLocaleLowerCase()}</p>
@@ -50,8 +53,6 @@ export const Candidates = ({ filter, candidates }: CandidatesProps) => {
     filter.length === 0
       ? candidates
       : candidates.filter(c => filter.includes(formatSigla(c.partido.sigla)))
-
-  console.log(candidates.slice(0, 4))
 
   return (
     <div className={styles.candidates}>
