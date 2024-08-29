@@ -1,15 +1,109 @@
-.container { 
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  column-gap: 32px;
+.container {
+  position: fixed;
+  inset: 0;
+
+  z-index: 2;
+  overflow: hidden;
+
+  > button {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    z-index: 10;
+    background-color: transparent;
+  }
 }
 
-.form__and__filter {
-  width: 100%;
-  max-width: 300px;
-
+.content {
   display: flex;
-  flex-direction: column;
-  row-gap: 32px;
+  width: 300vw;
+  background-color: var(--background);
+
+  transition: all 0.5s ease-in-out;
+}
+
+.carrousel__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  opacity: 0;
+
+  transition: all 0.5s ease-in-out;
+
+  &.enable {
+    opacity: 1;
+  }
+}
+
+.label {
+  display: block;
+
+  font-size: 24px;
+  text-align: center;
+  color: var(--text);
+
+  margin-bottom: 32px;
+
+  @media(max-width: 650px) {
+    font-size: 20px;
+  }
+}
+
+.map {
+  svg {
+    width: 40vw;
+    height: auto;
+  }
+
+  svg g:hover path {
+    cursor: pointer;
+    fill: var(--blue);
+  }
+}
+
+.cities {
+  width: 450px;
+
+  @media(max-width: 650px) {
+    width: 80vw;
+    margin-bottom: 120px;
+  }
+}
+
+.roles {
+  display: flex;
+  column-gap: 32px;
+
+  button {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+
+    width: 250px;
+
+    padding: 0.5em 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.05);
+
+    border-radius: 8px;
+    border: 2px solid transparent;
+
+    transition: all 0.3s ease;
+
+    &:hover {
+      cursor: pointer;
+      color: var(--blue);
+      border: 2px solid var(--blue);
+    }
+  }
+
+  @media(max-width: 650px) {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+  }
 }
