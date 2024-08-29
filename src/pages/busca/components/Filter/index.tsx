@@ -1,5 +1,6 @@
-import { CandidateSimple } from 'types/candidate'
-import styles from '../../styles.module.scss'
+import type { CandidateSimple } from 'types/candidate'
+
+import styles from './styles.module.scss'
 
 interface SearchFilterProps {
   candidates: CandidateSimple[]

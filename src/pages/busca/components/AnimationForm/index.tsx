@@ -5,12 +5,26 @@ import { useRouter } from 'next/router'
 import { citiesByState } from 'data/cities/'
 
 import { MapBrazil } from 'components'
-
 import styles from './styles.module.scss'
+
+interface QuestionProps {
+  label: string
+  enabled: boolean
+  children: React.ReactNode
+}
+
+const Question = ({ label, enabled, children }: QuestionProps) => (
+  <div className={classNames(styles.carrousel__item, enabled && styles.enable)}>
+    <div className={styles.question}>
+      <label className={styles.label}>{label}</label>
+      {children}
+    </div>
+  </div>
+)
 
 export const AnimationForm = () => {
   const router = useRouter()
-  const [question, setQuestion] = useState(0)
+  const [question, setQuestion] = useState<number>(0)
   const [search, setSearch] = useState({
     state: '',
     city: '',
@@ -28,59 +42,47 @@ export const AnimationForm = () => {
   }
 
   const handleQuestionRole = (role: string) => {
-    const query = { ...search, role }
-    router.replace({ query })
     setQuestion(3)
+
+    setTimeout(() => {
+      const query = { ...search, role }
+      router.replace({ query })
+    }, 500)
   }
 
+  const cities = search?.state ? citiesByState[search.state] : []
+
   return (
-    <div
-      className={styles.carrousel}
-      style={{ transform: `translateX(${-100 * question}vw)` }}
-    >
-      <span
-        className={classNames(
-          styles.carrousel__item,
-          question === 0 && styles.enable
-        )}
+    <div className={styles.container}>
+      <button>
+        <img src="/logo.png" width={150} height="auto" />
+      </button>
+
+      <div
+        className={styles.content}
+        style={{ transform: `translateX(${-100 * question}vw)` }}
       >
-        <div className={styles.question}>
-          <label>Escolha um estado do Brasil</label>
+        <Question label="Escolha um estado do Brasil" enabled={question === 0}>
           <div className={styles.map}>
             <MapBrazil selectState={handleQuestionUF} />
           </div>
-        </div>
-      </span>
+        </Question>
 
-      <span
-        className={classNames(
-          styles.carrousel__item,
-          question === 1 && styles.enable
-        )}
-      >
-        <div className={styles.question}>
-          <label>Selecione um munípio</label>
-
+        <Question label="Selecione um munípio" enabled={question === 1}>
           <div className={styles.cities}>
             <Select
               placeholder="Selecionar"
               isSearchable
-              options={citiesByState[search.state]}
+              options={cities}
               onChange={option => handleQuestionCity(option?.value as string)}
             />
           </div>
-        </div>
-      </span>
+        </Question>
 
-      <span
-        className={classNames(
-          styles.carrousel__item,
-          question === 2 && styles.enable
-        )}
-      >
-        <div className={styles.question}>
-          <label>Escolha o cargo do pré-candidato</label>
-
+        <Question
+          label="Escolha o cargo do pré-candidato"
+          enabled={question === 2}
+        >
           <div className={styles.roles}>
             <button type="button" onClick={() => handleQuestionRole('11')}>
               Prefeito
@@ -92,8 +94,8 @@ export const AnimationForm = () => {
               Vereador
             </button>
           </div>
-        </div>
-      </span>
+        </Question>
+      </div>
     </div>
   )
 }

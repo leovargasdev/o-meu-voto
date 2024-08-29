@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 24vh;
+
+  img {
+    width: 250px;
+    height: auto;
+  }
+
+  h1 {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+
+    margin: 40px 0 48px;
+  }
+
+  a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+
+    padding: 8px 32px;
+    border-radius: 8px;
+    background-color: var(--blue);
+  }
+}

@@ -1,116 +1,109 @@
-.carrousel {
+.container {
   position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-
-  height: 100vh;
-  display: flex;
-  overflow: hidden;
-  background-color: var(--background);
+  inset: 0;
 
   z-index: 2;
-  
-  transition: all 0.4s;
+  overflow: hidden;
 
   > button {
-    position: fixed;
-    z-index: 10;
+    position: absolute;
     top: 20px;
-    left: 20px;
-  }
-
-  .carrousel__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    height: 100vh;
-    width: 100vw;
-
-    opacity: 0;
-
-    transition: all 0.4s;
-
-    &.enable {
-      opacity: 1;
-    }
+    right: 24px;
+    z-index: 10;
+    background-color: transparent;
   }
 }
 
-.question {
-  > label {
-    display: block;
+.content {
+  display: flex;
+  width: 300vw;
+  background-color: var(--background);
 
-    font-size: 24px;
-    text-align: center;
-    color: var(--text);
+  transition: all 0.5s ease-in-out;
+}
 
-    margin-bottom: 32px;
+.carrousel__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  opacity: 0;
+
+  transition: all 0.5s ease-in-out;
+
+  &.enable {
+    opacity: 1;
+  }
+}
+
+.label {
+  display: block;
+
+  font-size: 24px;
+  text-align: center;
+  color: var(--text);
+
+  margin-bottom: 32px;
+
+  @media(max-width: 650px) {
+    font-size: 20px;
+  }
+}
+
+.map {
+  svg {
+    width: 40vw;
+    height: auto;
   }
 
-  .map {
-    svg g:hover path {
+  svg g:hover path {
+    cursor: pointer;
+    fill: var(--blue);
+  }
+}
+
+.cities {
+  width: 450px;
+
+  @media(max-width: 650px) {
+    width: 80vw;
+    margin-bottom: 120px;
+  }
+}
+
+.roles {
+  display: flex;
+  column-gap: 32px;
+
+  button {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+
+    width: 250px;
+
+    padding: 0.5em 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.05);
+
+    border-radius: 8px;
+    border: 2px solid transparent;
+
+    transition: all 0.3s ease;
+
+    &:hover {
       cursor: pointer;
-      fill: var(--blue);
-    }
-  }
-
-  .cities {
-    width: 450px;
-  }
-
-  .roles {
-    display: flex;
-    column-gap: 32px;
-
-    button {
-      font-size: 1.25rem;
-      font-weight: 500;
-      letter-spacing: -0.03em;
-  
-      width: 250px;
-  
-      padding: 0.5em 0;
-      background-color: transparent;
-      box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.05);
-  
-      border-radius: 8px;
-      border: 2px solid transparent;
-  
-      transition: all 0.3s ease;
-  
-      &:hover {
-        cursor: pointer;
-        color: var(--blue);
-        border: 2px solid var(--blue);
-      }
+      color: var(--blue);
+      border: 2px solid var(--blue);
     }
   }
 
   @media(max-width: 650px) {
-    > label {
-      font-size: 20px;
-    }
-
-    .map svg {
-      margin: -160px 0 -90px 40px;
-      transform: scale(0.5);
-    }
-
-    .cities {
-      width: 80vw;
-      margin-bottom: 120px;
-    }
-
-    .roles {
-      flex-direction: column;
-      align-items: center;
-      row-gap: 24px;
-
-      button {
-        background-color: rgba(255, 255, 255, 0.5);
-      }
-    }
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
   }
 }

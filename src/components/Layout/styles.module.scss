@@ -2,10 +2,52 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 64px;
 
-  > header, > main, > footer {
+  min-height: 100vh;
+
+  > main, > footer {
     width: 100%;
     max-width: 1366px;
+  }
+
+  > footer {
+    margin-top: auto;
+    padding: 32px 0 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 13px;
+
+    p a {
+      color: var(--blue);
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.header {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  margin-bottom: 32px;
+
+  nav {
+    width: 100%;
+    max-width: 1366px;
+    margin: 12px auto;
+
+    display: flex;
+    justify-content: center;
+
+    img {
+      height: 50px;
+      width: auto;
+    }
   }
 }

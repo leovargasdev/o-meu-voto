@@ -1,56 +1,25 @@
-import { Newspaper } from '@phosphor-icons/react'
 import type { Candidate } from 'types/candidate'
 
 import styles from './styles.module.scss'
 
 export const News = (candidate: Candidate) => {
-  const queryName = candidate.nomeCompleto.replace(/ /g, '+')
+  const role = candidate.cargo.nome.toLocaleLowerCase()
+  const name = candidate.nomeUrna.toLocaleLowerCase().replace(/ /g, '%20')
+  const city = candidate.localCandidatura
+    .toLocaleLowerCase()
+    .replace(/ /g, '%20')
+
+  const querySearch = `${name}%20cargo%20de%20${role}%20${city}&hl=pt-BR&gl=BR&ceid=BR%3Apt-419`
 
   return (
-    <div>
-      <h2>
-        <Newspaper />
-        Pesquise notícias
-      </h2>
-
-      <ul className={styles.news}>
-        <li>
-          <a
-            href={`https://g1.globo.com/busca/?q=${queryName}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            G1 - Globo
-          </a>
-        </li>
-        <li>
-          <a
-            href={`https://congressoemfoco.uol.com.br/?s=${queryName}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            UOL
-          </a>
-        </li>
-        <li>
-          <a
-            href={`https://search.folha.uol.com.br/search?q=${queryName}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Folha de São Paulo
-          </a>
-        </li>
-        <li>
-          <a
-            href={`https://www.cnnbrasil.com.br/?s=${queryName}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            CNN Brasil
-          </a>
-        </li>
-      </ul>
-    </div>
+    <a
+      href={`https://news.google.com/search?q=${querySearch}`}
+      target="_blank"
+      rel="noreferrer"
+      className={styles.googlenews}
+    >
+      <img src="/google-news.png" />
+      Google News - Veja notícias sobre o candidato
+    </a>
   )
 }

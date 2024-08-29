@@ -1,16 +1,16 @@
-import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import classNames from 'classnames'
 import { useRouter } from 'next/router'
 import { useQuery } from '@tanstack/react-query'
 
 import api from 'lib/api'
-import { SearchForm } from './components/Form'
 import type { CandidateSimple } from 'types/candidate'
 
-import styles from './styles.module.scss'
+import { SearchForm } from './components/Form'
 import { SearchFilter } from './components/Filter'
 import { AnimationForm } from './components/AnimationForm'
+import { Candidates } from './components/Candidates'
+
+import styles from './styles.module.scss'
 
 const loadCandidates = async (city: string, role: string) => {
   try {
@@ -25,14 +25,6 @@ const loadCandidates = async (city: string, role: string) => {
   }
 
   return []
-}
-
-const formatSigla = (value: string) => {
-  return value
-    .normalize('NFD')
-    .replace(/\s/g, '')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toUpperCase()
 }
 
 const SearchPage = () => {
@@ -83,43 +75,7 @@ const SearchPage = () => {
         )}
       </div>
 
-      <div className={styles.content}>
-        <h1>Lista dos candidatos</h1>
-
-        {!loading && (
-          <div className={styles.candidates}>
-            {data
-              .filter(candidate =>
-                filter.length === 0
-                  ? candidate
-                  : filter.includes(formatSigla(candidate.partido.sigla))
-              )
-              .map(candidate => {
-                const code = candidate.numero.toString().split('')
-
-                return (
-                  <Link
-                    target="_blank"
-                    href={`/cidade/${candidate.ufCandidatura}/candidato/${candidate.id}`}
-                    className={classNames('card', styles.candidate)}
-                    key={candidate.id}
-                  >
-                    <div className={styles.info}>
-                      <strong>{candidate.nomeUrna}</strong>
-                      <p>{candidate.nomeCompleto.toLocaleLowerCase()}</p>
-                    </div>
-
-                    <div className={styles.code}>
-                      {code.map(item => (
-                        <span key={item}>{item}</span>
-                      ))}
-                    </div>
-                  </Link>
-                )
-              })}
-          </div>
-        )}
-      </div>
+      {!loading && <Candidates candidates={data} filter={filter} />}
     </div>
   )
 }

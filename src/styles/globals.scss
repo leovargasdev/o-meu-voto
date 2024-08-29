@@ -9,6 +9,7 @@
   --text-secondary: #6e6e73;
 
   --blue: #007aff;
+  --green: #519548;
   --background: #f5f5f7;
 
   --shadow: 2px 4px 12px #00000014;
@@ -51,7 +52,7 @@ button {
   overflow: hidden;
   padding: 24px 32px;
   background-color: #fff;
-  border-radius: 18px;
+  border-radius: 12px;
   box-shadow: var(--shadow);
 
   @media(max-width: 600px) {
