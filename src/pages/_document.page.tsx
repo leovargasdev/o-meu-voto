@@ -12,8 +12,9 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="pt_BR" />
-          <meta property="og:site_name" content="App eleições" />
+          <meta property="og:site_name" content="Meu Voto | Eleições 2024" />
           <meta name="author" content="Leonardo Luis de Vargas" />
+          <meta name="robots" content="index, follow" />
 
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"

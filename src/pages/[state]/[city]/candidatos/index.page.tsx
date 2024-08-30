@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
+import { useParams } from 'next/navigation'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
 import api from 'lib/api'
+import { maskNumber } from 'utils/mask'
 import type { CandidateSimple } from 'types/candidate'
 
 import { SearchForm } from './components/Form'
@@ -9,8 +11,6 @@ import { SearchFilter } from './components/Filter'
 import { Candidates } from './components/Candidates'
 
 import styles from './styles.module.scss'
-import { maskNumber } from 'utils/mask'
-import { useParams } from 'next/navigation'
 
 const loadCandidates = async (city: string, role: string) => {
   try {
@@ -90,12 +90,14 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const city = maskNumber(params?.city as string) as never
 
   try {
-    const [prefeito, vice, vereador] = await Promise.all([
+    const [prefeito, vereador] = await Promise.all([
       loadCandidates(city, '11'),
-      loadCandidates(city, '12'),
       loadCandidates(city, '13')
     ])
-    return { props: { candidates: prefeito.concat(vice).concat(vereador) } }
+    return {
+      props: { candidates: prefeito.concat(vereador) },
+      revalidate: false
+    }
   } catch (e) {
     console.log(e)
   }
