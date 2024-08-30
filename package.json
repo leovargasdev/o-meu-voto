@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.13",
@@ -37,6 +38,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-standard": "^5.0.0",
+    "next-sitemap": "^4.2.3",
     "prettier": "^2.8.1",
     "typescript": "^5.0.4"
   }

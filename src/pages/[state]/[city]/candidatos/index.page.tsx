@@ -87,12 +87,27 @@ const SearchPage = ({ candidates }: PageProps) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  // return { fallback: 'blocking', paths: [] }
   return {
     fallback: true,
     paths: [
       { params: { state: 'sc', city: '80810-chapeco' } },
-      { params: { state: 'sc', city: '81051-florianopolis' } }
+      { params: { state: 'sc', city: '81051-florianopolis' } },
+      { params: { state: 'sc', city: '80470-blumenau' } },
+      { params: { state: 'sc', city: '81795-joinville' } },
+      { params: { state: 'sc', city: '80896-criciuma' } },
+      { params: { state: 'sc', city: '80390-balneario-camboriu' } },
+      { params: { state: 'rs', city: '88013-porto-alegre' } },
+      { params: { state: 'rs', city: '85995-caxias-do-sul' } },
+      { params: { state: 'rs', city: '87718-novo-hamburgo' } },
+      { params: { state: 'pr', city: '75353-curitiba' } },
+      { params: { state: 'pr', city: '76910-maringa' } },
+      { params: { state: 'pr', city: '77771-ponta-grossa' } },
+      { params: { state: 'pr', city: '75639-foz-do-iguacu' } },
+      { params: { state: 'pr', city: '74934-cascavel' } },
+      { params: { state: 'sp', city: '71072-sao-paulo' } },
+      { params: { state: 'sp', city: '64777-guarulhos' } },
+      { params: { state: 'sp', city: '67890-osasco' } },
+      { params: { state: 'sp', city: '71455-sorocaba' } }
     ]
   }
 }

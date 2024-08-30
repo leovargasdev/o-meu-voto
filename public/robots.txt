@@ -1,5 +1,9 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://www.omeuvoto.com.br/
+
+# Sitemaps
+Sitemap: https://www.omeuvoto.com.br/sitemap.xml
