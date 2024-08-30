@@ -13,3 +13,7 @@ export const normalizeString = (str: string) => {
 
 export const maskToParamsURL = (str: string) =>
   normalizeString(str).toLocaleLowerCase().replace(/ /g, '-')
+
+export const maskSigla = (value: string) => {
+  return normalizeString(value).replace(/\s/g, '').toUpperCase()
+}

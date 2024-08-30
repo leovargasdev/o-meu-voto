@@ -1,19 +1,10 @@
-import type { CandidateSimple } from 'types/candidate'
-
 import styles from './styles.module.scss'
+import type { CandidateSimple } from 'types/candidate'
 
 interface SearchFilterProps {
   candidates: CandidateSimple[]
   filter: string[]
   setFilter: (key: string) => void
-}
-
-const formatSigla = (value: string) => {
-  return value
-    .normalize('NFD')
-    .replace(/\s/g, '')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toUpperCase()
 }
 
 export const SearchFilter = ({
@@ -22,7 +13,7 @@ export const SearchFilter = ({
   candidates
 }: SearchFilterProps) => {
   const partidos = candidates.reduce((acc, item) => {
-    const key = formatSigla(item.partido.sigla)
+    const key = item.partidoSigla
     acc[key] = acc[key] ? acc[key] + 1 : 1
 
     return acc

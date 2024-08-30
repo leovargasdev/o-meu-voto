@@ -3,8 +3,8 @@ import { useParams } from 'next/navigation'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
 import api from 'lib/api'
-import { maskNumber } from 'utils/mask'
-import type { CandidateSimple } from 'types/candidate'
+import { maskNumber, maskSigla } from 'utils/mask'
+import type { CandidateSimple, Candidate } from 'types/candidate'
 
 import { SearchForm } from './components/Form'
 import { SearchFilter } from './components/Filter'
@@ -15,11 +15,21 @@ import styles from './styles.module.scss'
 const loadCandidates = async (city: string, role: string) => {
   try {
     const route = `/listar/2024/${city}/2045202024/${role}/candidatos`
-    const response = await api.get<{ candidatos: CandidateSimple[] }>(route)
+    const response = await api.get<{ candidatos: Candidate[] }>(route)
 
-    return response.data.candidatos.filter(
-      c => c.descricaoSituacao !== 'Indeferido'
-    )
+    return response.data.candidatos.reduce((acc, candidate) => {
+      if (candidate.descricaoSituacao !== 'Indeferido') {
+        acc.push({
+          nomeCompleto: candidate.nomeCompleto.toLocaleLowerCase(),
+          id: candidate.id,
+          numero: candidate.numero,
+          nomeUrna: candidate.nomeUrna,
+          partidoSigla: maskSigla(candidate.partido.sigla)
+        })
+      }
+
+      return acc
+    }, [] as CandidateSimple[])
   } catch (err) {
     console.log(err)
   }
@@ -34,6 +44,8 @@ interface PageProps {
 const SearchPage = ({ candidates }: PageProps) => {
   const params = useParams()
   const [filter, setFilter] = useState<string[]>([])
+
+  console.log(candidates)
 
   const handleChangeFilter = (keyFilter: string) => {
     setFilter(state => {
@@ -77,13 +89,14 @@ const SearchPage = ({ candidates }: PageProps) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  return {
-    fallback: true,
-    paths: [
-      { params: { state: 'sc', city: '80810-chapeco' } },
-      { params: { state: 'sc', city: '81051-florianopolis' } }
-    ]
-  }
+  return { fallback: 'blocking', paths: [] }
+  // return {
+  //   fallback: true,
+  //   paths: [
+  //     { params: { state: 'sc', city: '80810-chapeco' } },
+  //     { params: { state: 'sc', city: '81051-florianopolis' } }
+  //   ]
+  // }
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
@@ -95,8 +108,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       loadCandidates(city, '13')
     ])
     return {
-      props: { candidates: prefeito.concat(vereador) },
-      revalidate: false
+      props: { candidates: prefeito.concat(vereador) }
+      // revalidate: false
     }
   } catch (e) {
     console.log(e)

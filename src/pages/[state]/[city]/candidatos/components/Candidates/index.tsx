@@ -7,14 +7,6 @@ import type { CandidateSimple } from 'types/candidate'
 
 import styles from './styles.module.scss'
 
-const formatSigla = (value: string) => {
-  return value
-    .normalize('NFD')
-    .replace(/\s/g, '')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toUpperCase()
-}
-
 interface CandidatesProps {
   filter: string[]
   candidates: CandidateSimple[]
@@ -33,7 +25,7 @@ const Candidate = (candidate: CandidateSimple) => {
     <Link href={href} className={classNames('card', styles.candidate)}>
       <div className={styles.info}>
         <strong>{candidate.nomeUrna}</strong>
-        <p>{candidate.nomeCompleto.toLocaleLowerCase()}</p>
+        <p>{candidate.nomeCompleto}</p>
       </div>
 
       <div className={styles.code}>
@@ -53,7 +45,7 @@ export const Candidates = ({ filter, candidates }: CandidatesProps) => {
   const candidatesFiltred =
     filter.length === 0
       ? candidates
-      : candidates.filter(c => filter.includes(formatSigla(c.partido.sigla)))
+      : candidates.filter(c => filter.includes(c.partidoSigla))
 
   return (
     <div className={styles.candidates}>

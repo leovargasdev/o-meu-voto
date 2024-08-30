@@ -13,17 +13,10 @@ interface Property {
 
 export interface CandidateSimple {
   nomeCompleto: string
-  ufCandidatura: string
-  localCandidatura: string
-  ufSuperiorCandidatura: string
   id: number
   numero: number
   nomeUrna: string
-  descricaoSituacao: string
-  partido: {
-    sigla: string
-    nome: string
-  }
+  partidoSigla: string
 }
 
 export interface Candidate extends CandidateSimple {
@@ -35,6 +28,7 @@ export interface Candidate extends CandidateSimple {
     nome: string
   }
   nomeMunicipioNascimento: string
+  descricaoSituacao: string
   sgUfNascimento: string
   dataDeNascimento: string
   grauInstrucao: string
@@ -43,4 +37,8 @@ export interface Candidate extends CandidateSimple {
   cnpjcampanha: string
   bens: Property[]
   totalDeBens: number
+  partido: {
+    sigla: string
+    nome: string
+  }
 }

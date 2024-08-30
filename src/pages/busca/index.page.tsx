@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { useState } from 'react'
 import Select from 'react-select'
 import classNames from 'classnames'
@@ -52,8 +53,20 @@ const SearchPage = () => {
   }
 
   const cities = state ? citiesByState[state] : []
+
   return (
     <div className={styles.container}>
+      <Head>
+        <title>
+          Pesquise os pré-candidatos a Prefeito e Vereador - Eleições 2024
+        </title>
+
+        <meta
+          name="description"
+          content="Filtre pelo estado e pela cidade para localizar os pré-candidatos do seu município."
+        />
+      </Head>
+
       <button>
         <img src="/logo.png" width={150} height="auto" />
       </button>
