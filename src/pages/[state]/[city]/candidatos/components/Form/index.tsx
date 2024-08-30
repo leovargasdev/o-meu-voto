@@ -31,7 +31,7 @@ export const SearchForm = () => {
     if (city && state) {
       const roleQuery = role ? `?role=${role}` : ''
       const cityPath = city.value + '-' + maskToParamsURL(city.label)
-      const route = `/${state.value}/cidade/${cityPath}/candidatos` + roleQuery
+      const route = `/${state.value}/${cityPath}/candidatos` + roleQuery
 
       router.push(route)
     }

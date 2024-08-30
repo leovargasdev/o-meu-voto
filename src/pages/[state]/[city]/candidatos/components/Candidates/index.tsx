@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import classNames from 'classnames'
+import { useRouter } from 'next/router'
 
+import { maskToParamsURL } from 'utils/mask'
 import type { CandidateSimple } from 'types/candidate'
 
 import styles from './styles.module.scss'
-import { useRouter } from 'next/router'
 
 const formatSigla = (value: string) => {
   return value
@@ -19,17 +20,17 @@ interface CandidatesProps {
   candidates: CandidateSimple[]
 }
 
-const converString = (str: string) => str.toLocaleLowerCase().replace(/ /g, '-')
-
 const Candidate = (candidate: CandidateSimple) => {
   const { asPath } = useRouter()
+  const baseUrl = asPath.split('/candidatos')[0]
+
   const code = candidate.numero.toString().split('')
-  const name = candidate.nomeUrna && converString(candidate.nomeUrna)
-  const href =
-    asPath.replace('/candidatos', '') + `/candidato/${candidate.id}-${name}`
+  const name = maskToParamsURL(candidate.nomeUrna)
+
+  const href = baseUrl + `/candidato/${candidate.id}-${name}`
 
   return (
-    <Link href={href} className={classNames('card', styles.candidate)} replace>
+    <Link href={href} className={classNames('card', styles.candidate)}>
       <div className={styles.info}>
         <strong>{candidate.nomeUrna}</strong>
         <p>{candidate.nomeCompleto.toLocaleLowerCase()}</p>
