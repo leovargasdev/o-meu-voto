@@ -3,6 +3,12 @@
   flex-direction: row-reverse;
   align-items: flex-start;
   column-gap: 32px;
+
+  @media(max-width: 600px) {
+    flex-direction: column;
+
+    padding: 0 16px;
+  }
 }
 
 .form__and__filter {
@@ -12,6 +18,10 @@
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+
+  @media(max-width: 600px) {
+    display: none;
+  }
 }
 
 .loading {

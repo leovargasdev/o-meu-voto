@@ -2,40 +2,14 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
-import api from 'lib/api'
-import { maskNumber, maskSigla } from 'utils/mask'
-import type { CandidateSimple, Candidate } from 'types/candidate'
+import { serviceGetCandidates } from 'services'
+import type { CandidateSimple } from 'types/candidate'
 
 import { SearchForm } from './components/Form'
 import { SearchFilter } from './components/Filter'
 import { Candidates } from './components/Candidates'
 
 import styles from './styles.module.scss'
-
-const loadCandidates = async (city: string, role: string) => {
-  try {
-    const route = `/listar/2024/${city}/2045202024/${role}/candidatos`
-    const response = await api.get<{ candidatos: Candidate[] }>(route)
-
-    return response.data.candidatos.reduce((acc, candidate) => {
-      if (candidate.descricaoSituacao !== 'Indeferido') {
-        acc.push({
-          nomeCompleto: candidate.nomeCompleto.toLocaleLowerCase(),
-          id: candidate.id,
-          numero: candidate.numero,
-          nomeUrna: candidate.nomeUrna,
-          partidoSigla: maskSigla(candidate.partido.sigla)
-        })
-      }
-
-      return acc
-    }, [] as CandidateSimple[])
-  } catch (err) {
-    console.log(err)
-  }
-
-  return []
-}
 
 interface PageProps {
   candidates: CandidateSimple[]
@@ -113,22 +87,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const city = maskNumber(params?.city as string) as never
+  const candidates = await serviceGetCandidates(params?.city as string)
+  const revalidate = candidates.length === 0 ? 60 : false
 
-  try {
-    const [prefeito, vereador] = await Promise.all([
-      loadCandidates(city, '11'),
-      loadCandidates(city, '13')
-    ])
-    return {
-      revalidate: false,
-      props: { candidates: prefeito.concat(vereador) }
-    }
-  } catch (e) {
-    console.log(e)
-  }
-
-  return { props: { candidates: [] } }
+  return { props: { candidates }, revalidate }
 }
 
 export default SearchPage

@@ -93,9 +93,9 @@ export const Profile = (candidate: Candidate) => {
 
         <p className={styles.description}>
           O candidato(a) está concorrendo ao{' '}
-          <i>cargo de {candidate.cargo.nome.toLocaleLowerCase()}</i> no
-          município de <i>{candidate.localCandidatura.toLocaleLowerCase()}</i>{' '}
-          pelo partido <i>{candidate.partido.sigla}</i>.
+          <i>cargo de {candidate.cargo.nome}</i> no município de{' '}
+          <i>{candidate.localCandidatura}</i> pelo partido{' '}
+          <i>{candidate.partido.sigla}</i>.
         </p>
 
         {proposta && (

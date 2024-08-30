@@ -5,12 +5,19 @@
   z-index: 2;
   overflow: hidden;
 
-  > button {
+  > img {
     position: absolute;
     top: 20px;
     right: 24px;
     z-index: 10;
-    background-color: transparent;
+    
+
+    width: 150px;
+    height: auto;
+
+    @media(max-width: 600px) {
+      width: 95px;
+    }
   }
 }
 
@@ -63,6 +70,13 @@
     cursor: pointer;
     fill: var(--blue);
   }
+
+  @media(max-width: 600px) {
+    svg {
+      width: 110vw;
+      margin-left: 38px;
+    }
+  }
 }
 
 .cities {
@@ -104,6 +118,6 @@
   @media(max-width: 650px) {
     flex-direction: column;
     align-items: center;
-    row-gap: 24px;
+    row-gap: 16px;
   }
 }

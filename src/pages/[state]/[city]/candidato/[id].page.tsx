@@ -1,6 +1,6 @@
-import api from 'lib/api'
 import classNames from 'classnames'
-import { Candidate } from 'types/candidate'
+import type { Candidate } from 'types/candidate'
+import { serviceGetCandidate } from 'services'
 import { Mailbox } from '@phosphor-icons/react'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
@@ -8,8 +8,6 @@ import { Profile } from './components/Profile'
 import { Tags } from './components/Tags'
 import { News } from './components/News'
 import { Properties } from './components/Properties'
-
-import { maskNumber } from 'utils/mask'
 
 import styles from './styles.module.scss'
 
@@ -49,19 +47,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const id = maskNumber(params?.id as string)
-  const city = maskNumber(params?.city as string)
-
-  try {
-    const response = await api.get(
-      `/buscar/2024/${city}/2045202024/candidato/${id}`
-    )
-    return { props: response.data, redirect: false }
-  } catch (e) {
-    console.log(e)
-  }
-
-  return { props: {}, revalidate: 60 }
+  return serviceGetCandidate(params)
 }
 
 export default CandidatePage

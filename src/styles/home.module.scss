@@ -30,4 +30,20 @@
     border-radius: 8px;
     background-color: var(--blue);
   }
+
+  @media(max-width: 600px) {
+    margin-top: 12vh;
+    padding: 0 32px;
+
+    h1 {
+      font-size: 24px;
+    }
+  
+    a {
+      font-size: 18px;
+  
+      padding: 8px 32px;
+      border-radius: 8px;
+    }
+  }
 }

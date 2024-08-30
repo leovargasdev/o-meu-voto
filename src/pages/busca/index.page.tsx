@@ -67,9 +67,7 @@ const SearchPage = () => {
         />
       </Head>
 
-      <button>
-        <img src="/logo.png" width={150} height="auto" />
-      </button>
+      <img src="/logo.png" alt="Logomarca do site meuvoto2024" />
 
       <div
         className={styles.content}

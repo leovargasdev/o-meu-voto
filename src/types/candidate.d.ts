@@ -28,7 +28,7 @@ export interface Candidate extends CandidateSimple {
     nome: string
   }
   nomeMunicipioNascimento: string
-  descricaoSituacao: string
+  descricaoSituacao?: string
   sgUfNascimento: string
   dataDeNascimento: string
   grauInstrucao: string
