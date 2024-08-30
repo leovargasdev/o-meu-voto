@@ -69,7 +69,13 @@ const SearchPage = ({ candidates }: PageProps) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  return { fallback: 'blocking', paths: [] }
+  return {
+    fallback: true,
+    paths: [
+      { params: { state: 'sc', city: '80810-chapeco' } },
+      { params: { state: 'sc', city: '81051-florianopolis' } }
+    ]
+  }
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
