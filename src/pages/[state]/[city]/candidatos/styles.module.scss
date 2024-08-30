@@ -13,3 +13,42 @@
   flex-direction: column;
   row-gap: 32px;
 }
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  inset: 0;
+
+  span {
+    display: block;
+    position: relative;
+  
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      display: block;
+      width: 64px;
+      height: 64px;
+      background: transparent;
+  
+      border-radius: 50%;
+      border: 1px solid transparent;
+      border-left-color: var(--blue);
+  
+      animation: rotation 1s linear infinite;
+      
+      @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+}

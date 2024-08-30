@@ -51,6 +51,14 @@ const SearchPage = ({ candidates }: PageProps) => {
     }
   }, [params])
 
+  if (!candidates) {
+    return (
+      <div className={styles.loading}>
+        <span />
+      </div>
+    )
+  }
+
   return (
     <div className={styles.container}>
       <div className={styles.form__and__filter}>
@@ -92,7 +100,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     console.log(e)
   }
 
-  return { props: {} }
+  return { props: { candidates: [] } }
 }
 
 export default SearchPage
