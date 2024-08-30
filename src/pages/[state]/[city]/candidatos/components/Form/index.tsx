@@ -23,6 +23,7 @@ export const SearchForm = () => {
   const [state, setState] = useState<Option | undefined | null>()
   const [city, setCity] = useState<Option | undefined | null>()
   const [role, setRole] = useState<Option | undefined | null>()
+  const [loading, setLoading] = useState<boolean>(false)
 
   const cities = state ? citiesByState[state.value] : []
 
@@ -35,11 +36,13 @@ export const SearchForm = () => {
       const route = `/${state.value}/${cityPath}/candidatos` + roleQuery
 
       router.push(route)
+      setLoading(true)
     }
   }
 
   useEffect(() => {
     if (params?.state && params?.city) {
+      loading && setLoading(false)
       setState(states.find(s => s.value === query.state))
       const city = maskOnlyNumber(params.city as string)
       setCity(citiesByState[query.state as string].find(c => c.value === city))
@@ -103,7 +106,9 @@ export const SearchForm = () => {
         />
       </fieldset>
 
-      <button type="submit">Buscar</button>
+      <button type="submit" disabled={loading}>
+        Buscar
+      </button>
     </form>
   )
 }

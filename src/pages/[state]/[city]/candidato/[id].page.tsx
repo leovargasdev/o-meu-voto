@@ -1,5 +1,4 @@
 import api from 'lib/api'
-import Head from 'next/head'
 import classNames from 'classnames'
 import { Candidate } from 'types/candidate'
 import { Mailbox } from '@phosphor-icons/react'
@@ -21,10 +20,6 @@ const CandidatePage = (candidate: Candidate) => {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>{candidate.nomeCompleto}</title>
-      </Head>
-
       <Profile {...candidate} />
 
       <div className={classNames('card', styles.content)}>
@@ -61,12 +56,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     const response = await api.get(
       `/buscar/2024/${city}/2045202024/candidato/${id}`
     )
-    return { props: response.data }
+    return { props: response.data, redirect: false }
   } catch (e) {
     console.log(e)
   }
 
-  return { props: {} }
+  return { props: {}, revalidate: 60 }
 }
 
 export default CandidatePage

@@ -18,5 +18,39 @@
     border-radius: 6px;
     color: #fff;
     background-color: var(--blue);
+
+    transition: all 0.4s;
+
+    &:disabled {
+      position: relative;
+      color: transparent;
+      background-color: #007bffa9;
+  
+      &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+    
+        border-radius: 50%;
+        border: 1px solid transparent;
+        border-left-color: #fff;
+    
+        animation: rotation 1s linear infinite;
+        
+        @keyframes rotation {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+    }
+    }
   }
 }

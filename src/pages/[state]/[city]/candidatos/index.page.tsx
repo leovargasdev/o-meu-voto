@@ -45,8 +45,6 @@ const SearchPage = ({ candidates }: PageProps) => {
   const params = useParams()
   const [filter, setFilter] = useState<string[]>([])
 
-  console.log(candidates)
-
   const handleChangeFilter = (keyFilter: string) => {
     setFilter(state => {
       if (state.includes(keyFilter)) {
@@ -89,14 +87,14 @@ const SearchPage = ({ candidates }: PageProps) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  return { fallback: 'blocking', paths: [] }
-  // return {
-  //   fallback: true,
-  //   paths: [
-  //     { params: { state: 'sc', city: '80810-chapeco' } },
-  //     { params: { state: 'sc', city: '81051-florianopolis' } }
-  //   ]
-  // }
+  // return { fallback: 'blocking', paths: [] }
+  return {
+    fallback: true,
+    paths: [
+      { params: { state: 'sc', city: '80810-chapeco' } },
+      { params: { state: 'sc', city: '81051-florianopolis' } }
+    ]
+  }
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
@@ -108,8 +106,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       loadCandidates(city, '13')
     ])
     return {
+      revalidate: false,
       props: { candidates: prefeito.concat(vereador) }
-      // revalidate: false
     }
   } catch (e) {
     console.log(e)
