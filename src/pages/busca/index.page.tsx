@@ -3,7 +3,6 @@ import { useState } from 'react'
 import Select from 'react-select'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
-import { CaretDoubleRight } from '@phosphor-icons/react'
 
 import type { Option } from 'types'
 import { MapBrazil } from 'components'
@@ -31,7 +30,7 @@ const SearchPage = () => {
   const router = useRouter()
   const [question, setQuestion] = useState<number>(0)
   const [state, setState] = useState<string>('')
-  const [city, setCity] = useState<Option | null>()
+  // const [city, setCity] = useState<Option | null>()
 
   const handleQuestionUF = (value: string) => {
     setState(value)
@@ -39,19 +38,24 @@ const SearchPage = () => {
   }
 
   const handleQuestionCity = (option: Option | null) => {
-    setCity(option)
-    setQuestion(2)
+    // setCity(option)
+    if (option) {
+      setQuestion(2)
+
+      const cityPath = option.value + '-' + maskToParamsURL(option.label)
+      router.push(`/${state}/${cityPath}/candidatos`)
+    }
   }
 
-  const handleSearch = (role?: string) => {
-    if (!city) return
+  // const handleSearch = (role?: string) => {
+  //   if (!city) return
 
-    const roleQuery = role ? `?role=${role}` : ''
-    const cityPath = city.value + '-' + maskToParamsURL(city.label)
-    const route = `/${state}/${cityPath}/candidatos` + roleQuery
+  //   const roleQuery = role ? `?role=${role}` : ''
+  //   const cityPath = city.value + '-' + maskToParamsURL(city.label)
+  //   const route = `/${state}/${cityPath}/candidatos` + roleQuery
 
-    router.push(route)
-  }
+  //   router.push(route)
+  // }
 
   const cities = state ? citiesByState[state] : []
 
@@ -91,7 +95,7 @@ const SearchPage = () => {
           </div>
         </Question>
 
-        <Question
+        {/* <Question
           label="Escolha o cargo do pré-candidato"
           enabled={question === 2}
         >
@@ -112,7 +116,7 @@ const SearchPage = () => {
               Pular pergunta <CaretDoubleRight />
             </button>
           </div>
-        </Question>
+        </Question> */}
       </div>
     </div>
   )

@@ -10,11 +10,11 @@ import { maskOnlyNumber, maskToParamsURL } from 'utils/mask'
 
 import styles from './styles.module.scss'
 
-const roles = [
-  { value: '11', label: 'Prefeito' },
-  { value: '12', label: 'Vice-prefeito' },
-  { value: '13', label: 'Vereador' }
-]
+// const roles = [
+//   { value: '11', label: 'Prefeito' },
+//   { value: '12', label: 'Vice-prefeito' },
+//   { value: '13', label: 'Vereador' }
+// ]
 
 export const SearchForm = () => {
   const params = useParams()
@@ -22,7 +22,7 @@ export const SearchForm = () => {
 
   const [state, setState] = useState<Option | undefined | null>()
   const [city, setCity] = useState<Option | undefined | null>()
-  const [role, setRole] = useState<Option | undefined | null>()
+  // const [role, setRole] = useState<Option | undefined | null>()
   const [loading, setLoading] = useState<boolean>(false)
 
   const cities = state ? citiesByState[state.value] : []
@@ -31,9 +31,9 @@ export const SearchForm = () => {
     event.preventDefault()
 
     if (city && state) {
-      const roleQuery = role ? `?role=${role}` : ''
+      // const roleQuery = role ? `?role=${role}` : ''
       const cityPath = city.value + '-' + maskToParamsURL(city.label)
-      const route = `/${state.value}/${cityPath}/candidatos` + roleQuery
+      const route = `/${state.value}/${cityPath}/candidatos`
 
       router.push(route)
       setLoading(true)
@@ -95,7 +95,7 @@ export const SearchForm = () => {
         />
       </fieldset>
 
-      <fieldset>
+      {/* <fieldset>
         <label>Cargo</label>
         <Select
           value={role}
@@ -104,7 +104,7 @@ export const SearchForm = () => {
           defaultValue={role}
           options={roles}
         />
-      </fieldset>
+      </fieldset> */}
 
       <button type="submit" disabled={loading}>
         Buscar
