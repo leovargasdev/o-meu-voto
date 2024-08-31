@@ -4,7 +4,9 @@ import styles from './styles.module.scss'
 export const SearchFilter = () => {
   const { candidates, filter, handleChangeFilter } = useCandidates()
 
-  const partidos = candidates.reduce((acc, item) => {
+  const data = candidates.mayor.concat(candidates.councilor)
+
+  const partidos = data.reduce((acc, item) => {
     const key = item.partidoSigla
     acc[key] = acc[key] ? acc[key] + 1 : 1
 

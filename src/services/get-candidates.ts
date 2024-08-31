@@ -2,12 +2,20 @@ import api from 'lib/api'
 import { Candidate, CandidateSimple } from 'types'
 import { maskOnlyNumber, maskSigla } from 'utils/mask'
 
-const loadCandidates = async (city: string, role: string) => {
-  try {
-    const route = `/listar/2024/${city}/2045202024/${role}/candidatos`
-    const response = await api.get<{ candidatos: Candidate[] }>(route)
+interface Response {
+  candidatos: Candidate[]
+  unidadeEleitoral: {
+    nome: string
+    sigla: string
+  }
+}
 
-    return response.data.candidatos.reduce((acc, candidate) => {
+const loadCandidates = async (cityId: string, role: string) => {
+  try {
+    const route = `/listar/2024/${cityId}/2045202024/${role}/candidatos`
+    const { data } = await api.get<Response>(route)
+
+    const candidates = data.candidatos.reduce((acc, candidate) => {
       if (candidate.descricaoSituacao !== 'Indeferido') {
         acc.push({
           nomeCompleto: candidate.nomeCompleto.toLocaleLowerCase(),
@@ -20,26 +28,39 @@ const loadCandidates = async (city: string, role: string) => {
 
       return acc
     }, [] as CandidateSimple[])
+
+    const { nome, sigla } = data.unidadeEleitoral
+    const city = `${nome.toLocaleLowerCase()} (${sigla})`
+
+    return { candidates, city }
   } catch (err) {
     console.log(err)
   }
 
-  return []
+  return { candidates: [], city: '' }
 }
 
 export const serviceGetCandidates = async (city: string) => {
   try {
     const cityId = maskOnlyNumber(city)
 
-    const [prefeito, vereador] = await Promise.all([
+    const [mayor, councilor] = await Promise.all([
       loadCandidates(cityId, '11'),
       loadCandidates(cityId, '13')
     ])
 
-    return prefeito.concat(vereador)
+    return {
+      city: mayor.city,
+      mayor: mayor.candidates,
+      councilor: councilor.candidates
+    }
   } catch (e) {
     console.log(e)
   }
 
-  return []
+  return {
+    city: '',
+    mayor: [],
+    councilor: []
+  }
 }

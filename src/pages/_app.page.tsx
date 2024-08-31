@@ -1,4 +1,3 @@
-import { Layout } from 'components'
 import { queryClient } from 'lib/react-query'
 import { QueryClientProvider } from '@tanstack/react-query'
 
@@ -8,9 +7,7 @@ import 'styles/globals.scss'
 function MyApp({ Component, pageProps }: any) {
   return (
     <QueryClientProvider client={queryClient}>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <Component {...pageProps} />
     </QueryClientProvider>
   )
 }

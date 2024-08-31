@@ -1,37 +1,33 @@
 import Link from 'next/link'
 import styles from './styles.module.scss'
 import { useRouter } from 'next/router'
+import { Footer } from 'components'
 
 interface LayoutProps {
+  title?: string | React.ReactNode
   children: React.ReactNode
 }
 
-export const Layout = ({ children }: LayoutProps) => {
+export const Layout = ({ children, title = '' }: LayoutProps) => {
   const router = useRouter()
 
   return (
     <div className={styles.container}>
       {router.pathname !== '/' && (
         <header className={styles.header}>
-          <nav>
+          <div>
             <Link href="/">
               <img src="/logo.png" />
             </Link>
-          </nav>
+
+            {title && <h1>{title}</h1>}
+          </div>
         </header>
       )}
-      <main>{children}</main>
-      <footer>
-        <p>
-          Fonte dos dados
-          <br />
-          <a>TSE - Divulgação de Candidaturas e Contas Eleitorais</a>
-        </p>
 
-        <p>
-          Desenvolvido por <a>Leo Vargas</a>
-        </p>
-      </footer>
+      <main>{children}</main>
+
+      <Footer />
     </div>
   )
 }

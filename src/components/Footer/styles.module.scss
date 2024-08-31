@@ -1,0 +1,22 @@
+.container {
+  margin-top: auto;
+  padding: 32px 0 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 13px;
+
+  width: 100%;
+  max-width: 1366px;
+
+  p a {
+    color: var(--blue);
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

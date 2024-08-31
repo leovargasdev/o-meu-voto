@@ -34,7 +34,9 @@ const Candidate = (candidate: CandidateSimple) => {
 }
 
 export const Candidates = () => {
-  const { candidates, filter } = useCandidates()
+  const { candidates: data, filter } = useCandidates()
+
+  const candidates = data.mayor.concat(data.councilor)
 
   if (candidates.length === 0) {
     return <></>

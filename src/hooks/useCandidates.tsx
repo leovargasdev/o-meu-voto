@@ -4,11 +4,17 @@ import { createContext, useContext, useEffect, useState } from 'react'
 export interface CandidatesContextData {
   filter: string[]
   handleChangeFilter: (value: string) => void
-  candidates: CandidateSimple[]
+  candidates: {
+    mayor: CandidateSimple[]
+    councilor: CandidateSimple[]
+  }
 }
 
 interface CandidatesProviderProps {
-  candidates: CandidateSimple[]
+  candidates: {
+    mayor: CandidateSimple[]
+    councilor: CandidateSimple[]
+  }
   children: React.ReactNode
 }
 

@@ -1,42 +1,27 @@
-import { useEffect, useState } from 'react'
-import { useParams } from 'next/navigation'
+import Head from 'next/head'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
+import { CandidatesProvider } from 'hooks'
 import { serviceGetCandidates } from 'services'
 import type { CandidateSimple } from 'types/candidate'
 
+import { Layout } from 'components'
 import { SearchForm } from './components/Form'
 import { SearchFilter } from './components/Filter'
-import { Candidates } from './components/Candidates'
 
 import styles from './styles.module.scss'
-import { CandidatesProvider } from 'hooks'
+import { useRouter } from 'next/router'
+import { Candidates } from './components/Candidates'
 
 interface PageProps {
-  candidates: CandidateSimple[]
+  city: string
+  mayor: CandidateSimple[]
+  councilor: CandidateSimple[]
 }
 
-const SearchPage = ({ candidates }: PageProps) => {
-  const params = useParams()
-  const [filter, setFilter] = useState<string[]>([])
-
-  const handleChangeFilter = (keyFilter: string) => {
-    setFilter(state => {
-      if (state.includes(keyFilter)) {
-        return state.filter(s => s !== keyFilter)
-      }
-
-      return [...state, keyFilter]
-    })
-  }
-
-  useEffect(() => {
-    if (filter.length > 0) {
-      setFilter([])
-    }
-  }, [params])
-
-  if (!candidates) {
+const CandidatesPage = ({ mayor, councilor, city }: PageProps) => {
+  const router = useRouter()
+  if (!mayor || mayor.length === 0) {
     return (
       <div className={styles.loading}>
         <span />
@@ -45,15 +30,39 @@ const SearchPage = ({ candidates }: PageProps) => {
   }
 
   return (
-    <CandidatesProvider candidates={candidates}>
-      <div className={styles.container}>
-        <div className={styles.form__and__filter}>
-          <SearchForm />
-          <SearchFilter />
-        </div>
+    <CandidatesProvider candidates={{ mayor, councilor }}>
+      <Layout
+        title={
+          <>
+            Eleições 2024 em <span>{city}</span>
+          </>
+        }
+      >
+        <Head>
+          <title>Eleições 2024 em {city} - Confira a lista de candidatos</title>
 
-        <Candidates />
-      </div>
+          <meta
+            name="description"
+            content={`Veja a lista completa com nomes, partidos e números de urna dos candidatos a prefeito e vereador em ${city} nas eleições municipais de 2024.`}
+          />
+
+          <link
+            rel="canonical"
+            href={'https://omeuvoto.com.br' + router.asPath}
+          />
+        </Head>
+        {/* <h2>Candidatos a prefeito</h2>
+        <h2>Candidatos a vereador</h2> */}
+
+        <div className={styles.container}>
+          <div className={styles.form__and__filter}>
+            <SearchForm />
+            <SearchFilter />
+          </div>
+
+          <Candidates />
+        </div>
+      </Layout>
     </CandidatesProvider>
   )
 }
@@ -85,10 +94,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const candidates = await serviceGetCandidates(params?.city as string)
-  const revalidate = candidates.length === 0 ? 60 : false
+  const data = await serviceGetCandidates(params?.city as string)
+  const revalidate = data.mayor.length === 0 ? 60 : false
 
-  return { props: { candidates }, revalidate }
+  return { props: data, revalidate }
 }
 
-export default SearchPage
+export default CandidatesPage

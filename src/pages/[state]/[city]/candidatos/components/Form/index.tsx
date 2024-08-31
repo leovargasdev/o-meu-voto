@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import { Option } from 'types'
 import Select from 'react-select'
 import { useRouter } from 'next/router'
@@ -57,23 +56,6 @@ export const SearchForm = () => {
 
   return (
     <form className={styles.form} onSubmit={handleSearchCandidates}>
-      <Head>
-        <title>
-          Lista de Candidatos a Prefeito e Vereador em {city?.label} - Eleições
-          2024
-        </title>
-
-        <meta
-          name="description"
-          content={`Confira a lista completa dos candidatos a prefeito e vereador na cidade ${city?.label} do estado de ${state?.label} para as eleições de 2024. Informações atualizadas e completas.`}
-        />
-
-        <link
-          rel="canonical"
-          href={'https://omeuvoto.com.br' + router.asPath}
-        />
-      </Head>
-
       <fieldset>
         <label>Estado</label>
         <Select

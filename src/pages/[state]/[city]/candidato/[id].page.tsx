@@ -4,6 +4,7 @@ import { serviceGetCandidate } from 'services'
 import { Mailbox } from '@phosphor-icons/react'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
+import { Layout } from 'components'
 import { Profile } from './components/Profile'
 import { Tags } from './components/Tags'
 import { News } from './components/News'
@@ -17,28 +18,30 @@ const CandidatePage = (candidate: Candidate) => {
   }
 
   return (
-    <div className={styles.container}>
-      <Profile {...candidate} />
+    <Layout>
+      <div className={styles.container}>
+        <Profile {...candidate} />
 
-      <div className={classNames('card', styles.content)}>
-        <Tags {...candidate} />
+        <div className={classNames('card', styles.content)}>
+          <Tags {...candidate} />
 
-        {candidate.emails && (
-          <div>
-            <h2>
-              <Mailbox />
-              Emails para contato
-            </h2>
+          {candidate.emails && (
+            <div>
+              <h2>
+                <Mailbox />
+                Emails para contato
+              </h2>
 
-            <p>{candidate.emails.join(', ')}</p>
-          </div>
-        )}
+              <p>{candidate.emails.join(', ')}</p>
+            </div>
+          )}
 
-        <News {...candidate} />
+          <News {...candidate} />
 
-        <Properties {...candidate} />
+          <Properties {...candidate} />
+        </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 
