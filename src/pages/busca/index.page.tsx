@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Select from 'react-select'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
+import { CaretDoubleRight } from '@phosphor-icons/react'
 
 import type { Option } from 'types'
 import { MapBrazil } from 'components'
@@ -95,14 +96,20 @@ const SearchPage = () => {
           enabled={question === 2}
         >
           <div className={styles.roles}>
-            <button type="button" onClick={() => handleSearch('11')}>
-              Prefeito
-            </button>
-            <button type="button" onClick={() => handleSearch('12')}>
-              Vice-prefeito
-            </button>
-            <button type="button" onClick={() => handleSearch('13')}>
-              Vereador
+            <div className={styles.buttons}>
+              <button type="button" onClick={() => handleSearch('11')}>
+                Prefeito
+              </button>
+              <button type="button" onClick={() => handleSearch('12')}>
+                Vice-prefeito
+              </button>
+              <button type="button" onClick={() => handleSearch('13')}>
+                Vereador
+              </button>
+            </div>
+
+            <button type="button" onClick={() => handleSearch()}>
+              Pular pergunta <CaretDoubleRight />
             </button>
           </div>
         </Question>

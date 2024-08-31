@@ -90,13 +90,31 @@
 
 .roles {
   display: flex;
-  column-gap: 32px;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
 
   button {
     font-size: 1.25rem;
     font-weight: 500;
     letter-spacing: -0.03em;
+  }
 
+  > button {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+
+    color: var(--blue);
+    background: transparent;
+  }
+}
+
+.buttons {
+  display: flex;
+  column-gap: 32px;
+
+  button {
     width: 250px;
 
     padding: 0.5em 0;

@@ -10,6 +10,7 @@ import { SearchFilter } from './components/Filter'
 import { Candidates } from './components/Candidates'
 
 import styles from './styles.module.scss'
+import { CandidatesProvider } from 'hooks'
 
 interface PageProps {
   candidates: CandidateSimple[]
@@ -44,19 +45,16 @@ const SearchPage = ({ candidates }: PageProps) => {
   }
 
   return (
-    <div className={styles.container}>
-      <div className={styles.form__and__filter}>
-        <SearchForm />
+    <CandidatesProvider candidates={candidates}>
+      <div className={styles.container}>
+        <div className={styles.form__and__filter}>
+          <SearchForm />
+          <SearchFilter />
+        </div>
 
-        <SearchFilter
-          candidates={candidates}
-          setFilter={handleChangeFilter}
-          filter={filter}
-        />
+        <Candidates />
       </div>
-
-      <Candidates candidates={candidates} filter={filter} />
-    </div>
+    </CandidatesProvider>
   )
 }
 

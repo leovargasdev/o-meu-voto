@@ -1,17 +1,9 @@
+import { useCandidates } from 'hooks'
 import styles from './styles.module.scss'
-import type { CandidateSimple } from 'types/candidate'
 
-interface SearchFilterProps {
-  candidates: CandidateSimple[]
-  filter: string[]
-  setFilter: (key: string) => void
-}
+export const SearchFilter = () => {
+  const { candidates, filter, handleChangeFilter } = useCandidates()
 
-export const SearchFilter = ({
-  filter,
-  setFilter,
-  candidates
-}: SearchFilterProps) => {
   const partidos = candidates.reduce((acc, item) => {
     const key = item.partidoSigla
     acc[key] = acc[key] ? acc[key] + 1 : 1
@@ -25,8 +17,8 @@ export const SearchFilter = ({
         <button
           type="button"
           key={partido}
+          onClick={() => handleChangeFilter(partido)}
           aria-pressed={filter.includes(partido) || filter.length === 0}
-          onClick={() => setFilter(partido)}
         >
           <img
             loading="lazy"

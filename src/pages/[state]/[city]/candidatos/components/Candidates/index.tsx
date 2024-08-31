@@ -2,15 +2,11 @@ import Link from 'next/link'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
 
+import { useCandidates } from 'hooks'
 import { maskToParamsURL } from 'utils/mask'
 import type { CandidateSimple } from 'types/candidate'
 
 import styles from './styles.module.scss'
-
-interface CandidatesProps {
-  filter: string[]
-  candidates: CandidateSimple[]
-}
 
 const Candidate = (candidate: CandidateSimple) => {
   const { asPath } = useRouter()
@@ -37,7 +33,9 @@ const Candidate = (candidate: CandidateSimple) => {
   )
 }
 
-export const Candidates = ({ filter, candidates }: CandidatesProps) => {
+export const Candidates = () => {
+  const { candidates, filter } = useCandidates()
+
   if (candidates.length === 0) {
     return <></>
   }

@@ -5,8 +5,10 @@
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 
-  &:hover a:not(:hover) {
-    filter: grayscale(0.45) opacity(0.65);
+  @media(min-width: 1079px) {
+    &:hover a:not(:hover) {
+      filter: grayscale(0.45) opacity(0.65);
+    }
   }
 
   @media(max-width: 600px) {

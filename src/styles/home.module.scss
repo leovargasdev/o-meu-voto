@@ -29,6 +29,12 @@
     padding: 8px 32px;
     border-radius: 8px;
     background-color: var(--blue);
+
+    transition: all 0.4s;
+
+    &:hover {
+      filter: brightness(0.92);
+    }
   }
 
   @media(max-width: 600px) {
