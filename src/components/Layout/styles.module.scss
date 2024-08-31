@@ -35,9 +35,13 @@
       }
     }
 
-    img {
-      height: 50px;
-      width: auto;
+    a {
+      margin: 0 auto;
+
+      img {
+        height: 50px;
+        width: auto;
+      }
     }
 
     @media(max-width: 650px) {

@@ -1,4 +1,35 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+
+  a, span {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+
+    font-size: 14px;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+  }
+
+  a {
+    color: var(--blue);
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+
+.content {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -11,7 +42,7 @@
   }
 }
 
-.content {
+.info {
   flex: 1;
   display: flex;
   flex-direction: column;
