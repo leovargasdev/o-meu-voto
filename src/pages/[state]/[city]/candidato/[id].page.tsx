@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import classNames from 'classnames'
+import { useRouter } from 'next/router'
 import type { Candidate } from 'types/candidate'
 import { serviceGetCandidate } from 'services'
 import {
@@ -16,8 +18,6 @@ import { News } from './components/News'
 import { Properties } from './components/Properties'
 
 import styles from './styles.module.scss'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
 
 const CandidatePage = (candidate: Candidate) => {
   const router = useRouter()
@@ -39,14 +39,18 @@ const CandidatePage = (candidate: Candidate) => {
           {/* router.goback() ??? */}
           <Link href={hostCity + '/candidatos'}>
             <City size={17} />
-            Candidatos de {candidate.localCandidatura}
+            <p>
+              <span>{candidate.localCandidatura}</span>
+            </p>
           </Link>
 
           <CaretRight size={12} />
 
           <span>
             <IdentificationCard size={17} />
-            Candidato(a) {candidate.nomeUrna.toLocaleLowerCase()}
+            <p>
+              Candidato(a) <span>{candidate.nomeUrna.toLocaleLowerCase()}</span>
+            </p>
           </span>
         </div>
 

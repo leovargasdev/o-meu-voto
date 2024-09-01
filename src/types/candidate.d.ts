@@ -24,6 +24,7 @@ export interface Candidate extends CandidateSimple {
   sites: string[]
   fotoUrl: string
   localCandidatura: string
+  ufSuperiorCandidatura: string
   cargo: {
     nome: string
   }

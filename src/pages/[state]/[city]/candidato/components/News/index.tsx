@@ -16,7 +16,7 @@ export const News = (candidate: Candidate) => {
       rel="noreferrer"
       className={styles.googlenews}
     >
-      <img src="/google-news.png" />
+      <img src="/google-news.png" alt="Logomarca google news" />
       Google News - Veja notícias sobre o candidato
     </a>
   )

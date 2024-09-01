@@ -72,8 +72,8 @@ export const Profile = (candidate: Candidate) => {
       <picture className={styles.cover}>
         <img
           loading="lazy"
-          src="https://www.eccobandeiras.com.br/image/cache/catalog/antigas/Santa-Catarina-1111x740.jpg"
-          alt=""
+          src={`/flags/flag-${candidate.ufSuperiorCandidatura}.jpg`}
+          alt={`Bandeira do estado de ${candidate.ufSuperiorCandidatura}`}
         />
       </picture>
 
@@ -84,8 +84,8 @@ export const Profile = (candidate: Candidate) => {
         />
 
         <div className={styles.code}>
-          {code.map(item => (
-            <span key={item}>{item}</span>
+          {code.map((item, index) => (
+            <span key={index}>{item}</span>
           ))}
         </div>
 

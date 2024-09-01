@@ -35,6 +35,7 @@ export const serviceGetCandidate = async (
       ocupacao: data.ocupacao.toLocaleLowerCase(),
       emails: data.emails,
       totalDeBens: data.totalDeBens,
+      ufSuperiorCandidatura: data.ufSuperiorCandidatura.toLocaleLowerCase(),
       bens: data.bens
     }
 

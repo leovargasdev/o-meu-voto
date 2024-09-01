@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 20px;
 }
 
 .breadcrumb {
@@ -9,14 +9,19 @@
   align-items: center;
   column-gap: 12px;
 
-  a, span {
+  margin-top: -4px;
+
+  a, > span {
     display: flex;
     align-items: center;
     column-gap: 4px;
 
     font-size: 14px;
     letter-spacing: -0.3px;
-    text-transform: capitalize;
+
+    p span {
+      text-transform: capitalize;
+    }
   }
 
   a {
@@ -25,6 +30,16 @@
     &:hover {
       cursor: pointer;
       text-decoration: underline;
+    }
+  }
+
+  @media(max-width: 600px) {
+    gap: 6px;
+    flex-wrap: wrap;
+    padding: 0 8px 0 16px;
+
+    a, > span {
+      font-size: 12px;
     }
   }
 }

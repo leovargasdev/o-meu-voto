@@ -35,10 +35,6 @@ h1, h2, h3, h4, h5, h6, b, strong {
   color: var(--text);
 }
 
-p, span, li, td, th {
-  color: var(--text-secondary);
-}
-
 button {
   border: 0;
   transition: all 0.4s;

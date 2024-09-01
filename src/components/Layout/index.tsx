@@ -17,7 +17,7 @@ export const Layout = ({ children, title = '' }: LayoutProps) => {
         <header className={styles.header}>
           <div>
             <Link href="/">
-              <img src="/logo.png" />
+              <img src="/logo.png" alt="Logomarca meu voto 2024" />
             </Link>
 
             {title && <h1>{title}</h1>}

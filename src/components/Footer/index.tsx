@@ -5,11 +5,24 @@ export const Footer = () => (
     <p>
       Fonte dos dados
       <br />
-      <a>TSE - Divulgação de Candidaturas e Contas Eleitorais</a>
+      <a
+        href="https://divulgacandcontas.tse.jus.br/divulga/#/home"
+        target="_blank"
+        rel="noreferrer"
+      >
+        TSE - Divulgação de Candidaturas e Contas Eleitorais
+      </a>
     </p>
 
     <p>
-      Desenvolvido por <a>Leonardo Vargas</a>
+      Desenvolvido por{' '}
+      <a
+        href="https://www.linkedin.com/in/leonardo-luis-de-vargas/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Leonardo Vargas
+      </a>
     </p>
   </footer>
 )
