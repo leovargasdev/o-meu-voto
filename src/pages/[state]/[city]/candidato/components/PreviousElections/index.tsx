@@ -21,7 +21,7 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
         <div className={styles.list}>
           {data.map(item => (
             <div key={item.id} className={styles.item}>
-              <img src="/icons/PT.png" alt="" />
+              {/* <img src="/icons/PT.png" alt="" /> */}
 
               <div>
                 <strong>
