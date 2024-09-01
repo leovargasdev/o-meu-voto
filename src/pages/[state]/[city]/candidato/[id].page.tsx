@@ -3,19 +3,15 @@ import classNames from 'classnames'
 import { useRouter } from 'next/router'
 import type { Candidate } from 'types/candidate'
 import { serviceGetCandidate } from 'services'
-import {
-  CaretRight,
-  City,
-  IdentificationCard,
-  Mailbox
-} from '@phosphor-icons/react'
 import { GetStaticPaths, GetStaticProps } from 'next'
+import { CaretRight, City, IdentificationCard } from '@phosphor-icons/react'
 
 import { Layout } from 'components'
 import { Profile } from './components/Profile'
 import { Tags } from './components/Tags'
 import { News } from './components/News'
 import { Properties } from './components/Properties'
+import { PreviousElections } from './components/PreviousElections'
 
 import styles from './styles.module.scss'
 
@@ -57,23 +53,25 @@ const CandidatePage = (candidate: Candidate) => {
         <div className={styles.content}>
           <Profile {...candidate} />
 
-          <div className={classNames('card', styles.info)}>
-            <Tags {...candidate} />
+          <div className={styles.cards}>
+            <div className={classNames('card', styles.info)}>
+              <Tags {...candidate} />
+              <News {...candidate} />
+              {/* {candidate.emails && (
+                <div>
+                  <h2>
+                    <Mailbox />
+                    Emails para contato
+                  </h2>
 
-            {candidate.emails && (
-              <div>
-                <h2>
-                  <Mailbox />
-                  Emails para contato
-                </h2>
-
-                <p>{candidate.emails.join(', ')}</p>
-              </div>
-            )}
-
-            <News {...candidate} />
+                  <p>{candidate.emails.join(', ')}</p>
+                </div>
+              )} */}
+            </div>
 
             <Properties {...candidate} />
+
+            <PreviousElections {...candidate} />
           </div>
         </div>
       </div>

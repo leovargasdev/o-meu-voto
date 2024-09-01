@@ -19,6 +19,14 @@ export interface CandidateSimple {
   partidoSigla: string
 }
 
+interface PreviousElection {
+  id: string
+  cargo: string
+  nrAno: string
+  local: string
+  situacaoTotalizacao: string
+}
+
 export interface Candidate extends CandidateSimple {
   arquivos: File[]
   sites: string[]
@@ -42,4 +50,5 @@ export interface Candidate extends CandidateSimple {
     sigla: string
     nome: string
   }
+  eleicoesAnteriores: PreviousElection[]
 }

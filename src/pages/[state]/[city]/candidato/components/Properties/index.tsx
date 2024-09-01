@@ -12,19 +12,21 @@ import type { Candidate } from 'types/candidate'
 
 import styles from './styles.module.scss'
 
-export const Properties = (candidate: Candidate) => {
-  const convertFloatToCurrency = (currency: string | number) => {
-    const value = Number(currency)
+const convertFloatToCurrency = (currency: string | number) => {
+  const value = Number(currency)
 
-    if (!value) {
-      return '-'
-    }
-
-    return new Intl.NumberFormat('pt-BR', {
-      currency: 'BRL',
-      style: 'currency'
-    }).format(value)
+  if (!value) {
+    return ''
   }
+
+  return new Intl.NumberFormat('pt-BR', {
+    currency: 'BRL',
+    style: 'currency'
+  }).format(value)
+}
+
+export const Properties = (candidate: Candidate) => {
+  const total = convertFloatToCurrency(candidate.totalDeBens)
 
   const getIconProperty = (type: string) => {
     if (type.includes('automóvel')) {
@@ -63,28 +65,33 @@ export const Properties = (candidate: Candidate) => {
   }
 
   return (
-    <div>
+    <div className="card">
       <h2>
         <Receipt />
-        Patrimônio declarado - {convertFloatToCurrency(candidate.totalDeBens)}
+        Patrimônio declarado
+        {total && <span className={styles.total}>{total}</span>}
       </h2>
 
-      <div className={styles.properties}>
-        {candidate.bens.map(item => (
-          <div
-            key={item.ordem}
-            className={styles.property}
-            title={item.descricao}
-          >
-            <span>{getIconProperty(item.descricaoDeTipoDeBem)}</span>
+      {!total ? (
+        <p className={styles.empty}>Não há dados registrados!</p>
+      ) : (
+        <div className={styles.properties}>
+          {candidate.bens.map(item => (
+            <div
+              key={item.ordem}
+              className={styles.property}
+              title={item.descricao}
+            >
+              <span>{getIconProperty(item.descricaoDeTipoDeBem)}</span>
 
-            <div>
-              <strong>{formatDescription(item.descricao)}</strong>
-              <span>{convertFloatToCurrency(item.valor)}</span>
+              <div>
+                <strong>{formatDescription(item.descricao)}</strong>
+                <span>{convertFloatToCurrency(item.valor)}</span>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   )
 }

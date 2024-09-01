@@ -36,7 +36,8 @@ export const serviceGetCandidate = async (
       emails: data.emails,
       totalDeBens: data.totalDeBens,
       ufSuperiorCandidatura: data.ufSuperiorCandidatura.toLocaleLowerCase(),
-      bens: data.bens
+      bens: data.bens,
+      eleicoesAnteriores: data.eleicoesAnteriores
     }
 
     return { props: candidate, revalidate: false }
