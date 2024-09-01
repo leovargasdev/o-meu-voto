@@ -65,11 +65,27 @@ const SearchPage = () => {
         <title>
           Pesquise os pré-candidatos a Prefeito e Vereador - Eleições 2024
         </title>
-
         <meta
           name="description"
           content="Filtre pelo estado e pela cidade para localizar os pré-candidatos do seu município."
         />
+        <meta
+          property="twitter:title"
+          content="Pesquise os pré-candidatos a Prefeito e Vereador - Eleições 2024"
+        />
+        <meta
+          property="twitter:description"
+          content="Filtre pelo estado e pela cidade para localizar os pré-candidatos do seu município."
+        />
+        <meta
+          property="og:title"
+          content="Pesquise os pré-candidatos a Prefeito e Vereador - Eleições 2024"
+        />
+        <meta
+          property="og:description"
+          content="Filtre pelo estado e pela cidade para localizar os pré-candidatos do seu município."
+        />
+        <meta property="og:url" content="https://www.omeuvoto.com.br/busca" />
       </Head>
 
       <img src="/logo.png" alt="Logomarca do site meuvoto2024" />

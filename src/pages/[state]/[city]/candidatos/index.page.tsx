@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
 import { CandidatesProvider } from 'hooks'
@@ -8,10 +9,9 @@ import type { CandidateSimple } from 'types/candidate'
 import { Layout } from 'components'
 import { SearchForm } from './components/Form'
 import { SearchFilter } from './components/Filter'
+import { Candidates } from './components/Candidates'
 
 import styles from './styles.module.scss'
-import { useRouter } from 'next/router'
-import { Candidates } from './components/Candidates'
 
 interface PageProps {
   city: string
@@ -45,12 +45,32 @@ const CandidatesPage = ({ mayor, councilor, city }: PageProps) => {
             name="description"
             content={`Veja a lista completa com nomes, partidos e números de urna dos candidatos a prefeito e vereador em ${city} nas eleições municipais de 2024.`}
           />
-
           <link
             rel="canonical"
             href={'https://omeuvoto.com.br' + router.asPath}
           />
+          <meta
+            property="twitter:title"
+            content={`Eleições 2024 em ${city} - Confira a lista de candidatos`}
+          />
+          <meta
+            property="twitter:description"
+            content={`Veja a lista completa com nomes, partidos e números de urna dos candidatos a prefeito e vereador em ${city} nas eleições municipais de 2024.`}
+          />
+          <meta
+            property="og:title"
+            content={`Eleições 2024 em ${city} - Confira a lista de candidatos`}
+          />
+          <meta
+            property="og:description"
+            content={`Veja a lista completa com nomes, partidos e números de urna dos candidatos a prefeito e vereador em ${city} nas eleições municipais de 2024.`}
+          />
+          <meta
+            property="og:url"
+            content={'https://omeuvoto.com.br' + router.asPath}
+          />
         </Head>
+
         {/* <h2>Candidatos a prefeito</h2>
         <h2>Candidatos a vereador</h2> */}
 

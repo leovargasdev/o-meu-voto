@@ -11,11 +11,22 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/favicon.png" />
 
           <meta charSet="utf-8" />
-          <meta property="og:type" content="website" />
+          <meta property="og:type" content="article" />
           <meta property="og:locale" content="pt_BR" />
           <meta property="og:site_name" content="Meu Voto | Eleições 2024" />
           <meta name="author" content="Leonardo Luis de Vargas" />
           <meta name="robots" content="index, follow" />
+
+          <meta
+            property="og:image"
+            content="https://omeuvoto.com.br/cover-seo.png"
+          />
+          <meta property="og:image:width" content="1200" />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta
+            property="twitter:image"
+            content="https://omeuvoto.com.br/cover-seo.png"
+          />
 
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"

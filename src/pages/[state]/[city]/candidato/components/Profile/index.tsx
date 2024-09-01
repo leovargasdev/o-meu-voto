@@ -65,7 +65,27 @@ export const Profile = (candidate: Candidate) => {
             candidate.partido.sigla
           }`}
         />
-
+        <meta
+          property="twitter:title"
+          content={`Candidato(a) ${candidate.nomeUrna} - Eleições 2024`}
+        />
+        <meta
+          property="twitter:description"
+          content={`O candidato(a) está concorrendo ao cargo de ${candidate.cargo.nome.toLocaleLowerCase()} no município de ${candidate.localCandidatura.toLocaleLowerCase()} pelo partido ${
+            candidate.partido.sigla
+          }`}
+        />
+        <meta
+          property="og:title"
+          content={`Candidato(a) ${candidate.nomeUrna} - Eleições 2024`}
+        />
+        <meta
+          property="og:description"
+          content={`O candidato(a) está concorrendo ao cargo de ${candidate.cargo.nome.toLocaleLowerCase()} no município de ${candidate.localCandidatura.toLocaleLowerCase()} pelo partido ${
+            candidate.partido.sigla
+          }`}
+        />
+        <meta property="og:url" content={'https://omeuvoto.com.br' + asPath} />
         <link rel="canonical" href={'https://omeuvoto.com.br' + asPath} />
       </Head>
 
