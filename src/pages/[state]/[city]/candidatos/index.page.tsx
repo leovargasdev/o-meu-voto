@@ -100,6 +100,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
       { params: { state: 'rs', city: '88013-porto-alegre' } },
       { params: { state: 'rs', city: '85995-caxias-do-sul' } },
       { params: { state: 'rs', city: '87718-novo-hamburgo' } },
+      { params: { state: 'rs', city: '88412-santa-maria' } },
+      { params: { state: 'rs', city: '87912-pelotas' } },
+      { params: { state: 'rs', city: '89630-viamao' } },
       { params: { state: 'pr', city: '75353-curitiba' } },
       { params: { state: 'pr', city: '76910-maringa' } },
       { params: { state: 'pr', city: '77771-ponta-grossa' } },
@@ -108,7 +111,19 @@ export const getStaticPaths: GetStaticPaths = async () => {
       { params: { state: 'sp', city: '71072-sao-paulo' } },
       { params: { state: 'sp', city: '64777-guarulhos' } },
       { params: { state: 'sp', city: '67890-osasco' } },
-      { params: { state: 'sp', city: '71455-sorocaba' } }
+      { params: { state: 'sp', city: '71455-sorocaba' } },
+      { params: { state: 'ms', city: '90514-campo-grande' } },
+      { params: { state: 'ms', city: '90735-dourados' } },
+      { params: { state: 'ms', city: '91650-tres-lagoas' } },
+      { params: { state: 'ms', city: '90638-corumba' } },
+      { params: { state: 'ms', city: '98035-costa-rica' } },
+      { params: { state: 'rj', city: '60011-rio-de-janeiro' } },
+      { params: { state: 'rj', city: '58130-cabo-frio' } },
+      { params: { state: 'rj', city: '58033-araruama' } },
+      { params: { state: 'rj', city: '58653-niteroi' } },
+      { params: { state: 'rj', city: '58696-nova-iguacu' } },
+      { params: { state: 'ba', city: '38490-salvador' } },
+      { params: { state: 'ba', city: '37710-palmeiras' } }
     ]
   }
 }

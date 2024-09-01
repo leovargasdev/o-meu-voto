@@ -22,7 +22,6 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
           {data.map(item => (
             <div key={item.id} className={styles.item}>
               {/* <img src="/icons/PT.png" alt="" /> */}
-
               <div>
                 <strong>
                   {item.cargo} em <span>{item.local.toLocaleLowerCase()}</span>
@@ -30,7 +29,7 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
 
                 <p>Em {item.nrAno}</p>
               </div>
-
+              https://omeuvoto.com.br/sc/80896-criciuma/candidato/240002290096-fabinho
               {item.situacaoTotalizacao === 'Eleito por QP' && (
                 <span className={styles.partial}>Eleito por legenda</span>
               )}

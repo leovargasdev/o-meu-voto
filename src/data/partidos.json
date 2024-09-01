@@ -46,5 +46,37 @@
   "psol": {
     "nome": "Partido Socialismo e Liberdade",
     "image": "/icons/PSOL.png"
+  },
+  "pstu": {
+    "nome": "Partido Socialista dos Trabalhadores Unificado",
+    "image": "/icons/PSTU.png"
+  },
+  "dc": {
+    "nome": "Democracia Cristã",
+    "image": "/icons/DC.png"
+  },
+  "pco": {
+    "nome": "Partido da Causa Operária",
+    "image": "/icons/PCO.png"
+  },
+  "prtb": {
+    "nome": "Partido Renovador Trabalhista Brasileiro",
+    "image": "/icons/PRTB.png"
+  },
+  "up": {
+    "nome": "Unidade Popular",
+    "image": "/icons/UP.png"
+  },
+  "solidariedade": {
+    "nome": "Solidariedade",
+    "image": "/icons/SOLIDARIEDADE.png"
+  },
+  "avante": {
+    "nome": "Avante",
+    "image": "/icons/AVANTE.png"
+  },
+  "prd": {
+    "nome": "Partido Renovação Democrática",
+    "image": "/icons/PRD.png"
   }
 }

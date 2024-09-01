@@ -1,4 +1,6 @@
 import { useCandidates } from 'hooks'
+import partidosLogos from 'data/partidos.json'
+
 import styles from './styles.module.scss'
 
 export const SearchFilter = () => {
@@ -27,6 +29,8 @@ export const SearchFilter = () => {
             width={32}
             height="auto"
             src={`/icons/${partido}.png`}
+            alt={`Logo do partido ${partido}`}
+            title={`Logo do partido ${partido}`}
           />
           <span>({partidos[partido]})</span>
         </button>
