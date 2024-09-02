@@ -29,7 +29,7 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
 
                 <p>Em {item.nrAno}</p>
               </div>
-              https://omeuvoto.com.br/sc/80896-criciuma/candidato/240002290096-fabinho
+              {/* https://omeuvoto.com.br/sc/80896-criciuma/candidato/240002290096-fabinho */}
               {item.situacaoTotalizacao === 'Eleito por QP' && (
                 <span className={styles.partial}>Eleito por legenda</span>
               )}
