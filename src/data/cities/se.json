@@ -1,302 +1,302 @@
 [
-  {
-      "value": "31011",
-      "label": "AMPARO DE SÃO FRANCISCO"
-  },
-  {
-      "value": "31038",
-      "label": "AQUIDABÃ"
-  },
-  {
-      "value": "31054",
-      "label": "ARACAJU"
-  },
-  {
-      "value": "31070",
-      "label": "ARAUÁ"
-  },
-  {
-      "value": "31097",
-      "label": "AREIA BRANCA"
-  },
-  {
-      "value": "31119",
-      "label": "BARRA DOS COQUEIROS"
-  },
-  {
-      "value": "31151",
-      "label": "BOQUIM"
-  },
-  {
-      "value": "31135",
-      "label": "BREJO GRANDE"
-  },
-  {
-      "value": "31194",
-      "label": "CAMPO DO BRITO"
-  },
-  {
-      "value": "31216",
-      "label": "CANHOBA"
-  },
-  {
-      "value": "31232",
-      "label": "CANINDÉ DE SÃO FRANCISCO"
-  },
-  {
-      "value": "31259",
-      "label": "CAPELA"
-  },
-  {
-      "value": "31275",
-      "label": "CARIRA"
-  },
-  {
-      "value": "31291",
-      "label": "CARMÓPOLIS"
-  },
-  {
-      "value": "31313",
-      "label": "CEDRO DE SÃO JOÃO"
-  },
-  {
-      "value": "31330",
-      "label": "CRISTINÁPOLIS"
-  },
-  {
-      "value": "31372",
-      "label": "CUMBE"
-  },
-  {
-      "value": "31399",
-      "label": "DIVINA PASTORA"
-  },
-  {
-      "value": "31410",
-      "label": "ESTÂNCIA"
-  },
-  {
-      "value": "31437",
-      "label": "FEIRA NOVA"
-  },
-  {
-      "value": "31453",
-      "label": "FREI PAULO"
-  },
-  {
-      "value": "31496",
-      "label": "GARARU"
-  },
-  {
-      "value": "31470",
-      "label": "GENERAL MAYNARD"
-  },
-  {
-      "value": "31518",
-      "label": "GRACCHO CARDOSO"
-  },
-  {
-      "value": "31534",
-      "label": "ILHA DAS FLORES"
-  },
-  {
-      "value": "31550",
-      "label": "INDIAROBA"
-  },
-  {
-      "value": "31577",
-      "label": "ITABAIANA"
-  },
-  {
-      "value": "31593",
-      "label": "ITABAIANINHA"
-  },
-  {
-      "value": "31615",
-      "label": "ITABI"
-  },
-  {
-      "value": "31631",
-      "label": "ITAPORANGA D'AJUDA"
-  },
-  {
-      "value": "31658",
-      "label": "JAPARATUBA"
-  },
-  {
-      "value": "31674",
-      "label": "JAPOATÃ"
-  },
-  {
-      "value": "31690",
-      "label": "LAGARTO"
-  },
-  {
-      "value": "31712",
-      "label": "LARANJEIRAS"
-  },
-  {
-      "value": "31739",
-      "label": "MACAMBIRA"
-  },
-  {
-      "value": "31755",
-      "label": "MALHADA DOS BOIS"
-  },
-  {
-      "value": "31771",
-      "label": "MALHADOR"
-  },
-  {
-      "value": "31798",
-      "label": "MARUIM"
-  },
-  {
-      "value": "31810",
-      "label": "MOITA BONITA"
-  },
-  {
-      "value": "31836",
-      "label": "MONTE ALEGRE DE SERGIPE"
-  },
-  {
-      "value": "31852",
-      "label": "MURIBECA"
-  },
-  {
-      "value": "31879",
-      "label": "NEÓPOLIS"
-  },
-  {
-      "value": "31356",
-      "label": "NOSSA SENHORA APARECIDA"
-  },
-  {
-      "value": "31895",
-      "label": "NOSSA SENHORA DA GLÓRIA"
-  },
-  {
-      "value": "31917",
-      "label": "NOSSA SENHORA DAS DORES"
-  },
-  {
-      "value": "31933",
-      "label": "NOSSA SENHORA DE LOURDES"
-  },
-  {
-      "value": "31950",
-      "label": "NOSSA SENHORA DO SOCORRO"
-  },
-  {
-      "value": "31976",
-      "label": "PACATUBA"
-  },
-  {
-      "value": "31992",
-      "label": "PEDRA MOLE"
-  },
-  {
-      "value": "32018",
-      "label": "PEDRINHAS"
-  },
-  {
-      "value": "32034",
-      "label": "PINHÃO"
-  },
-  {
-      "value": "32050",
-      "label": "PIRAMBU"
-  },
-  {
-      "value": "32077",
-      "label": "POÇO REDONDO"
-  },
-  {
-      "value": "32093",
-      "label": "POÇO VERDE"
-  },
-  {
-      "value": "32115",
-      "label": "PORTO DA FOLHA"
-  },
-  {
-      "value": "32131",
-      "label": "PROPRIÁ"
-  },
-  {
-      "value": "32158",
-      "label": "RIACHÃO DO DANTAS"
-  },
-  {
-      "value": "32174",
-      "label": "RIACHUELO"
-  },
-  {
-      "value": "32190",
-      "label": "RIBEIRÓPOLIS"
-  },
-  {
-      "value": "32212",
-      "label": "ROSÁRIO DO CATETE"
-  },
-  {
-      "value": "32239",
-      "label": "SALGADO"
-  },
-  {
-      "value": "32255",
-      "label": "SANTA LUZIA DO ITANHY"
-  },
-  {
-      "value": "32298",
-      "label": "SANTA ROSA DE LIMA"
-  },
-  {
-      "value": "31003",
-      "label": "SANTANA DO SÃO FRANCISCO"
-  },
-  {
-      "value": "32310",
-      "label": "SANTO AMARO DAS BROTAS"
-  },
-  {
-      "value": "32336",
-      "label": "SÃO CRISTÓVÃO"
-  },
-  {
-      "value": "32352",
-      "label": "SÃO DOMINGOS"
-  },
-  {
-      "value": "32379",
-      "label": "SÃO FRANCISCO"
-  },
-  {
-      "value": "32395",
-      "label": "SÃO MIGUEL DO ALEIXO"
-  },
-  {
-      "value": "32417",
-      "label": "SIMÃO DIAS"
-  },
-  {
-      "value": "32433",
-      "label": "SIRIRI"
-  },
-  {
-      "value": "32450",
-      "label": "TELHA"
-  },
-  {
-      "value": "32476",
-      "label": "TOBIAS BARRETO"
-  },
-  {
-      "value": "32492",
-      "label": "TOMAR DO GERU"
-  },
-  {
-      "value": "32514",
-      "label": "UMBAÚBA"
-  }
+    {
+        "value": "31011",
+        "label": "amparo de são francisco"
+    },
+    {
+        "value": "31038",
+        "label": "aquidabã"
+    },
+    {
+        "value": "31054",
+        "label": "aracaju"
+    },
+    {
+        "value": "31070",
+        "label": "arauá"
+    },
+    {
+        "value": "31097",
+        "label": "areia branca"
+    },
+    {
+        "value": "31119",
+        "label": "barra dos coqueiros"
+    },
+    {
+        "value": "31151",
+        "label": "boquim"
+    },
+    {
+        "value": "31135",
+        "label": "brejo grande"
+    },
+    {
+        "value": "31194",
+        "label": "campo do brito"
+    },
+    {
+        "value": "31216",
+        "label": "canhoba"
+    },
+    {
+        "value": "31232",
+        "label": "canindé de são francisco"
+    },
+    {
+        "value": "31259",
+        "label": "capela"
+    },
+    {
+        "value": "31275",
+        "label": "carira"
+    },
+    {
+        "value": "31291",
+        "label": "carmópolis"
+    },
+    {
+        "value": "31313",
+        "label": "cedro de são joão"
+    },
+    {
+        "value": "31330",
+        "label": "cristinápolis"
+    },
+    {
+        "value": "31372",
+        "label": "cumbe"
+    },
+    {
+        "value": "31399",
+        "label": "divina pastora"
+    },
+    {
+        "value": "31410",
+        "label": "estância"
+    },
+    {
+        "value": "31437",
+        "label": "feira nova"
+    },
+    {
+        "value": "31453",
+        "label": "frei paulo"
+    },
+    {
+        "value": "31496",
+        "label": "gararu"
+    },
+    {
+        "value": "31470",
+        "label": "general maynard"
+    },
+    {
+        "value": "31518",
+        "label": "graccho cardoso"
+    },
+    {
+        "value": "31534",
+        "label": "ilha das flores"
+    },
+    {
+        "value": "31550",
+        "label": "indiaroba"
+    },
+    {
+        "value": "31577",
+        "label": "itabaiana"
+    },
+    {
+        "value": "31593",
+        "label": "itabaianinha"
+    },
+    {
+        "value": "31615",
+        "label": "itabi"
+    },
+    {
+        "value": "31631",
+        "label": "itaporanga d'ajuda"
+    },
+    {
+        "value": "31658",
+        "label": "japaratuba"
+    },
+    {
+        "value": "31674",
+        "label": "japoatã"
+    },
+    {
+        "value": "31690",
+        "label": "lagarto"
+    },
+    {
+        "value": "31712",
+        "label": "laranjeiras"
+    },
+    {
+        "value": "31739",
+        "label": "macambira"
+    },
+    {
+        "value": "31755",
+        "label": "malhada dos bois"
+    },
+    {
+        "value": "31771",
+        "label": "malhador"
+    },
+    {
+        "value": "31798",
+        "label": "maruim"
+    },
+    {
+        "value": "31810",
+        "label": "moita bonita"
+    },
+    {
+        "value": "31836",
+        "label": "monte alegre de sergipe"
+    },
+    {
+        "value": "31852",
+        "label": "muribeca"
+    },
+    {
+        "value": "31879",
+        "label": "neópolis"
+    },
+    {
+        "value": "31356",
+        "label": "nossa senhora aparecida"
+    },
+    {
+        "value": "31895",
+        "label": "nossa senhora da glória"
+    },
+    {
+        "value": "31917",
+        "label": "nossa senhora das dores"
+    },
+    {
+        "value": "31933",
+        "label": "nossa senhora de lourdes"
+    },
+    {
+        "value": "31950",
+        "label": "nossa senhora do socorro"
+    },
+    {
+        "value": "31976",
+        "label": "pacatuba"
+    },
+    {
+        "value": "31992",
+        "label": "pedra mole"
+    },
+    {
+        "value": "32018",
+        "label": "pedrinhas"
+    },
+    {
+        "value": "32034",
+        "label": "pinhão"
+    },
+    {
+        "value": "32050",
+        "label": "pirambu"
+    },
+    {
+        "value": "32077",
+        "label": "poço redondo"
+    },
+    {
+        "value": "32093",
+        "label": "poço verde"
+    },
+    {
+        "value": "32115",
+        "label": "porto da folha"
+    },
+    {
+        "value": "32131",
+        "label": "propriá"
+    },
+    {
+        "value": "32158",
+        "label": "riachão do dantas"
+    },
+    {
+        "value": "32174",
+        "label": "riachuelo"
+    },
+    {
+        "value": "32190",
+        "label": "ribeirópolis"
+    },
+    {
+        "value": "32212",
+        "label": "rosário do catete"
+    },
+    {
+        "value": "32239",
+        "label": "salgado"
+    },
+    {
+        "value": "32255",
+        "label": "santa luzia do itanhy"
+    },
+    {
+        "value": "32298",
+        "label": "santa rosa de lima"
+    },
+    {
+        "value": "31003",
+        "label": "santana do são francisco"
+    },
+    {
+        "value": "32310",
+        "label": "santo amaro das brotas"
+    },
+    {
+        "value": "32336",
+        "label": "são cristóvão"
+    },
+    {
+        "value": "32352",
+        "label": "são domingos"
+    },
+    {
+        "value": "32379",
+        "label": "são francisco"
+    },
+    {
+        "value": "32395",
+        "label": "são miguel do aleixo"
+    },
+    {
+        "value": "32417",
+        "label": "simão dias"
+    },
+    {
+        "value": "32433",
+        "label": "siriri"
+    },
+    {
+        "value": "32450",
+        "label": "telha"
+    },
+    {
+        "value": "32476",
+        "label": "tobias barreto"
+    },
+    {
+        "value": "32492",
+        "label": "tomar do geru"
+    },
+    {
+        "value": "32514",
+        "label": "umbaúba"
+    }
 ]

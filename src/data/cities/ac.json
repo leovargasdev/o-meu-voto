@@ -1,90 +1,90 @@
 [
-  {
-      "value": "01120",
-      "label": "ACRELÂNDIA"
-  },
-  {
-      "value": "01570",
-      "label": "ASSIS BRASIL"
-  },
-  {
-      "value": "01058",
-      "label": "BRASILÉIA"
-  },
-  {
-      "value": "01007",
-      "label": "BUJARI"
-  },
-  {
-      "value": "01015",
-      "label": "CAPIXABA"
-  },
-  {
-      "value": "01074",
-      "label": "CRUZEIRO DO SUL"
-  },
-  {
-      "value": "01112",
-      "label": "EPITACIOLÂNDIA"
-  },
-  {
-      "value": "01139",
-      "label": "FEIJÓ"
-  },
-  {
-      "value": "01104",
-      "label": "JORDÃO"
-  },
-  {
-      "value": "01090",
-      "label": "MÂNCIO LIMA"
-  },
-  {
-      "value": "01554",
-      "label": "MANOEL URBANO"
-  },
-  {
-      "value": "01040",
-      "label": "MARECHAL THAUMATURGO"
-  },
-  {
-      "value": "01511",
-      "label": "PLÁCIDO DE CASTRO"
-  },
-  {
-      "value": "01023",
-      "label": "PORTO ACRE"
-  },
-  {
-      "value": "01066",
-      "label": "PORTO WALTER"
-  },
-  {
-      "value": "01392",
-      "label": "RIO BRANCO"
-  },
-  {
-      "value": "01082",
-      "label": "RODRIGUES ALVES"
-  },
-  {
-      "value": "01031",
-      "label": "SANTA ROSA DO PURUS"
-  },
-  {
-      "value": "01457",
-      "label": "SENA MADUREIRA"
-  },
-  {
-      "value": "01538",
-      "label": "SENADOR GUIOMARD"
-  },
-  {
-      "value": "01473",
-      "label": "TARAUACÁ"
-  },
-  {
-      "value": "01490",
-      "label": "XAPURI"
-  }
+    {
+        "value": "01120",
+        "label": "acrelândia"
+    },
+    {
+        "value": "01570",
+        "label": "assis brasil"
+    },
+    {
+        "value": "01058",
+        "label": "brasiléia"
+    },
+    {
+        "value": "01007",
+        "label": "bujari"
+    },
+    {
+        "value": "01015",
+        "label": "capixaba"
+    },
+    {
+        "value": "01074",
+        "label": "cruzeiro do sul"
+    },
+    {
+        "value": "01112",
+        "label": "epitaciolândia"
+    },
+    {
+        "value": "01139",
+        "label": "feijó"
+    },
+    {
+        "value": "01104",
+        "label": "jordão"
+    },
+    {
+        "value": "01090",
+        "label": "mâncio lima"
+    },
+    {
+        "value": "01554",
+        "label": "manoel urbano"
+    },
+    {
+        "value": "01040",
+        "label": "marechal thaumaturgo"
+    },
+    {
+        "value": "01511",
+        "label": "plácido de castro"
+    },
+    {
+        "value": "01023",
+        "label": "porto acre"
+    },
+    {
+        "value": "01066",
+        "label": "porto walter"
+    },
+    {
+        "value": "01392",
+        "label": "rio branco"
+    },
+    {
+        "value": "01082",
+        "label": "rodrigues alves"
+    },
+    {
+        "value": "01031",
+        "label": "santa rosa do purus"
+    },
+    {
+        "value": "01457",
+        "label": "sena madureira"
+    },
+    {
+        "value": "01538",
+        "label": "senador guiomard"
+    },
+    {
+        "value": "01473",
+        "label": "tarauacá"
+    },
+    {
+        "value": "01490",
+        "label": "xapuri"
+    }
 ]

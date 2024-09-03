@@ -1,870 +1,870 @@
 [
-  {
-      "value": "09610",
-      "label": "AÇAILÂNDIA"
-  },
-  {
-      "value": "07013",
-      "label": "AFONSO CUNHA"
-  },
-  {
-      "value": "07005",
-      "label": "ÁGUA DOCE DO MARANHÃO"
-  },
-  {
-      "value": "07030",
-      "label": "ALCÂNTARA"
-  },
-  {
-      "value": "07056",
-      "label": "ALDEIAS ALTAS"
-  },
-  {
-      "value": "07072",
-      "label": "ALTAMIRA DO MARANHÃO"
-  },
-  {
-      "value": "07021",
-      "label": "ALTO ALEGRE DO MARANHÃO"
-  },
-  {
-      "value": "07048",
-      "label": "ALTO ALEGRE DO PINDARÉ"
-  },
-  {
-      "value": "07099",
-      "label": "ALTO PARNAÍBA"
-  },
-  {
-      "value": "07080",
-      "label": "AMAPÁ DO MARANHÃO"
-  },
-  {
-      "value": "07110",
-      "label": "AMARANTE DO MARANHÃO"
-  },
-  {
-      "value": "07137",
-      "label": "ANAJATUBA"
-  },
-  {
-      "value": "07153",
-      "label": "ANAPURUS"
-  },
-  {
-      "value": "07064",
-      "label": "APICUM-AÇU"
-  },
-  {
-      "value": "07102",
-      "label": "ARAGUANÃ"
-  },
-  {
-      "value": "07170",
-      "label": "ARAIOSES"
-  },
-  {
-      "value": "09679",
-      "label": "ARAME"
-  },
-  {
-      "value": "07196",
-      "label": "ARARI"
-  },
-  {
-      "value": "07218",
-      "label": "AXIXÁ"
-  },
-  {
-      "value": "07234",
-      "label": "BACABAL"
-  },
-  {
-      "value": "07129",
-      "label": "BACABEIRA"
-  },
-  {
-      "value": "07250",
-      "label": "BACURI"
-  },
-  {
-      "value": "07145",
-      "label": "BACURITUBA"
-  },
-  {
-      "value": "07277",
-      "label": "BALSAS"
-  },
-  {
-      "value": "07293",
-      "label": "BARÃO DE GRAJAÚ"
-  },
-  {
-      "value": "07315",
-      "label": "BARRA DO CORDA"
-  },
-  {
-      "value": "07331",
-      "label": "BARREIRINHAS"
-  },
-  {
-      "value": "07188",
-      "label": "BELA VISTA DO MARANHÃO"
-  },
-  {
-      "value": "07161",
-      "label": "BELÁGUA"
-  },
-  {
-      "value": "07358",
-      "label": "BENEDITO LEITE"
-  },
-  {
-      "value": "07374",
-      "label": "BEQUIMÃO"
-  },
-  {
-      "value": "07200",
-      "label": "BERNARDO DO MEARIM"
-  },
-  {
-      "value": "07323",
-      "label": "BOA VISTA DO GURUPI"
-  },
-  {
-      "value": "09555",
-      "label": "BOM JARDIM"
-  },
-  {
-      "value": "07269",
-      "label": "BOM JESUS DAS SELVAS"
-  },
-  {
-      "value": "07285",
-      "label": "BOM LUGAR"
-  },
-  {
-      "value": "07390",
-      "label": "BREJO"
-  },
-  {
-      "value": "07307",
-      "label": "BREJO DE AREIA"
-  },
-  {
-      "value": "07412",
-      "label": "BURITI"
-  },
-  {
-      "value": "07439",
-      "label": "BURITI BRAVO"
-  },
-  {
-      "value": "07340",
-      "label": "BURITICUPU"
-  },
-  {
-      "value": "07366",
-      "label": "BURITIRANA"
-  },
-  {
-      "value": "07226",
-      "label": "CACHOEIRA GRANDE"
-  },
-  {
-      "value": "07455",
-      "label": "CAJAPIÓ"
-  },
-  {
-      "value": "07471",
-      "label": "CAJARI"
-  },
-  {
-      "value": "07382",
-      "label": "CAMPESTRE DO MARANHÃO"
-  },
-  {
-      "value": "07498",
-      "label": "CÂNDIDO MENDES"
-  },
-  {
-      "value": "07510",
-      "label": "CANTANHEDE"
-  },
-  {
-      "value": "07404",
-      "label": "CAPINZAL DO NORTE"
-  },
-  {
-      "value": "07536",
-      "label": "CAROLINA"
-  },
-  {
-      "value": "07552",
-      "label": "CARUTAPERA"
-  },
-  {
-      "value": "07579",
-      "label": "CAXIAS"
-  },
-  {
-      "value": "07595",
-      "label": "CEDRAL"
-  },
-  {
-      "value": "07420",
-      "label": "CENTRAL DO MARANHÃO"
-  },
-  {
-      "value": "07447",
-      "label": "CENTRO DO GUILHERME"
-  },
-  {
-      "value": "07463",
-      "label": "CENTRO NOVO DO MARANHÃO"
-  },
-  {
-      "value": "07617",
-      "label": "CHAPADINHA"
-  },
-  {
-      "value": "07480",
-      "label": "CIDELÂNDIA"
-  },
-  {
-      "value": "07633",
-      "label": "CODÓ"
-  },
-  {
-      "value": "07650",
-      "label": "COELHO NETO"
-  },
-  {
-      "value": "07676",
-      "label": "COLINAS"
-  },
-  {
-      "value": "07501",
-      "label": "CONCEIÇÃO DO LAGO-AÇU"
-  },
-  {
-      "value": "07692",
-      "label": "COROATÁ"
-  },
-  {
-      "value": "07714",
-      "label": "CURURUPU"
-  },
-  {
-      "value": "07242",
-      "label": "DAVINÓPOLIS"
-  },
-  {
-      "value": "07730",
-      "label": "DOM PEDRO"
-  },
-  {
-      "value": "07757",
-      "label": "DUQUE BACELAR"
-  },
-  {
-      "value": "07773",
-      "label": "ESPERANTINÓPOLIS"
-  },
-  {
-      "value": "09636",
-      "label": "ESTREITO"
-  },
-  {
-      "value": "07528",
-      "label": "FEIRA NOVA DO MARANHÃO"
-  },
-  {
-      "value": "07544",
-      "label": "FERNANDO FALCÃO"
-  },
-  {
-      "value": "07560",
-      "label": "FORMOSA DA SERRA NEGRA"
-  },
-  {
-      "value": "07790",
-      "label": "FORTALEZA DOS NOGUEIRAS"
-  },
-  {
-      "value": "07811",
-      "label": "FORTUNA"
-  },
-  {
-      "value": "07838",
-      "label": "GODOFREDO VIANA"
-  },
-  {
-      "value": "07854",
-      "label": "GONÇALVES DIAS"
-  },
-  {
-      "value": "07870",
-      "label": "GOVERNADOR ARCHER"
-  },
-  {
-      "value": "07609",
-      "label": "GOVERNADOR EDISON LOBÃO"
-  },
-  {
-      "value": "07897",
-      "label": "GOVERNADOR EUGÊNIO BARROS"
-  },
-  {
-      "value": "07625",
-      "label": "GOVERNADOR LUIZ ROCHA"
-  },
-  {
-      "value": "07641",
-      "label": "GOVERNADOR NEWTON BELLO"
-  },
-  {
-      "value": "07668",
-      "label": "GOVERNADOR NUNES FREIRE"
-  },
-  {
-      "value": "07919",
-      "label": "GRAÇA ARANHA"
-  },
-  {
-      "value": "07935",
-      "label": "GRAJAÚ"
-  },
-  {
-      "value": "07951",
-      "label": "GUIMARÃES"
-  },
-  {
-      "value": "07978",
-      "label": "HUMBERTO DE CAMPOS"
-  },
-  {
-      "value": "07994",
-      "label": "ICATU"
-  },
-  {
-      "value": "07684",
-      "label": "IGARAPÉ DO MEIO"
-  },
-  {
-      "value": "08010",
-      "label": "IGARAPÉ GRANDE"
-  },
-  {
-      "value": "08036",
-      "label": "IMPERATRIZ"
-  },
-  {
-      "value": "07706",
-      "label": "ITAIPAVA DO GRAJAÚ"
-  },
-  {
-      "value": "08079",
-      "label": "ITAPECURU MIRIM"
-  },
-  {
-      "value": "07722",
-      "label": "ITINGA DO MARANHÃO"
-  },
-  {
-      "value": "07749",
-      "label": "JATOBÁ"
-  },
-  {
-      "value": "07765",
-      "label": "JENIPAPO DOS VIEIRAS"
-  },
-  {
-      "value": "08095",
-      "label": "JOÃO LISBOA"
-  },
-  {
-      "value": "08117",
-      "label": "JOSELÂNDIA"
-  },
-  {
-      "value": "07781",
-      "label": "JUNCO DO MARANHÃO"
-  },
-  {
-      "value": "08133",
-      "label": "LAGO DA PEDRA"
-  },
-  {
-      "value": "08150",
-      "label": "LAGO DO JUNCO"
-  },
-  {
-      "value": "07803",
-      "label": "LAGO DOS RODRIGUES"
-  },
-  {
-      "value": "08176",
-      "label": "LAGO VERDE"
-  },
-  {
-      "value": "07820",
-      "label": "LAGOA DO MATO"
-  },
-  {
-      "value": "07846",
-      "label": "LAGOA GRANDE DO MARANHÃO"
-  },
-  {
-      "value": "07862",
-      "label": "LAJEADO NOVO"
-  },
-  {
-      "value": "08192",
-      "label": "LIMA CAMPOS"
-  },
-  {
-      "value": "08214",
-      "label": "LORETO"
-  },
-  {
-      "value": "08230",
-      "label": "LUÍS DOMINGUES"
-  },
-  {
-      "value": "08257",
-      "label": "MAGALHÃES DE ALMEIDA"
-  },
-  {
-      "value": "07889",
-      "label": "MARACAÇUMÉ"
-  },
-  {
-      "value": "07900",
-      "label": "MARAJÁ DO SENA"
-  },
-  {
-      "value": "07927",
-      "label": "MARANHÃOZINHO"
-  },
-  {
-      "value": "08273",
-      "label": "MATA ROMA"
-  },
-  {
-      "value": "08290",
-      "label": "MATINHA"
-  },
-  {
-      "value": "08311",
-      "label": "MATÕES"
-  },
-  {
-      "value": "07943",
-      "label": "MATÕES DO NORTE"
-  },
-  {
-      "value": "07960",
-      "label": "MILAGRES DO MARANHÃO"
-  },
-  {
-      "value": "08338",
-      "label": "MIRADOR"
-  },
-  {
-      "value": "09695",
-      "label": "MIRANDA DO NORTE"
-  },
-  {
-      "value": "08354",
-      "label": "MIRINZAL"
-  },
-  {
-      "value": "08370",
-      "label": "MONÇÃO"
-  },
-  {
-      "value": "08397",
-      "label": "MONTES ALTOS"
-  },
-  {
-      "value": "08419",
-      "label": "MORROS"
-  },
-  {
-      "value": "08435",
-      "label": "NINA RODRIGUES"
-  },
-  {
-      "value": "07986",
-      "label": "NOVA COLINAS"
-  },
-  {
-      "value": "08451",
-      "label": "NOVA IORQUE"
-  },
-  {
-      "value": "08001",
-      "label": "NOVA OLINDA DO MARANHÃO"
-  },
-  {
-      "value": "08478",
-      "label": "OLHO D'ÁGUA DAS CUNHÃS"
-  },
-  {
-      "value": "08028",
-      "label": "OLINDA NOVA DO MARANHÃO"
-  },
-  {
-      "value": "08494",
-      "label": "PAÇO DO LUMIAR"
-  },
-  {
-      "value": "08516",
-      "label": "PALMEIRÂNDIA"
-  },
-  {
-      "value": "08532",
-      "label": "PARAIBANO"
-  },
-  {
-      "value": "08559",
-      "label": "PARNARAMA"
-  },
-  {
-      "value": "08575",
-      "label": "PASSAGEM FRANCA"
-  },
-  {
-      "value": "08591",
-      "label": "PASTOS BONS"
-  },
-  {
-      "value": "08044",
-      "label": "PAULINO NEVES"
-  },
-  {
-      "value": "09598",
-      "label": "PAULO RAMOS"
-  },
-  {
-      "value": "08613",
-      "label": "PEDREIRAS"
-  },
-  {
-      "value": "08060",
-      "label": "PEDRO DO ROSÁRIO"
-  },
-  {
-      "value": "08630",
-      "label": "PENALVA"
-  },
-  {
-      "value": "08656",
-      "label": "PERI MIRIM"
-  },
-  {
-      "value": "08087",
-      "label": "PERITORÓ"
-  },
-  {
-      "value": "08672",
-      "label": "PINDARÉ-MIRIM"
-  },
-  {
-      "value": "08699",
-      "label": "PINHEIRO"
-  },
-  {
-      "value": "08710",
-      "label": "PIO XII"
-  },
-  {
-      "value": "08737",
-      "label": "PIRAPEMAS"
-  },
-  {
-      "value": "08753",
-      "label": "POÇÃO DE PEDRAS"
-  },
-  {
-      "value": "08770",
-      "label": "PORTO FRANCO"
-  },
-  {
-      "value": "08109",
-      "label": "PORTO RICO DO MARANHÃO"
-  },
-  {
-      "value": "08796",
-      "label": "PRESIDENTE DUTRA"
-  },
-  {
-      "value": "08818",
-      "label": "PRESIDENTE JUSCELINO"
-  },
-  {
-      "value": "08125",
-      "label": "PRESIDENTE MÉDICI"
-  },
-  {
-      "value": "08141",
-      "label": "PRESIDENTE SARNEY"
-  },
-  {
-      "value": "08834",
-      "label": "PRESIDENTE VARGAS"
-  },
-  {
-      "value": "08850",
-      "label": "PRIMEIRA CRUZ"
-  },
-  {
-      "value": "08168",
-      "label": "RAPOSA"
-  },
-  {
-      "value": "08877",
-      "label": "RIACHÃO"
-  },
-  {
-      "value": "08184",
-      "label": "RIBAMAR FIQUENE"
-  },
-  {
-      "value": "08915",
-      "label": "ROSÁRIO"
-  },
-  {
-      "value": "08931",
-      "label": "SAMBAÍBA"
-  },
-  {
-      "value": "08206",
-      "label": "SANTA FILOMENA DO MARANHÃO"
-  },
-  {
-      "value": "08958",
-      "label": "SANTA HELENA"
-  },
-  {
-      "value": "09571",
-      "label": "SANTA INÊS"
-  },
-  {
-      "value": "08974",
-      "label": "SANTA LUZIA"
-  },
-  {
-      "value": "09652",
-      "label": "SANTA LUZIA DO PARUÁ"
-  },
-  {
-      "value": "08990",
-      "label": "SANTA QUITÉRIA DO MARANHÃO"
-  },
-  {
-      "value": "09016",
-      "label": "SANTA RITA"
-  },
-  {
-      "value": "08222",
-      "label": "SANTANA DO MARANHÃO"
-  },
-  {
-      "value": "08249",
-      "label": "SANTO AMARO DO MARANHÃO"
-  },
-  {
-      "value": "09032",
-      "label": "SANTO ANTÔNIO DOS LOPES"
-  },
-  {
-      "value": "09059",
-      "label": "SÃO BENEDITO DO RIO PRETO"
-  },
-  {
-      "value": "09075",
-      "label": "SÃO BENTO"
-  },
-  {
-      "value": "09091",
-      "label": "SÃO BERNARDO"
-  },
-  {
-      "value": "08265",
-      "label": "SÃO DOMINGOS DO AZEITÃO"
-  },
-  {
-      "value": "09113",
-      "label": "SÃO DOMINGOS DO MARANHÃO"
-  },
-  {
-      "value": "09130",
-      "label": "SÃO FÉLIX DE BALSAS"
-  },
-  {
-      "value": "08281",
-      "label": "SÃO FRANCISCO DO BREJÃO"
-  },
-  {
-      "value": "09156",
-      "label": "SÃO FRANCISCO DO MARANHÃO"
-  },
-  {
-      "value": "09172",
-      "label": "SÃO JOÃO BATISTA"
-  },
-  {
-      "value": "08303",
-      "label": "SÃO JOÃO DO CARÚ"
-  },
-  {
-      "value": "08320",
-      "label": "SÃO JOÃO DO PARAÍSO"
-  },
-  {
-      "value": "08346",
-      "label": "SÃO JOÃO DO SOTER"
-  },
-  {
-      "value": "09199",
-      "label": "SÃO JOÃO DOS PATOS"
-  },
-  {
-      "value": "08893",
-      "label": "SÃO JOSÉ DE RIBAMAR"
-  },
-  {
-      "value": "08362",
-      "label": "SÃO JOSÉ DOS BASÍLIOS"
-  },
-  {
-      "value": "09210",
-      "label": "SÃO LUÍS"
-  },
-  {
-      "value": "08052",
-      "label": "SÃO LUÍS GONZAGA DO MARANHÃO"
-  },
-  {
-      "value": "09237",
-      "label": "SÃO MATEUS DO MARANHÃO"
-  },
-  {
-      "value": "08389",
-      "label": "SÃO PEDRO DA ÁGUA BRANCA"
-  },
-  {
-      "value": "08400",
-      "label": "SÃO PEDRO DOS CRENTES"
-  },
-  {
-      "value": "09253",
-      "label": "SÃO RAIMUNDO DAS MANGABEIRAS"
-  },
-  {
-      "value": "08427",
-      "label": "SÃO RAIMUNDO DO DOCA BEZERRA"
-  },
-  {
-      "value": "08443",
-      "label": "SÃO ROBERTO"
-  },
-  {
-      "value": "09270",
-      "label": "SÃO VICENTE FERRER"
-  },
-  {
-      "value": "08460",
-      "label": "SATUBINHA"
-  },
-  {
-      "value": "08486",
-      "label": "SENADOR ALEXANDRE COSTA"
-  },
-  {
-      "value": "08508",
-      "label": "SENADOR LA ROCQUE"
-  },
-  {
-      "value": "08524",
-      "label": "SERRANO DO MARANHÃO"
-  },
-  {
-      "value": "09296",
-      "label": "SÍTIO NOVO"
-  },
-  {
-      "value": "09318",
-      "label": "SUCUPIRA DO NORTE"
-  },
-  {
-      "value": "08540",
-      "label": "SUCUPIRA DO RIACHÃO"
-  },
-  {
-      "value": "09334",
-      "label": "TASSO FRAGOSO"
-  },
-  {
-      "value": "09350",
-      "label": "TIMBIRAS"
-  },
-  {
-      "value": "09377",
-      "label": "TIMON"
-  },
-  {
-      "value": "08567",
-      "label": "TRIZIDELA DO VALE"
-  },
-  {
-      "value": "08583",
-      "label": "TUFILÂNDIA"
-  },
-  {
-      "value": "09393",
-      "label": "TUNTUM"
-  },
-  {
-      "value": "09415",
-      "label": "TURIAÇU"
-  },
-  {
-      "value": "08605",
-      "label": "TURILÂNDIA"
-  },
-  {
-      "value": "09431",
-      "label": "TUTÓIA"
-  },
-  {
-      "value": "09458",
-      "label": "URBANO SANTOS"
-  },
-  {
-      "value": "09474",
-      "label": "VARGEM GRANDE"
-  },
-  {
-      "value": "09490",
-      "label": "VIANA"
-  },
-  {
-      "value": "08621",
-      "label": "VILA NOVA DOS MARTÍRIOS"
-  },
-  {
-      "value": "09512",
-      "label": "VITÓRIA DO MEARIM"
-  },
-  {
-      "value": "09539",
-      "label": "VITORINO FREIRE"
-  },
-  {
-      "value": "09717",
-      "label": "ZÉ DOCA"
-  }
+    {
+        "value": "09610",
+        "label": "açailândia"
+    },
+    {
+        "value": "07013",
+        "label": "afonso cunha"
+    },
+    {
+        "value": "07005",
+        "label": "água doce do maranhão"
+    },
+    {
+        "value": "07030",
+        "label": "alcântara"
+    },
+    {
+        "value": "07056",
+        "label": "aldeias altas"
+    },
+    {
+        "value": "07072",
+        "label": "altamira do maranhão"
+    },
+    {
+        "value": "07021",
+        "label": "alto alegre do maranhão"
+    },
+    {
+        "value": "07048",
+        "label": "alto alegre do pindaré"
+    },
+    {
+        "value": "07099",
+        "label": "alto parnaíba"
+    },
+    {
+        "value": "07080",
+        "label": "amapá do maranhão"
+    },
+    {
+        "value": "07110",
+        "label": "amarante do maranhão"
+    },
+    {
+        "value": "07137",
+        "label": "anajatuba"
+    },
+    {
+        "value": "07153",
+        "label": "anapurus"
+    },
+    {
+        "value": "07064",
+        "label": "apicum-açu"
+    },
+    {
+        "value": "07102",
+        "label": "araguanã"
+    },
+    {
+        "value": "07170",
+        "label": "araioses"
+    },
+    {
+        "value": "09679",
+        "label": "arame"
+    },
+    {
+        "value": "07196",
+        "label": "arari"
+    },
+    {
+        "value": "07218",
+        "label": "axixá"
+    },
+    {
+        "value": "07234",
+        "label": "bacabal"
+    },
+    {
+        "value": "07129",
+        "label": "bacabeira"
+    },
+    {
+        "value": "07250",
+        "label": "bacuri"
+    },
+    {
+        "value": "07145",
+        "label": "bacurituba"
+    },
+    {
+        "value": "07277",
+        "label": "balsas"
+    },
+    {
+        "value": "07293",
+        "label": "barão de grajaú"
+    },
+    {
+        "value": "07315",
+        "label": "barra do corda"
+    },
+    {
+        "value": "07331",
+        "label": "barreirinhas"
+    },
+    {
+        "value": "07188",
+        "label": "bela vista do maranhão"
+    },
+    {
+        "value": "07161",
+        "label": "belágua"
+    },
+    {
+        "value": "07358",
+        "label": "benedito leite"
+    },
+    {
+        "value": "07374",
+        "label": "bequimão"
+    },
+    {
+        "value": "07200",
+        "label": "bernardo do mearim"
+    },
+    {
+        "value": "07323",
+        "label": "boa vista do gurupi"
+    },
+    {
+        "value": "09555",
+        "label": "bom jardim"
+    },
+    {
+        "value": "07269",
+        "label": "bom jesus das selvas"
+    },
+    {
+        "value": "07285",
+        "label": "bom lugar"
+    },
+    {
+        "value": "07390",
+        "label": "brejo"
+    },
+    {
+        "value": "07307",
+        "label": "brejo de areia"
+    },
+    {
+        "value": "07412",
+        "label": "buriti"
+    },
+    {
+        "value": "07439",
+        "label": "buriti bravo"
+    },
+    {
+        "value": "07340",
+        "label": "buriticupu"
+    },
+    {
+        "value": "07366",
+        "label": "buritirana"
+    },
+    {
+        "value": "07226",
+        "label": "cachoeira grande"
+    },
+    {
+        "value": "07455",
+        "label": "cajapió"
+    },
+    {
+        "value": "07471",
+        "label": "cajari"
+    },
+    {
+        "value": "07382",
+        "label": "campestre do maranhão"
+    },
+    {
+        "value": "07498",
+        "label": "cândido mendes"
+    },
+    {
+        "value": "07510",
+        "label": "cantanhede"
+    },
+    {
+        "value": "07404",
+        "label": "capinzal do norte"
+    },
+    {
+        "value": "07536",
+        "label": "carolina"
+    },
+    {
+        "value": "07552",
+        "label": "carutapera"
+    },
+    {
+        "value": "07579",
+        "label": "caxias"
+    },
+    {
+        "value": "07595",
+        "label": "cedral"
+    },
+    {
+        "value": "07420",
+        "label": "central do maranhão"
+    },
+    {
+        "value": "07447",
+        "label": "centro do guilherme"
+    },
+    {
+        "value": "07463",
+        "label": "centro novo do maranhão"
+    },
+    {
+        "value": "07617",
+        "label": "chapadinha"
+    },
+    {
+        "value": "07480",
+        "label": "cidelândia"
+    },
+    {
+        "value": "07633",
+        "label": "codó"
+    },
+    {
+        "value": "07650",
+        "label": "coelho neto"
+    },
+    {
+        "value": "07676",
+        "label": "colinas"
+    },
+    {
+        "value": "07501",
+        "label": "conceição do lago-açu"
+    },
+    {
+        "value": "07692",
+        "label": "coroatá"
+    },
+    {
+        "value": "07714",
+        "label": "cururupu"
+    },
+    {
+        "value": "07242",
+        "label": "davinópolis"
+    },
+    {
+        "value": "07730",
+        "label": "dom pedro"
+    },
+    {
+        "value": "07757",
+        "label": "duque bacelar"
+    },
+    {
+        "value": "07773",
+        "label": "esperantinópolis"
+    },
+    {
+        "value": "09636",
+        "label": "estreito"
+    },
+    {
+        "value": "07528",
+        "label": "feira nova do maranhão"
+    },
+    {
+        "value": "07544",
+        "label": "fernando falcão"
+    },
+    {
+        "value": "07560",
+        "label": "formosa da serra negra"
+    },
+    {
+        "value": "07790",
+        "label": "fortaleza dos nogueiras"
+    },
+    {
+        "value": "07811",
+        "label": "fortuna"
+    },
+    {
+        "value": "07838",
+        "label": "godofredo viana"
+    },
+    {
+        "value": "07854",
+        "label": "gonçalves dias"
+    },
+    {
+        "value": "07870",
+        "label": "governador archer"
+    },
+    {
+        "value": "07609",
+        "label": "governador edison lobão"
+    },
+    {
+        "value": "07897",
+        "label": "governador eugênio barros"
+    },
+    {
+        "value": "07625",
+        "label": "governador luiz rocha"
+    },
+    {
+        "value": "07641",
+        "label": "governador newton bello"
+    },
+    {
+        "value": "07668",
+        "label": "governador nunes freire"
+    },
+    {
+        "value": "07919",
+        "label": "graça aranha"
+    },
+    {
+        "value": "07935",
+        "label": "grajaú"
+    },
+    {
+        "value": "07951",
+        "label": "guimarães"
+    },
+    {
+        "value": "07978",
+        "label": "humberto de campos"
+    },
+    {
+        "value": "07994",
+        "label": "icatu"
+    },
+    {
+        "value": "07684",
+        "label": "igarapé do meio"
+    },
+    {
+        "value": "08010",
+        "label": "igarapé grande"
+    },
+    {
+        "value": "08036",
+        "label": "imperatriz"
+    },
+    {
+        "value": "07706",
+        "label": "itaipava do grajaú"
+    },
+    {
+        "value": "08079",
+        "label": "itapecuru mirim"
+    },
+    {
+        "value": "07722",
+        "label": "itinga do maranhão"
+    },
+    {
+        "value": "07749",
+        "label": "jatobá"
+    },
+    {
+        "value": "07765",
+        "label": "jenipapo dos vieiras"
+    },
+    {
+        "value": "08095",
+        "label": "joão lisboa"
+    },
+    {
+        "value": "08117",
+        "label": "joselândia"
+    },
+    {
+        "value": "07781",
+        "label": "junco do maranhão"
+    },
+    {
+        "value": "08133",
+        "label": "lago da pedra"
+    },
+    {
+        "value": "08150",
+        "label": "lago do junco"
+    },
+    {
+        "value": "07803",
+        "label": "lago dos rodrigues"
+    },
+    {
+        "value": "08176",
+        "label": "lago verde"
+    },
+    {
+        "value": "07820",
+        "label": "lagoa do mato"
+    },
+    {
+        "value": "07846",
+        "label": "lagoa grande do maranhão"
+    },
+    {
+        "value": "07862",
+        "label": "lajeado novo"
+    },
+    {
+        "value": "08192",
+        "label": "lima campos"
+    },
+    {
+        "value": "08214",
+        "label": "loreto"
+    },
+    {
+        "value": "08230",
+        "label": "luís domingues"
+    },
+    {
+        "value": "08257",
+        "label": "magalhães de almeida"
+    },
+    {
+        "value": "07889",
+        "label": "maracaçumé"
+    },
+    {
+        "value": "07900",
+        "label": "marajá do sena"
+    },
+    {
+        "value": "07927",
+        "label": "maranhãozinho"
+    },
+    {
+        "value": "08273",
+        "label": "mata roma"
+    },
+    {
+        "value": "08290",
+        "label": "matinha"
+    },
+    {
+        "value": "08311",
+        "label": "matões"
+    },
+    {
+        "value": "07943",
+        "label": "matões do norte"
+    },
+    {
+        "value": "07960",
+        "label": "milagres do maranhão"
+    },
+    {
+        "value": "08338",
+        "label": "mirador"
+    },
+    {
+        "value": "09695",
+        "label": "miranda do norte"
+    },
+    {
+        "value": "08354",
+        "label": "mirinzal"
+    },
+    {
+        "value": "08370",
+        "label": "monção"
+    },
+    {
+        "value": "08397",
+        "label": "montes altos"
+    },
+    {
+        "value": "08419",
+        "label": "morros"
+    },
+    {
+        "value": "08435",
+        "label": "nina rodrigues"
+    },
+    {
+        "value": "07986",
+        "label": "nova colinas"
+    },
+    {
+        "value": "08451",
+        "label": "nova iorque"
+    },
+    {
+        "value": "08001",
+        "label": "nova olinda do maranhão"
+    },
+    {
+        "value": "08478",
+        "label": "olho d'água das cunhãs"
+    },
+    {
+        "value": "08028",
+        "label": "olinda nova do maranhão"
+    },
+    {
+        "value": "08494",
+        "label": "paço do lumiar"
+    },
+    {
+        "value": "08516",
+        "label": "palmeirândia"
+    },
+    {
+        "value": "08532",
+        "label": "paraibano"
+    },
+    {
+        "value": "08559",
+        "label": "parnarama"
+    },
+    {
+        "value": "08575",
+        "label": "passagem franca"
+    },
+    {
+        "value": "08591",
+        "label": "pastos bons"
+    },
+    {
+        "value": "08044",
+        "label": "paulino neves"
+    },
+    {
+        "value": "09598",
+        "label": "paulo ramos"
+    },
+    {
+        "value": "08613",
+        "label": "pedreiras"
+    },
+    {
+        "value": "08060",
+        "label": "pedro do rosário"
+    },
+    {
+        "value": "08630",
+        "label": "penalva"
+    },
+    {
+        "value": "08656",
+        "label": "peri mirim"
+    },
+    {
+        "value": "08087",
+        "label": "peritoró"
+    },
+    {
+        "value": "08672",
+        "label": "pindaré-mirim"
+    },
+    {
+        "value": "08699",
+        "label": "pinheiro"
+    },
+    {
+        "value": "08710",
+        "label": "pio xii"
+    },
+    {
+        "value": "08737",
+        "label": "pirapemas"
+    },
+    {
+        "value": "08753",
+        "label": "poção de pedras"
+    },
+    {
+        "value": "08770",
+        "label": "porto franco"
+    },
+    {
+        "value": "08109",
+        "label": "porto rico do maranhão"
+    },
+    {
+        "value": "08796",
+        "label": "presidente dutra"
+    },
+    {
+        "value": "08818",
+        "label": "presidente juscelino"
+    },
+    {
+        "value": "08125",
+        "label": "presidente médici"
+    },
+    {
+        "value": "08141",
+        "label": "presidente sarney"
+    },
+    {
+        "value": "08834",
+        "label": "presidente vargas"
+    },
+    {
+        "value": "08850",
+        "label": "primeira cruz"
+    },
+    {
+        "value": "08168",
+        "label": "raposa"
+    },
+    {
+        "value": "08877",
+        "label": "riachão"
+    },
+    {
+        "value": "08184",
+        "label": "ribamar fiquene"
+    },
+    {
+        "value": "08915",
+        "label": "rosário"
+    },
+    {
+        "value": "08931",
+        "label": "sambaíba"
+    },
+    {
+        "value": "08206",
+        "label": "santa filomena do maranhão"
+    },
+    {
+        "value": "08958",
+        "label": "santa helena"
+    },
+    {
+        "value": "09571",
+        "label": "santa inês"
+    },
+    {
+        "value": "08974",
+        "label": "santa luzia"
+    },
+    {
+        "value": "09652",
+        "label": "santa luzia do paruá"
+    },
+    {
+        "value": "08990",
+        "label": "santa quitéria do maranhão"
+    },
+    {
+        "value": "09016",
+        "label": "santa rita"
+    },
+    {
+        "value": "08222",
+        "label": "santana do maranhão"
+    },
+    {
+        "value": "08249",
+        "label": "santo amaro do maranhão"
+    },
+    {
+        "value": "09032",
+        "label": "santo antônio dos lopes"
+    },
+    {
+        "value": "09059",
+        "label": "são benedito do rio preto"
+    },
+    {
+        "value": "09075",
+        "label": "são bento"
+    },
+    {
+        "value": "09091",
+        "label": "são bernardo"
+    },
+    {
+        "value": "08265",
+        "label": "são domingos do azeitão"
+    },
+    {
+        "value": "09113",
+        "label": "são domingos do maranhão"
+    },
+    {
+        "value": "09130",
+        "label": "são félix de balsas"
+    },
+    {
+        "value": "08281",
+        "label": "são francisco do brejão"
+    },
+    {
+        "value": "09156",
+        "label": "são francisco do maranhão"
+    },
+    {
+        "value": "09172",
+        "label": "são joão batista"
+    },
+    {
+        "value": "08303",
+        "label": "são joão do carú"
+    },
+    {
+        "value": "08320",
+        "label": "são joão do paraíso"
+    },
+    {
+        "value": "08346",
+        "label": "são joão do soter"
+    },
+    {
+        "value": "09199",
+        "label": "são joão dos patos"
+    },
+    {
+        "value": "08893",
+        "label": "são josé de ribamar"
+    },
+    {
+        "value": "08362",
+        "label": "são josé dos basílios"
+    },
+    {
+        "value": "09210",
+        "label": "são luís"
+    },
+    {
+        "value": "08052",
+        "label": "são luís gonzaga do maranhão"
+    },
+    {
+        "value": "09237",
+        "label": "são mateus do maranhão"
+    },
+    {
+        "value": "08389",
+        "label": "são pedro da água branca"
+    },
+    {
+        "value": "08400",
+        "label": "são pedro dos crentes"
+    },
+    {
+        "value": "09253",
+        "label": "são raimundo das mangabeiras"
+    },
+    {
+        "value": "08427",
+        "label": "são raimundo do doca bezerra"
+    },
+    {
+        "value": "08443",
+        "label": "são roberto"
+    },
+    {
+        "value": "09270",
+        "label": "são vicente ferrer"
+    },
+    {
+        "value": "08460",
+        "label": "satubinha"
+    },
+    {
+        "value": "08486",
+        "label": "senador alexandre costa"
+    },
+    {
+        "value": "08508",
+        "label": "senador la rocque"
+    },
+    {
+        "value": "08524",
+        "label": "serrano do maranhão"
+    },
+    {
+        "value": "09296",
+        "label": "sítio novo"
+    },
+    {
+        "value": "09318",
+        "label": "sucupira do norte"
+    },
+    {
+        "value": "08540",
+        "label": "sucupira do riachão"
+    },
+    {
+        "value": "09334",
+        "label": "tasso fragoso"
+    },
+    {
+        "value": "09350",
+        "label": "timbiras"
+    },
+    {
+        "value": "09377",
+        "label": "timon"
+    },
+    {
+        "value": "08567",
+        "label": "trizidela do vale"
+    },
+    {
+        "value": "08583",
+        "label": "tufilândia"
+    },
+    {
+        "value": "09393",
+        "label": "tuntum"
+    },
+    {
+        "value": "09415",
+        "label": "turiaçu"
+    },
+    {
+        "value": "08605",
+        "label": "turilândia"
+    },
+    {
+        "value": "09431",
+        "label": "tutóia"
+    },
+    {
+        "value": "09458",
+        "label": "urbano santos"
+    },
+    {
+        "value": "09474",
+        "label": "vargem grande"
+    },
+    {
+        "value": "09490",
+        "label": "viana"
+    },
+    {
+        "value": "08621",
+        "label": "vila nova dos martírios"
+    },
+    {
+        "value": "09512",
+        "label": "vitória do mearim"
+    },
+    {
+        "value": "09539",
+        "label": "vitorino freire"
+    },
+    {
+        "value": "09717",
+        "label": "zé doca"
+    }
 ]

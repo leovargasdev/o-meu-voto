@@ -1,410 +1,410 @@
 [
-  {
-      "value": "27014",
-      "label": "ÁGUA BRANCA"
-  },
-  {
-      "value": "27030",
-      "label": "ANADIA"
-  },
-  {
-      "value": "27057",
-      "label": "ARAPIRACA"
-  },
-  {
-      "value": "27073",
-      "label": "ATALAIA"
-  },
-  {
-      "value": "27090",
-      "label": "BARRA DE SANTO ANTÔNIO"
-  },
-  {
-      "value": "27111",
-      "label": "BARRA DE SÃO MIGUEL"
-  },
-  {
-      "value": "27138",
-      "label": "BATALHA"
-  },
-  {
-      "value": "27154",
-      "label": "BELÉM"
-  },
-  {
-      "value": "27170",
-      "label": "BELO MONTE"
-  },
-  {
-      "value": "27197",
-      "label": "BOCA DA MATA"
-  },
-  {
-      "value": "27219",
-      "label": "BRANQUINHA"
-  },
-  {
-      "value": "27235",
-      "label": "CACIMBINHAS"
-  },
-  {
-      "value": "27251",
-      "label": "CAJUEIRO"
-  },
-  {
-      "value": "27081",
-      "label": "CAMPESTRE"
-  },
-  {
-      "value": "27278",
-      "label": "CAMPO ALEGRE"
-  },
-  {
-      "value": "27294",
-      "label": "CAMPO GRANDE"
-  },
-  {
-      "value": "27316",
-      "label": "CANAPI"
-  },
-  {
-      "value": "27332",
-      "label": "CAPELA"
-  },
-  {
-      "value": "27359",
-      "label": "CARNEIROS"
-  },
-  {
-      "value": "27375",
-      "label": "CHÃ PRETA"
-  },
-  {
-      "value": "27391",
-      "label": "COITÉ DO NÓIA"
-  },
-  {
-      "value": "27413",
-      "label": "COLÔNIA LEOPOLDINA"
-  },
-  {
-      "value": "27430",
-      "label": "COQUEIRO SECO"
-  },
-  {
-      "value": "27456",
-      "label": "CORURIPE"
-  },
-  {
-      "value": "28894",
-      "label": "CRAÍBAS"
-  },
-  {
-      "value": "27472",
-      "label": "DELMIRO GOUVEIA"
-  },
-  {
-      "value": "27499",
-      "label": "DOIS RIACHOS"
-  },
-  {
-      "value": "27049",
-      "label": "ESTRELA DE ALAGOAS"
-  },
-  {
-      "value": "27510",
-      "label": "FEIRA GRANDE"
-  },
-  {
-      "value": "27537",
-      "label": "FELIZ DESERTO"
-  },
-  {
-      "value": "27553",
-      "label": "FLEXEIRAS"
-  },
-  {
-      "value": "27570",
-      "label": "GIRAU DO PONCIANO"
-  },
-  {
-      "value": "27596",
-      "label": "IBATEGUARA"
-  },
-  {
-      "value": "27618",
-      "label": "IGACI"
-  },
-  {
-      "value": "27634",
-      "label": "IGREJA NOVA"
-  },
-  {
-      "value": "27650",
-      "label": "INHAPI"
-  },
-  {
-      "value": "27677",
-      "label": "JACARÉ DOS HOMENS"
-  },
-  {
-      "value": "27693",
-      "label": "JACUÍPE"
-  },
-  {
-      "value": "27715",
-      "label": "JAPARATINGA"
-  },
-  {
-      "value": "27731",
-      "label": "JARAMATAIA"
-  },
-  {
-      "value": "27065",
-      "label": "JEQUIÁ DA PRAIA"
-  },
-  {
-      "value": "27758",
-      "label": "JOAQUIM GOMES"
-  },
-  {
-      "value": "27774",
-      "label": "JUNDIÁ"
-  },
-  {
-      "value": "27790",
-      "label": "JUNQUEIRO"
-  },
-  {
-      "value": "27812",
-      "label": "LAGOA DA CANOA"
-  },
-  {
-      "value": "27839",
-      "label": "LIMOEIRO DE ANADIA"
-  },
-  {
-      "value": "27855",
-      "label": "MACEIÓ"
-  },
-  {
-      "value": "27871",
-      "label": "MAJOR ISIDORO"
-  },
-  {
-      "value": "27979",
-      "label": "MAR VERMELHO"
-  },
-  {
-      "value": "27898",
-      "label": "MARAGOGI"
-  },
-  {
-      "value": "27910",
-      "label": "MARAVILHA"
-  },
-  {
-      "value": "27936",
-      "label": "MARECHAL DEODORO"
-  },
-  {
-      "value": "27952",
-      "label": "MARIBONDO"
-  },
-  {
-      "value": "27995",
-      "label": "MATA GRANDE"
-  },
-  {
-      "value": "28010",
-      "label": "MATRIZ DE CAMARAGIBE"
-  },
-  {
-      "value": "28037",
-      "label": "MESSIAS"
-  },
-  {
-      "value": "28053",
-      "label": "MINADOR DO NEGRÃO"
-  },
-  {
-      "value": "28070",
-      "label": "MONTEIRÓPOLIS"
-  },
-  {
-      "value": "28096",
-      "label": "MURICI"
-  },
-  {
-      "value": "28118",
-      "label": "NOVO LINO"
-  },
-  {
-      "value": "28134",
-      "label": "OLHO D'ÁGUA DAS FLORES"
-  },
-  {
-      "value": "28150",
-      "label": "OLHO D'ÁGUA DO CASADO"
-  },
-  {
-      "value": "28177",
-      "label": "OLHO D'ÁGUA GRANDE"
-  },
-  {
-      "value": "28193",
-      "label": "OLIVENÇA"
-  },
-  {
-      "value": "28215",
-      "label": "OURO BRANCO"
-  },
-  {
-      "value": "28231",
-      "label": "PALESTINA"
-  },
-  {
-      "value": "28258",
-      "label": "PALMEIRA DOS ÍNDIOS"
-  },
-  {
-      "value": "28274",
-      "label": "PÃO DE AÇÚCAR"
-  },
-  {
-      "value": "27022",
-      "label": "PARICONHA"
-  },
-  {
-      "value": "27006",
-      "label": "PARIPUEIRA"
-  },
-  {
-      "value": "28290",
-      "label": "PASSO DE CAMARAGIBE"
-  },
-  {
-      "value": "28312",
-      "label": "PAULO JACINTO"
-  },
-  {
-      "value": "28339",
-      "label": "PENEDO"
-  },
-  {
-      "value": "28355",
-      "label": "PIAÇABUÇU"
-  },
-  {
-      "value": "28371",
-      "label": "PILAR"
-  },
-  {
-      "value": "28398",
-      "label": "PINDOBA"
-  },
-  {
-      "value": "28410",
-      "label": "PIRANHAS"
-  },
-  {
-      "value": "28436",
-      "label": "POÇO DAS TRINCHEIRAS"
-  },
-  {
-      "value": "28452",
-      "label": "PORTO CALVO"
-  },
-  {
-      "value": "28479",
-      "label": "PORTO DE PEDRAS"
-  },
-  {
-      "value": "28495",
-      "label": "PORTO REAL DO COLÉGIO"
-  },
-  {
-      "value": "28517",
-      "label": "QUEBRANGULO"
-  },
-  {
-      "value": "28533",
-      "label": "RIO LARGO"
-  },
-  {
-      "value": "28550",
-      "label": "ROTEIRO"
-  },
-  {
-      "value": "28576",
-      "label": "SANTA LUZIA DO NORTE"
-  },
-  {
-      "value": "28592",
-      "label": "SANTANA DO IPANEMA"
-  },
-  {
-      "value": "28614",
-      "label": "SANTANA DO MUNDAÚ"
-  },
-  {
-      "value": "28630",
-      "label": "SÃO BRÁS"
-  },
-  {
-      "value": "28657",
-      "label": "SÃO JOSÉ DA LAJE"
-  },
-  {
-      "value": "28673",
-      "label": "SÃO JOSÉ DA TAPERA"
-  },
-  {
-      "value": "28690",
-      "label": "SÃO LUÍS DO QUITUNDE"
-  },
-  {
-      "value": "28711",
-      "label": "SÃO MIGUEL DOS CAMPOS"
-  },
-  {
-      "value": "28738",
-      "label": "SÃO MIGUEL DOS MILAGRES"
-  },
-  {
-      "value": "28754",
-      "label": "SÃO SEBASTIÃO"
-  },
-  {
-      "value": "28770",
-      "label": "SATUBA"
-  },
-  {
-      "value": "28916",
-      "label": "SENADOR RUI PALMEIRA"
-  },
-  {
-      "value": "28797",
-      "label": "TANQUE D'ARCA"
-  },
-  {
-      "value": "28819",
-      "label": "TAQUARANA"
-  },
-  {
-      "value": "28932",
-      "label": "TEOTÔNIO VILELA"
-  },
-  {
-      "value": "28835",
-      "label": "TRAIPU"
-  },
-  {
-      "value": "28851",
-      "label": "UNIÃO DOS PALMARES"
-  },
-  {
-      "value": "28878",
-      "label": "VIÇOSA"
-  }
+    {
+        "value": "27014",
+        "label": "água branca"
+    },
+    {
+        "value": "27030",
+        "label": "anadia"
+    },
+    {
+        "value": "27057",
+        "label": "arapiraca"
+    },
+    {
+        "value": "27073",
+        "label": "atalaia"
+    },
+    {
+        "value": "27090",
+        "label": "barra de santo antônio"
+    },
+    {
+        "value": "27111",
+        "label": "barra de são miguel"
+    },
+    {
+        "value": "27138",
+        "label": "batalha"
+    },
+    {
+        "value": "27154",
+        "label": "belém"
+    },
+    {
+        "value": "27170",
+        "label": "belo monte"
+    },
+    {
+        "value": "27197",
+        "label": "boca da mata"
+    },
+    {
+        "value": "27219",
+        "label": "branquinha"
+    },
+    {
+        "value": "27235",
+        "label": "cacimbinhas"
+    },
+    {
+        "value": "27251",
+        "label": "cajueiro"
+    },
+    {
+        "value": "27081",
+        "label": "campestre"
+    },
+    {
+        "value": "27278",
+        "label": "campo alegre"
+    },
+    {
+        "value": "27294",
+        "label": "campo grande"
+    },
+    {
+        "value": "27316",
+        "label": "canapi"
+    },
+    {
+        "value": "27332",
+        "label": "capela"
+    },
+    {
+        "value": "27359",
+        "label": "carneiros"
+    },
+    {
+        "value": "27375",
+        "label": "chã preta"
+    },
+    {
+        "value": "27391",
+        "label": "coité do nóia"
+    },
+    {
+        "value": "27413",
+        "label": "colônia leopoldina"
+    },
+    {
+        "value": "27430",
+        "label": "coqueiro seco"
+    },
+    {
+        "value": "27456",
+        "label": "coruripe"
+    },
+    {
+        "value": "28894",
+        "label": "craíbas"
+    },
+    {
+        "value": "27472",
+        "label": "delmiro gouveia"
+    },
+    {
+        "value": "27499",
+        "label": "dois riachos"
+    },
+    {
+        "value": "27049",
+        "label": "estrela de alagoas"
+    },
+    {
+        "value": "27510",
+        "label": "feira grande"
+    },
+    {
+        "value": "27537",
+        "label": "feliz deserto"
+    },
+    {
+        "value": "27553",
+        "label": "flexeiras"
+    },
+    {
+        "value": "27570",
+        "label": "girau do ponciano"
+    },
+    {
+        "value": "27596",
+        "label": "ibateguara"
+    },
+    {
+        "value": "27618",
+        "label": "igaci"
+    },
+    {
+        "value": "27634",
+        "label": "igreja nova"
+    },
+    {
+        "value": "27650",
+        "label": "inhapi"
+    },
+    {
+        "value": "27677",
+        "label": "jacaré dos homens"
+    },
+    {
+        "value": "27693",
+        "label": "jacuípe"
+    },
+    {
+        "value": "27715",
+        "label": "japaratinga"
+    },
+    {
+        "value": "27731",
+        "label": "jaramataia"
+    },
+    {
+        "value": "27065",
+        "label": "jequiá da praia"
+    },
+    {
+        "value": "27758",
+        "label": "joaquim gomes"
+    },
+    {
+        "value": "27774",
+        "label": "jundiá"
+    },
+    {
+        "value": "27790",
+        "label": "junqueiro"
+    },
+    {
+        "value": "27812",
+        "label": "lagoa da canoa"
+    },
+    {
+        "value": "27839",
+        "label": "limoeiro de anadia"
+    },
+    {
+        "value": "27855",
+        "label": "maceió"
+    },
+    {
+        "value": "27871",
+        "label": "major isidoro"
+    },
+    {
+        "value": "27979",
+        "label": "mar vermelho"
+    },
+    {
+        "value": "27898",
+        "label": "maragogi"
+    },
+    {
+        "value": "27910",
+        "label": "maravilha"
+    },
+    {
+        "value": "27936",
+        "label": "marechal deodoro"
+    },
+    {
+        "value": "27952",
+        "label": "maribondo"
+    },
+    {
+        "value": "27995",
+        "label": "mata grande"
+    },
+    {
+        "value": "28010",
+        "label": "matriz de camaragibe"
+    },
+    {
+        "value": "28037",
+        "label": "messias"
+    },
+    {
+        "value": "28053",
+        "label": "minador do negrão"
+    },
+    {
+        "value": "28070",
+        "label": "monteirópolis"
+    },
+    {
+        "value": "28096",
+        "label": "murici"
+    },
+    {
+        "value": "28118",
+        "label": "novo lino"
+    },
+    {
+        "value": "28134",
+        "label": "olho d'água das flores"
+    },
+    {
+        "value": "28150",
+        "label": "olho d'água do casado"
+    },
+    {
+        "value": "28177",
+        "label": "olho d'água grande"
+    },
+    {
+        "value": "28193",
+        "label": "olivença"
+    },
+    {
+        "value": "28215",
+        "label": "ouro branco"
+    },
+    {
+        "value": "28231",
+        "label": "palestina"
+    },
+    {
+        "value": "28258",
+        "label": "palmeira dos índios"
+    },
+    {
+        "value": "28274",
+        "label": "pão de açúcar"
+    },
+    {
+        "value": "27022",
+        "label": "pariconha"
+    },
+    {
+        "value": "27006",
+        "label": "paripueira"
+    },
+    {
+        "value": "28290",
+        "label": "passo de camaragibe"
+    },
+    {
+        "value": "28312",
+        "label": "paulo jacinto"
+    },
+    {
+        "value": "28339",
+        "label": "penedo"
+    },
+    {
+        "value": "28355",
+        "label": "piaçabuçu"
+    },
+    {
+        "value": "28371",
+        "label": "pilar"
+    },
+    {
+        "value": "28398",
+        "label": "pindoba"
+    },
+    {
+        "value": "28410",
+        "label": "piranhas"
+    },
+    {
+        "value": "28436",
+        "label": "poço das trincheiras"
+    },
+    {
+        "value": "28452",
+        "label": "porto calvo"
+    },
+    {
+        "value": "28479",
+        "label": "porto de pedras"
+    },
+    {
+        "value": "28495",
+        "label": "porto real do colégio"
+    },
+    {
+        "value": "28517",
+        "label": "quebrangulo"
+    },
+    {
+        "value": "28533",
+        "label": "rio largo"
+    },
+    {
+        "value": "28550",
+        "label": "roteiro"
+    },
+    {
+        "value": "28576",
+        "label": "santa luzia do norte"
+    },
+    {
+        "value": "28592",
+        "label": "santana do ipanema"
+    },
+    {
+        "value": "28614",
+        "label": "santana do mundaú"
+    },
+    {
+        "value": "28630",
+        "label": "são brás"
+    },
+    {
+        "value": "28657",
+        "label": "são josé da laje"
+    },
+    {
+        "value": "28673",
+        "label": "são josé da tapera"
+    },
+    {
+        "value": "28690",
+        "label": "são luís do quitunde"
+    },
+    {
+        "value": "28711",
+        "label": "são miguel dos campos"
+    },
+    {
+        "value": "28738",
+        "label": "são miguel dos milagres"
+    },
+    {
+        "value": "28754",
+        "label": "são sebastião"
+    },
+    {
+        "value": "28770",
+        "label": "satuba"
+    },
+    {
+        "value": "28916",
+        "label": "senador rui palmeira"
+    },
+    {
+        "value": "28797",
+        "label": "tanque d'arca"
+    },
+    {
+        "value": "28819",
+        "label": "taquarana"
+    },
+    {
+        "value": "28932",
+        "label": "teotônio vilela"
+    },
+    {
+        "value": "28835",
+        "label": "traipu"
+    },
+    {
+        "value": "28851",
+        "label": "união dos palmares"
+    },
+    {
+        "value": "28878",
+        "label": "viçosa"
+    }
 ]

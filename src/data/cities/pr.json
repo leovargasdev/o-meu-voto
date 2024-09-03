@@ -1,1598 +1,1598 @@
 [
-  {
-      "value": "74012",
-      "label": "ABATIÁ"
-  },
-  {
-      "value": "74039",
-      "label": "ADRIANÓPOLIS"
-  },
-  {
-      "value": "74055",
-      "label": "AGUDOS DO SUL"
-  },
-  {
-      "value": "74071",
-      "label": "ALMIRANTE TAMANDARÉ"
-  },
-  {
-      "value": "84557",
-      "label": "ALTAMIRA DO PARANÁ"
-  },
-  {
-      "value": "74926",
-      "label": "ALTO PARAÍSO"
-  },
-  {
-      "value": "74098",
-      "label": "ALTO PARANÁ"
-  },
-  {
-      "value": "74110",
-      "label": "ALTO PIQUIRI"
-  },
-  {
-      "value": "79510",
-      "label": "ALTÔNIA"
-  },
-  {
-      "value": "74136",
-      "label": "ALVORADA DO SUL"
-  },
-  {
-      "value": "74152",
-      "label": "AMAPORÃ"
-  },
-  {
-      "value": "74179",
-      "label": "AMPÉRE"
-  },
-  {
-      "value": "74101",
-      "label": "ANAHY"
-  },
-  {
-      "value": "74195",
-      "label": "ANDIRÁ"
-  },
-  {
-      "value": "74128",
-      "label": "ÂNGULO"
-  },
-  {
-      "value": "74217",
-      "label": "ANTONINA"
-  },
-  {
-      "value": "74233",
-      "label": "ANTONIO OLINTO"
-  },
-  {
-      "value": "74250",
-      "label": "APUCARANA"
-  },
-  {
-      "value": "74276",
-      "label": "ARAPONGAS"
-  },
-  {
-      "value": "74292",
-      "label": "ARAPOTI"
-  },
-  {
-      "value": "75108",
-      "label": "ARAPUÃ"
-  },
-  {
-      "value": "74314",
-      "label": "ARARUNA"
-  },
-  {
-      "value": "74357",
-      "label": "ARAUCÁRIA"
-  },
-  {
-      "value": "75086",
-      "label": "ARIRANHA DO IVAÍ"
-  },
-  {
-      "value": "74373",
-      "label": "ASSAÍ"
-  },
-  {
-      "value": "79537",
-      "label": "ASSIS CHATEAUBRIAND"
-  },
-  {
-      "value": "74390",
-      "label": "ASTORGA"
-  },
-  {
-      "value": "74411",
-      "label": "ATALAIA"
-  },
-  {
-      "value": "74438",
-      "label": "BALSA NOVA"
-  },
-  {
-      "value": "74454",
-      "label": "BANDEIRANTES"
-  },
-  {
-      "value": "74470",
-      "label": "BARBOSA FERRAZ"
-  },
-  {
-      "value": "74519",
-      "label": "BARRA DO JACARÉ"
-  },
-  {
-      "value": "74497",
-      "label": "BARRACÃO"
-  },
-  {
-      "value": "75124",
-      "label": "BELA VISTA DA CAROBA"
-  },
-  {
-      "value": "74535",
-      "label": "BELA VISTA DO PARAÍSO"
-  },
-  {
-      "value": "74551",
-      "label": "BITURUNA"
-  },
-  {
-      "value": "74578",
-      "label": "BOA ESPERANÇA"
-  },
-  {
-      "value": "74144",
-      "label": "BOA ESPERANÇA DO IGUAÇU"
-  },
-  {
-      "value": "75140",
-      "label": "BOA VENTURA DE SÃO ROQUE"
-  },
-  {
-      "value": "79812",
-      "label": "BOA VISTA DA APARECIDA"
-  },
-  {
-      "value": "74594",
-      "label": "BOCAIÚVA DO SUL"
-  },
-  {
-      "value": "75167",
-      "label": "BOM JESUS DO SUL"
-  },
-  {
-      "value": "74616",
-      "label": "BOM SUCESSO"
-  },
-  {
-      "value": "74160",
-      "label": "BOM SUCESSO DO SUL"
-  },
-  {
-      "value": "74632",
-      "label": "BORRAZÓPOLIS"
-  },
-  {
-      "value": "79839",
-      "label": "BRAGANEY"
-  },
-  {
-      "value": "74187",
-      "label": "BRASILÂNDIA DO SUL"
-  },
-  {
-      "value": "74659",
-      "label": "CAFEARA"
-  },
-  {
-      "value": "79855",
-      "label": "CAFELÂNDIA"
-  },
-  {
-      "value": "74209",
-      "label": "CAFEZAL DO SUL"
-  },
-  {
-      "value": "74675",
-      "label": "CALIFÓRNIA"
-  },
-  {
-      "value": "74691",
-      "label": "CAMBARÁ"
-  },
-  {
-      "value": "74713",
-      "label": "CAMBÉ"
-  },
-  {
-      "value": "74730",
-      "label": "CAMBIRA"
-  },
-  {
-      "value": "74756",
-      "label": "CAMPINA DA LAGOA"
-  },
-  {
-      "value": "75183",
-      "label": "CAMPINA DO SIMÃO"
-  },
-  {
-      "value": "74772",
-      "label": "CAMPINA GRANDE DO SUL"
-  },
-  {
-      "value": "74780",
-      "label": "CAMPO BONITO"
-  },
-  {
-      "value": "74799",
-      "label": "CAMPO DO TENENTE"
-  },
-  {
-      "value": "74810",
-      "label": "CAMPO LARGO"
-  },
-  {
-      "value": "75205",
-      "label": "CAMPO MAGRO"
-  },
-  {
-      "value": "74837",
-      "label": "CAMPO MOURÃO"
-  },
-  {
-      "value": "74853",
-      "label": "CÂNDIDO DE ABREU"
-  },
-  {
-      "value": "74225",
-      "label": "CANDÓI"
-  },
-  {
-      "value": "84514",
-      "label": "CANTAGALO"
-  },
-  {
-      "value": "74870",
-      "label": "CAPANEMA"
-  },
-  {
-      "value": "74896",
-      "label": "CAPITÃO LEÔNIDAS MARQUES"
-  },
-  {
-      "value": "75221",
-      "label": "CARAMBEÍ"
-  },
-  {
-      "value": "74918",
-      "label": "CARLÓPOLIS"
-  },
-  {
-      "value": "74934",
-      "label": "CASCAVEL"
-  },
-  {
-      "value": "74950",
-      "label": "CASTRO"
-  },
-  {
-      "value": "74977",
-      "label": "CATANDUVAS"
-  },
-  {
-      "value": "74993",
-      "label": "CENTENÁRIO DO SUL"
-  },
-  {
-      "value": "75019",
-      "label": "CERRO AZUL"
-  },
-  {
-      "value": "79570",
-      "label": "CÉU AZUL"
-  },
-  {
-      "value": "75035",
-      "label": "CHOPINZINHO"
-  },
-  {
-      "value": "75051",
-      "label": "CIANORTE"
-  },
-  {
-      "value": "75078",
-      "label": "CIDADE GAÚCHA"
-  },
-  {
-      "value": "75094",
-      "label": "CLEVELÂNDIA"
-  },
-  {
-      "value": "75132",
-      "label": "COLOMBO"
-  },
-  {
-      "value": "75159",
-      "label": "COLORADO"
-  },
-  {
-      "value": "75175",
-      "label": "CONGONHINHAS"
-  },
-  {
-      "value": "75191",
-      "label": "CONSELHEIRO MAIRINCK"
-  },
-  {
-      "value": "75213",
-      "label": "CONTENDA"
-  },
-  {
-      "value": "75230",
-      "label": "CORBÉLIA"
-  },
-  {
-      "value": "75256",
-      "label": "CORNÉLIO PROCÓPIO"
-  },
-  {
-      "value": "75248",
-      "label": "CORONEL DOMINGOS SOARES"
-  },
-  {
-      "value": "75272",
-      "label": "CORONEL VIVIDA"
-  },
-  {
-      "value": "75280",
-      "label": "CORUMBATAÍ DO SUL"
-  },
-  {
-      "value": "75337",
-      "label": "CRUZ MACHADO"
-  },
-  {
-      "value": "74241",
-      "label": "CRUZEIRO DO IGUAÇU"
-  },
-  {
-      "value": "75299",
-      "label": "CRUZEIRO DO OESTE"
-  },
-  {
-      "value": "75310",
-      "label": "CRUZEIRO DO SUL"
-  },
-  {
-      "value": "75264",
-      "label": "CRUZMALTINA"
-  },
-  {
-      "value": "75353",
-      "label": "CURITIBA"
-  },
-  {
-      "value": "75370",
-      "label": "CURIÚVA"
-  },
-  {
-      "value": "75400",
-      "label": "DIAMANTE D'OESTE"
-  },
-  {
-      "value": "75396",
-      "label": "DIAMANTE DO NORTE"
-  },
-  {
-      "value": "74268",
-      "label": "DIAMANTE DO SUL"
-  },
-  {
-      "value": "75418",
-      "label": "DOIS VIZINHOS"
-  },
-  {
-      "value": "84654",
-      "label": "DOURADINA"
-  },
-  {
-      "value": "75434",
-      "label": "DOUTOR CAMARGO"
-  },
-  {
-      "value": "74942",
-      "label": "DOUTOR ULYSSES"
-  },
-  {
-      "value": "75450",
-      "label": "ENÉAS MARQUES"
-  },
-  {
-      "value": "75477",
-      "label": "ENGENHEIRO BELTRÃO"
-  },
-  {
-      "value": "74284",
-      "label": "ENTRE RIOS DO OESTE"
-  },
-  {
-      "value": "75302",
-      "label": "ESPERANÇA NOVA"
-  },
-  {
-      "value": "75329",
-      "label": "ESPIGÃO ALTO DO IGUAÇU"
-  },
-  {
-      "value": "74306",
-      "label": "FAROL"
-  },
-  {
-      "value": "75493",
-      "label": "FAXINAL"
-  },
-  {
-      "value": "74322",
-      "label": "FAZENDA RIO GRANDE"
-  },
-  {
-      "value": "75515",
-      "label": "FÊNIX"
-  },
-  {
-      "value": "75345",
-      "label": "FERNANDES PINHEIRO"
-  },
-  {
-      "value": "84573",
-      "label": "FIGUEIRA"
-  },
-  {
-      "value": "74349",
-      "label": "FLOR DA SERRA DO SUL"
-  },
-  {
-      "value": "75531",
-      "label": "FLORAÍ"
-  },
-  {
-      "value": "75558",
-      "label": "FLORESTA"
-  },
-  {
-      "value": "75574",
-      "label": "FLORESTÓPOLIS"
-  },
-  {
-      "value": "75590",
-      "label": "FLÓRIDA"
-  },
-  {
-      "value": "75612",
-      "label": "FORMOSA DO OESTE"
-  },
-  {
-      "value": "75639",
-      "label": "FOZ DO IGUAÇU"
-  },
-  {
-      "value": "75361",
-      "label": "FOZ DO JORDÃO"
-  },
-  {
-      "value": "79774",
-      "label": "FRANCISCO ALVES"
-  },
-  {
-      "value": "75655",
-      "label": "FRANCISCO BELTRÃO"
-  },
-  {
-      "value": "75671",
-      "label": "GENERAL CARNEIRO"
-  },
-  {
-      "value": "74004",
-      "label": "GODOY MOREIRA"
-  },
-  {
-      "value": "75698",
-      "label": "GOIOERÊ"
-  },
-  {
-      "value": "75388",
-      "label": "GOIOXIM"
-  },
-  {
-      "value": "79596",
-      "label": "GRANDES RIOS"
-  },
-  {
-      "value": "75710",
-      "label": "GUAÍRA"
-  },
-  {
-      "value": "75736",
-      "label": "GUAIRAÇÁ"
-  },
-  {
-      "value": "75426",
-      "label": "GUAMIRANGA"
-  },
-  {
-      "value": "75752",
-      "label": "GUAPIRAMA"
-  },
-  {
-      "value": "75779",
-      "label": "GUAPOREMA"
-  },
-  {
-      "value": "75795",
-      "label": "GUARACI"
-  },
-  {
-      "value": "75817",
-      "label": "GUARANIAÇU"
-  },
-  {
-      "value": "75833",
-      "label": "GUARAPUAVA"
-  },
-  {
-      "value": "75850",
-      "label": "GUARAQUEÇABA"
-  },
-  {
-      "value": "75876",
-      "label": "GUARATUBA"
-  },
-  {
-      "value": "74365",
-      "label": "HONÓRIO SERPA"
-  },
-  {
-      "value": "75892",
-      "label": "IBAITI"
-  },
-  {
-      "value": "74020",
-      "label": "IBEMA"
-  },
-  {
-      "value": "75914",
-      "label": "IBIPORÃ"
-  },
-  {
-      "value": "75930",
-      "label": "ICARAÍMA"
-  },
-  {
-      "value": "75957",
-      "label": "IGUARAÇU"
-  },
-  {
-      "value": "74381",
-      "label": "IGUATU"
-  },
-  {
-      "value": "75442",
-      "label": "IMBAÚ"
-  },
-  {
-      "value": "75973",
-      "label": "IMBITUVA"
-  },
-  {
-      "value": "75990",
-      "label": "INÁCIO MARTINS"
-  },
-  {
-      "value": "76015",
-      "label": "INAJÁ"
-  },
-  {
-      "value": "79618",
-      "label": "INDIANÓPOLIS"
-  },
-  {
-      "value": "76031",
-      "label": "IPIRANGA"
-  },
-  {
-      "value": "76058",
-      "label": "IPORÃ"
-  },
-  {
-      "value": "74403",
-      "label": "IRACEMA DO OESTE"
-  },
-  {
-      "value": "76074",
-      "label": "IRATI"
-  },
-  {
-      "value": "76090",
-      "label": "IRETAMA"
-  },
-  {
-      "value": "76112",
-      "label": "ITAGUAJÉ"
-  },
-  {
-      "value": "75000",
-      "label": "ITAIPULÂNDIA"
-  },
-  {
-      "value": "76139",
-      "label": "ITAMBARACÁ"
-  },
-  {
-      "value": "76155",
-      "label": "ITAMBÉ"
-  },
-  {
-      "value": "76171",
-      "label": "ITAPEJARA D'OESTE"
-  },
-  {
-      "value": "74446",
-      "label": "ITAPERUÇU"
-  },
-  {
-      "value": "76198",
-      "label": "ITAÚNA DO SUL"
-  },
-  {
-      "value": "76210",
-      "label": "IVAÍ"
-  },
-  {
-      "value": "76236",
-      "label": "IVAIPORÃ"
-  },
-  {
-      "value": "74462",
-      "label": "IVATÉ"
-  },
-  {
-      "value": "76252",
-      "label": "IVATUBA"
-  },
-  {
-      "value": "76279",
-      "label": "JABOTI"
-  },
-  {
-      "value": "76295",
-      "label": "JACAREZINHO"
-  },
-  {
-      "value": "76317",
-      "label": "JAGUAPITÃ"
-  },
-  {
-      "value": "76333",
-      "label": "JAGUARIAÍVA"
-  },
-  {
-      "value": "76350",
-      "label": "JANDAIA DO SUL"
-  },
-  {
-      "value": "76376",
-      "label": "JANIÓPOLIS"
-  },
-  {
-      "value": "76392",
-      "label": "JAPIRA"
-  },
-  {
-      "value": "76414",
-      "label": "JAPURÁ"
-  },
-  {
-      "value": "76430",
-      "label": "JARDIM ALEGRE"
-  },
-  {
-      "value": "76457",
-      "label": "JARDIM OLINDA"
-  },
-  {
-      "value": "76473",
-      "label": "JATAIZINHO"
-  },
-  {
-      "value": "79979",
-      "label": "JESUÍTAS"
-  },
-  {
-      "value": "76490",
-      "label": "JOAQUIM TÁVORA"
-  },
-  {
-      "value": "76511",
-      "label": "JUNDIAÍ DO SUL"
-  },
-  {
-      "value": "84638",
-      "label": "JURANDA"
-  },
-  {
-      "value": "76538",
-      "label": "JUSSARA"
-  },
-  {
-      "value": "76554",
-      "label": "KALORÉ"
-  },
-  {
-      "value": "76570",
-      "label": "LAPA"
-  },
-  {
-      "value": "74985",
-      "label": "LARANJAL"
-  },
-  {
-      "value": "76597",
-      "label": "LARANJEIRAS DO SUL"
-  },
-  {
-      "value": "76619",
-      "label": "LEÓPOLIS"
-  },
-  {
-      "value": "74489",
-      "label": "LIDIANÓPOLIS"
-  },
-  {
-      "value": "74047",
-      "label": "LINDOESTE"
-  },
-  {
-      "value": "76635",
-      "label": "LOANDA"
-  },
-  {
-      "value": "76651",
-      "label": "LOBATO"
-  },
-  {
-      "value": "76678",
-      "label": "LONDRINA"
-  },
-  {
-      "value": "75809",
-      "label": "LUIZIANA"
-  },
-  {
-      "value": "84590",
-      "label": "LUNARDELLI"
-  },
-  {
-      "value": "76694",
-      "label": "LUPIONÓPOLIS"
-  },
-  {
-      "value": "76716",
-      "label": "MALLET"
-  },
-  {
-      "value": "76732",
-      "label": "MAMBORÊ"
-  },
-  {
-      "value": "76759",
-      "label": "MANDAGUAÇU"
-  },
-  {
-      "value": "76775",
-      "label": "MANDAGUARI"
-  },
-  {
-      "value": "76791",
-      "label": "MANDIRITUBA"
-  },
-  {
-      "value": "75469",
-      "label": "MANFRINÓPOLIS"
-  },
-  {
-      "value": "75116",
-      "label": "MANGUEIRINHA"
-  },
-  {
-      "value": "76813",
-      "label": "MANOEL RIBAS"
-  },
-  {
-      "value": "76830",
-      "label": "MARECHAL CÂNDIDO RONDON"
-  },
-  {
-      "value": "76856",
-      "label": "MARIA HELENA"
-  },
-  {
-      "value": "76872",
-      "label": "MARIALVA"
-  },
-  {
-      "value": "74330",
-      "label": "MARILÂNDIA DO SUL"
-  },
-  {
-      "value": "79758",
-      "label": "MARILENA"
-  },
-  {
-      "value": "76899",
-      "label": "MARILUZ"
-  },
-  {
-      "value": "76910",
-      "label": "MARINGÁ"
-  },
-  {
-      "value": "76937",
-      "label": "MARIÓPOLIS"
-  },
-  {
-      "value": "74500",
-      "label": "MARIPÁ"
-  },
-  {
-      "value": "76953",
-      "label": "MARMELEIRO"
-  },
-  {
-      "value": "75485",
-      "label": "MARQUINHO"
-  },
-  {
-      "value": "76970",
-      "label": "MARUMBI"
-  },
-  {
-      "value": "76996",
-      "label": "MATELÂNDIA"
-  },
-  {
-      "value": "79634",
-      "label": "MATINHOS"
-  },
-  {
-      "value": "74527",
-      "label": "MATO RICO"
-  },
-  {
-      "value": "74543",
-      "label": "MAUÁ DA SERRA"
-  },
-  {
-      "value": "77011",
-      "label": "MEDIANEIRA"
-  },
-  {
-      "value": "74560",
-      "label": "MERCEDES"
-  },
-  {
-      "value": "77038",
-      "label": "MIRADOR"
-  },
-  {
-      "value": "77054",
-      "label": "MIRASELVA"
-  },
-  {
-      "value": "84697",
-      "label": "MISSAL"
-  },
-  {
-      "value": "77070",
-      "label": "MOREIRA SALES"
-  },
-  {
-      "value": "77097",
-      "label": "MORRETES"
-  },
-  {
-      "value": "77119",
-      "label": "MUNHOZ DE MELO"
-  },
-  {
-      "value": "77135",
-      "label": "NOSSA SENHORA DAS GRAÇAS"
-  },
-  {
-      "value": "77151",
-      "label": "NOVA ALIANÇA DO IVAÍ"
-  },
-  {
-      "value": "77178",
-      "label": "NOVA AMÉRICA DA COLINA"
-  },
-  {
-      "value": "79650",
-      "label": "NOVA AURORA"
-  },
-  {
-      "value": "77194",
-      "label": "NOVA CANTU"
-  },
-  {
-      "value": "77216",
-      "label": "NOVA ESPERANÇA"
-  },
-  {
-      "value": "75027",
-      "label": "NOVA ESPERANÇA DO SUDOESTE"
-  },
-  {
-      "value": "77232",
-      "label": "NOVA FÁTIMA"
-  },
-  {
-      "value": "74586",
-      "label": "NOVA LARANJEIRAS"
-  },
-  {
-      "value": "77259",
-      "label": "NOVA LONDRINA"
-  },
-  {
-      "value": "79677",
-      "label": "NOVA OLÍMPIA"
-  },
-  {
-      "value": "79952",
-      "label": "NOVA PRATA DO IGUAÇU"
-  },
-  {
-      "value": "74608",
-      "label": "NOVA SANTA BÁRBARA"
-  },
-  {
-      "value": "79790",
-      "label": "NOVA SANTA ROSA"
-  },
-  {
-      "value": "75760",
-      "label": "NOVA TEBAS"
-  },
-  {
-      "value": "74420",
-      "label": "NOVO ITACOLOMI"
-  },
-  {
-      "value": "77275",
-      "label": "ORTIGUEIRA"
-  },
-  {
-      "value": "77291",
-      "label": "OURIZONA"
-  },
-  {
-      "value": "74063",
-      "label": "OURO VERDE DO OESTE"
-  },
-  {
-      "value": "77313",
-      "label": "PAIÇANDU"
-  },
-  {
-      "value": "77330",
-      "label": "PALMAS"
-  },
-  {
-      "value": "77356",
-      "label": "PALMEIRA"
-  },
-  {
-      "value": "77372",
-      "label": "PALMITAL"
-  },
-  {
-      "value": "77399",
-      "label": "PALOTINA"
-  },
-  {
-      "value": "77410",
-      "label": "PARAÍSO DO NORTE"
-  },
-  {
-      "value": "77437",
-      "label": "PARANACITY"
-  },
-  {
-      "value": "77453",
-      "label": "PARANAGUÁ"
-  },
-  {
-      "value": "77470",
-      "label": "PARANAPOEMA"
-  },
-  {
-      "value": "77496",
-      "label": "PARANAVAÍ"
-  },
-  {
-      "value": "74624",
-      "label": "PATO BRAGADO"
-  },
-  {
-      "value": "77518",
-      "label": "PATO BRANCO"
-  },
-  {
-      "value": "77534",
-      "label": "PAULA FREITAS"
-  },
-  {
-      "value": "77550",
-      "label": "PAULO FRONTIN"
-  },
-  {
-      "value": "77577",
-      "label": "PEABIRU"
-  },
-  {
-      "value": "75507",
-      "label": "PEROBAL"
-  },
-  {
-      "value": "79693",
-      "label": "PÉROLA"
-  },
-  {
-      "value": "77593",
-      "label": "PÉROLA D'OESTE"
-  },
-  {
-      "value": "77615",
-      "label": "PIÊN"
-  },
-  {
-      "value": "75043",
-      "label": "PINHAIS"
-  },
-  {
-      "value": "74640",
-      "label": "PINHAL DE SÃO BENTO"
-  },
-  {
-      "value": "77631",
-      "label": "PINHALÃO"
-  },
-  {
-      "value": "77658",
-      "label": "PINHÃO"
-  },
-  {
-      "value": "77674",
-      "label": "PIRAÍ DO SUL"
-  },
-  {
-      "value": "77690",
-      "label": "PIRAQUARA"
-  },
-  {
-      "value": "77712",
-      "label": "PITANGA"
-  },
-  {
-      "value": "74667",
-      "label": "PITANGUEIRAS"
-  },
-  {
-      "value": "77739",
-      "label": "PLANALTINA DO PARANÁ"
-  },
-  {
-      "value": "77755",
-      "label": "PLANALTO"
-  },
-  {
-      "value": "77771",
-      "label": "PONTA GROSSA"
-  },
-  {
-      "value": "75523",
-      "label": "PONTAL DO PARANÁ"
-  },
-  {
-      "value": "77798",
-      "label": "PORECATU"
-  },
-  {
-      "value": "77810",
-      "label": "PORTO AMAZONAS"
-  },
-  {
-      "value": "75540",
-      "label": "PORTO BARREIRO"
-  },
-  {
-      "value": "77836",
-      "label": "PORTO RICO"
-  },
-  {
-      "value": "77852",
-      "label": "PORTO VITÓRIA"
-  },
-  {
-      "value": "75566",
-      "label": "PRADO FERREIRA"
-  },
-  {
-      "value": "79910",
-      "label": "PRANCHITA"
-  },
-  {
-      "value": "77879",
-      "label": "PRESIDENTE CASTELO BRANCO"
-  },
-  {
-      "value": "77895",
-      "label": "PRIMEIRO DE MAIO"
-  },
-  {
-      "value": "77917",
-      "label": "PRUDENTÓPOLIS"
-  },
-  {
-      "value": "75582",
-      "label": "QUARTO CENTENÁRIO"
-  },
-  {
-      "value": "77933",
-      "label": "QUATIGUÁ"
-  },
-  {
-      "value": "77950",
-      "label": "QUATRO BARRAS"
-  },
-  {
-      "value": "74683",
-      "label": "QUATRO PONTES"
-  },
-  {
-      "value": "79553",
-      "label": "QUEDAS DO IGUAÇU"
-  },
-  {
-      "value": "77976",
-      "label": "QUERÊNCIA DO NORTE"
-  },
-  {
-      "value": "77992",
-      "label": "QUINTA DO SOL"
-  },
-  {
-      "value": "78018",
-      "label": "QUITANDINHA"
-  },
-  {
-      "value": "74705",
-      "label": "RAMILÂNDIA"
-  },
-  {
-      "value": "78034",
-      "label": "RANCHO ALEGRE"
-  },
-  {
-      "value": "74721",
-      "label": "RANCHO ALEGRE D'OESTE"
-  },
-  {
-      "value": "78050",
-      "label": "REALEZA"
-  },
-  {
-      "value": "78077",
-      "label": "REBOUÇAS"
-  },
-  {
-      "value": "78093",
-      "label": "RENASCENÇA"
-  },
-  {
-      "value": "78115",
-      "label": "RESERVA"
-  },
-  {
-      "value": "75604",
-      "label": "RESERVA DO IGUAÇU"
-  },
-  {
-      "value": "78131",
-      "label": "RIBEIRÃO CLARO"
-  },
-  {
-      "value": "78158",
-      "label": "RIBEIRÃO DO PINHAL"
-  },
-  {
-      "value": "78174",
-      "label": "RIO AZUL"
-  },
-  {
-      "value": "78190",
-      "label": "RIO BOM"
-  },
-  {
-      "value": "74748",
-      "label": "RIO BONITO DO IGUAÇU"
-  },
-  {
-      "value": "75620",
-      "label": "RIO BRANCO DO IVAÍ"
-  },
-  {
-      "value": "78212",
-      "label": "RIO BRANCO DO SUL"
-  },
-  {
-      "value": "78239",
-      "label": "RIO NEGRO"
-  },
-  {
-      "value": "78255",
-      "label": "ROLÂNDIA"
-  },
-  {
-      "value": "78271",
-      "label": "RONCADOR"
-  },
-  {
-      "value": "78298",
-      "label": "RONDON"
-  },
-  {
-      "value": "75744",
-      "label": "ROSÁRIO DO IVAÍ"
-  },
-  {
-      "value": "78310",
-      "label": "SABÁUDIA"
-  },
-  {
-      "value": "78336",
-      "label": "SALGADO FILHO"
-  },
-  {
-      "value": "78352",
-      "label": "SALTO DO ITARARÉ"
-  },
-  {
-      "value": "78379",
-      "label": "SALTO DO LONTRA"
-  },
-  {
-      "value": "78395",
-      "label": "SANTA AMÉLIA"
-  },
-  {
-      "value": "78417",
-      "label": "SANTA CECÍLIA DO PAVÃO"
-  },
-  {
-      "value": "78433",
-      "label": "SANTA CRUZ DE MONTE CASTELO"
-  },
-  {
-      "value": "78450",
-      "label": "SANTA FÉ"
-  },
-  {
-      "value": "79715",
-      "label": "SANTA HELENA"
-  },
-  {
-      "value": "78476",
-      "label": "SANTA INÊS"
-  },
-  {
-      "value": "78492",
-      "label": "SANTA ISABEL DO IVAÍ"
-  },
-  {
-      "value": "78514",
-      "label": "SANTA IZABEL DO OESTE"
-  },
-  {
-      "value": "74764",
-      "label": "SANTA LÚCIA"
-  },
-  {
-      "value": "74802",
-      "label": "SANTA MARIA DO OESTE"
-  },
-  {
-      "value": "78530",
-      "label": "SANTA MARIANA"
-  },
-  {
-      "value": "74829",
-      "label": "SANTA MÔNICA"
-  },
-  {
-      "value": "74080",
-      "label": "SANTA TEREZA DO OESTE"
-  },
-  {
-      "value": "84670",
-      "label": "SANTA TEREZINHA DE ITAIPU"
-  },
-  {
-      "value": "78557",
-      "label": "SANTANA DO ITARARÉ"
-  },
-  {
-      "value": "78590",
-      "label": "SANTO ANTÔNIO DA PLATINA"
-  },
-  {
-      "value": "78611",
-      "label": "SANTO ANTONIO DO CAIUÁ"
-  },
-  {
-      "value": "78638",
-      "label": "SANTO ANTÔNIO DO PARAÍSO"
-  },
-  {
-      "value": "78573",
-      "label": "SANTO ANTÔNIO DO SUDOESTE"
-  },
-  {
-      "value": "78654",
-      "label": "SANTO INÁCIO"
-  },
-  {
-      "value": "78670",
-      "label": "SÃO CARLOS DO IVAÍ"
-  },
-  {
-      "value": "78697",
-      "label": "SÃO JERÔNIMO DA SERRA"
-  },
-  {
-      "value": "78719",
-      "label": "SÃO JOÃO"
-  },
-  {
-      "value": "78735",
-      "label": "SÃO JOÃO DO CAIUÁ"
-  },
-  {
-      "value": "78751",
-      "label": "SÃO JOÃO DO IVAÍ"
-  },
-  {
-      "value": "78778",
-      "label": "SÃO JOÃO DO TRIUNFO"
-  },
-  {
-      "value": "78816",
-      "label": "SÃO JORGE D'OESTE"
-  },
-  {
-      "value": "78794",
-      "label": "SÃO JORGE DO IVAÍ"
-  },
-  {
-      "value": "79995",
-      "label": "SÃO JORGE DO PATROCÍNIO"
-  },
-  {
-      "value": "78832",
-      "label": "SÃO JOSÉ DA BOA VISTA"
-  },
-  {
-      "value": "84719",
-      "label": "SÃO JOSÉ DAS PALMEIRAS"
-  },
-  {
-      "value": "78859",
-      "label": "SÃO JOSÉ DOS PINHAIS"
-  },
-  {
-      "value": "74845",
-      "label": "SÃO MANOEL DO PARANÁ"
-  },
-  {
-      "value": "78875",
-      "label": "SÃO MATEUS DO SUL"
-  },
-  {
-      "value": "78891",
-      "label": "SÃO MIGUEL DO IGUAÇU"
-  },
-  {
-      "value": "74861",
-      "label": "SÃO PEDRO DO IGUAÇU"
-  },
-  {
-      "value": "78913",
-      "label": "SÃO PEDRO DO IVAÍ"
-  },
-  {
-      "value": "78930",
-      "label": "SÃO PEDRO DO PARANÁ"
-  },
-  {
-      "value": "78956",
-      "label": "SÃO SEBASTIÃO DA AMOREIRA"
-  },
-  {
-      "value": "78972",
-      "label": "SÃO TOMÉ"
-  },
-  {
-      "value": "78999",
-      "label": "SAPOPEMA"
-  },
-  {
-      "value": "84611",
-      "label": "SARANDI"
-  },
-  {
-      "value": "75060",
-      "label": "SAUDADE DO IGUAÇU"
-  },
-  {
-      "value": "79014",
-      "label": "SENGÉS"
-  },
-  {
-      "value": "75647",
-      "label": "SERRANÓPOLIS DO IGUAÇU"
-  },
-  {
-      "value": "79030",
-      "label": "SERTANEJA"
-  },
-  {
-      "value": "79057",
-      "label": "SERTANÓPOLIS"
-  },
-  {
-      "value": "79073",
-      "label": "SIQUEIRA CAMPOS"
-  },
-  {
-      "value": "75787",
-      "label": "SULINA"
-  },
-  {
-      "value": "75663",
-      "label": "TAMARANA"
-  },
-  {
-      "value": "79090",
-      "label": "TAMBOARA"
-  },
-  {
-      "value": "79111",
-      "label": "TAPEJARA"
-  },
-  {
-      "value": "79731",
-      "label": "TAPIRA"
-  },
-  {
-      "value": "79138",
-      "label": "TEIXEIRA SOARES"
-  },
-  {
-      "value": "79154",
-      "label": "TELÊMACO BORBA"
-  },
-  {
-      "value": "79170",
-      "label": "TERRA BOA"
-  },
-  {
-      "value": "79197",
-      "label": "TERRA RICA"
-  },
-  {
-      "value": "79219",
-      "label": "TERRA ROXA"
-  },
-  {
-      "value": "79235",
-      "label": "TIBAGI"
-  },
-  {
-      "value": "79251",
-      "label": "TIJUCAS DO SUL"
-  },
-  {
-      "value": "79278",
-      "label": "TOLEDO"
-  },
-  {
-      "value": "79294",
-      "label": "TOMAZINA"
-  },
-  {
-      "value": "79871",
-      "label": "TRÊS BARRAS DO PARANÁ"
-  },
-  {
-      "value": "74888",
-      "label": "TUNAS DO PARANÁ"
-  },
-  {
-      "value": "79316",
-      "label": "TUNEIRAS DO OESTE"
-  },
-  {
-      "value": "79936",
-      "label": "TUPÃSSI"
-  },
-  {
-      "value": "84530",
-      "label": "TURVO"
-  },
-  {
-      "value": "79332",
-      "label": "UBIRATÃ"
-  },
-  {
-      "value": "79359",
-      "label": "UMUARAMA"
-  },
-  {
-      "value": "79375",
-      "label": "UNIÃO DA VITÓRIA"
-  },
-  {
-      "value": "79391",
-      "label": "UNIFLOR"
-  },
-  {
-      "value": "79413",
-      "label": "URAÍ"
-  },
-  {
-      "value": "74900",
-      "label": "VENTANIA"
-  },
-  {
-      "value": "79898",
-      "label": "VERA CRUZ DO OESTE"
-  },
-  {
-      "value": "79456",
-      "label": "VERÊ"
-  },
-  {
-      "value": "74969",
-      "label": "VIRMOND"
-  },
-  {
-      "value": "79472",
-      "label": "VITORINO"
-  },
-  {
-      "value": "79430",
-      "label": "WENCESLAU BRAZ"
-  },
-  {
-      "value": "79499",
-      "label": "XAMBRÊ"
-  }
+    {
+        "value": "74012",
+        "label": "abatiá"
+    },
+    {
+        "value": "74039",
+        "label": "adrianópolis"
+    },
+    {
+        "value": "74055",
+        "label": "agudos do sul"
+    },
+    {
+        "value": "74071",
+        "label": "almirante tamandaré"
+    },
+    {
+        "value": "84557",
+        "label": "altamira do paraná"
+    },
+    {
+        "value": "74926",
+        "label": "alto paraíso"
+    },
+    {
+        "value": "74098",
+        "label": "alto paraná"
+    },
+    {
+        "value": "74110",
+        "label": "alto piquiri"
+    },
+    {
+        "value": "79510",
+        "label": "altônia"
+    },
+    {
+        "value": "74136",
+        "label": "alvorada do sul"
+    },
+    {
+        "value": "74152",
+        "label": "amaporã"
+    },
+    {
+        "value": "74179",
+        "label": "ampére"
+    },
+    {
+        "value": "74101",
+        "label": "anahy"
+    },
+    {
+        "value": "74195",
+        "label": "andirá"
+    },
+    {
+        "value": "74128",
+        "label": "ângulo"
+    },
+    {
+        "value": "74217",
+        "label": "antonina"
+    },
+    {
+        "value": "74233",
+        "label": "antonio olinto"
+    },
+    {
+        "value": "74250",
+        "label": "apucarana"
+    },
+    {
+        "value": "74276",
+        "label": "arapongas"
+    },
+    {
+        "value": "74292",
+        "label": "arapoti"
+    },
+    {
+        "value": "75108",
+        "label": "arapuã"
+    },
+    {
+        "value": "74314",
+        "label": "araruna"
+    },
+    {
+        "value": "74357",
+        "label": "araucária"
+    },
+    {
+        "value": "75086",
+        "label": "ariranha do ivaí"
+    },
+    {
+        "value": "74373",
+        "label": "assaí"
+    },
+    {
+        "value": "79537",
+        "label": "assis chateaubriand"
+    },
+    {
+        "value": "74390",
+        "label": "astorga"
+    },
+    {
+        "value": "74411",
+        "label": "atalaia"
+    },
+    {
+        "value": "74438",
+        "label": "balsa nova"
+    },
+    {
+        "value": "74454",
+        "label": "bandeirantes"
+    },
+    {
+        "value": "74470",
+        "label": "barbosa ferraz"
+    },
+    {
+        "value": "74519",
+        "label": "barra do jacaré"
+    },
+    {
+        "value": "74497",
+        "label": "barracão"
+    },
+    {
+        "value": "75124",
+        "label": "bela vista da caroba"
+    },
+    {
+        "value": "74535",
+        "label": "bela vista do paraíso"
+    },
+    {
+        "value": "74551",
+        "label": "bituruna"
+    },
+    {
+        "value": "74578",
+        "label": "boa esperança"
+    },
+    {
+        "value": "74144",
+        "label": "boa esperança do iguaçu"
+    },
+    {
+        "value": "75140",
+        "label": "boa ventura de são roque"
+    },
+    {
+        "value": "79812",
+        "label": "boa vista da aparecida"
+    },
+    {
+        "value": "74594",
+        "label": "bocaiúva do sul"
+    },
+    {
+        "value": "75167",
+        "label": "bom jesus do sul"
+    },
+    {
+        "value": "74616",
+        "label": "bom sucesso"
+    },
+    {
+        "value": "74160",
+        "label": "bom sucesso do sul"
+    },
+    {
+        "value": "74632",
+        "label": "borrazópolis"
+    },
+    {
+        "value": "79839",
+        "label": "braganey"
+    },
+    {
+        "value": "74187",
+        "label": "brasilândia do sul"
+    },
+    {
+        "value": "74659",
+        "label": "cafeara"
+    },
+    {
+        "value": "79855",
+        "label": "cafelândia"
+    },
+    {
+        "value": "74209",
+        "label": "cafezal do sul"
+    },
+    {
+        "value": "74675",
+        "label": "califórnia"
+    },
+    {
+        "value": "74691",
+        "label": "cambará"
+    },
+    {
+        "value": "74713",
+        "label": "cambé"
+    },
+    {
+        "value": "74730",
+        "label": "cambira"
+    },
+    {
+        "value": "74756",
+        "label": "campina da lagoa"
+    },
+    {
+        "value": "75183",
+        "label": "campina do simão"
+    },
+    {
+        "value": "74772",
+        "label": "campina grande do sul"
+    },
+    {
+        "value": "74780",
+        "label": "campo bonito"
+    },
+    {
+        "value": "74799",
+        "label": "campo do tenente"
+    },
+    {
+        "value": "74810",
+        "label": "campo largo"
+    },
+    {
+        "value": "75205",
+        "label": "campo magro"
+    },
+    {
+        "value": "74837",
+        "label": "campo mourão"
+    },
+    {
+        "value": "74853",
+        "label": "cândido de abreu"
+    },
+    {
+        "value": "74225",
+        "label": "candói"
+    },
+    {
+        "value": "84514",
+        "label": "cantagalo"
+    },
+    {
+        "value": "74870",
+        "label": "capanema"
+    },
+    {
+        "value": "74896",
+        "label": "capitão leônidas marques"
+    },
+    {
+        "value": "75221",
+        "label": "carambeí"
+    },
+    {
+        "value": "74918",
+        "label": "carlópolis"
+    },
+    {
+        "value": "74934",
+        "label": "cascavel"
+    },
+    {
+        "value": "74950",
+        "label": "castro"
+    },
+    {
+        "value": "74977",
+        "label": "catanduvas"
+    },
+    {
+        "value": "74993",
+        "label": "centenário do sul"
+    },
+    {
+        "value": "75019",
+        "label": "cerro azul"
+    },
+    {
+        "value": "79570",
+        "label": "céu azul"
+    },
+    {
+        "value": "75035",
+        "label": "chopinzinho"
+    },
+    {
+        "value": "75051",
+        "label": "cianorte"
+    },
+    {
+        "value": "75078",
+        "label": "cidade gaúcha"
+    },
+    {
+        "value": "75094",
+        "label": "clevelândia"
+    },
+    {
+        "value": "75132",
+        "label": "colombo"
+    },
+    {
+        "value": "75159",
+        "label": "colorado"
+    },
+    {
+        "value": "75175",
+        "label": "congonhinhas"
+    },
+    {
+        "value": "75191",
+        "label": "conselheiro mairinck"
+    },
+    {
+        "value": "75213",
+        "label": "contenda"
+    },
+    {
+        "value": "75230",
+        "label": "corbélia"
+    },
+    {
+        "value": "75256",
+        "label": "cornélio procópio"
+    },
+    {
+        "value": "75248",
+        "label": "coronel domingos soares"
+    },
+    {
+        "value": "75272",
+        "label": "coronel vivida"
+    },
+    {
+        "value": "75280",
+        "label": "corumbataí do sul"
+    },
+    {
+        "value": "75337",
+        "label": "cruz machado"
+    },
+    {
+        "value": "74241",
+        "label": "cruzeiro do iguaçu"
+    },
+    {
+        "value": "75299",
+        "label": "cruzeiro do oeste"
+    },
+    {
+        "value": "75310",
+        "label": "cruzeiro do sul"
+    },
+    {
+        "value": "75264",
+        "label": "cruzmaltina"
+    },
+    {
+        "value": "75353",
+        "label": "curitiba"
+    },
+    {
+        "value": "75370",
+        "label": "curiúva"
+    },
+    {
+        "value": "75400",
+        "label": "diamante d'oeste"
+    },
+    {
+        "value": "75396",
+        "label": "diamante do norte"
+    },
+    {
+        "value": "74268",
+        "label": "diamante do sul"
+    },
+    {
+        "value": "75418",
+        "label": "dois vizinhos"
+    },
+    {
+        "value": "84654",
+        "label": "douradina"
+    },
+    {
+        "value": "75434",
+        "label": "doutor camargo"
+    },
+    {
+        "value": "74942",
+        "label": "doutor ulysses"
+    },
+    {
+        "value": "75450",
+        "label": "enéas marques"
+    },
+    {
+        "value": "75477",
+        "label": "engenheiro beltrão"
+    },
+    {
+        "value": "74284",
+        "label": "entre rios do oeste"
+    },
+    {
+        "value": "75302",
+        "label": "esperança nova"
+    },
+    {
+        "value": "75329",
+        "label": "espigão alto do iguaçu"
+    },
+    {
+        "value": "74306",
+        "label": "farol"
+    },
+    {
+        "value": "75493",
+        "label": "faxinal"
+    },
+    {
+        "value": "74322",
+        "label": "fazenda rio grande"
+    },
+    {
+        "value": "75515",
+        "label": "fênix"
+    },
+    {
+        "value": "75345",
+        "label": "fernandes pinheiro"
+    },
+    {
+        "value": "84573",
+        "label": "figueira"
+    },
+    {
+        "value": "74349",
+        "label": "flor da serra do sul"
+    },
+    {
+        "value": "75531",
+        "label": "floraí"
+    },
+    {
+        "value": "75558",
+        "label": "floresta"
+    },
+    {
+        "value": "75574",
+        "label": "florestópolis"
+    },
+    {
+        "value": "75590",
+        "label": "flórida"
+    },
+    {
+        "value": "75612",
+        "label": "formosa do oeste"
+    },
+    {
+        "value": "75639",
+        "label": "foz do iguaçu"
+    },
+    {
+        "value": "75361",
+        "label": "foz do jordão"
+    },
+    {
+        "value": "79774",
+        "label": "francisco alves"
+    },
+    {
+        "value": "75655",
+        "label": "francisco beltrão"
+    },
+    {
+        "value": "75671",
+        "label": "general carneiro"
+    },
+    {
+        "value": "74004",
+        "label": "godoy moreira"
+    },
+    {
+        "value": "75698",
+        "label": "goioerê"
+    },
+    {
+        "value": "75388",
+        "label": "goioxim"
+    },
+    {
+        "value": "79596",
+        "label": "grandes rios"
+    },
+    {
+        "value": "75710",
+        "label": "guaíra"
+    },
+    {
+        "value": "75736",
+        "label": "guairaçá"
+    },
+    {
+        "value": "75426",
+        "label": "guamiranga"
+    },
+    {
+        "value": "75752",
+        "label": "guapirama"
+    },
+    {
+        "value": "75779",
+        "label": "guaporema"
+    },
+    {
+        "value": "75795",
+        "label": "guaraci"
+    },
+    {
+        "value": "75817",
+        "label": "guaraniaçu"
+    },
+    {
+        "value": "75833",
+        "label": "guarapuava"
+    },
+    {
+        "value": "75850",
+        "label": "guaraqueçaba"
+    },
+    {
+        "value": "75876",
+        "label": "guaratuba"
+    },
+    {
+        "value": "74365",
+        "label": "honório serpa"
+    },
+    {
+        "value": "75892",
+        "label": "ibaiti"
+    },
+    {
+        "value": "74020",
+        "label": "ibema"
+    },
+    {
+        "value": "75914",
+        "label": "ibiporã"
+    },
+    {
+        "value": "75930",
+        "label": "icaraíma"
+    },
+    {
+        "value": "75957",
+        "label": "iguaraçu"
+    },
+    {
+        "value": "74381",
+        "label": "iguatu"
+    },
+    {
+        "value": "75442",
+        "label": "imbaú"
+    },
+    {
+        "value": "75973",
+        "label": "imbituva"
+    },
+    {
+        "value": "75990",
+        "label": "inácio martins"
+    },
+    {
+        "value": "76015",
+        "label": "inajá"
+    },
+    {
+        "value": "79618",
+        "label": "indianópolis"
+    },
+    {
+        "value": "76031",
+        "label": "ipiranga"
+    },
+    {
+        "value": "76058",
+        "label": "iporã"
+    },
+    {
+        "value": "74403",
+        "label": "iracema do oeste"
+    },
+    {
+        "value": "76074",
+        "label": "irati"
+    },
+    {
+        "value": "76090",
+        "label": "iretama"
+    },
+    {
+        "value": "76112",
+        "label": "itaguajé"
+    },
+    {
+        "value": "75000",
+        "label": "itaipulândia"
+    },
+    {
+        "value": "76139",
+        "label": "itambaracá"
+    },
+    {
+        "value": "76155",
+        "label": "itambé"
+    },
+    {
+        "value": "76171",
+        "label": "itapejara d'oeste"
+    },
+    {
+        "value": "74446",
+        "label": "itaperuçu"
+    },
+    {
+        "value": "76198",
+        "label": "itaúna do sul"
+    },
+    {
+        "value": "76210",
+        "label": "ivaí"
+    },
+    {
+        "value": "76236",
+        "label": "ivaiporã"
+    },
+    {
+        "value": "74462",
+        "label": "ivaté"
+    },
+    {
+        "value": "76252",
+        "label": "ivatuba"
+    },
+    {
+        "value": "76279",
+        "label": "jaboti"
+    },
+    {
+        "value": "76295",
+        "label": "jacarezinho"
+    },
+    {
+        "value": "76317",
+        "label": "jaguapitã"
+    },
+    {
+        "value": "76333",
+        "label": "jaguariaíva"
+    },
+    {
+        "value": "76350",
+        "label": "jandaia do sul"
+    },
+    {
+        "value": "76376",
+        "label": "janiópolis"
+    },
+    {
+        "value": "76392",
+        "label": "japira"
+    },
+    {
+        "value": "76414",
+        "label": "japurá"
+    },
+    {
+        "value": "76430",
+        "label": "jardim alegre"
+    },
+    {
+        "value": "76457",
+        "label": "jardim olinda"
+    },
+    {
+        "value": "76473",
+        "label": "jataizinho"
+    },
+    {
+        "value": "79979",
+        "label": "jesuítas"
+    },
+    {
+        "value": "76490",
+        "label": "joaquim távora"
+    },
+    {
+        "value": "76511",
+        "label": "jundiaí do sul"
+    },
+    {
+        "value": "84638",
+        "label": "juranda"
+    },
+    {
+        "value": "76538",
+        "label": "jussara"
+    },
+    {
+        "value": "76554",
+        "label": "kaloré"
+    },
+    {
+        "value": "76570",
+        "label": "lapa"
+    },
+    {
+        "value": "74985",
+        "label": "laranjal"
+    },
+    {
+        "value": "76597",
+        "label": "laranjeiras do sul"
+    },
+    {
+        "value": "76619",
+        "label": "leópolis"
+    },
+    {
+        "value": "74489",
+        "label": "lidianópolis"
+    },
+    {
+        "value": "74047",
+        "label": "lindoeste"
+    },
+    {
+        "value": "76635",
+        "label": "loanda"
+    },
+    {
+        "value": "76651",
+        "label": "lobato"
+    },
+    {
+        "value": "76678",
+        "label": "londrina"
+    },
+    {
+        "value": "75809",
+        "label": "luiziana"
+    },
+    {
+        "value": "84590",
+        "label": "lunardelli"
+    },
+    {
+        "value": "76694",
+        "label": "lupionópolis"
+    },
+    {
+        "value": "76716",
+        "label": "mallet"
+    },
+    {
+        "value": "76732",
+        "label": "mamborê"
+    },
+    {
+        "value": "76759",
+        "label": "mandaguaçu"
+    },
+    {
+        "value": "76775",
+        "label": "mandaguari"
+    },
+    {
+        "value": "76791",
+        "label": "mandirituba"
+    },
+    {
+        "value": "75469",
+        "label": "manfrinópolis"
+    },
+    {
+        "value": "75116",
+        "label": "mangueirinha"
+    },
+    {
+        "value": "76813",
+        "label": "manoel ribas"
+    },
+    {
+        "value": "76830",
+        "label": "marechal cândido rondon"
+    },
+    {
+        "value": "76856",
+        "label": "maria helena"
+    },
+    {
+        "value": "76872",
+        "label": "marialva"
+    },
+    {
+        "value": "74330",
+        "label": "marilândia do sul"
+    },
+    {
+        "value": "79758",
+        "label": "marilena"
+    },
+    {
+        "value": "76899",
+        "label": "mariluz"
+    },
+    {
+        "value": "76910",
+        "label": "maringá"
+    },
+    {
+        "value": "76937",
+        "label": "mariópolis"
+    },
+    {
+        "value": "74500",
+        "label": "maripá"
+    },
+    {
+        "value": "76953",
+        "label": "marmeleiro"
+    },
+    {
+        "value": "75485",
+        "label": "marquinho"
+    },
+    {
+        "value": "76970",
+        "label": "marumbi"
+    },
+    {
+        "value": "76996",
+        "label": "matelândia"
+    },
+    {
+        "value": "79634",
+        "label": "matinhos"
+    },
+    {
+        "value": "74527",
+        "label": "mato rico"
+    },
+    {
+        "value": "74543",
+        "label": "mauá da serra"
+    },
+    {
+        "value": "77011",
+        "label": "medianeira"
+    },
+    {
+        "value": "74560",
+        "label": "mercedes"
+    },
+    {
+        "value": "77038",
+        "label": "mirador"
+    },
+    {
+        "value": "77054",
+        "label": "miraselva"
+    },
+    {
+        "value": "84697",
+        "label": "missal"
+    },
+    {
+        "value": "77070",
+        "label": "moreira sales"
+    },
+    {
+        "value": "77097",
+        "label": "morretes"
+    },
+    {
+        "value": "77119",
+        "label": "munhoz de melo"
+    },
+    {
+        "value": "77135",
+        "label": "nossa senhora das graças"
+    },
+    {
+        "value": "77151",
+        "label": "nova aliança do ivaí"
+    },
+    {
+        "value": "77178",
+        "label": "nova américa da colina"
+    },
+    {
+        "value": "79650",
+        "label": "nova aurora"
+    },
+    {
+        "value": "77194",
+        "label": "nova cantu"
+    },
+    {
+        "value": "77216",
+        "label": "nova esperança"
+    },
+    {
+        "value": "75027",
+        "label": "nova esperança do sudoeste"
+    },
+    {
+        "value": "77232",
+        "label": "nova fátima"
+    },
+    {
+        "value": "74586",
+        "label": "nova laranjeiras"
+    },
+    {
+        "value": "77259",
+        "label": "nova londrina"
+    },
+    {
+        "value": "79677",
+        "label": "nova olímpia"
+    },
+    {
+        "value": "79952",
+        "label": "nova prata do iguaçu"
+    },
+    {
+        "value": "74608",
+        "label": "nova santa bárbara"
+    },
+    {
+        "value": "79790",
+        "label": "nova santa rosa"
+    },
+    {
+        "value": "75760",
+        "label": "nova tebas"
+    },
+    {
+        "value": "74420",
+        "label": "novo itacolomi"
+    },
+    {
+        "value": "77275",
+        "label": "ortigueira"
+    },
+    {
+        "value": "77291",
+        "label": "ourizona"
+    },
+    {
+        "value": "74063",
+        "label": "ouro verde do oeste"
+    },
+    {
+        "value": "77313",
+        "label": "paiçandu"
+    },
+    {
+        "value": "77330",
+        "label": "palmas"
+    },
+    {
+        "value": "77356",
+        "label": "palmeira"
+    },
+    {
+        "value": "77372",
+        "label": "palmital"
+    },
+    {
+        "value": "77399",
+        "label": "palotina"
+    },
+    {
+        "value": "77410",
+        "label": "paraíso do norte"
+    },
+    {
+        "value": "77437",
+        "label": "paranacity"
+    },
+    {
+        "value": "77453",
+        "label": "paranaguá"
+    },
+    {
+        "value": "77470",
+        "label": "paranapoema"
+    },
+    {
+        "value": "77496",
+        "label": "paranavaí"
+    },
+    {
+        "value": "74624",
+        "label": "pato bragado"
+    },
+    {
+        "value": "77518",
+        "label": "pato branco"
+    },
+    {
+        "value": "77534",
+        "label": "paula freitas"
+    },
+    {
+        "value": "77550",
+        "label": "paulo frontin"
+    },
+    {
+        "value": "77577",
+        "label": "peabiru"
+    },
+    {
+        "value": "75507",
+        "label": "perobal"
+    },
+    {
+        "value": "79693",
+        "label": "pérola"
+    },
+    {
+        "value": "77593",
+        "label": "pérola d'oeste"
+    },
+    {
+        "value": "77615",
+        "label": "piên"
+    },
+    {
+        "value": "75043",
+        "label": "pinhais"
+    },
+    {
+        "value": "74640",
+        "label": "pinhal de são bento"
+    },
+    {
+        "value": "77631",
+        "label": "pinhalão"
+    },
+    {
+        "value": "77658",
+        "label": "pinhão"
+    },
+    {
+        "value": "77674",
+        "label": "piraí do sul"
+    },
+    {
+        "value": "77690",
+        "label": "piraquara"
+    },
+    {
+        "value": "77712",
+        "label": "pitanga"
+    },
+    {
+        "value": "74667",
+        "label": "pitangueiras"
+    },
+    {
+        "value": "77739",
+        "label": "planaltina do paraná"
+    },
+    {
+        "value": "77755",
+        "label": "planalto"
+    },
+    {
+        "value": "77771",
+        "label": "ponta grossa"
+    },
+    {
+        "value": "75523",
+        "label": "pontal do paraná"
+    },
+    {
+        "value": "77798",
+        "label": "porecatu"
+    },
+    {
+        "value": "77810",
+        "label": "porto amazonas"
+    },
+    {
+        "value": "75540",
+        "label": "porto barreiro"
+    },
+    {
+        "value": "77836",
+        "label": "porto rico"
+    },
+    {
+        "value": "77852",
+        "label": "porto vitória"
+    },
+    {
+        "value": "75566",
+        "label": "prado ferreira"
+    },
+    {
+        "value": "79910",
+        "label": "pranchita"
+    },
+    {
+        "value": "77879",
+        "label": "presidente castelo branco"
+    },
+    {
+        "value": "77895",
+        "label": "primeiro de maio"
+    },
+    {
+        "value": "77917",
+        "label": "prudentópolis"
+    },
+    {
+        "value": "75582",
+        "label": "quarto centenário"
+    },
+    {
+        "value": "77933",
+        "label": "quatiguá"
+    },
+    {
+        "value": "77950",
+        "label": "quatro barras"
+    },
+    {
+        "value": "74683",
+        "label": "quatro pontes"
+    },
+    {
+        "value": "79553",
+        "label": "quedas do iguaçu"
+    },
+    {
+        "value": "77976",
+        "label": "querência do norte"
+    },
+    {
+        "value": "77992",
+        "label": "quinta do sol"
+    },
+    {
+        "value": "78018",
+        "label": "quitandinha"
+    },
+    {
+        "value": "74705",
+        "label": "ramilândia"
+    },
+    {
+        "value": "78034",
+        "label": "rancho alegre"
+    },
+    {
+        "value": "74721",
+        "label": "rancho alegre d'oeste"
+    },
+    {
+        "value": "78050",
+        "label": "realeza"
+    },
+    {
+        "value": "78077",
+        "label": "rebouças"
+    },
+    {
+        "value": "78093",
+        "label": "renascença"
+    },
+    {
+        "value": "78115",
+        "label": "reserva"
+    },
+    {
+        "value": "75604",
+        "label": "reserva do iguaçu"
+    },
+    {
+        "value": "78131",
+        "label": "ribeirão claro"
+    },
+    {
+        "value": "78158",
+        "label": "ribeirão do pinhal"
+    },
+    {
+        "value": "78174",
+        "label": "rio azul"
+    },
+    {
+        "value": "78190",
+        "label": "rio bom"
+    },
+    {
+        "value": "74748",
+        "label": "rio bonito do iguaçu"
+    },
+    {
+        "value": "75620",
+        "label": "rio branco do ivaí"
+    },
+    {
+        "value": "78212",
+        "label": "rio branco do sul"
+    },
+    {
+        "value": "78239",
+        "label": "rio negro"
+    },
+    {
+        "value": "78255",
+        "label": "rolândia"
+    },
+    {
+        "value": "78271",
+        "label": "roncador"
+    },
+    {
+        "value": "78298",
+        "label": "rondon"
+    },
+    {
+        "value": "75744",
+        "label": "rosário do ivaí"
+    },
+    {
+        "value": "78310",
+        "label": "sabáudia"
+    },
+    {
+        "value": "78336",
+        "label": "salgado filho"
+    },
+    {
+        "value": "78352",
+        "label": "salto do itararé"
+    },
+    {
+        "value": "78379",
+        "label": "salto do lontra"
+    },
+    {
+        "value": "78395",
+        "label": "santa amélia"
+    },
+    {
+        "value": "78417",
+        "label": "santa cecília do pavão"
+    },
+    {
+        "value": "78433",
+        "label": "santa cruz de monte castelo"
+    },
+    {
+        "value": "78450",
+        "label": "santa fé"
+    },
+    {
+        "value": "79715",
+        "label": "santa helena"
+    },
+    {
+        "value": "78476",
+        "label": "santa inês"
+    },
+    {
+        "value": "78492",
+        "label": "santa isabel do ivaí"
+    },
+    {
+        "value": "78514",
+        "label": "santa izabel do oeste"
+    },
+    {
+        "value": "74764",
+        "label": "santa lúcia"
+    },
+    {
+        "value": "74802",
+        "label": "santa maria do oeste"
+    },
+    {
+        "value": "78530",
+        "label": "santa mariana"
+    },
+    {
+        "value": "74829",
+        "label": "santa mônica"
+    },
+    {
+        "value": "74080",
+        "label": "santa tereza do oeste"
+    },
+    {
+        "value": "84670",
+        "label": "santa terezinha de itaipu"
+    },
+    {
+        "value": "78557",
+        "label": "santana do itararé"
+    },
+    {
+        "value": "78590",
+        "label": "santo antônio da platina"
+    },
+    {
+        "value": "78611",
+        "label": "santo antonio do caiuá"
+    },
+    {
+        "value": "78638",
+        "label": "santo antônio do paraíso"
+    },
+    {
+        "value": "78573",
+        "label": "santo antônio do sudoeste"
+    },
+    {
+        "value": "78654",
+        "label": "santo inácio"
+    },
+    {
+        "value": "78670",
+        "label": "são carlos do ivaí"
+    },
+    {
+        "value": "78697",
+        "label": "são jerônimo da serra"
+    },
+    {
+        "value": "78719",
+        "label": "são joão"
+    },
+    {
+        "value": "78735",
+        "label": "são joão do caiuá"
+    },
+    {
+        "value": "78751",
+        "label": "são joão do ivaí"
+    },
+    {
+        "value": "78778",
+        "label": "são joão do triunfo"
+    },
+    {
+        "value": "78816",
+        "label": "são jorge d'oeste"
+    },
+    {
+        "value": "78794",
+        "label": "são jorge do ivaí"
+    },
+    {
+        "value": "79995",
+        "label": "são jorge do patrocínio"
+    },
+    {
+        "value": "78832",
+        "label": "são josé da boa vista"
+    },
+    {
+        "value": "84719",
+        "label": "são josé das palmeiras"
+    },
+    {
+        "value": "78859",
+        "label": "são josé dos pinhais"
+    },
+    {
+        "value": "74845",
+        "label": "são manoel do paraná"
+    },
+    {
+        "value": "78875",
+        "label": "são mateus do sul"
+    },
+    {
+        "value": "78891",
+        "label": "são miguel do iguaçu"
+    },
+    {
+        "value": "74861",
+        "label": "são pedro do iguaçu"
+    },
+    {
+        "value": "78913",
+        "label": "são pedro do ivaí"
+    },
+    {
+        "value": "78930",
+        "label": "são pedro do paraná"
+    },
+    {
+        "value": "78956",
+        "label": "são sebastião da amoreira"
+    },
+    {
+        "value": "78972",
+        "label": "são tomé"
+    },
+    {
+        "value": "78999",
+        "label": "sapopema"
+    },
+    {
+        "value": "84611",
+        "label": "sarandi"
+    },
+    {
+        "value": "75060",
+        "label": "saudade do iguaçu"
+    },
+    {
+        "value": "79014",
+        "label": "sengés"
+    },
+    {
+        "value": "75647",
+        "label": "serranópolis do iguaçu"
+    },
+    {
+        "value": "79030",
+        "label": "sertaneja"
+    },
+    {
+        "value": "79057",
+        "label": "sertanópolis"
+    },
+    {
+        "value": "79073",
+        "label": "siqueira campos"
+    },
+    {
+        "value": "75787",
+        "label": "sulina"
+    },
+    {
+        "value": "75663",
+        "label": "tamarana"
+    },
+    {
+        "value": "79090",
+        "label": "tamboara"
+    },
+    {
+        "value": "79111",
+        "label": "tapejara"
+    },
+    {
+        "value": "79731",
+        "label": "tapira"
+    },
+    {
+        "value": "79138",
+        "label": "teixeira soares"
+    },
+    {
+        "value": "79154",
+        "label": "telêmaco borba"
+    },
+    {
+        "value": "79170",
+        "label": "terra boa"
+    },
+    {
+        "value": "79197",
+        "label": "terra rica"
+    },
+    {
+        "value": "79219",
+        "label": "terra roxa"
+    },
+    {
+        "value": "79235",
+        "label": "tibagi"
+    },
+    {
+        "value": "79251",
+        "label": "tijucas do sul"
+    },
+    {
+        "value": "79278",
+        "label": "toledo"
+    },
+    {
+        "value": "79294",
+        "label": "tomazina"
+    },
+    {
+        "value": "79871",
+        "label": "três barras do paraná"
+    },
+    {
+        "value": "74888",
+        "label": "tunas do paraná"
+    },
+    {
+        "value": "79316",
+        "label": "tuneiras do oeste"
+    },
+    {
+        "value": "79936",
+        "label": "tupãssi"
+    },
+    {
+        "value": "84530",
+        "label": "turvo"
+    },
+    {
+        "value": "79332",
+        "label": "ubiratã"
+    },
+    {
+        "value": "79359",
+        "label": "umuarama"
+    },
+    {
+        "value": "79375",
+        "label": "união da vitória"
+    },
+    {
+        "value": "79391",
+        "label": "uniflor"
+    },
+    {
+        "value": "79413",
+        "label": "uraí"
+    },
+    {
+        "value": "74900",
+        "label": "ventania"
+    },
+    {
+        "value": "79898",
+        "label": "vera cruz do oeste"
+    },
+    {
+        "value": "79456",
+        "label": "verê"
+    },
+    {
+        "value": "74969",
+        "label": "virmond"
+    },
+    {
+        "value": "79472",
+        "label": "vitorino"
+    },
+    {
+        "value": "79430",
+        "label": "wenceslau braz"
+    },
+    {
+        "value": "79499",
+        "label": "xambrê"
+    }
 ]

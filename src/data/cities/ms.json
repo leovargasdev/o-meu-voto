@@ -1,318 +1,318 @@
 [
-  {
-      "value": "90034",
-      "label": "ÁGUA CLARA"
-  },
-  {
-      "value": "55018",
-      "label": "ALCINÓPOLIS"
-  },
-  {
-      "value": "90115",
-      "label": "AMAMBAI"
-  },
-  {
-      "value": "90131",
-      "label": "ANASTÁCIO"
-  },
-  {
-      "value": "90158",
-      "label": "ANAURILÂNDIA"
-  },
-  {
-      "value": "91693",
-      "label": "ANGÉLICA"
-  },
-  {
-      "value": "90174",
-      "label": "ANTÔNIO JOÃO"
-  },
-  {
-      "value": "90190",
-      "label": "APARECIDA DO TABOADO"
-  },
-  {
-      "value": "90212",
-      "label": "AQUIDAUANA"
-  },
-  {
-      "value": "91715",
-      "label": "ARAL MOREIRA"
-  },
-  {
-      "value": "90298",
-      "label": "BANDEIRANTES"
-  },
-  {
-      "value": "90379",
-      "label": "BATAGUASSU"
-  },
-  {
-      "value": "90395",
-      "label": "BATAYPORÃ"
-  },
-  {
-      "value": "90417",
-      "label": "BELA VISTA"
-  },
-  {
-      "value": "98019",
-      "label": "BODOQUENA"
-  },
-  {
-      "value": "90433",
-      "label": "BONITO"
-  },
-  {
-      "value": "90450",
-      "label": "BRASILÂNDIA"
-  },
-  {
-      "value": "90557",
-      "label": "CAARAPÓ"
-  },
-  {
-      "value": "90492",
-      "label": "CAMAPUÃ"
-  },
-  {
-      "value": "90514",
-      "label": "CAMPO GRANDE"
-  },
-  {
-      "value": "90530",
-      "label": "CARACOL"
-  },
-  {
-      "value": "90573",
-      "label": "CASSILÂNDIA"
-  },
-  {
-      "value": "91782",
-      "label": "CHAPADÃO DO SUL"
-  },
-  {
-      "value": "90611",
-      "label": "CORGUINHO"
-  },
-  {
-      "value": "98590",
-      "label": "CORONEL SAPUCAIA"
-  },
-  {
-      "value": "90638",
-      "label": "CORUMBÁ"
-  },
-  {
-      "value": "98035",
-      "label": "COSTA RICA"
-  },
-  {
-      "value": "90654",
-      "label": "COXIM"
-  },
-  {
-      "value": "91758",
-      "label": "DEODÁPOLIS"
-  },
-  {
-      "value": "91804",
-      "label": "DOIS IRMÃOS DO BURITI"
-  },
-  {
-      "value": "98051",
-      "label": "DOURADINA"
-  },
-  {
-      "value": "90735",
-      "label": "DOURADOS"
-  },
-  {
-      "value": "91731",
-      "label": "ELDORADO"
-  },
-  {
-      "value": "90751",
-      "label": "FÁTIMA DO SUL"
-  },
-  {
-      "value": "55069",
-      "label": "FIGUEIRÃO"
-  },
-  {
-      "value": "90794",
-      "label": "GLÓRIA DE DOURADOS"
-  },
-  {
-      "value": "90816",
-      "label": "GUIA LOPES DA LAGUNA"
-  },
-  {
-      "value": "90859",
-      "label": "IGUATEMI"
-  },
-  {
-      "value": "90875",
-      "label": "INOCÊNCIA"
-  },
-  {
-      "value": "90891",
-      "label": "ITAPORÃ"
-  },
-  {
-      "value": "98078",
-      "label": "ITAQUIRAÍ"
-  },
-  {
-      "value": "90930",
-      "label": "IVINHEMA"
-  },
-  {
-      "value": "55034",
-      "label": "JAPORÃ"
-  },
-  {
-      "value": "90972",
-      "label": "JARAGUARI"
-  },
-  {
-      "value": "90999",
-      "label": "JARDIM"
-  },
-  {
-      "value": "91014",
-      "label": "JATEÍ"
-  },
-  {
-      "value": "91820",
-      "label": "JUTI"
-  },
-  {
-      "value": "91030",
-      "label": "LADÁRIO"
-  },
-  {
-      "value": "55026",
-      "label": "LAGUNA CARAPÃ"
-  },
-  {
-      "value": "91073",
-      "label": "MARACAJU"
-  },
-  {
-      "value": "91111",
-      "label": "MIRANDA"
-  },
-  {
-      "value": "91790",
-      "label": "MUNDO NOVO"
-  },
-  {
-      "value": "91138",
-      "label": "NAVIRAÍ"
-  },
-  {
-      "value": "91154",
-      "label": "NIOAQUE"
-  },
-  {
-      "value": "55000",
-      "label": "NOVA ALVORADA DO SUL"
-  },
-  {
-      "value": "91235",
-      "label": "NOVA ANDRADINA"
-  },
-  {
-      "value": "55042",
-      "label": "NOVO HORIZONTE DO SUL"
-  },
-  {
-      "value": "55050",
-      "label": "PARAÍSO DAS ÁGUAS"
-  },
-  {
-      "value": "91251",
-      "label": "PARANAÍBA"
-  },
-  {
-      "value": "91847",
-      "label": "PARANHOS"
-  },
-  {
-      "value": "91278",
-      "label": "PEDRO GOMES"
-  },
-  {
-      "value": "91316",
-      "label": "PONTA PORÃ"
-  },
-  {
-      "value": "91375",
-      "label": "PORTO MURTINHO"
-  },
-  {
-      "value": "91413",
-      "label": "RIBAS DO RIO PARDO"
-  },
-  {
-      "value": "91430",
-      "label": "RIO BRILHANTE"
-  },
-  {
-      "value": "91456",
-      "label": "RIO NEGRO"
-  },
-  {
-      "value": "91472",
-      "label": "RIO VERDE DE MATO GROSSO"
-  },
-  {
-      "value": "91499",
-      "label": "ROCHEDO"
-  },
-  {
-      "value": "91863",
-      "label": "SANTA RITA DO PARDO"
-  },
-  {
-      "value": "98094",
-      "label": "SÃO GABRIEL DO OESTE"
-  },
-  {
-      "value": "98116",
-      "label": "SELVÍRIA"
-  },
-  {
-      "value": "98132",
-      "label": "SETE QUEDAS"
-  },
-  {
-      "value": "91570",
-      "label": "SIDROLÂNDIA"
-  },
-  {
-      "value": "91880",
-      "label": "SONORA"
-  },
-  {
-      "value": "98159",
-      "label": "TACURU"
-  },
-  {
-      "value": "98175",
-      "label": "TAQUARUSSU"
-  },
-  {
-      "value": "91596",
-      "label": "TERENOS"
-  },
-  {
-      "value": "91650",
-      "label": "TRÊS LAGOAS"
-  },
-  {
-      "value": "91901",
-      "label": "VICENTINA"
-  }
+    {
+        "value": "90034",
+        "label": "água clara"
+    },
+    {
+        "value": "55018",
+        "label": "alcinópolis"
+    },
+    {
+        "value": "90115",
+        "label": "amambai"
+    },
+    {
+        "value": "90131",
+        "label": "anastácio"
+    },
+    {
+        "value": "90158",
+        "label": "anaurilândia"
+    },
+    {
+        "value": "91693",
+        "label": "angélica"
+    },
+    {
+        "value": "90174",
+        "label": "antônio joão"
+    },
+    {
+        "value": "90190",
+        "label": "aparecida do taboado"
+    },
+    {
+        "value": "90212",
+        "label": "aquidauana"
+    },
+    {
+        "value": "91715",
+        "label": "aral moreira"
+    },
+    {
+        "value": "90298",
+        "label": "bandeirantes"
+    },
+    {
+        "value": "90379",
+        "label": "bataguassu"
+    },
+    {
+        "value": "90395",
+        "label": "batayporã"
+    },
+    {
+        "value": "90417",
+        "label": "bela vista"
+    },
+    {
+        "value": "98019",
+        "label": "bodoquena"
+    },
+    {
+        "value": "90433",
+        "label": "bonito"
+    },
+    {
+        "value": "90450",
+        "label": "brasilândia"
+    },
+    {
+        "value": "90557",
+        "label": "caarapó"
+    },
+    {
+        "value": "90492",
+        "label": "camapuã"
+    },
+    {
+        "value": "90514",
+        "label": "campo grande"
+    },
+    {
+        "value": "90530",
+        "label": "caracol"
+    },
+    {
+        "value": "90573",
+        "label": "cassilândia"
+    },
+    {
+        "value": "91782",
+        "label": "chapadão do sul"
+    },
+    {
+        "value": "90611",
+        "label": "corguinho"
+    },
+    {
+        "value": "98590",
+        "label": "coronel sapucaia"
+    },
+    {
+        "value": "90638",
+        "label": "corumbá"
+    },
+    {
+        "value": "98035",
+        "label": "costa rica"
+    },
+    {
+        "value": "90654",
+        "label": "coxim"
+    },
+    {
+        "value": "91758",
+        "label": "deodápolis"
+    },
+    {
+        "value": "91804",
+        "label": "dois irmãos do buriti"
+    },
+    {
+        "value": "98051",
+        "label": "douradina"
+    },
+    {
+        "value": "90735",
+        "label": "dourados"
+    },
+    {
+        "value": "91731",
+        "label": "eldorado"
+    },
+    {
+        "value": "90751",
+        "label": "fátima do sul"
+    },
+    {
+        "value": "55069",
+        "label": "figueirão"
+    },
+    {
+        "value": "90794",
+        "label": "glória de dourados"
+    },
+    {
+        "value": "90816",
+        "label": "guia lopes da laguna"
+    },
+    {
+        "value": "90859",
+        "label": "iguatemi"
+    },
+    {
+        "value": "90875",
+        "label": "inocência"
+    },
+    {
+        "value": "90891",
+        "label": "itaporã"
+    },
+    {
+        "value": "98078",
+        "label": "itaquiraí"
+    },
+    {
+        "value": "90930",
+        "label": "ivinhema"
+    },
+    {
+        "value": "55034",
+        "label": "japorã"
+    },
+    {
+        "value": "90972",
+        "label": "jaraguari"
+    },
+    {
+        "value": "90999",
+        "label": "jardim"
+    },
+    {
+        "value": "91014",
+        "label": "jateí"
+    },
+    {
+        "value": "91820",
+        "label": "juti"
+    },
+    {
+        "value": "91030",
+        "label": "ladário"
+    },
+    {
+        "value": "55026",
+        "label": "laguna carapã"
+    },
+    {
+        "value": "91073",
+        "label": "maracaju"
+    },
+    {
+        "value": "91111",
+        "label": "miranda"
+    },
+    {
+        "value": "91790",
+        "label": "mundo novo"
+    },
+    {
+        "value": "91138",
+        "label": "naviraí"
+    },
+    {
+        "value": "91154",
+        "label": "nioaque"
+    },
+    {
+        "value": "55000",
+        "label": "nova alvorada do sul"
+    },
+    {
+        "value": "91235",
+        "label": "nova andradina"
+    },
+    {
+        "value": "55042",
+        "label": "novo horizonte do sul"
+    },
+    {
+        "value": "55050",
+        "label": "paraíso das águas"
+    },
+    {
+        "value": "91251",
+        "label": "paranaíba"
+    },
+    {
+        "value": "91847",
+        "label": "paranhos"
+    },
+    {
+        "value": "91278",
+        "label": "pedro gomes"
+    },
+    {
+        "value": "91316",
+        "label": "ponta porã"
+    },
+    {
+        "value": "91375",
+        "label": "porto murtinho"
+    },
+    {
+        "value": "91413",
+        "label": "ribas do rio pardo"
+    },
+    {
+        "value": "91430",
+        "label": "rio brilhante"
+    },
+    {
+        "value": "91456",
+        "label": "rio negro"
+    },
+    {
+        "value": "91472",
+        "label": "rio verde de mato grosso"
+    },
+    {
+        "value": "91499",
+        "label": "rochedo"
+    },
+    {
+        "value": "91863",
+        "label": "santa rita do pardo"
+    },
+    {
+        "value": "98094",
+        "label": "são gabriel do oeste"
+    },
+    {
+        "value": "98116",
+        "label": "selvíria"
+    },
+    {
+        "value": "98132",
+        "label": "sete quedas"
+    },
+    {
+        "value": "91570",
+        "label": "sidrolândia"
+    },
+    {
+        "value": "91880",
+        "label": "sonora"
+    },
+    {
+        "value": "98159",
+        "label": "tacuru"
+    },
+    {
+        "value": "98175",
+        "label": "taquarussu"
+    },
+    {
+        "value": "91596",
+        "label": "terenos"
+    },
+    {
+        "value": "91650",
+        "label": "três lagoas"
+    },
+    {
+        "value": "91901",
+        "label": "vicentina"
+    }
 ]

@@ -1,370 +1,370 @@
 [
-  {
-      "value": "58017",
-      "label": "ANGRA DOS REIS"
-  },
-  {
-      "value": "58181",
-      "label": "APERIBÉ"
-  },
-  {
-      "value": "58033",
-      "label": "ARARUAMA"
-  },
-  {
-      "value": "58220",
-      "label": "AREAL"
-  },
-  {
-      "value": "58408",
-      "label": "ARMAÇÃO DOS BÚZIOS"
-  },
-  {
-      "value": "59277",
-      "label": "ARRAIAL DO CABO"
-  },
-  {
-      "value": "58050",
-      "label": "BARRA DO PIRAÍ"
-  },
-  {
-      "value": "58076",
-      "label": "BARRA MANSA"
-  },
-  {
-      "value": "58041",
-      "label": "BELFORD ROXO"
-  },
-  {
-      "value": "58092",
-      "label": "BOM JARDIM"
-  },
-  {
-      "value": "58114",
-      "label": "BOM JESUS DO ITABAPOANA"
-  },
-  {
-      "value": "58130",
-      "label": "CABO FRIO"
-  },
-  {
-      "value": "58157",
-      "label": "CACHOEIRAS DE MACACU"
-  },
-  {
-      "value": "58173",
-      "label": "CAMBUCI"
-  },
-  {
-      "value": "58190",
-      "label": "CAMPOS DOS GOYTACAZES"
-  },
-  {
-      "value": "58211",
-      "label": "CANTAGALO"
-  },
-  {
-      "value": "58300",
-      "label": "CARAPEBUS"
-  },
-  {
-      "value": "58068",
-      "label": "CARDOSO MOREIRA"
-  },
-  {
-      "value": "58238",
-      "label": "CARMO"
-  },
-  {
-      "value": "58254",
-      "label": "CASIMIRO DE ABREU"
-  },
-  {
-      "value": "58165",
-      "label": "COMENDADOR LEVY GASPARIAN"
-  },
-  {
-      "value": "58270",
-      "label": "CONCEIÇÃO DE MACABU"
-  },
-  {
-      "value": "58297",
-      "label": "CORDEIRO"
-  },
-  {
-      "value": "58319",
-      "label": "DUAS BARRAS"
-  },
-  {
-      "value": "58335",
-      "label": "DUQUE DE CAXIAS"
-  },
-  {
-      "value": "58351",
-      "label": "ENGENHEIRO PAULO DE FRONTIN"
-  },
-  {
-      "value": "58106",
-      "label": "GUAPIMIRIM"
-  },
-  {
-      "value": "58262",
-      "label": "IGUABA GRANDE"
-  },
-  {
-      "value": "58378",
-      "label": "ITABORAÍ"
-  },
-  {
-      "value": "58394",
-      "label": "ITAGUAÍ"
-  },
-  {
-      "value": "59293",
-      "label": "ITALVA"
-  },
-  {
-      "value": "58416",
-      "label": "ITAOCARA"
-  },
-  {
-      "value": "58432",
-      "label": "ITAPERUNA"
-  },
-  {
-      "value": "58440",
-      "label": "ITATIAIA"
-  },
-  {
-      "value": "58149",
-      "label": "JAPERI"
-  },
-  {
-      "value": "58459",
-      "label": "LAJE DO MURIAÉ"
-  },
-  {
-      "value": "58475",
-      "label": "MACAÉ"
-  },
-  {
-      "value": "58386",
-      "label": "MACUCO"
-  },
-  {
-      "value": "58491",
-      "label": "MAGÉ"
-  },
-  {
-      "value": "58513",
-      "label": "MANGARATIBA"
-  },
-  {
-      "value": "58530",
-      "label": "MARICÁ"
-  },
-  {
-      "value": "58556",
-      "label": "MENDES"
-  },
-  {
-      "value": "58467",
-      "label": "MESQUITA"
-  },
-  {
-      "value": "58572",
-      "label": "MIGUEL PEREIRA"
-  },
-  {
-      "value": "58599",
-      "label": "MIRACEMA"
-  },
-  {
-      "value": "58610",
-      "label": "NATIVIDADE"
-  },
-  {
-      "value": "58637",
-      "label": "NILÓPOLIS"
-  },
-  {
-      "value": "58653",
-      "label": "NITERÓI"
-  },
-  {
-      "value": "58670",
-      "label": "NOVA FRIBURGO"
-  },
-  {
-      "value": "58696",
-      "label": "NOVA IGUAÇU"
-  },
-  {
-      "value": "58718",
-      "label": "PARACAMBI"
-  },
-  {
-      "value": "58734",
-      "label": "PARAÍBA DO SUL"
-  },
-  {
-      "value": "58750",
-      "label": "PARATY"
-  },
-  {
-      "value": "59315",
-      "label": "PATY DO ALFERES"
-  },
-  {
-      "value": "58777",
-      "label": "PETRÓPOLIS"
-  },
-  {
-      "value": "58246",
-      "label": "PINHEIRAL"
-  },
-  {
-      "value": "58793",
-      "label": "PIRAÍ"
-  },
-  {
-      "value": "58815",
-      "label": "PORCIÚNCULA"
-  },
-  {
-      "value": "58327",
-      "label": "PORTO REAL"
-  },
-  {
-      "value": "58025",
-      "label": "QUATIS"
-  },
-  {
-      "value": "58122",
-      "label": "QUEIMADOS"
-  },
-  {
-      "value": "58009",
-      "label": "QUISSAMÃ"
-  },
-  {
-      "value": "58831",
-      "label": "RESENDE"
-  },
-  {
-      "value": "58858",
-      "label": "RIO BONITO"
-  },
-  {
-      "value": "58874",
-      "label": "RIO CLARO"
-  },
-  {
-      "value": "58890",
-      "label": "RIO DAS FLORES"
-  },
-  {
-      "value": "58203",
-      "label": "RIO DAS OSTRAS"
-  },
-  {
-      "value": "60011",
-      "label": "RIO DE JANEIRO"
-  },
-  {
-      "value": "58912",
-      "label": "SANTA MARIA MADALENA"
-  },
-  {
-      "value": "58939",
-      "label": "SANTO ANTÔNIO DE PÁDUA"
-  },
-  {
-      "value": "58955",
-      "label": "SÃO FIDÉLIS"
-  },
-  {
-      "value": "58289",
-      "label": "SÃO FRANCISCO DE ITABAPOANA"
-  },
-  {
-      "value": "58971",
-      "label": "SÃO GONÇALO"
-  },
-  {
-      "value": "58998",
-      "label": "SÃO JOÃO DA BARRA"
-  },
-  {
-      "value": "59013",
-      "label": "SÃO JOÃO DE MERITI"
-  },
-  {
-      "value": "58343",
-      "label": "SÃO JOSÉ DE UBÁ"
-  },
-  {
-      "value": "59331",
-      "label": "SÃO JOSÉ DO VALE DO RIO PRETO"
-  },
-  {
-      "value": "59030",
-      "label": "SÃO PEDRO DA ALDEIA"
-  },
-  {
-      "value": "59056",
-      "label": "SÃO SEBASTIÃO DO ALTO"
-  },
-  {
-      "value": "59072",
-      "label": "SAPUCAIA"
-  },
-  {
-      "value": "59099",
-      "label": "SAQUAREMA"
-  },
-  {
-      "value": "58424",
-      "label": "SEROPÉDICA"
-  },
-  {
-      "value": "59110",
-      "label": "SILVA JARDIM"
-  },
-  {
-      "value": "59137",
-      "label": "SUMIDOURO"
-  },
-  {
-      "value": "58360",
-      "label": "TANGUÁ"
-  },
-  {
-      "value": "59153",
-      "label": "TERESÓPOLIS"
-  },
-  {
-      "value": "59170",
-      "label": "TRAJANO DE MORAES"
-  },
-  {
-      "value": "59196",
-      "label": "TRÊS RIOS"
-  },
-  {
-      "value": "59218",
-      "label": "VALENÇA"
-  },
-  {
-      "value": "58084",
-      "label": "VARRE-SAI"
-  },
-  {
-      "value": "59234",
-      "label": "VASSOURAS"
-  },
-  {
-      "value": "59250",
-      "label": "VOLTA REDONDA"
-  }
+    {
+        "value": "58017",
+        "label": "angra dos reis"
+    },
+    {
+        "value": "58181",
+        "label": "aperibé"
+    },
+    {
+        "value": "58033",
+        "label": "araruama"
+    },
+    {
+        "value": "58220",
+        "label": "areal"
+    },
+    {
+        "value": "58408",
+        "label": "armação dos búzios"
+    },
+    {
+        "value": "59277",
+        "label": "arraial do cabo"
+    },
+    {
+        "value": "58050",
+        "label": "barra do piraí"
+    },
+    {
+        "value": "58076",
+        "label": "barra mansa"
+    },
+    {
+        "value": "58041",
+        "label": "belford roxo"
+    },
+    {
+        "value": "58092",
+        "label": "bom jardim"
+    },
+    {
+        "value": "58114",
+        "label": "bom jesus do itabapoana"
+    },
+    {
+        "value": "58130",
+        "label": "cabo frio"
+    },
+    {
+        "value": "58157",
+        "label": "cachoeiras de macacu"
+    },
+    {
+        "value": "58173",
+        "label": "cambuci"
+    },
+    {
+        "value": "58190",
+        "label": "campos dos goytacazes"
+    },
+    {
+        "value": "58211",
+        "label": "cantagalo"
+    },
+    {
+        "value": "58300",
+        "label": "carapebus"
+    },
+    {
+        "value": "58068",
+        "label": "cardoso moreira"
+    },
+    {
+        "value": "58238",
+        "label": "carmo"
+    },
+    {
+        "value": "58254",
+        "label": "casimiro de abreu"
+    },
+    {
+        "value": "58165",
+        "label": "comendador levy gasparian"
+    },
+    {
+        "value": "58270",
+        "label": "conceição de macabu"
+    },
+    {
+        "value": "58297",
+        "label": "cordeiro"
+    },
+    {
+        "value": "58319",
+        "label": "duas barras"
+    },
+    {
+        "value": "58335",
+        "label": "duque de caxias"
+    },
+    {
+        "value": "58351",
+        "label": "engenheiro paulo de frontin"
+    },
+    {
+        "value": "58106",
+        "label": "guapimirim"
+    },
+    {
+        "value": "58262",
+        "label": "iguaba grande"
+    },
+    {
+        "value": "58378",
+        "label": "itaboraí"
+    },
+    {
+        "value": "58394",
+        "label": "itaguaí"
+    },
+    {
+        "value": "59293",
+        "label": "italva"
+    },
+    {
+        "value": "58416",
+        "label": "itaocara"
+    },
+    {
+        "value": "58432",
+        "label": "itaperuna"
+    },
+    {
+        "value": "58440",
+        "label": "itatiaia"
+    },
+    {
+        "value": "58149",
+        "label": "japeri"
+    },
+    {
+        "value": "58459",
+        "label": "laje do muriaé"
+    },
+    {
+        "value": "58475",
+        "label": "macaé"
+    },
+    {
+        "value": "58386",
+        "label": "macuco"
+    },
+    {
+        "value": "58491",
+        "label": "magé"
+    },
+    {
+        "value": "58513",
+        "label": "mangaratiba"
+    },
+    {
+        "value": "58530",
+        "label": "maricá"
+    },
+    {
+        "value": "58556",
+        "label": "mendes"
+    },
+    {
+        "value": "58467",
+        "label": "mesquita"
+    },
+    {
+        "value": "58572",
+        "label": "miguel pereira"
+    },
+    {
+        "value": "58599",
+        "label": "miracema"
+    },
+    {
+        "value": "58610",
+        "label": "natividade"
+    },
+    {
+        "value": "58637",
+        "label": "nilópolis"
+    },
+    {
+        "value": "58653",
+        "label": "niterói"
+    },
+    {
+        "value": "58670",
+        "label": "nova friburgo"
+    },
+    {
+        "value": "58696",
+        "label": "nova iguaçu"
+    },
+    {
+        "value": "58718",
+        "label": "paracambi"
+    },
+    {
+        "value": "58734",
+        "label": "paraíba do sul"
+    },
+    {
+        "value": "58750",
+        "label": "paraty"
+    },
+    {
+        "value": "59315",
+        "label": "paty do alferes"
+    },
+    {
+        "value": "58777",
+        "label": "petrópolis"
+    },
+    {
+        "value": "58246",
+        "label": "pinheiral"
+    },
+    {
+        "value": "58793",
+        "label": "piraí"
+    },
+    {
+        "value": "58815",
+        "label": "porciúncula"
+    },
+    {
+        "value": "58327",
+        "label": "porto real"
+    },
+    {
+        "value": "58025",
+        "label": "quatis"
+    },
+    {
+        "value": "58122",
+        "label": "queimados"
+    },
+    {
+        "value": "58009",
+        "label": "quissamã"
+    },
+    {
+        "value": "58831",
+        "label": "resende"
+    },
+    {
+        "value": "58858",
+        "label": "rio bonito"
+    },
+    {
+        "value": "58874",
+        "label": "rio claro"
+    },
+    {
+        "value": "58890",
+        "label": "rio das flores"
+    },
+    {
+        "value": "58203",
+        "label": "rio das ostras"
+    },
+    {
+        "value": "60011",
+        "label": "rio de janeiro"
+    },
+    {
+        "value": "58912",
+        "label": "santa maria madalena"
+    },
+    {
+        "value": "58939",
+        "label": "santo antônio de pádua"
+    },
+    {
+        "value": "58955",
+        "label": "são fidélis"
+    },
+    {
+        "value": "58289",
+        "label": "são francisco de itabapoana"
+    },
+    {
+        "value": "58971",
+        "label": "são gonçalo"
+    },
+    {
+        "value": "58998",
+        "label": "são joão da barra"
+    },
+    {
+        "value": "59013",
+        "label": "são joão de meriti"
+    },
+    {
+        "value": "58343",
+        "label": "são josé de ubá"
+    },
+    {
+        "value": "59331",
+        "label": "são josé do vale do rio preto"
+    },
+    {
+        "value": "59030",
+        "label": "são pedro da aldeia"
+    },
+    {
+        "value": "59056",
+        "label": "são sebastião do alto"
+    },
+    {
+        "value": "59072",
+        "label": "sapucaia"
+    },
+    {
+        "value": "59099",
+        "label": "saquarema"
+    },
+    {
+        "value": "58424",
+        "label": "seropédica"
+    },
+    {
+        "value": "59110",
+        "label": "silva jardim"
+    },
+    {
+        "value": "59137",
+        "label": "sumidouro"
+    },
+    {
+        "value": "58360",
+        "label": "tanguá"
+    },
+    {
+        "value": "59153",
+        "label": "teresópolis"
+    },
+    {
+        "value": "59170",
+        "label": "trajano de moraes"
+    },
+    {
+        "value": "59196",
+        "label": "três rios"
+    },
+    {
+        "value": "59218",
+        "label": "valença"
+    },
+    {
+        "value": "58084",
+        "label": "varre-sai"
+    },
+    {
+        "value": "59234",
+        "label": "vassouras"
+    },
+    {
+        "value": "59250",
+        "label": "volta redonda"
+    }
 ]

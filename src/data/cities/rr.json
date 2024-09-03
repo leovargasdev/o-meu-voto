@@ -1,62 +1,62 @@
 [
-  {
-      "value": "03050",
-      "label": "ALTO ALEGRE"
-  },
-  {
-      "value": "03042",
-      "label": "AMAJARI"
-  },
-  {
-      "value": "03018",
-      "label": "BOA VISTA"
-  },
-  {
-      "value": "03077",
-      "label": "BONFIM"
-  },
-  {
-      "value": "03069",
-      "label": "CANTÁ"
-  },
-  {
-      "value": "03034",
-      "label": "CARACARAÍ"
-  },
-  {
-      "value": "03000",
-      "label": "CAROEBE"
-  },
-  {
-      "value": "03026",
-      "label": "IRACEMA"
-  },
-  {
-      "value": "03093",
-      "label": "MUCAJAÍ"
-  },
-  {
-      "value": "03115",
-      "label": "NORMANDIA"
-  },
-  {
-      "value": "03123",
-      "label": "PACARAIMA"
-  },
-  {
-      "value": "03085",
-      "label": "RORAINÓPOLIS"
-  },
-  {
-      "value": "03131",
-      "label": "SÃO JOÃO DA BALIZA"
-  },
-  {
-      "value": "03158",
-      "label": "SÃO LUIZ"
-  },
-  {
-      "value": "03107",
-      "label": "UIRAMUTÃ"
-  }
+    {
+        "value": "03050",
+        "label": "alto alegre"
+    },
+    {
+        "value": "03042",
+        "label": "amajari"
+    },
+    {
+        "value": "03018",
+        "label": "boa vista"
+    },
+    {
+        "value": "03077",
+        "label": "bonfim"
+    },
+    {
+        "value": "03069",
+        "label": "cantá"
+    },
+    {
+        "value": "03034",
+        "label": "caracaraí"
+    },
+    {
+        "value": "03000",
+        "label": "caroebe"
+    },
+    {
+        "value": "03026",
+        "label": "iracema"
+    },
+    {
+        "value": "03093",
+        "label": "mucajaí"
+    },
+    {
+        "value": "03115",
+        "label": "normandia"
+    },
+    {
+        "value": "03123",
+        "label": "pacaraima"
+    },
+    {
+        "value": "03085",
+        "label": "rorainópolis"
+    },
+    {
+        "value": "03131",
+        "label": "são joão da baliza"
+    },
+    {
+        "value": "03158",
+        "label": "são luiz"
+    },
+    {
+        "value": "03107",
+        "label": "uiramutã"
+    }
 ]

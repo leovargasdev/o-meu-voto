@@ -1,578 +1,578 @@
 [
-  {
-      "value": "04014",
-      "label": "ABAETETUBA"
-  },
-  {
-      "value": "04502",
-      "label": "ABEL FIGUEIREDO"
-  },
-  {
-      "value": "04030",
-      "label": "ACARÁ"
-  },
-  {
-      "value": "04057",
-      "label": "AFUÁ"
-  },
-  {
-      "value": "04260",
-      "label": "ÁGUA AZUL DO NORTE"
-  },
-  {
-      "value": "04073",
-      "label": "ALENQUER"
-  },
-  {
-      "value": "04090",
-      "label": "ALMEIRIM"
-  },
-  {
-      "value": "04111",
-      "label": "ALTAMIRA"
-  },
-  {
-      "value": "04138",
-      "label": "ANAJÁS"
-  },
-  {
-      "value": "04154",
-      "label": "ANANINDEUA"
-  },
-  {
-      "value": "04723",
-      "label": "ANAPU"
-  },
-  {
-      "value": "04170",
-      "label": "AUGUSTO CORRÊA"
-  },
-  {
-      "value": "04340",
-      "label": "AURORA DO PARÁ"
-  },
-  {
-      "value": "04197",
-      "label": "AVEIRO"
-  },
-  {
-      "value": "04219",
-      "label": "BAGRE"
-  },
-  {
-      "value": "04235",
-      "label": "BAIÃO"
-  },
-  {
-      "value": "04588",
-      "label": "BANNACH"
-  },
-  {
-      "value": "04251",
-      "label": "BARCARENA"
-  },
-  {
-      "value": "04278",
-      "label": "BELÉM"
-  },
-  {
-      "value": "04804",
-      "label": "BELTERRA"
-  },
-  {
-      "value": "04294",
-      "label": "BENEVIDES"
-  },
-  {
-      "value": "04049",
-      "label": "BOM JESUS DO TOCANTINS"
-  },
-  {
-      "value": "04316",
-      "label": "BONITO"
-  },
-  {
-      "value": "04332",
-      "label": "BRAGANÇA"
-  },
-  {
-      "value": "04227",
-      "label": "BRASIL NOVO"
-  },
-  {
-      "value": "05932",
-      "label": "BREJO GRANDE DO ARAGUAIA"
-  },
-  {
-      "value": "04448",
-      "label": "BREU BRANCO"
-  },
-  {
-      "value": "04359",
-      "label": "BREVES"
-  },
-  {
-      "value": "04375",
-      "label": "BUJARU"
-  },
-  {
-      "value": "04391",
-      "label": "CACHOEIRA DO ARARI"
-  },
-  {
-      "value": "04766",
-      "label": "CACHOEIRA DO PIRIÁ"
-  },
-  {
-      "value": "04413",
-      "label": "CAMETÁ"
-  },
-  {
-      "value": "04707",
-      "label": "CANAÃ DOS CARAJÁS"
-  },
-  {
-      "value": "04430",
-      "label": "CAPANEMA"
-  },
-  {
-      "value": "04456",
-      "label": "CAPITÃO POÇO"
-  },
-  {
-      "value": "04472",
-      "label": "CASTANHAL"
-  },
-  {
-      "value": "04499",
-      "label": "CHAVES"
-  },
-  {
-      "value": "04510",
-      "label": "COLARES"
-  },
-  {
-      "value": "04537",
-      "label": "CONCEIÇÃO DO ARAGUAIA"
-  },
-  {
-      "value": "05819",
-      "label": "CONCÓRDIA DO PARÁ"
-  },
-  {
-      "value": "04529",
-      "label": "CUMARU DO NORTE"
-  },
-  {
-      "value": "05851",
-      "label": "CURIONÓPOLIS"
-  },
-  {
-      "value": "04553",
-      "label": "CURRALINHO"
-  },
-  {
-      "value": "04740",
-      "label": "CURUÁ"
-  },
-  {
-      "value": "04570",
-      "label": "CURUÇÁ"
-  },
-  {
-      "value": "05975",
-      "label": "DOM ELISEU"
-  },
-  {
-      "value": "04120",
-      "label": "ELDORADO DOS CARAJÁS"
-  },
-  {
-      "value": "04596",
-      "label": "FARO"
-  },
-  {
-      "value": "04561",
-      "label": "FLORESTA DO ARAGUAIA"
-  },
-  {
-      "value": "05878",
-      "label": "GARRAFÃO DO NORTE"
-  },
-  {
-      "value": "04006",
-      "label": "GOIANÉSIA DO PARÁ"
-  },
-  {
-      "value": "04618",
-      "label": "GURUPÁ"
-  },
-  {
-      "value": "04634",
-      "label": "IGARAPÉ-AÇU"
-  },
-  {
-      "value": "04650",
-      "label": "IGARAPÉ-MIRI"
-  },
-  {
-      "value": "04677",
-      "label": "INHANGAPI"
-  },
-  {
-      "value": "04189",
-      "label": "IPIXUNA DO PARÁ"
-  },
-  {
-      "value": "04693",
-      "label": "IRITUIA"
-  },
-  {
-      "value": "04715",
-      "label": "ITAITUBA"
-  },
-  {
-      "value": "04731",
-      "label": "ITUPIRANGA"
-  },
-  {
-      "value": "04200",
-      "label": "JACAREACANGA"
-  },
-  {
-      "value": "04758",
-      "label": "JACUNDÁ"
-  },
-  {
-      "value": "04774",
-      "label": "JURUTI"
-  },
-  {
-      "value": "04790",
-      "label": "LIMOEIRO DO AJURU"
-  },
-  {
-      "value": "04103",
-      "label": "MÃE DO RIO"
-  },
-  {
-      "value": "04812",
-      "label": "MAGALHÃES BARATA"
-  },
-  {
-      "value": "04839",
-      "label": "MARABÁ"
-  },
-  {
-      "value": "04855",
-      "label": "MARACANÃ"
-  },
-  {
-      "value": "04871",
-      "label": "MARAPANIM"
-  },
-  {
-      "value": "04642",
-      "label": "MARITUBA"
-  },
-  {
-      "value": "05770",
-      "label": "MEDICILÂNDIA"
-  },
-  {
-      "value": "04898",
-      "label": "MELGAÇO"
-  },
-  {
-      "value": "04910",
-      "label": "MOCAJUBA"
-  },
-  {
-      "value": "04936",
-      "label": "MOJU"
-  },
-  {
-      "value": "04863",
-      "label": "MOJUÍ DOS CAMPOS"
-  },
-  {
-      "value": "04952",
-      "label": "MONTE ALEGRE"
-  },
-  {
-      "value": "04979",
-      "label": "MUANÁ"
-  },
-  {
-      "value": "04480",
-      "label": "NOVA ESPERANÇA DO PIRIÁ"
-  },
-  {
-      "value": "04600",
-      "label": "NOVA IPIXUNA"
-  },
-  {
-      "value": "04995",
-      "label": "NOVA TIMBOTEUA"
-  },
-  {
-      "value": "04383",
-      "label": "NOVO PROGRESSO"
-  },
-  {
-      "value": "04421",
-      "label": "NOVO REPARTIMENTO"
-  },
-  {
-      "value": "05010",
-      "label": "ÓBIDOS"
-  },
-  {
-      "value": "05037",
-      "label": "OEIRAS DO PARÁ"
-  },
-  {
-      "value": "05053",
-      "label": "ORIXIMINÁ"
-  },
-  {
-      "value": "05070",
-      "label": "OURÉM"
-  },
-  {
-      "value": "05959",
-      "label": "OURILÂNDIA DO NORTE"
-  },
-  {
-      "value": "05916",
-      "label": "PACAJÁ"
-  },
-  {
-      "value": "04162",
-      "label": "PALESTINA DO PARÁ"
-  },
-  {
-      "value": "05096",
-      "label": "PARAGOMINAS"
-  },
-  {
-      "value": "05835",
-      "label": "PARAUAPEBAS"
-  },
-  {
-      "value": "04308",
-      "label": "PAU D'ARCO"
-  },
-  {
-      "value": "05118",
-      "label": "PEIXE-BOI"
-  },
-  {
-      "value": "04782",
-      "label": "PIÇARRA"
-  },
-  {
-      "value": "04626",
-      "label": "PLACAS"
-  },
-  {
-      "value": "05134",
-      "label": "PONTA DE PEDRAS"
-  },
-  {
-      "value": "05150",
-      "label": "PORTEL"
-  },
-  {
-      "value": "05177",
-      "label": "PORTO DE MOZ"
-  },
-  {
-      "value": "05193",
-      "label": "PRAINHA"
-  },
-  {
-      "value": "05215",
-      "label": "PRIMAVERA"
-  },
-  {
-      "value": "04685",
-      "label": "QUATIPURU"
-  },
-  {
-      "value": "05673",
-      "label": "REDENÇÃO"
-  },
-  {
-      "value": "05690",
-      "label": "RIO MARIA"
-  },
-  {
-      "value": "05738",
-      "label": "RONDON DO PARÁ"
-  },
-  {
-      "value": "05894",
-      "label": "RURÓPOLIS"
-  },
-  {
-      "value": "05231",
-      "label": "SALINÓPOLIS"
-  },
-  {
-      "value": "05258",
-      "label": "SALVATERRA"
-  },
-  {
-      "value": "04243",
-      "label": "SANTA BÁRBARA DO PARÁ"
-  },
-  {
-      "value": "05274",
-      "label": "SANTA CRUZ DO ARARI"
-  },
-  {
-      "value": "05290",
-      "label": "SANTA ISABEL DO PARÁ"
-  },
-  {
-      "value": "04146",
-      "label": "SANTA LUZIA DO PARÁ"
-  },
-  {
-      "value": "05991",
-      "label": "SANTA MARIA DAS BARREIRAS"
-  },
-  {
-      "value": "05312",
-      "label": "SANTA MARIA DO PARÁ"
-  },
-  {
-      "value": "05339",
-      "label": "SANTANA DO ARAGUAIA"
-  },
-  {
-      "value": "05355",
-      "label": "SANTARÉM"
-  },
-  {
-      "value": "05371",
-      "label": "SANTARÉM NOVO"
-  },
-  {
-      "value": "05398",
-      "label": "SANTO ANTÔNIO DO TAUÁ"
-  },
-  {
-      "value": "05410",
-      "label": "SÃO CAETANO DE ODIVELAS"
-  },
-  {
-      "value": "04464",
-      "label": "SÃO DOMINGOS DO ARAGUAIA"
-  },
-  {
-      "value": "05436",
-      "label": "SÃO DOMINGOS DO CAPIM"
-  },
-  {
-      "value": "05452",
-      "label": "SÃO FÉLIX DO XINGU"
-  },
-  {
-      "value": "05479",
-      "label": "SÃO FRANCISCO DO PARÁ"
-  },
-  {
-      "value": "05797",
-      "label": "SÃO GERALDO DO ARAGUAIA"
-  },
-  {
-      "value": "04820",
-      "label": "SÃO JOÃO DA PONTA"
-  },
-  {
-      "value": "04065",
-      "label": "SÃO JOÃO DE PIRABAS"
-  },
-  {
-      "value": "05495",
-      "label": "SÃO JOÃO DO ARAGUAIA"
-  },
-  {
-      "value": "05517",
-      "label": "SÃO MIGUEL DO GUAMÁ"
-  },
-  {
-      "value": "05533",
-      "label": "SÃO SEBASTIÃO DA BOA VISTA"
-  },
-  {
-      "value": "04847",
-      "label": "SAPUCAIA"
-  },
-  {
-      "value": "05550",
-      "label": "SENADOR JOSÉ PORFÍRIO"
-  },
-  {
-      "value": "05576",
-      "label": "SOURE"
-  },
-  {
-      "value": "04022",
-      "label": "TAILÂNDIA"
-  },
-  {
-      "value": "04545",
-      "label": "TERRA ALTA"
-  },
-  {
-      "value": "04367",
-      "label": "TERRA SANTA"
-  },
-  {
-      "value": "05592",
-      "label": "TOMÉ-AÇU"
-  },
-  {
-      "value": "04669",
-      "label": "TRACUATEUA"
-  },
-  {
-      "value": "04286",
-      "label": "TRAIRÃO"
-  },
-  {
-      "value": "04081",
-      "label": "TUCUMÃ"
-  },
-  {
-      "value": "05614",
-      "label": "TUCURUÍ"
-  },
-  {
-      "value": "04324",
-      "label": "ULIANÓPOLIS"
-  },
-  {
-      "value": "05754",
-      "label": "URUARÁ"
-  },
-  {
-      "value": "05630",
-      "label": "VIGIA"
-  },
-  {
-      "value": "05657",
-      "label": "VISEU"
-  },
-  {
-      "value": "04405",
-      "label": "VITÓRIA DO XINGU"
-  },
-  {
-      "value": "05711",
-      "label": "XINGUARA"
-  }
+    {
+        "value": "04014",
+        "label": "abaetetuba"
+    },
+    {
+        "value": "04502",
+        "label": "abel figueiredo"
+    },
+    {
+        "value": "04030",
+        "label": "acará"
+    },
+    {
+        "value": "04057",
+        "label": "afuá"
+    },
+    {
+        "value": "04260",
+        "label": "água azul do norte"
+    },
+    {
+        "value": "04073",
+        "label": "alenquer"
+    },
+    {
+        "value": "04090",
+        "label": "almeirim"
+    },
+    {
+        "value": "04111",
+        "label": "altamira"
+    },
+    {
+        "value": "04138",
+        "label": "anajás"
+    },
+    {
+        "value": "04154",
+        "label": "ananindeua"
+    },
+    {
+        "value": "04723",
+        "label": "anapu"
+    },
+    {
+        "value": "04170",
+        "label": "augusto corrêa"
+    },
+    {
+        "value": "04340",
+        "label": "aurora do pará"
+    },
+    {
+        "value": "04197",
+        "label": "aveiro"
+    },
+    {
+        "value": "04219",
+        "label": "bagre"
+    },
+    {
+        "value": "04235",
+        "label": "baião"
+    },
+    {
+        "value": "04588",
+        "label": "bannach"
+    },
+    {
+        "value": "04251",
+        "label": "barcarena"
+    },
+    {
+        "value": "04278",
+        "label": "belém"
+    },
+    {
+        "value": "04804",
+        "label": "belterra"
+    },
+    {
+        "value": "04294",
+        "label": "benevides"
+    },
+    {
+        "value": "04049",
+        "label": "bom jesus do tocantins"
+    },
+    {
+        "value": "04316",
+        "label": "bonito"
+    },
+    {
+        "value": "04332",
+        "label": "bragança"
+    },
+    {
+        "value": "04227",
+        "label": "brasil novo"
+    },
+    {
+        "value": "05932",
+        "label": "brejo grande do araguaia"
+    },
+    {
+        "value": "04448",
+        "label": "breu branco"
+    },
+    {
+        "value": "04359",
+        "label": "breves"
+    },
+    {
+        "value": "04375",
+        "label": "bujaru"
+    },
+    {
+        "value": "04391",
+        "label": "cachoeira do arari"
+    },
+    {
+        "value": "04766",
+        "label": "cachoeira do piriá"
+    },
+    {
+        "value": "04413",
+        "label": "cametá"
+    },
+    {
+        "value": "04707",
+        "label": "canaã dos carajás"
+    },
+    {
+        "value": "04430",
+        "label": "capanema"
+    },
+    {
+        "value": "04456",
+        "label": "capitão poço"
+    },
+    {
+        "value": "04472",
+        "label": "castanhal"
+    },
+    {
+        "value": "04499",
+        "label": "chaves"
+    },
+    {
+        "value": "04510",
+        "label": "colares"
+    },
+    {
+        "value": "04537",
+        "label": "conceição do araguaia"
+    },
+    {
+        "value": "05819",
+        "label": "concórdia do pará"
+    },
+    {
+        "value": "04529",
+        "label": "cumaru do norte"
+    },
+    {
+        "value": "05851",
+        "label": "curionópolis"
+    },
+    {
+        "value": "04553",
+        "label": "curralinho"
+    },
+    {
+        "value": "04740",
+        "label": "curuá"
+    },
+    {
+        "value": "04570",
+        "label": "curuçá"
+    },
+    {
+        "value": "05975",
+        "label": "dom eliseu"
+    },
+    {
+        "value": "04120",
+        "label": "eldorado dos carajás"
+    },
+    {
+        "value": "04596",
+        "label": "faro"
+    },
+    {
+        "value": "04561",
+        "label": "floresta do araguaia"
+    },
+    {
+        "value": "05878",
+        "label": "garrafão do norte"
+    },
+    {
+        "value": "04006",
+        "label": "goianésia do pará"
+    },
+    {
+        "value": "04618",
+        "label": "gurupá"
+    },
+    {
+        "value": "04634",
+        "label": "igarapé-açu"
+    },
+    {
+        "value": "04650",
+        "label": "igarapé-miri"
+    },
+    {
+        "value": "04677",
+        "label": "inhangapi"
+    },
+    {
+        "value": "04189",
+        "label": "ipixuna do pará"
+    },
+    {
+        "value": "04693",
+        "label": "irituia"
+    },
+    {
+        "value": "04715",
+        "label": "itaituba"
+    },
+    {
+        "value": "04731",
+        "label": "itupiranga"
+    },
+    {
+        "value": "04200",
+        "label": "jacareacanga"
+    },
+    {
+        "value": "04758",
+        "label": "jacundá"
+    },
+    {
+        "value": "04774",
+        "label": "juruti"
+    },
+    {
+        "value": "04790",
+        "label": "limoeiro do ajuru"
+    },
+    {
+        "value": "04103",
+        "label": "mãe do rio"
+    },
+    {
+        "value": "04812",
+        "label": "magalhães barata"
+    },
+    {
+        "value": "04839",
+        "label": "marabá"
+    },
+    {
+        "value": "04855",
+        "label": "maracanã"
+    },
+    {
+        "value": "04871",
+        "label": "marapanim"
+    },
+    {
+        "value": "04642",
+        "label": "marituba"
+    },
+    {
+        "value": "05770",
+        "label": "medicilândia"
+    },
+    {
+        "value": "04898",
+        "label": "melgaço"
+    },
+    {
+        "value": "04910",
+        "label": "mocajuba"
+    },
+    {
+        "value": "04936",
+        "label": "moju"
+    },
+    {
+        "value": "04863",
+        "label": "mojuí dos campos"
+    },
+    {
+        "value": "04952",
+        "label": "monte alegre"
+    },
+    {
+        "value": "04979",
+        "label": "muaná"
+    },
+    {
+        "value": "04480",
+        "label": "nova esperança do piriá"
+    },
+    {
+        "value": "04600",
+        "label": "nova ipixuna"
+    },
+    {
+        "value": "04995",
+        "label": "nova timboteua"
+    },
+    {
+        "value": "04383",
+        "label": "novo progresso"
+    },
+    {
+        "value": "04421",
+        "label": "novo repartimento"
+    },
+    {
+        "value": "05010",
+        "label": "óbidos"
+    },
+    {
+        "value": "05037",
+        "label": "oeiras do pará"
+    },
+    {
+        "value": "05053",
+        "label": "oriximiná"
+    },
+    {
+        "value": "05070",
+        "label": "ourém"
+    },
+    {
+        "value": "05959",
+        "label": "ourilândia do norte"
+    },
+    {
+        "value": "05916",
+        "label": "pacajá"
+    },
+    {
+        "value": "04162",
+        "label": "palestina do pará"
+    },
+    {
+        "value": "05096",
+        "label": "paragominas"
+    },
+    {
+        "value": "05835",
+        "label": "parauapebas"
+    },
+    {
+        "value": "04308",
+        "label": "pau d'arco"
+    },
+    {
+        "value": "05118",
+        "label": "peixe-boi"
+    },
+    {
+        "value": "04782",
+        "label": "piçarra"
+    },
+    {
+        "value": "04626",
+        "label": "placas"
+    },
+    {
+        "value": "05134",
+        "label": "ponta de pedras"
+    },
+    {
+        "value": "05150",
+        "label": "portel"
+    },
+    {
+        "value": "05177",
+        "label": "porto de moz"
+    },
+    {
+        "value": "05193",
+        "label": "prainha"
+    },
+    {
+        "value": "05215",
+        "label": "primavera"
+    },
+    {
+        "value": "04685",
+        "label": "quatipuru"
+    },
+    {
+        "value": "05673",
+        "label": "redenção"
+    },
+    {
+        "value": "05690",
+        "label": "rio maria"
+    },
+    {
+        "value": "05738",
+        "label": "rondon do pará"
+    },
+    {
+        "value": "05894",
+        "label": "rurópolis"
+    },
+    {
+        "value": "05231",
+        "label": "salinópolis"
+    },
+    {
+        "value": "05258",
+        "label": "salvaterra"
+    },
+    {
+        "value": "04243",
+        "label": "santa bárbara do pará"
+    },
+    {
+        "value": "05274",
+        "label": "santa cruz do arari"
+    },
+    {
+        "value": "05290",
+        "label": "santa isabel do pará"
+    },
+    {
+        "value": "04146",
+        "label": "santa luzia do pará"
+    },
+    {
+        "value": "05991",
+        "label": "santa maria das barreiras"
+    },
+    {
+        "value": "05312",
+        "label": "santa maria do pará"
+    },
+    {
+        "value": "05339",
+        "label": "santana do araguaia"
+    },
+    {
+        "value": "05355",
+        "label": "santarém"
+    },
+    {
+        "value": "05371",
+        "label": "santarém novo"
+    },
+    {
+        "value": "05398",
+        "label": "santo antônio do tauá"
+    },
+    {
+        "value": "05410",
+        "label": "são caetano de odivelas"
+    },
+    {
+        "value": "04464",
+        "label": "são domingos do araguaia"
+    },
+    {
+        "value": "05436",
+        "label": "são domingos do capim"
+    },
+    {
+        "value": "05452",
+        "label": "são félix do xingu"
+    },
+    {
+        "value": "05479",
+        "label": "são francisco do pará"
+    },
+    {
+        "value": "05797",
+        "label": "são geraldo do araguaia"
+    },
+    {
+        "value": "04820",
+        "label": "são joão da ponta"
+    },
+    {
+        "value": "04065",
+        "label": "são joão de pirabas"
+    },
+    {
+        "value": "05495",
+        "label": "são joão do araguaia"
+    },
+    {
+        "value": "05517",
+        "label": "são miguel do guamá"
+    },
+    {
+        "value": "05533",
+        "label": "são sebastião da boa vista"
+    },
+    {
+        "value": "04847",
+        "label": "sapucaia"
+    },
+    {
+        "value": "05550",
+        "label": "senador josé porfírio"
+    },
+    {
+        "value": "05576",
+        "label": "soure"
+    },
+    {
+        "value": "04022",
+        "label": "tailândia"
+    },
+    {
+        "value": "04545",
+        "label": "terra alta"
+    },
+    {
+        "value": "04367",
+        "label": "terra santa"
+    },
+    {
+        "value": "05592",
+        "label": "tomé-açu"
+    },
+    {
+        "value": "04669",
+        "label": "tracuateua"
+    },
+    {
+        "value": "04286",
+        "label": "trairão"
+    },
+    {
+        "value": "04081",
+        "label": "tucumã"
+    },
+    {
+        "value": "05614",
+        "label": "tucuruí"
+    },
+    {
+        "value": "04324",
+        "label": "ulianópolis"
+    },
+    {
+        "value": "05754",
+        "label": "uruará"
+    },
+    {
+        "value": "05630",
+        "label": "vigia"
+    },
+    {
+        "value": "05657",
+        "label": "viseu"
+    },
+    {
+        "value": "04405",
+        "label": "vitória do xingu"
+    },
+    {
+        "value": "05711",
+        "label": "xinguara"
+    }
 ]

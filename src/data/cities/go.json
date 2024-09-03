@@ -1,986 +1,986 @@
 [
-  {
-      "value": "93360",
-      "label": "ABADIA DE GOIÁS"
-  },
-  {
-      "value": "92010",
-      "label": "ABADIÂNIA"
-  },
-  {
-      "value": "96458",
-      "label": "ACREÚNA"
-  },
-  {
-      "value": "96911",
-      "label": "ADELÂNDIA"
-  },
-  {
-      "value": "96938",
-      "label": "ÁGUA FRIA DE GOIÁS"
-  },
-  {
-      "value": "92037",
-      "label": "ÁGUA LIMPA"
-  },
-  {
-      "value": "93343",
-      "label": "ÁGUAS LINDAS DE GOIÁS"
-  },
-  {
-      "value": "92053",
-      "label": "ALEXÂNIA"
-  },
-  {
-      "value": "92096",
-      "label": "ALOÂNDIA"
-  },
-  {
-      "value": "92940",
-      "label": "ALTO HORIZONTE"
-  },
-  {
-      "value": "92118",
-      "label": "ALTO PARAÍSO DE GOIÁS"
-  },
-  {
-      "value": "92150",
-      "label": "ALVORADA DO NORTE"
-  },
-  {
-      "value": "93386",
-      "label": "AMARALINA"
-  },
-  {
-      "value": "96610",
-      "label": "AMERICANO DO BRASIL"
-  },
-  {
-      "value": "92177",
-      "label": "AMORINÓPOLIS"
-  },
-  {
-      "value": "92215",
-      "label": "ANÁPOLIS"
-  },
-  {
-      "value": "92231",
-      "label": "ANHANGÜERA"
-  },
-  {
-      "value": "92258",
-      "label": "ANICUNS"
-  },
-  {
-      "value": "92274",
-      "label": "APARECIDA DE GOIÂNIA"
-  },
-  {
-      "value": "93009",
-      "label": "APARECIDA DO RIO DOCE"
-  },
-  {
-      "value": "92290",
-      "label": "APORÉ"
-  },
-  {
-      "value": "92312",
-      "label": "ARAÇU"
-  },
-  {
-      "value": "92339",
-      "label": "ARAGARÇAS"
-  },
-  {
-      "value": "92355",
-      "label": "ARAGOIÂNIA"
-  },
-  {
-      "value": "96695",
-      "label": "ARAGUAPAZ"
-  },
-  {
-      "value": "96717",
-      "label": "ARENÓPOLIS"
-  },
-  {
-      "value": "92495",
-      "label": "ARUANÃ"
-  },
-  {
-      "value": "92517",
-      "label": "AURILÂNDIA"
-  },
-  {
-      "value": "92550",
-      "label": "AVELINÓPOLIS"
-  },
-  {
-      "value": "92614",
-      "label": "BALIZA"
-  },
-  {
-      "value": "92630",
-      "label": "BARRO ALTO"
-  },
-  {
-      "value": "92657",
-      "label": "BELA VISTA DE GOIÁS"
-  },
-  {
-      "value": "92673",
-      "label": "BOM JARDIM DE GOIÁS"
-  },
-  {
-      "value": "92690",
-      "label": "BOM JESUS DE GOIÁS"
-  },
-  {
-      "value": "92029",
-      "label": "BONFINÓPOLIS"
-  },
-  {
-      "value": "93408",
-      "label": "BONÓPOLIS"
-  },
-  {
-      "value": "92711",
-      "label": "BRAZABRANTES"
-  },
-  {
-      "value": "92754",
-      "label": "BRITÂNIA"
-  },
-  {
-      "value": "92770",
-      "label": "BURITI ALEGRE"
-  },
-  {
-      "value": "93106",
-      "label": "BURITI DE GOIÁS"
-  },
-  {
-      "value": "93262",
-      "label": "BURITINÓPOLIS"
-  },
-  {
-      "value": "92797",
-      "label": "CABECEIRAS"
-  },
-  {
-      "value": "92819",
-      "label": "CACHOEIRA ALTA"
-  },
-  {
-      "value": "92835",
-      "label": "CACHOEIRA DE GOIÁS"
-  },
-  {
-      "value": "96733",
-      "label": "CACHOEIRA DOURADA"
-  },
-  {
-      "value": "92851",
-      "label": "CAÇU"
-  },
-  {
-      "value": "92878",
-      "label": "CAIAPÔNIA"
-  },
-  {
-      "value": "92894",
-      "label": "CALDAS NOVAS"
-  },
-  {
-      "value": "93122",
-      "label": "CALDAZINHA"
-  },
-  {
-      "value": "92916",
-      "label": "CAMPESTRE DE GOIÁS"
-  },
-  {
-      "value": "96873",
-      "label": "CAMPINAÇU"
-  },
-  {
-      "value": "92932",
-      "label": "CAMPINORTE"
-  },
-  {
-      "value": "92959",
-      "label": "CAMPO ALEGRE DE GOIÁS"
-  },
-  {
-      "value": "93580",
-      "label": "CAMPO LIMPO DE GOIÁS"
-  },
-  {
-      "value": "92975",
-      "label": "CAMPOS BELOS"
-  },
-  {
-      "value": "92061",
-      "label": "CAMPOS VERDES"
-  },
-  {
-      "value": "92991",
-      "label": "CARMO DO RIO VERDE"
-  },
-  {
-      "value": "92967",
-      "label": "CASTELÂNDIA"
-  },
-  {
-      "value": "93017",
-      "label": "CATALÃO"
-  },
-  {
-      "value": "93033",
-      "label": "CATURAÍ"
-  },
-  {
-      "value": "93050",
-      "label": "CAVALCANTE"
-  },
-  {
-      "value": "93076",
-      "label": "CERES"
-  },
-  {
-      "value": "92100",
-      "label": "CEZARINA"
-  },
-  {
-      "value": "92924",
-      "label": "CHAPADÃO DO CÉU"
-  },
-  {
-      "value": "93025",
-      "label": "CIDADE OCIDENTAL"
-  },
-  {
-      "value": "92886",
-      "label": "COCALZINHO DE GOIÁS"
-  },
-  {
-      "value": "92126",
-      "label": "COLINAS DO SUL"
-  },
-  {
-      "value": "93157",
-      "label": "CÓRREGO DO OURO"
-  },
-  {
-      "value": "93173",
-      "label": "CORUMBÁ DE GOIÁS"
-  },
-  {
-      "value": "93190",
-      "label": "CORUMBAÍBA"
-  },
-  {
-      "value": "93254",
-      "label": "CRISTALINA"
-  },
-  {
-      "value": "93270",
-      "label": "CRISTIANÓPOLIS"
-  },
-  {
-      "value": "93297",
-      "label": "CRIXÁS"
-  },
-  {
-      "value": "93319",
-      "label": "CROMÍNIA"
-  },
-  {
-      "value": "93335",
-      "label": "CUMARI"
-  },
-  {
-      "value": "93351",
-      "label": "DAMIANÓPOLIS"
-  },
-  {
-      "value": "93378",
-      "label": "DAMOLÂNDIA"
-  },
-  {
-      "value": "93394",
-      "label": "DAVINÓPOLIS"
-  },
-  {
-      "value": "93432",
-      "label": "DIORAMA"
-  },
-  {
-      "value": "93092",
-      "label": "DIVINÓPOLIS DE GOIÁS"
-  },
-  {
-      "value": "96750",
-      "label": "DOVERLÂNDIA"
-  },
-  {
-      "value": "92207",
-      "label": "EDEALINA"
-  },
-  {
-      "value": "93491",
-      "label": "EDÉIA"
-  },
-  {
-      "value": "93513",
-      "label": "ESTRELA DO NORTE"
-  },
-  {
-      "value": "92223",
-      "label": "FAINA"
-  },
-  {
-      "value": "93530",
-      "label": "FAZENDA NOVA"
-  },
-  {
-      "value": "93572",
-      "label": "FIRMINÓPOLIS"
-  },
-  {
-      "value": "93599",
-      "label": "FLORES DE GOIÁS"
-  },
-  {
-      "value": "93610",
-      "label": "FORMOSA"
-  },
-  {
-      "value": "93637",
-      "label": "FORMOSO"
-  },
-  {
-      "value": "93564",
-      "label": "GAMELEIRA DE GOIÁS"
-  },
-  {
-      "value": "93670",
-      "label": "GOIANÁPOLIS"
-  },
-  {
-      "value": "93696",
-      "label": "GOIANDIRA"
-  },
-  {
-      "value": "93718",
-      "label": "GOIANÉSIA"
-  },
-  {
-      "value": "93734",
-      "label": "GOIÂNIA"
-  },
-  {
-      "value": "93750",
-      "label": "GOIANIRA"
-  },
-  {
-      "value": "93777",
-      "label": "GOIÁS"
-  },
-  {
-      "value": "93793",
-      "label": "GOIATUBA"
-  },
-  {
-      "value": "92266",
-      "label": "GOUVELÂNDIA"
-  },
-  {
-      "value": "93815",
-      "label": "GUAPÓ"
-  },
-  {
-      "value": "93149",
-      "label": "GUARAÍTA"
-  },
-  {
-      "value": "93831",
-      "label": "GUARANI DE GOIÁS"
-  },
-  {
-      "value": "92860",
-      "label": "GUARINOS"
-  },
-  {
-      "value": "93874",
-      "label": "HEITORAÍ"
-  },
-  {
-      "value": "93890",
-      "label": "HIDROLÂNDIA"
-  },
-  {
-      "value": "93912",
-      "label": "HIDROLINA"
-  },
-  {
-      "value": "93939",
-      "label": "IACIARA"
-  },
-  {
-      "value": "93165",
-      "label": "INACIOLÂNDIA"
-  },
-  {
-      "value": "96814",
-      "label": "INDIARA"
-  },
-  {
-      "value": "93955",
-      "label": "INHUMAS"
-  },
-  {
-      "value": "93971",
-      "label": "IPAMERI"
-  },
-  {
-      "value": "93548",
-      "label": "IPIRANGA DE GOIÁS"
-  },
-  {
-      "value": "93998",
-      "label": "IPORÁ"
-  },
-  {
-      "value": "94013",
-      "label": "ISRAELÂNDIA"
-  },
-  {
-      "value": "94030",
-      "label": "ITABERAÍ"
-  },
-  {
-      "value": "92282",
-      "label": "ITAGUARI"
-  },
-  {
-      "value": "94072",
-      "label": "ITAGUARU"
-  },
-  {
-      "value": "94110",
-      "label": "ITAJÁ"
-  },
-  {
-      "value": "94137",
-      "label": "ITAPACI"
-  },
-  {
-      "value": "94153",
-      "label": "ITAPIRAPUÃ"
-  },
-  {
-      "value": "94196",
-      "label": "ITAPURANGA"
-  },
-  {
-      "value": "94218",
-      "label": "ITARUMÃ"
-  },
-  {
-      "value": "94234",
-      "label": "ITAUÇU"
-  },
-  {
-      "value": "94250",
-      "label": "ITUMBIARA"
-  },
-  {
-      "value": "94277",
-      "label": "IVOLÂNDIA"
-  },
-  {
-      "value": "94293",
-      "label": "JANDAIA"
-  },
-  {
-      "value": "94315",
-      "label": "JARAGUÁ"
-  },
-  {
-      "value": "94331",
-      "label": "JATAÍ"
-  },
-  {
-      "value": "94358",
-      "label": "JAUPACI"
-  },
-  {
-      "value": "92983",
-      "label": "JESÚPOLIS"
-  },
-  {
-      "value": "94374",
-      "label": "JOVIÂNIA"
-  },
-  {
-      "value": "94390",
-      "label": "JUSSARA"
-  },
-  {
-      "value": "93602",
-      "label": "LAGOA SANTA"
-  },
-  {
-      "value": "94439",
-      "label": "LEOPOLDO DE BULHÕES"
-  },
-  {
-      "value": "94455",
-      "label": "LUZIÂNIA"
-  },
-  {
-      "value": "94471",
-      "label": "MAIRIPOTABA"
-  },
-  {
-      "value": "94498",
-      "label": "MAMBAÍ"
-  },
-  {
-      "value": "94510",
-      "label": "MARA ROSA"
-  },
-  {
-      "value": "94536",
-      "label": "MARZAGÃO"
-  },
-  {
-      "value": "92320",
-      "label": "MATRINCHÃ"
-  },
-  {
-      "value": "94579",
-      "label": "MAURILÂNDIA"
-  },
-  {
-      "value": "92347",
-      "label": "MIMOSO DE GOIÁS"
-  },
-  {
-      "value": "96474",
-      "label": "MINAÇU"
-  },
-  {
-      "value": "94595",
-      "label": "MINEIROS"
-  },
-  {
-      "value": "94650",
-      "label": "MOIPORÁ"
-  },
-  {
-      "value": "94676",
-      "label": "MONTE ALEGRE DE GOIÁS"
-  },
-  {
-      "value": "94714",
-      "label": "MONTES CLAROS DE GOIÁS"
-  },
-  {
-      "value": "92363",
-      "label": "MONTIVIDIU"
-  },
-  {
-      "value": "93181",
-      "label": "MONTIVIDIU DO NORTE"
-  },
-  {
-      "value": "94730",
-      "label": "MORRINHOS"
-  },
-  {
-      "value": "92169",
-      "label": "MORRO AGUDO DE GOIÁS"
-  },
-  {
-      "value": "94757",
-      "label": "MOSSÂMEDES"
-  },
-  {
-      "value": "94773",
-      "label": "MOZARLÂNDIA"
-  },
-  {
-      "value": "96512",
-      "label": "MUNDO NOVO"
-  },
-  {
-      "value": "94790",
-      "label": "MUTUNÓPOLIS"
-  },
-  {
-      "value": "94854",
-      "label": "NAZÁRIO"
-  },
-  {
-      "value": "94870",
-      "label": "NERÓPOLIS"
-  },
-  {
-      "value": "94897",
-      "label": "NIQUELÂNDIA"
-  },
-  {
-      "value": "94919",
-      "label": "NOVA AMÉRICA"
-  },
-  {
-      "value": "94935",
-      "label": "NOVA AURORA"
-  },
-  {
-      "value": "96539",
-      "label": "NOVA CRIXÁS"
-  },
-  {
-      "value": "96555",
-      "label": "NOVA GLÓRIA"
-  },
-  {
-      "value": "93084",
-      "label": "NOVA IGUAÇU DE GOIÁS"
-  },
-  {
-      "value": "94951",
-      "label": "NOVA ROMA"
-  },
-  {
-      "value": "94978",
-      "label": "NOVA VENEZA"
-  },
-  {
-      "value": "95010",
-      "label": "NOVO BRASIL"
-  },
-  {
-      "value": "93327",
-      "label": "NOVO GAMA"
-  },
-  {
-      "value": "92444",
-      "label": "NOVO PLANALTO"
-  },
-  {
-      "value": "95036",
-      "label": "ORIZONA"
-  },
-  {
-      "value": "95052",
-      "label": "OURO VERDE DE GOIÁS"
-  },
-  {
-      "value": "95079",
-      "label": "OUVIDOR"
-  },
-  {
-      "value": "95095",
-      "label": "PADRE BERNARDO"
-  },
-  {
-      "value": "92460",
-      "label": "PALESTINA DE GOIÁS"
-  },
-  {
-      "value": "95117",
-      "label": "PALMEIRAS DE GOIÁS"
-  },
-  {
-      "value": "95133",
-      "label": "PALMELO"
-  },
-  {
-      "value": "95150",
-      "label": "PALMINÓPOLIS"
-  },
-  {
-      "value": "95176",
-      "label": "PANAMÁ"
-  },
-  {
-      "value": "94552",
-      "label": "PARANAIGUARA"
-  },
-  {
-      "value": "95230",
-      "label": "PARAÚNA"
-  },
-  {
-      "value": "93068",
-      "label": "PEROLÂNDIA"
-  },
-  {
-      "value": "95311",
-      "label": "PETROLINA DE GOIÁS"
-  },
-  {
-      "value": "95354",
-      "label": "PILAR DE GOIÁS"
-  },
-  {
-      "value": "95397",
-      "label": "PIRACANJUBA"
-  },
-  {
-      "value": "95419",
-      "label": "PIRANHAS"
-  },
-  {
-      "value": "95435",
-      "label": "PIRENÓPOLIS"
-  },
-  {
-      "value": "95451",
-      "label": "PIRES DO RIO"
-  },
-  {
-      "value": "95958",
-      "label": "PLANALTINA"
-  },
-  {
-      "value": "95494",
-      "label": "PONTALINA"
-  },
-  {
-      "value": "95559",
-      "label": "PORANGATU"
-  },
-  {
-      "value": "93424",
-      "label": "PORTEIRÃO"
-  },
-  {
-      "value": "95575",
-      "label": "PORTELÂNDIA"
-  },
-  {
-      "value": "95613",
-      "label": "POSSE"
-  },
-  {
-      "value": "93041",
-      "label": "PROFESSOR JAMIL"
-  },
-  {
-      "value": "95630",
-      "label": "QUIRINÓPOLIS"
-  },
-  {
-      "value": "95656",
-      "label": "RIALMA"
-  },
-  {
-      "value": "95672",
-      "label": "RIANÁPOLIS"
-  },
-  {
-      "value": "92827",
-      "label": "RIO QUENTE"
-  },
-  {
-      "value": "95710",
-      "label": "RIO VERDE"
-  },
-  {
-      "value": "95737",
-      "label": "RUBIATABA"
-  },
-  {
-      "value": "95753",
-      "label": "SANCLERLÂNDIA"
-  },
-  {
-      "value": "95770",
-      "label": "SANTA BÁRBARA DE GOIÁS"
-  },
-  {
-      "value": "95796",
-      "label": "SANTA CRUZ DE GOIÁS"
-  },
-  {
-      "value": "92568",
-      "label": "SANTA FÉ DE GOIÁS"
-  },
-  {
-      "value": "95818",
-      "label": "SANTA HELENA DE GOIÁS"
-  },
-  {
-      "value": "96890",
-      "label": "SANTA ISABEL"
-  },
-  {
-      "value": "95834",
-      "label": "SANTA RITA DO ARAGUAIA"
-  },
-  {
-      "value": "93440",
-      "label": "SANTA RITA DO NOVO DESTINO"
-  },
-  {
-      "value": "95850",
-      "label": "SANTA ROSA DE GOIÁS"
-  },
-  {
-      "value": "95877",
-      "label": "SANTA TEREZA DE GOIÁS"
-  },
-  {
-      "value": "95893",
-      "label": "SANTA TEREZINHA DE GOIÁS"
-  },
-  {
-      "value": "93203",
-      "label": "SANTO ANTÔNIO DA BARRA"
-  },
-  {
-      "value": "92908",
-      "label": "SANTO ANTÔNIO DE GOIÁS"
-  },
-  {
-      "value": "96776",
-      "label": "SANTO ANTÔNIO DO DESCOBERTO"
-  },
-  {
-      "value": "95915",
-      "label": "SÃO DOMINGOS"
-  },
-  {
-      "value": "95931",
-      "label": "SÃO FRANCISCO DE GOIÁS"
-  },
-  {
-      "value": "95974",
-      "label": "SÃO JOÃO D'ALIANÇA"
-  },
-  {
-      "value": "92622",
-      "label": "SÃO JOÃO DA PARAÚNA"
-  },
-  {
-      "value": "95990",
-      "label": "SÃO LUÍS DE MONTES BELOS"
-  },
-  {
-      "value": "92649",
-      "label": "SÃO LUIZ DO NORTE"
-  },
-  {
-      "value": "96016",
-      "label": "SÃO MIGUEL DO ARAGUAIA"
-  },
-  {
-      "value": "92665",
-      "label": "SÃO MIGUEL DO PASSA QUATRO"
-  },
-  {
-      "value": "93483",
-      "label": "SÃO PATRÍCIO"
-  },
-  {
-      "value": "96059",
-      "label": "SÃO SIMÃO"
-  },
-  {
-      "value": "92703",
-      "label": "SENADOR CANEDO"
-  },
-  {
-      "value": "96075",
-      "label": "SERRANÓPOLIS"
-  },
-  {
-      "value": "96091",
-      "label": "SILVÂNIA"
-  },
-  {
-      "value": "92720",
-      "label": "SIMOLÂNDIA"
-  },
-  {
-      "value": "96113",
-      "label": "SÍTIO D'ABADIA"
-  },
-  {
-      "value": "96172",
-      "label": "TAQUARAL DE GOIÁS"
-  },
-  {
-      "value": "92762",
-      "label": "TERESINA DE GOIÁS"
-  },
-  {
-      "value": "93220",
-      "label": "TEREZÓPOLIS DE GOIÁS"
-  },
-  {
-      "value": "96237",
-      "label": "TRÊS RANCHOS"
-  },
-  {
-      "value": "96253",
-      "label": "TRINDADE"
-  },
-  {
-      "value": "92789",
-      "label": "TROMBAS"
-  },
-  {
-      "value": "96318",
-      "label": "TURVÂNIA"
-  },
-  {
-      "value": "92800",
-      "label": "TURVELÂNDIA"
-  },
-  {
-      "value": "93246",
-      "label": "UIRAPURU"
-  },
-  {
-      "value": "96334",
-      "label": "URUAÇU"
-  },
-  {
-      "value": "96350",
-      "label": "URUANA"
-  },
-  {
-      "value": "96377",
-      "label": "URUTAÍ"
-  },
-  {
-      "value": "93300",
-      "label": "VALPARAÍSO DE GOIÁS"
-  },
-  {
-      "value": "96393",
-      "label": "VARJÃO"
-  },
-  {
-      "value": "96415",
-      "label": "VIANÓPOLIS"
-  },
-  {
-      "value": "96571",
-      "label": "VICENTINÓPOLIS"
-  },
-  {
-      "value": "93289",
-      "label": "VILA BOA"
-  },
-  {
-      "value": "93505",
-      "label": "VILA PROPÍCIO"
-  }
+    {
+        "value": "93360",
+        "label": "abadia de goiás"
+    },
+    {
+        "value": "92010",
+        "label": "abadiânia"
+    },
+    {
+        "value": "96458",
+        "label": "acreúna"
+    },
+    {
+        "value": "96911",
+        "label": "adelândia"
+    },
+    {
+        "value": "96938",
+        "label": "água fria de goiás"
+    },
+    {
+        "value": "92037",
+        "label": "água limpa"
+    },
+    {
+        "value": "93343",
+        "label": "águas lindas de goiás"
+    },
+    {
+        "value": "92053",
+        "label": "alexânia"
+    },
+    {
+        "value": "92096",
+        "label": "aloândia"
+    },
+    {
+        "value": "92940",
+        "label": "alto horizonte"
+    },
+    {
+        "value": "92118",
+        "label": "alto paraíso de goiás"
+    },
+    {
+        "value": "92150",
+        "label": "alvorada do norte"
+    },
+    {
+        "value": "93386",
+        "label": "amaralina"
+    },
+    {
+        "value": "96610",
+        "label": "americano do brasil"
+    },
+    {
+        "value": "92177",
+        "label": "amorinópolis"
+    },
+    {
+        "value": "92215",
+        "label": "anápolis"
+    },
+    {
+        "value": "92231",
+        "label": "anhangüera"
+    },
+    {
+        "value": "92258",
+        "label": "anicuns"
+    },
+    {
+        "value": "92274",
+        "label": "aparecida de goiânia"
+    },
+    {
+        "value": "93009",
+        "label": "aparecida do rio doce"
+    },
+    {
+        "value": "92290",
+        "label": "aporé"
+    },
+    {
+        "value": "92312",
+        "label": "araçu"
+    },
+    {
+        "value": "92339",
+        "label": "aragarças"
+    },
+    {
+        "value": "92355",
+        "label": "aragoiânia"
+    },
+    {
+        "value": "96695",
+        "label": "araguapaz"
+    },
+    {
+        "value": "96717",
+        "label": "arenópolis"
+    },
+    {
+        "value": "92495",
+        "label": "aruanã"
+    },
+    {
+        "value": "92517",
+        "label": "aurilândia"
+    },
+    {
+        "value": "92550",
+        "label": "avelinópolis"
+    },
+    {
+        "value": "92614",
+        "label": "baliza"
+    },
+    {
+        "value": "92630",
+        "label": "barro alto"
+    },
+    {
+        "value": "92657",
+        "label": "bela vista de goiás"
+    },
+    {
+        "value": "92673",
+        "label": "bom jardim de goiás"
+    },
+    {
+        "value": "92690",
+        "label": "bom jesus de goiás"
+    },
+    {
+        "value": "92029",
+        "label": "bonfinópolis"
+    },
+    {
+        "value": "93408",
+        "label": "bonópolis"
+    },
+    {
+        "value": "92711",
+        "label": "brazabrantes"
+    },
+    {
+        "value": "92754",
+        "label": "britânia"
+    },
+    {
+        "value": "92770",
+        "label": "buriti alegre"
+    },
+    {
+        "value": "93106",
+        "label": "buriti de goiás"
+    },
+    {
+        "value": "93262",
+        "label": "buritinópolis"
+    },
+    {
+        "value": "92797",
+        "label": "cabeceiras"
+    },
+    {
+        "value": "92819",
+        "label": "cachoeira alta"
+    },
+    {
+        "value": "92835",
+        "label": "cachoeira de goiás"
+    },
+    {
+        "value": "96733",
+        "label": "cachoeira dourada"
+    },
+    {
+        "value": "92851",
+        "label": "caçu"
+    },
+    {
+        "value": "92878",
+        "label": "caiapônia"
+    },
+    {
+        "value": "92894",
+        "label": "caldas novas"
+    },
+    {
+        "value": "93122",
+        "label": "caldazinha"
+    },
+    {
+        "value": "92916",
+        "label": "campestre de goiás"
+    },
+    {
+        "value": "96873",
+        "label": "campinaçu"
+    },
+    {
+        "value": "92932",
+        "label": "campinorte"
+    },
+    {
+        "value": "92959",
+        "label": "campo alegre de goiás"
+    },
+    {
+        "value": "93580",
+        "label": "campo limpo de goiás"
+    },
+    {
+        "value": "92975",
+        "label": "campos belos"
+    },
+    {
+        "value": "92061",
+        "label": "campos verdes"
+    },
+    {
+        "value": "92991",
+        "label": "carmo do rio verde"
+    },
+    {
+        "value": "92967",
+        "label": "castelândia"
+    },
+    {
+        "value": "93017",
+        "label": "catalão"
+    },
+    {
+        "value": "93033",
+        "label": "caturaí"
+    },
+    {
+        "value": "93050",
+        "label": "cavalcante"
+    },
+    {
+        "value": "93076",
+        "label": "ceres"
+    },
+    {
+        "value": "92100",
+        "label": "cezarina"
+    },
+    {
+        "value": "92924",
+        "label": "chapadão do céu"
+    },
+    {
+        "value": "93025",
+        "label": "cidade ocidental"
+    },
+    {
+        "value": "92886",
+        "label": "cocalzinho de goiás"
+    },
+    {
+        "value": "92126",
+        "label": "colinas do sul"
+    },
+    {
+        "value": "93157",
+        "label": "córrego do ouro"
+    },
+    {
+        "value": "93173",
+        "label": "corumbá de goiás"
+    },
+    {
+        "value": "93190",
+        "label": "corumbaíba"
+    },
+    {
+        "value": "93254",
+        "label": "cristalina"
+    },
+    {
+        "value": "93270",
+        "label": "cristianópolis"
+    },
+    {
+        "value": "93297",
+        "label": "crixás"
+    },
+    {
+        "value": "93319",
+        "label": "cromínia"
+    },
+    {
+        "value": "93335",
+        "label": "cumari"
+    },
+    {
+        "value": "93351",
+        "label": "damianópolis"
+    },
+    {
+        "value": "93378",
+        "label": "damolândia"
+    },
+    {
+        "value": "93394",
+        "label": "davinópolis"
+    },
+    {
+        "value": "93432",
+        "label": "diorama"
+    },
+    {
+        "value": "93092",
+        "label": "divinópolis de goiás"
+    },
+    {
+        "value": "96750",
+        "label": "doverlândia"
+    },
+    {
+        "value": "92207",
+        "label": "edealina"
+    },
+    {
+        "value": "93491",
+        "label": "edéia"
+    },
+    {
+        "value": "93513",
+        "label": "estrela do norte"
+    },
+    {
+        "value": "92223",
+        "label": "faina"
+    },
+    {
+        "value": "93530",
+        "label": "fazenda nova"
+    },
+    {
+        "value": "93572",
+        "label": "firminópolis"
+    },
+    {
+        "value": "93599",
+        "label": "flores de goiás"
+    },
+    {
+        "value": "93610",
+        "label": "formosa"
+    },
+    {
+        "value": "93637",
+        "label": "formoso"
+    },
+    {
+        "value": "93564",
+        "label": "gameleira de goiás"
+    },
+    {
+        "value": "93670",
+        "label": "goianápolis"
+    },
+    {
+        "value": "93696",
+        "label": "goiandira"
+    },
+    {
+        "value": "93718",
+        "label": "goianésia"
+    },
+    {
+        "value": "93734",
+        "label": "goiânia"
+    },
+    {
+        "value": "93750",
+        "label": "goianira"
+    },
+    {
+        "value": "93777",
+        "label": "goiás"
+    },
+    {
+        "value": "93793",
+        "label": "goiatuba"
+    },
+    {
+        "value": "92266",
+        "label": "gouvelândia"
+    },
+    {
+        "value": "93815",
+        "label": "guapó"
+    },
+    {
+        "value": "93149",
+        "label": "guaraíta"
+    },
+    {
+        "value": "93831",
+        "label": "guarani de goiás"
+    },
+    {
+        "value": "92860",
+        "label": "guarinos"
+    },
+    {
+        "value": "93874",
+        "label": "heitoraí"
+    },
+    {
+        "value": "93890",
+        "label": "hidrolândia"
+    },
+    {
+        "value": "93912",
+        "label": "hidrolina"
+    },
+    {
+        "value": "93939",
+        "label": "iaciara"
+    },
+    {
+        "value": "93165",
+        "label": "inaciolândia"
+    },
+    {
+        "value": "96814",
+        "label": "indiara"
+    },
+    {
+        "value": "93955",
+        "label": "inhumas"
+    },
+    {
+        "value": "93971",
+        "label": "ipameri"
+    },
+    {
+        "value": "93548",
+        "label": "ipiranga de goiás"
+    },
+    {
+        "value": "93998",
+        "label": "iporá"
+    },
+    {
+        "value": "94013",
+        "label": "israelândia"
+    },
+    {
+        "value": "94030",
+        "label": "itaberaí"
+    },
+    {
+        "value": "92282",
+        "label": "itaguari"
+    },
+    {
+        "value": "94072",
+        "label": "itaguaru"
+    },
+    {
+        "value": "94110",
+        "label": "itajá"
+    },
+    {
+        "value": "94137",
+        "label": "itapaci"
+    },
+    {
+        "value": "94153",
+        "label": "itapirapuã"
+    },
+    {
+        "value": "94196",
+        "label": "itapuranga"
+    },
+    {
+        "value": "94218",
+        "label": "itarumã"
+    },
+    {
+        "value": "94234",
+        "label": "itauçu"
+    },
+    {
+        "value": "94250",
+        "label": "itumbiara"
+    },
+    {
+        "value": "94277",
+        "label": "ivolândia"
+    },
+    {
+        "value": "94293",
+        "label": "jandaia"
+    },
+    {
+        "value": "94315",
+        "label": "jaraguá"
+    },
+    {
+        "value": "94331",
+        "label": "jataí"
+    },
+    {
+        "value": "94358",
+        "label": "jaupaci"
+    },
+    {
+        "value": "92983",
+        "label": "jesúpolis"
+    },
+    {
+        "value": "94374",
+        "label": "joviânia"
+    },
+    {
+        "value": "94390",
+        "label": "jussara"
+    },
+    {
+        "value": "93602",
+        "label": "lagoa santa"
+    },
+    {
+        "value": "94439",
+        "label": "leopoldo de bulhões"
+    },
+    {
+        "value": "94455",
+        "label": "luziânia"
+    },
+    {
+        "value": "94471",
+        "label": "mairipotaba"
+    },
+    {
+        "value": "94498",
+        "label": "mambaí"
+    },
+    {
+        "value": "94510",
+        "label": "mara rosa"
+    },
+    {
+        "value": "94536",
+        "label": "marzagão"
+    },
+    {
+        "value": "92320",
+        "label": "matrinchã"
+    },
+    {
+        "value": "94579",
+        "label": "maurilândia"
+    },
+    {
+        "value": "92347",
+        "label": "mimoso de goiás"
+    },
+    {
+        "value": "96474",
+        "label": "minaçu"
+    },
+    {
+        "value": "94595",
+        "label": "mineiros"
+    },
+    {
+        "value": "94650",
+        "label": "moiporá"
+    },
+    {
+        "value": "94676",
+        "label": "monte alegre de goiás"
+    },
+    {
+        "value": "94714",
+        "label": "montes claros de goiás"
+    },
+    {
+        "value": "92363",
+        "label": "montividiu"
+    },
+    {
+        "value": "93181",
+        "label": "montividiu do norte"
+    },
+    {
+        "value": "94730",
+        "label": "morrinhos"
+    },
+    {
+        "value": "92169",
+        "label": "morro agudo de goiás"
+    },
+    {
+        "value": "94757",
+        "label": "mossâmedes"
+    },
+    {
+        "value": "94773",
+        "label": "mozarlândia"
+    },
+    {
+        "value": "96512",
+        "label": "mundo novo"
+    },
+    {
+        "value": "94790",
+        "label": "mutunópolis"
+    },
+    {
+        "value": "94854",
+        "label": "nazário"
+    },
+    {
+        "value": "94870",
+        "label": "nerópolis"
+    },
+    {
+        "value": "94897",
+        "label": "niquelândia"
+    },
+    {
+        "value": "94919",
+        "label": "nova américa"
+    },
+    {
+        "value": "94935",
+        "label": "nova aurora"
+    },
+    {
+        "value": "96539",
+        "label": "nova crixás"
+    },
+    {
+        "value": "96555",
+        "label": "nova glória"
+    },
+    {
+        "value": "93084",
+        "label": "nova iguaçu de goiás"
+    },
+    {
+        "value": "94951",
+        "label": "nova roma"
+    },
+    {
+        "value": "94978",
+        "label": "nova veneza"
+    },
+    {
+        "value": "95010",
+        "label": "novo brasil"
+    },
+    {
+        "value": "93327",
+        "label": "novo gama"
+    },
+    {
+        "value": "92444",
+        "label": "novo planalto"
+    },
+    {
+        "value": "95036",
+        "label": "orizona"
+    },
+    {
+        "value": "95052",
+        "label": "ouro verde de goiás"
+    },
+    {
+        "value": "95079",
+        "label": "ouvidor"
+    },
+    {
+        "value": "95095",
+        "label": "padre bernardo"
+    },
+    {
+        "value": "92460",
+        "label": "palestina de goiás"
+    },
+    {
+        "value": "95117",
+        "label": "palmeiras de goiás"
+    },
+    {
+        "value": "95133",
+        "label": "palmelo"
+    },
+    {
+        "value": "95150",
+        "label": "palminópolis"
+    },
+    {
+        "value": "95176",
+        "label": "panamá"
+    },
+    {
+        "value": "94552",
+        "label": "paranaiguara"
+    },
+    {
+        "value": "95230",
+        "label": "paraúna"
+    },
+    {
+        "value": "93068",
+        "label": "perolândia"
+    },
+    {
+        "value": "95311",
+        "label": "petrolina de goiás"
+    },
+    {
+        "value": "95354",
+        "label": "pilar de goiás"
+    },
+    {
+        "value": "95397",
+        "label": "piracanjuba"
+    },
+    {
+        "value": "95419",
+        "label": "piranhas"
+    },
+    {
+        "value": "95435",
+        "label": "pirenópolis"
+    },
+    {
+        "value": "95451",
+        "label": "pires do rio"
+    },
+    {
+        "value": "95958",
+        "label": "planaltina"
+    },
+    {
+        "value": "95494",
+        "label": "pontalina"
+    },
+    {
+        "value": "95559",
+        "label": "porangatu"
+    },
+    {
+        "value": "93424",
+        "label": "porteirão"
+    },
+    {
+        "value": "95575",
+        "label": "portelândia"
+    },
+    {
+        "value": "95613",
+        "label": "posse"
+    },
+    {
+        "value": "93041",
+        "label": "professor jamil"
+    },
+    {
+        "value": "95630",
+        "label": "quirinópolis"
+    },
+    {
+        "value": "95656",
+        "label": "rialma"
+    },
+    {
+        "value": "95672",
+        "label": "rianápolis"
+    },
+    {
+        "value": "92827",
+        "label": "rio quente"
+    },
+    {
+        "value": "95710",
+        "label": "rio verde"
+    },
+    {
+        "value": "95737",
+        "label": "rubiataba"
+    },
+    {
+        "value": "95753",
+        "label": "sanclerlândia"
+    },
+    {
+        "value": "95770",
+        "label": "santa bárbara de goiás"
+    },
+    {
+        "value": "95796",
+        "label": "santa cruz de goiás"
+    },
+    {
+        "value": "92568",
+        "label": "santa fé de goiás"
+    },
+    {
+        "value": "95818",
+        "label": "santa helena de goiás"
+    },
+    {
+        "value": "96890",
+        "label": "santa isabel"
+    },
+    {
+        "value": "95834",
+        "label": "santa rita do araguaia"
+    },
+    {
+        "value": "93440",
+        "label": "santa rita do novo destino"
+    },
+    {
+        "value": "95850",
+        "label": "santa rosa de goiás"
+    },
+    {
+        "value": "95877",
+        "label": "santa tereza de goiás"
+    },
+    {
+        "value": "95893",
+        "label": "santa terezinha de goiás"
+    },
+    {
+        "value": "93203",
+        "label": "santo antônio da barra"
+    },
+    {
+        "value": "92908",
+        "label": "santo antônio de goiás"
+    },
+    {
+        "value": "96776",
+        "label": "santo antônio do descoberto"
+    },
+    {
+        "value": "95915",
+        "label": "são domingos"
+    },
+    {
+        "value": "95931",
+        "label": "são francisco de goiás"
+    },
+    {
+        "value": "95974",
+        "label": "são joão d'aliança"
+    },
+    {
+        "value": "92622",
+        "label": "são joão da paraúna"
+    },
+    {
+        "value": "95990",
+        "label": "são luís de montes belos"
+    },
+    {
+        "value": "92649",
+        "label": "são luiz do norte"
+    },
+    {
+        "value": "96016",
+        "label": "são miguel do araguaia"
+    },
+    {
+        "value": "92665",
+        "label": "são miguel do passa quatro"
+    },
+    {
+        "value": "93483",
+        "label": "são patrício"
+    },
+    {
+        "value": "96059",
+        "label": "são simão"
+    },
+    {
+        "value": "92703",
+        "label": "senador canedo"
+    },
+    {
+        "value": "96075",
+        "label": "serranópolis"
+    },
+    {
+        "value": "96091",
+        "label": "silvânia"
+    },
+    {
+        "value": "92720",
+        "label": "simolândia"
+    },
+    {
+        "value": "96113",
+        "label": "sítio d'abadia"
+    },
+    {
+        "value": "96172",
+        "label": "taquaral de goiás"
+    },
+    {
+        "value": "92762",
+        "label": "teresina de goiás"
+    },
+    {
+        "value": "93220",
+        "label": "terezópolis de goiás"
+    },
+    {
+        "value": "96237",
+        "label": "três ranchos"
+    },
+    {
+        "value": "96253",
+        "label": "trindade"
+    },
+    {
+        "value": "92789",
+        "label": "trombas"
+    },
+    {
+        "value": "96318",
+        "label": "turvânia"
+    },
+    {
+        "value": "92800",
+        "label": "turvelândia"
+    },
+    {
+        "value": "93246",
+        "label": "uirapuru"
+    },
+    {
+        "value": "96334",
+        "label": "uruaçu"
+    },
+    {
+        "value": "96350",
+        "label": "uruana"
+    },
+    {
+        "value": "96377",
+        "label": "urutaí"
+    },
+    {
+        "value": "93300",
+        "label": "valparaíso de goiás"
+    },
+    {
+        "value": "96393",
+        "label": "varjão"
+    },
+    {
+        "value": "96415",
+        "label": "vianópolis"
+    },
+    {
+        "value": "96571",
+        "label": "vicentinópolis"
+    },
+    {
+        "value": "93289",
+        "label": "vila boa"
+    },
+    {
+        "value": "93505",
+        "label": "vila propício"
+    }
 ]

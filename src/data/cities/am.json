@@ -1,250 +1,250 @@
 [
-  {
-      "value": "02895",
-      "label": "ALVARÃES"
-  },
-  {
-      "value": "02917",
-      "label": "AMATURÁ"
-  },
-  {
-      "value": "02933",
-      "label": "ANAMÃ"
-  },
-  {
-      "value": "02038",
-      "label": "ANORI"
-  },
-  {
-      "value": "02003",
-      "label": "APUÍ"
-  },
-  {
-      "value": "02054",
-      "label": "ATALAIA DO NORTE"
-  },
-  {
-      "value": "02070",
-      "label": "AUTAZES"
-  },
-  {
-      "value": "02097",
-      "label": "BARCELOS"
-  },
-  {
-      "value": "02119",
-      "label": "BARREIRINHA"
-  },
-  {
-      "value": "02135",
-      "label": "BENJAMIN CONSTANT"
-  },
-  {
-      "value": "02950",
-      "label": "BERURI"
-  },
-  {
-      "value": "02976",
-      "label": "BOA VISTA DO RAMOS"
-  },
-  {
-      "value": "02151",
-      "label": "BOCA DO ACRE"
-  },
-  {
-      "value": "02178",
-      "label": "BORBA"
-  },
-  {
-      "value": "02992",
-      "label": "CAAPIRANGA"
-  },
-  {
-      "value": "02194",
-      "label": "CANUTAMA"
-  },
-  {
-      "value": "02216",
-      "label": "CARAUARI"
-  },
-  {
-      "value": "02232",
-      "label": "CAREIRO"
-  },
-  {
-      "value": "02046",
-      "label": "CAREIRO DA VÁRZEA"
-  },
-  {
-      "value": "02259",
-      "label": "COARI"
-  },
-  {
-      "value": "02275",
-      "label": "CODAJÁS"
-  },
-  {
-      "value": "02291",
-      "label": "EIRUNEPÉ"
-  },
-  {
-      "value": "02313",
-      "label": "ENVIRA"
-  },
-  {
-      "value": "02330",
-      "label": "FONTE BOA"
-  },
-  {
-      "value": "02020",
-      "label": "GUAJARÁ"
-  },
-  {
-      "value": "02356",
-      "label": "HUMAITÁ"
-  },
-  {
-      "value": "02399",
-      "label": "IPIXUNA"
-  },
-  {
-      "value": "98353",
-      "label": "IRANDUBA"
-  },
-  {
-      "value": "02410",
-      "label": "ITACOATIARA"
-  },
-  {
-      "value": "98370",
-      "label": "ITAMARATI"
-  },
-  {
-      "value": "02437",
-      "label": "ITAPIRANGA"
-  },
-  {
-      "value": "02453",
-      "label": "JAPURÁ"
-  },
-  {
-      "value": "02470",
-      "label": "JURUÁ"
-  },
-  {
-      "value": "02496",
-      "label": "JUTAÍ"
-  },
-  {
-      "value": "02518",
-      "label": "LÁBREA"
-  },
-  {
-      "value": "02534",
-      "label": "MANACAPURU"
-  },
-  {
-      "value": "98396",
-      "label": "MANAQUIRI"
-  },
-  {
-      "value": "02550",
-      "label": "MANAUS"
-  },
-  {
-      "value": "02577",
-      "label": "MANICORÉ"
-  },
-  {
-      "value": "02593",
-      "label": "MARAÃ"
-  },
-  {
-      "value": "02615",
-      "label": "MAUÉS"
-  },
-  {
-      "value": "02631",
-      "label": "NHAMUNDÁ"
-  },
-  {
-      "value": "02658",
-      "label": "NOVA OLINDA DO NORTE"
-  },
-  {
-      "value": "02011",
-      "label": "NOVO AIRÃO"
-  },
-  {
-      "value": "02674",
-      "label": "NOVO ARIPUANÃ"
-  },
-  {
-      "value": "02690",
-      "label": "PARINTINS"
-  },
-  {
-      "value": "02712",
-      "label": "PAUINI"
-  },
-  {
-      "value": "98418",
-      "label": "PRESIDENTE FIGUEIREDO"
-  },
-  {
-      "value": "98434",
-      "label": "RIO PRETO DA EVA"
-  },
-  {
-      "value": "02372",
-      "label": "SANTA ISABEL DO RIO NEGRO"
-  },
-  {
-      "value": "02739",
-      "label": "SANTO ANTÔNIO DO IÇÁ"
-  },
-  {
-      "value": "02836",
-      "label": "SÃO GABRIEL DA CACHOEIRA"
-  },
-  {
-      "value": "02755",
-      "label": "SÃO PAULO DE OLIVENÇA"
-  },
-  {
-      "value": "98450",
-      "label": "SÃO SEBASTIÃO DO UATUMÃ"
-  },
-  {
-      "value": "02771",
-      "label": "SILVES"
-  },
-  {
-      "value": "98477",
-      "label": "TABATINGA"
-  },
-  {
-      "value": "02798",
-      "label": "TAPAUÁ"
-  },
-  {
-      "value": "02810",
-      "label": "TEFÉ"
-  },
-  {
-      "value": "98515",
-      "label": "TONANTINS"
-  },
-  {
-      "value": "98493",
-      "label": "UARINI"
-  },
-  {
-      "value": "02852",
-      "label": "URUCARÁ"
-  },
-  {
-      "value": "02879",
-      "label": "URUCURITUBA"
-  }
+    {
+        "value": "02895",
+        "label": "alvarães"
+    },
+    {
+        "value": "02917",
+        "label": "amaturá"
+    },
+    {
+        "value": "02933",
+        "label": "anamã"
+    },
+    {
+        "value": "02038",
+        "label": "anori"
+    },
+    {
+        "value": "02003",
+        "label": "apuí"
+    },
+    {
+        "value": "02054",
+        "label": "atalaia do norte"
+    },
+    {
+        "value": "02070",
+        "label": "autazes"
+    },
+    {
+        "value": "02097",
+        "label": "barcelos"
+    },
+    {
+        "value": "02119",
+        "label": "barreirinha"
+    },
+    {
+        "value": "02135",
+        "label": "benjamin constant"
+    },
+    {
+        "value": "02950",
+        "label": "beruri"
+    },
+    {
+        "value": "02976",
+        "label": "boa vista do ramos"
+    },
+    {
+        "value": "02151",
+        "label": "boca do acre"
+    },
+    {
+        "value": "02178",
+        "label": "borba"
+    },
+    {
+        "value": "02992",
+        "label": "caapiranga"
+    },
+    {
+        "value": "02194",
+        "label": "canutama"
+    },
+    {
+        "value": "02216",
+        "label": "carauari"
+    },
+    {
+        "value": "02232",
+        "label": "careiro"
+    },
+    {
+        "value": "02046",
+        "label": "careiro da várzea"
+    },
+    {
+        "value": "02259",
+        "label": "coari"
+    },
+    {
+        "value": "02275",
+        "label": "codajás"
+    },
+    {
+        "value": "02291",
+        "label": "eirunepé"
+    },
+    {
+        "value": "02313",
+        "label": "envira"
+    },
+    {
+        "value": "02330",
+        "label": "fonte boa"
+    },
+    {
+        "value": "02020",
+        "label": "guajará"
+    },
+    {
+        "value": "02356",
+        "label": "humaitá"
+    },
+    {
+        "value": "02399",
+        "label": "ipixuna"
+    },
+    {
+        "value": "98353",
+        "label": "iranduba"
+    },
+    {
+        "value": "02410",
+        "label": "itacoatiara"
+    },
+    {
+        "value": "98370",
+        "label": "itamarati"
+    },
+    {
+        "value": "02437",
+        "label": "itapiranga"
+    },
+    {
+        "value": "02453",
+        "label": "japurá"
+    },
+    {
+        "value": "02470",
+        "label": "juruá"
+    },
+    {
+        "value": "02496",
+        "label": "jutaí"
+    },
+    {
+        "value": "02518",
+        "label": "lábrea"
+    },
+    {
+        "value": "02534",
+        "label": "manacapuru"
+    },
+    {
+        "value": "98396",
+        "label": "manaquiri"
+    },
+    {
+        "value": "02550",
+        "label": "manaus"
+    },
+    {
+        "value": "02577",
+        "label": "manicoré"
+    },
+    {
+        "value": "02593",
+        "label": "maraã"
+    },
+    {
+        "value": "02615",
+        "label": "maués"
+    },
+    {
+        "value": "02631",
+        "label": "nhamundá"
+    },
+    {
+        "value": "02658",
+        "label": "nova olinda do norte"
+    },
+    {
+        "value": "02011",
+        "label": "novo airão"
+    },
+    {
+        "value": "02674",
+        "label": "novo aripuanã"
+    },
+    {
+        "value": "02690",
+        "label": "parintins"
+    },
+    {
+        "value": "02712",
+        "label": "pauini"
+    },
+    {
+        "value": "98418",
+        "label": "presidente figueiredo"
+    },
+    {
+        "value": "98434",
+        "label": "rio preto da eva"
+    },
+    {
+        "value": "02372",
+        "label": "santa isabel do rio negro"
+    },
+    {
+        "value": "02739",
+        "label": "santo antônio do içá"
+    },
+    {
+        "value": "02836",
+        "label": "são gabriel da cachoeira"
+    },
+    {
+        "value": "02755",
+        "label": "são paulo de olivença"
+    },
+    {
+        "value": "98450",
+        "label": "são sebastião do uatumã"
+    },
+    {
+        "value": "02771",
+        "label": "silves"
+    },
+    {
+        "value": "98477",
+        "label": "tabatinga"
+    },
+    {
+        "value": "02798",
+        "label": "tapauá"
+    },
+    {
+        "value": "02810",
+        "label": "tefé"
+    },
+    {
+        "value": "98515",
+        "label": "tonantins"
+    },
+    {
+        "value": "98493",
+        "label": "uarini"
+    },
+    {
+        "value": "02852",
+        "label": "urucará"
+    },
+    {
+        "value": "02879",
+        "label": "urucurituba"
+    }
 ]

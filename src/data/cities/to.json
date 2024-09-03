@@ -1,558 +1,558 @@
 [
-  {
-      "value": "73008",
-      "label": "ABREULÂNDIA"
-  },
-  {
-      "value": "73512",
-      "label": "AGUIARNÓPOLIS"
-  },
-  {
-      "value": "96954",
-      "label": "ALIANÇA DO TOCANTINS"
-  },
-  {
-      "value": "92070",
-      "label": "ALMAS"
-  },
-  {
-      "value": "92134",
-      "label": "ALVORADA"
-  },
-  {
-      "value": "92193",
-      "label": "ANANÁS"
-  },
-  {
-      "value": "73075",
-      "label": "ANGICO"
-  },
-  {
-      "value": "96970",
-      "label": "APARECIDA DO RIO NEGRO"
-  },
-  {
-      "value": "73334",
-      "label": "ARAGOMINAS"
-  },
-  {
-      "value": "92371",
-      "label": "ARAGUACEMA"
-  },
-  {
-      "value": "92398",
-      "label": "ARAGUAÇU"
-  },
-  {
-      "value": "92410",
-      "label": "ARAGUAÍNA"
-  },
-  {
-      "value": "73318",
-      "label": "ARAGUANÃ"
-  },
-  {
-      "value": "92436",
-      "label": "ARAGUATINS"
-  },
-  {
-      "value": "92452",
-      "label": "ARAPOEMA"
-  },
-  {
-      "value": "92479",
-      "label": "ARRAIAS"
-  },
-  {
-      "value": "96857",
-      "label": "AUGUSTINÓPOLIS"
-  },
-  {
-      "value": "92533",
-      "label": "AURORA DO TOCANTINS"
-  },
-  {
-      "value": "92576",
-      "label": "AXIXÁ DO TOCANTINS"
-  },
-  {
-      "value": "92592",
-      "label": "BABAÇULÂNDIA"
-  },
-  {
-      "value": "73580",
-      "label": "BANDEIRANTES DO TOCANTINS"
-  },
-  {
-      "value": "73610",
-      "label": "BARRA DO OURO"
-  },
-  {
-      "value": "96997",
-      "label": "BARROLÂNDIA"
-  },
-  {
-      "value": "92002",
-      "label": "BERNARDO SAYÃO"
-  },
-  {
-      "value": "73121",
-      "label": "BOM JESUS DO TOCANTINS"
-  },
-  {
-      "value": "73245",
-      "label": "BRASILÂNDIA DO TOCANTINS"
-  },
-  {
-      "value": "92738",
-      "label": "BREJINHO DE NAZARÉ"
-  },
-  {
-      "value": "92045",
-      "label": "BURITI DO TOCANTINS"
-  },
-  {
-      "value": "73067",
-      "label": "CACHOEIRINHA"
-  },
-  {
-      "value": "73091",
-      "label": "CAMPOS LINDOS"
-  },
-  {
-      "value": "73300",
-      "label": "CARIRI DO TOCANTINS"
-  },
-  {
-      "value": "73326",
-      "label": "CARMOLÂNDIA"
-  },
-  {
-      "value": "73423",
-      "label": "CARRASCO BONITO"
-  },
-  {
-      "value": "92088",
-      "label": "CASEARA"
-  },
-  {
-      "value": "73210",
-      "label": "CENTENÁRIO"
-  },
-  {
-      "value": "73482",
-      "label": "CHAPADA DA NATIVIDADE"
-  },
-  {
-      "value": "73474",
-      "label": "CHAPADA DE AREIA"
-  },
-  {
-      "value": "93114",
-      "label": "COLINAS DO TOCANTINS"
-  },
-  {
-      "value": "95290",
-      "label": "COLMÉIA"
-  },
-  {
-      "value": "92142",
-      "label": "COMBINADO"
-  },
-  {
-      "value": "93130",
-      "label": "CONCEIÇÃO DO TOCANTINS"
-  },
-  {
-      "value": "93211",
-      "label": "COUTO MAGALHÃES"
-  },
-  {
-      "value": "93238",
-      "label": "CRISTALÂNDIA"
-  },
-  {
-      "value": "73555",
-      "label": "CRIXÁS DO TOCANTINS"
-  },
-  {
-      "value": "73032",
-      "label": "DARCINÓPOLIS"
-  },
-  {
-      "value": "93416",
-      "label": "DIANÓPOLIS"
-  },
-  {
-      "value": "92185",
-      "label": "DIVINÓPOLIS DO TOCANTINS"
-  },
-  {
-      "value": "93459",
-      "label": "DOIS IRMÃOS DO TOCANTINS"
-  },
-  {
-      "value": "93475",
-      "label": "DUERÉ"
-  },
-  {
-      "value": "73296",
-      "label": "ESPERANTINA"
-  },
-  {
-      "value": "96830",
-      "label": "FÁTIMA"
-  },
-  {
-      "value": "96679",
-      "label": "FIGUEIRÓPOLIS"
-  },
-  {
-      "value": "93556",
-      "label": "FILADÉLFIA"
-  },
-  {
-      "value": "93653",
-      "label": "FORMOSO DO ARAGUAIA"
-  },
-  {
-      "value": "92240",
-      "label": "GOIANORTE"
-  },
-  {
-      "value": "95338",
-      "label": "GOIATINS"
-  },
-  {
-      "value": "96270",
-      "label": "GUARAÍ"
-  },
-  {
-      "value": "93858",
-      "label": "GURUPI"
-  },
-  {
-      "value": "73598",
-      "label": "IPUEIRAS"
-  },
-  {
-      "value": "94056",
-      "label": "ITACAJÁ"
-  },
-  {
-      "value": "94099",
-      "label": "ITAGUATINS"
-  },
-  {
-      "value": "73202",
-      "label": "ITAPIRATINS"
-  },
-  {
-      "value": "94170",
-      "label": "ITAPORÃ DO TOCANTINS"
-  },
-  {
-      "value": "73369",
-      "label": "JAÚ DO TOCANTINS"
-  },
-  {
-      "value": "73253",
-      "label": "JUARINA"
-  },
-  {
-      "value": "73385",
-      "label": "LAGOA DA CONFUSÃO"
-  },
-  {
-      "value": "73113",
-      "label": "LAGOA DO TOCANTINS"
-  },
-  {
-      "value": "73407",
-      "label": "LAJEADO"
-  },
-  {
-      "value": "73601",
-      "label": "LAVANDEIRA"
-  },
-  {
-      "value": "95699",
-      "label": "LIZARDA"
-  },
-  {
-      "value": "73520",
-      "label": "LUZINÓPOLIS"
-  },
-  {
-      "value": "92304",
-      "label": "MARIANÓPOLIS DO TOCANTINS"
-  },
-  {
-      "value": "73270",
-      "label": "MATEIROS"
-  },
-  {
-      "value": "73059",
-      "label": "MAURILÂNDIA DO TOCANTINS"
-  },
-  {
-      "value": "94617",
-      "label": "MIRACEMA DO TOCANTINS"
-  },
-  {
-      "value": "94633",
-      "label": "MIRANORTE"
-  },
-  {
-      "value": "94692",
-      "label": "MONTE DO CARMO"
-  },
-  {
-      "value": "73563",
-      "label": "MONTE SANTO DO TOCANTINS"
-  },
-  {
-      "value": "73342",
-      "label": "MURICILÂNDIA"
-  },
-  {
-      "value": "94811",
-      "label": "NATIVIDADE"
-  },
-  {
-      "value": "94838",
-      "label": "NAZARÉ"
-  },
-  {
-      "value": "96636",
-      "label": "NOVA OLINDA"
-  },
-  {
-      "value": "92401",
-      "label": "NOVA ROSALÂNDIA"
-  },
-  {
-      "value": "94994",
-      "label": "NOVO ACORDO"
-  },
-  {
-      "value": "73148",
-      "label": "NOVO ALEGRE"
-  },
-  {
-      "value": "73172",
-      "label": "NOVO JARDIM"
-  },
-  {
-      "value": "73466",
-      "label": "OLIVEIRA DE FÁTIMA"
-  },
-  {
-      "value": "73440",
-      "label": "PALMAS"
-  },
-  {
-      "value": "73083",
-      "label": "PALMEIRANTE"
-  },
-  {
-      "value": "73040",
-      "label": "PALMEIRAS DO TOCANTINS"
-  },
-  {
-      "value": "96490",
-      "label": "PALMEIRÓPOLIS"
-  },
-  {
-      "value": "95192",
-      "label": "PARAÍSO DO TOCANTINS"
-  },
-  {
-      "value": "95214",
-      "label": "PARANÃ"
-  },
-  {
-      "value": "73261",
-      "label": "PAU D'ARCO"
-  },
-  {
-      "value": "95257",
-      "label": "PEDRO AFONSO"
-  },
-  {
-      "value": "95273",
-      "label": "PEIXE"
-  },
-  {
-      "value": "92487",
-      "label": "PEQUIZEIRO"
-  },
-  {
-      "value": "95370",
-      "label": "PINDORAMA DO TOCANTINS"
-  },
-  {
-      "value": "73016",
-      "label": "PIRAQUÊ"
-  },
-  {
-      "value": "95478",
-      "label": "PIUM"
-  },
-  {
-      "value": "95516",
-      "label": "PONTE ALTA DO BOM JESUS"
-  },
-  {
-      "value": "95532",
-      "label": "PONTE ALTA DO TOCANTINS"
-  },
-  {
-      "value": "92509",
-      "label": "PORTO ALEGRE DO TOCANTINS"
-  },
-  {
-      "value": "95591",
-      "label": "PORTO NACIONAL"
-  },
-  {
-      "value": "92525",
-      "label": "PRAIA NORTE"
-  },
-  {
-      "value": "96296",
-      "label": "PRESIDENTE KENNEDY"
-  },
-  {
-      "value": "73571",
-      "label": "PUGMIL"
-  },
-  {
-      "value": "73229",
-      "label": "RECURSOLÂNDIA"
-  },
-  {
-      "value": "73024",
-      "label": "RIACHINHO"
-  },
-  {
-      "value": "73431",
-      "label": "RIO DA CONCEIÇÃO"
-  },
-  {
-      "value": "73415",
-      "label": "RIO DOS BOIS"
-  },
-  {
-      "value": "96792",
-      "label": "RIO SONO"
-  },
-  {
-      "value": "92541",
-      "label": "SAMPAIO"
-  },
-  {
-      "value": "73156",
-      "label": "SANDOLÂNDIA"
-  },
-  {
-      "value": "73350",
-      "label": "SANTA FÉ DO ARAGUAIA"
-  },
-  {
-      "value": "73130",
-      "label": "SANTA MARIA DO TOCANTINS"
-  },
-  {
-      "value": "73547",
-      "label": "SANTA RITA DO TOCANTINS"
-  },
-  {
-      "value": "92584",
-      "label": "SANTA ROSA DO TOCANTINS"
-  },
-  {
-      "value": "92606",
-      "label": "SANTA TEREZA DO TOCANTINS"
-  },
-  {
-      "value": "73539",
-      "label": "SANTA TEREZINHA DO TOCANTINS"
-  },
-  {
-      "value": "73288",
-      "label": "SÃO BENTO DO TOCANTINS"
-  },
-  {
-      "value": "73105",
-      "label": "SÃO FÉLIX DO TOCANTINS"
-  },
-  {
-      "value": "73180",
-      "label": "SÃO MIGUEL DO TOCANTINS"
-  },
-  {
-      "value": "73393",
-      "label": "SÃO SALVADOR DO TOCANTINS"
-  },
-  {
-      "value": "96032",
-      "label": "SÃO SEBASTIÃO DO TOCANTINS"
-  },
-  {
-      "value": "92681",
-      "label": "SÃO VALÉRIO"
-  },
-  {
-      "value": "96598",
-      "label": "SILVANÓPOLIS"
-  },
-  {
-      "value": "96130",
-      "label": "SÍTIO NOVO DO TOCANTINS"
-  },
-  {
-      "value": "73377",
-      "label": "SUCUPIRA"
-  },
-  {
-      "value": "73199",
-      "label": "TABOCÃO"
-  },
-  {
-      "value": "96156",
-      "label": "TAGUATINGA"
-  },
-  {
-      "value": "73164",
-      "label": "TAIPAS DO TOCANTINS"
-  },
-  {
-      "value": "73504",
-      "label": "TALISMÃ"
-  },
-  {
-      "value": "96199",
-      "label": "TOCANTÍNIA"
-  },
-  {
-      "value": "96210",
-      "label": "TOCANTINÓPOLIS"
-  },
-  {
-      "value": "73458",
-      "label": "TUPIRAMA"
-  },
-  {
-      "value": "73237",
-      "label": "TUPIRATINS"
-  },
-  {
-      "value": "96652",
-      "label": "WANDERLÂNDIA"
-  },
-  {
-      "value": "96431",
-      "label": "XAMBIOÁ"
-  }
+    {
+        "value": "73008",
+        "label": "abreulândia"
+    },
+    {
+        "value": "73512",
+        "label": "aguiarnópolis"
+    },
+    {
+        "value": "96954",
+        "label": "aliança do tocantins"
+    },
+    {
+        "value": "92070",
+        "label": "almas"
+    },
+    {
+        "value": "92134",
+        "label": "alvorada"
+    },
+    {
+        "value": "92193",
+        "label": "ananás"
+    },
+    {
+        "value": "73075",
+        "label": "angico"
+    },
+    {
+        "value": "96970",
+        "label": "aparecida do rio negro"
+    },
+    {
+        "value": "73334",
+        "label": "aragominas"
+    },
+    {
+        "value": "92371",
+        "label": "araguacema"
+    },
+    {
+        "value": "92398",
+        "label": "araguaçu"
+    },
+    {
+        "value": "92410",
+        "label": "araguaína"
+    },
+    {
+        "value": "73318",
+        "label": "araguanã"
+    },
+    {
+        "value": "92436",
+        "label": "araguatins"
+    },
+    {
+        "value": "92452",
+        "label": "arapoema"
+    },
+    {
+        "value": "92479",
+        "label": "arraias"
+    },
+    {
+        "value": "96857",
+        "label": "augustinópolis"
+    },
+    {
+        "value": "92533",
+        "label": "aurora do tocantins"
+    },
+    {
+        "value": "92576",
+        "label": "axixá do tocantins"
+    },
+    {
+        "value": "92592",
+        "label": "babaçulândia"
+    },
+    {
+        "value": "73580",
+        "label": "bandeirantes do tocantins"
+    },
+    {
+        "value": "73610",
+        "label": "barra do ouro"
+    },
+    {
+        "value": "96997",
+        "label": "barrolândia"
+    },
+    {
+        "value": "92002",
+        "label": "bernardo sayão"
+    },
+    {
+        "value": "73121",
+        "label": "bom jesus do tocantins"
+    },
+    {
+        "value": "73245",
+        "label": "brasilândia do tocantins"
+    },
+    {
+        "value": "92738",
+        "label": "brejinho de nazaré"
+    },
+    {
+        "value": "92045",
+        "label": "buriti do tocantins"
+    },
+    {
+        "value": "73067",
+        "label": "cachoeirinha"
+    },
+    {
+        "value": "73091",
+        "label": "campos lindos"
+    },
+    {
+        "value": "73300",
+        "label": "cariri do tocantins"
+    },
+    {
+        "value": "73326",
+        "label": "carmolândia"
+    },
+    {
+        "value": "73423",
+        "label": "carrasco bonito"
+    },
+    {
+        "value": "92088",
+        "label": "caseara"
+    },
+    {
+        "value": "73210",
+        "label": "centenário"
+    },
+    {
+        "value": "73482",
+        "label": "chapada da natividade"
+    },
+    {
+        "value": "73474",
+        "label": "chapada de areia"
+    },
+    {
+        "value": "93114",
+        "label": "colinas do tocantins"
+    },
+    {
+        "value": "95290",
+        "label": "colméia"
+    },
+    {
+        "value": "92142",
+        "label": "combinado"
+    },
+    {
+        "value": "93130",
+        "label": "conceição do tocantins"
+    },
+    {
+        "value": "93211",
+        "label": "couto magalhães"
+    },
+    {
+        "value": "93238",
+        "label": "cristalândia"
+    },
+    {
+        "value": "73555",
+        "label": "crixás do tocantins"
+    },
+    {
+        "value": "73032",
+        "label": "darcinópolis"
+    },
+    {
+        "value": "93416",
+        "label": "dianópolis"
+    },
+    {
+        "value": "92185",
+        "label": "divinópolis do tocantins"
+    },
+    {
+        "value": "93459",
+        "label": "dois irmãos do tocantins"
+    },
+    {
+        "value": "93475",
+        "label": "dueré"
+    },
+    {
+        "value": "73296",
+        "label": "esperantina"
+    },
+    {
+        "value": "96830",
+        "label": "fátima"
+    },
+    {
+        "value": "96679",
+        "label": "figueirópolis"
+    },
+    {
+        "value": "93556",
+        "label": "filadélfia"
+    },
+    {
+        "value": "93653",
+        "label": "formoso do araguaia"
+    },
+    {
+        "value": "92240",
+        "label": "goianorte"
+    },
+    {
+        "value": "95338",
+        "label": "goiatins"
+    },
+    {
+        "value": "96270",
+        "label": "guaraí"
+    },
+    {
+        "value": "93858",
+        "label": "gurupi"
+    },
+    {
+        "value": "73598",
+        "label": "ipueiras"
+    },
+    {
+        "value": "94056",
+        "label": "itacajá"
+    },
+    {
+        "value": "94099",
+        "label": "itaguatins"
+    },
+    {
+        "value": "73202",
+        "label": "itapiratins"
+    },
+    {
+        "value": "94170",
+        "label": "itaporã do tocantins"
+    },
+    {
+        "value": "73369",
+        "label": "jaú do tocantins"
+    },
+    {
+        "value": "73253",
+        "label": "juarina"
+    },
+    {
+        "value": "73385",
+        "label": "lagoa da confusão"
+    },
+    {
+        "value": "73113",
+        "label": "lagoa do tocantins"
+    },
+    {
+        "value": "73407",
+        "label": "lajeado"
+    },
+    {
+        "value": "73601",
+        "label": "lavandeira"
+    },
+    {
+        "value": "95699",
+        "label": "lizarda"
+    },
+    {
+        "value": "73520",
+        "label": "luzinópolis"
+    },
+    {
+        "value": "92304",
+        "label": "marianópolis do tocantins"
+    },
+    {
+        "value": "73270",
+        "label": "mateiros"
+    },
+    {
+        "value": "73059",
+        "label": "maurilândia do tocantins"
+    },
+    {
+        "value": "94617",
+        "label": "miracema do tocantins"
+    },
+    {
+        "value": "94633",
+        "label": "miranorte"
+    },
+    {
+        "value": "94692",
+        "label": "monte do carmo"
+    },
+    {
+        "value": "73563",
+        "label": "monte santo do tocantins"
+    },
+    {
+        "value": "73342",
+        "label": "muricilândia"
+    },
+    {
+        "value": "94811",
+        "label": "natividade"
+    },
+    {
+        "value": "94838",
+        "label": "nazaré"
+    },
+    {
+        "value": "96636",
+        "label": "nova olinda"
+    },
+    {
+        "value": "92401",
+        "label": "nova rosalândia"
+    },
+    {
+        "value": "94994",
+        "label": "novo acordo"
+    },
+    {
+        "value": "73148",
+        "label": "novo alegre"
+    },
+    {
+        "value": "73172",
+        "label": "novo jardim"
+    },
+    {
+        "value": "73466",
+        "label": "oliveira de fátima"
+    },
+    {
+        "value": "73440",
+        "label": "palmas"
+    },
+    {
+        "value": "73083",
+        "label": "palmeirante"
+    },
+    {
+        "value": "73040",
+        "label": "palmeiras do tocantins"
+    },
+    {
+        "value": "96490",
+        "label": "palmeirópolis"
+    },
+    {
+        "value": "95192",
+        "label": "paraíso do tocantins"
+    },
+    {
+        "value": "95214",
+        "label": "paranã"
+    },
+    {
+        "value": "73261",
+        "label": "pau d'arco"
+    },
+    {
+        "value": "95257",
+        "label": "pedro afonso"
+    },
+    {
+        "value": "95273",
+        "label": "peixe"
+    },
+    {
+        "value": "92487",
+        "label": "pequizeiro"
+    },
+    {
+        "value": "95370",
+        "label": "pindorama do tocantins"
+    },
+    {
+        "value": "73016",
+        "label": "piraquê"
+    },
+    {
+        "value": "95478",
+        "label": "pium"
+    },
+    {
+        "value": "95516",
+        "label": "ponte alta do bom jesus"
+    },
+    {
+        "value": "95532",
+        "label": "ponte alta do tocantins"
+    },
+    {
+        "value": "92509",
+        "label": "porto alegre do tocantins"
+    },
+    {
+        "value": "95591",
+        "label": "porto nacional"
+    },
+    {
+        "value": "92525",
+        "label": "praia norte"
+    },
+    {
+        "value": "96296",
+        "label": "presidente kennedy"
+    },
+    {
+        "value": "73571",
+        "label": "pugmil"
+    },
+    {
+        "value": "73229",
+        "label": "recursolândia"
+    },
+    {
+        "value": "73024",
+        "label": "riachinho"
+    },
+    {
+        "value": "73431",
+        "label": "rio da conceição"
+    },
+    {
+        "value": "73415",
+        "label": "rio dos bois"
+    },
+    {
+        "value": "96792",
+        "label": "rio sono"
+    },
+    {
+        "value": "92541",
+        "label": "sampaio"
+    },
+    {
+        "value": "73156",
+        "label": "sandolândia"
+    },
+    {
+        "value": "73350",
+        "label": "santa fé do araguaia"
+    },
+    {
+        "value": "73130",
+        "label": "santa maria do tocantins"
+    },
+    {
+        "value": "73547",
+        "label": "santa rita do tocantins"
+    },
+    {
+        "value": "92584",
+        "label": "santa rosa do tocantins"
+    },
+    {
+        "value": "92606",
+        "label": "santa tereza do tocantins"
+    },
+    {
+        "value": "73539",
+        "label": "santa terezinha do tocantins"
+    },
+    {
+        "value": "73288",
+        "label": "são bento do tocantins"
+    },
+    {
+        "value": "73105",
+        "label": "são félix do tocantins"
+    },
+    {
+        "value": "73180",
+        "label": "são miguel do tocantins"
+    },
+    {
+        "value": "73393",
+        "label": "são salvador do tocantins"
+    },
+    {
+        "value": "96032",
+        "label": "são sebastião do tocantins"
+    },
+    {
+        "value": "92681",
+        "label": "são valério"
+    },
+    {
+        "value": "96598",
+        "label": "silvanópolis"
+    },
+    {
+        "value": "96130",
+        "label": "sítio novo do tocantins"
+    },
+    {
+        "value": "73377",
+        "label": "sucupira"
+    },
+    {
+        "value": "73199",
+        "label": "tabocão"
+    },
+    {
+        "value": "96156",
+        "label": "taguatinga"
+    },
+    {
+        "value": "73164",
+        "label": "taipas do tocantins"
+    },
+    {
+        "value": "73504",
+        "label": "talismã"
+    },
+    {
+        "value": "96199",
+        "label": "tocantínia"
+    },
+    {
+        "value": "96210",
+        "label": "tocantinópolis"
+    },
+    {
+        "value": "73458",
+        "label": "tupirama"
+    },
+    {
+        "value": "73237",
+        "label": "tupiratins"
+    },
+    {
+        "value": "96652",
+        "label": "wanderlândia"
+    },
+    {
+        "value": "96431",
+        "label": "xambioá"
+    }
 ]

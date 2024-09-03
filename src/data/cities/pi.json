@@ -1,898 +1,898 @@
 [
-  {
-      "value": "12327",
-      "label": "ACAUÃ"
-  },
-  {
-      "value": "10014",
-      "label": "AGRICOLÂNDIA"
-  },
-  {
-      "value": "10030",
-      "label": "ÁGUA BRANCA"
-  },
-  {
-      "value": "12319",
-      "label": "ALAGOINHA DO PIAUÍ"
-  },
-  {
-      "value": "10022",
-      "label": "ALEGRETE DO PIAUÍ"
-  },
-  {
-      "value": "10057",
-      "label": "ALTO LONGÁ"
-  },
-  {
-      "value": "10073",
-      "label": "ALTOS"
-  },
-  {
-      "value": "12084",
-      "label": "ALVORADA DO GURGUÉIA"
-  },
-  {
-      "value": "10090",
-      "label": "AMARANTE"
-  },
-  {
-      "value": "10111",
-      "label": "ANGICAL DO PIAUÍ"
-  },
-  {
-      "value": "10138",
-      "label": "ANÍSIO DE ABREU"
-  },
-  {
-      "value": "10154",
-      "label": "ANTÔNIO ALMEIDA"
-  },
-  {
-      "value": "10170",
-      "label": "AROAZES"
-  },
-  {
-      "value": "12734",
-      "label": "AROEIRAS DO ITAIM"
-  },
-  {
-      "value": "10197",
-      "label": "ARRAIAL"
-  },
-  {
-      "value": "12106",
-      "label": "ASSUNÇÃO DO PIAUÍ"
-  },
-  {
-      "value": "10219",
-      "label": "AVELINO LOPES"
-  },
-  {
-      "value": "10049",
-      "label": "BAIXA GRANDE DO RIBEIRO"
-  },
-  {
-      "value": "10600",
-      "label": "BARRA D'ALCÂNTARA"
-  },
-  {
-      "value": "10235",
-      "label": "BARRAS"
-  },
-  {
-      "value": "10251",
-      "label": "BARREIRAS DO PIAUÍ"
-  },
-  {
-      "value": "10278",
-      "label": "BARRO DURO"
-  },
-  {
-      "value": "10294",
-      "label": "BATALHA"
-  },
-  {
-      "value": "10626",
-      "label": "BELA VISTA DO PIAUÍ"
-  },
-  {
-      "value": "12335",
-      "label": "BELÉM DO PIAUÍ"
-  },
-  {
-      "value": "10316",
-      "label": "BENEDITINOS"
-  },
-  {
-      "value": "10332",
-      "label": "BERTOLÍNIA"
-  },
-  {
-      "value": "12122",
-      "label": "BETÂNIA DO PIAUÍ"
-  },
-  {
-      "value": "10669",
-      "label": "BOA HORA"
-  },
-  {
-      "value": "10359",
-      "label": "BOCAINA"
-  },
-  {
-      "value": "10375",
-      "label": "BOM JESUS"
-  },
-  {
-      "value": "10065",
-      "label": "BOM PRINCÍPIO DO PIAUÍ"
-  },
-  {
-      "value": "10081",
-      "label": "BONFIM DO PIAUÍ"
-  },
-  {
-      "value": "12149",
-      "label": "BOQUEIRÃO DO PIAUÍ"
-  },
-  {
-      "value": "10006",
-      "label": "BRASILEIRA"
-  },
-  {
-      "value": "10642",
-      "label": "BREJO DO PIAUÍ"
-  },
-  {
-      "value": "10391",
-      "label": "BURITI DOS LOPES"
-  },
-  {
-      "value": "10103",
-      "label": "BURITI DOS MONTES"
-  },
-  {
-      "value": "10120",
-      "label": "CABECEIRAS DO PIAUÍ"
-  },
-  {
-      "value": "12343",
-      "label": "CAJAZEIRAS DO PIAUÍ"
-  },
-  {
-      "value": "12572",
-      "label": "CAJUEIRO DA PRAIA"
-  },
-  {
-      "value": "10146",
-      "label": "CALDEIRÃO GRANDE DO PIAUÍ"
-  },
-  {
-      "value": "10413",
-      "label": "CAMPINAS DO PIAUÍ"
-  },
-  {
-      "value": "12351",
-      "label": "CAMPO ALEGRE DO FIDALGO"
-  },
-  {
-      "value": "10723",
-      "label": "CAMPO GRANDE DO PIAUÍ"
-  },
-  {
-      "value": "10740",
-      "label": "CAMPO LARGO DO PIAUÍ"
-  },
-  {
-      "value": "10430",
-      "label": "CAMPO MAIOR"
-  },
-  {
-      "value": "10162",
-      "label": "CANAVIEIRA"
-  },
-  {
-      "value": "10456",
-      "label": "CANTO DO BURITI"
-  },
-  {
-      "value": "10472",
-      "label": "CAPITÃO DE CAMPOS"
-  },
-  {
-      "value": "10707",
-      "label": "CAPITÃO GERVÁSIO OLIVEIRA"
-  },
-  {
-      "value": "10499",
-      "label": "CARACOL"
-  },
-  {
-      "value": "12670",
-      "label": "CARAÚBAS DO PIAUÍ"
-  },
-  {
-      "value": "12165",
-      "label": "CARIDADE DO PIAUÍ"
-  },
-  {
-      "value": "10510",
-      "label": "CASTELO DO PIAUÍ"
-  },
-  {
-      "value": "12688",
-      "label": "CAXINGÓ"
-  },
-  {
-      "value": "10537",
-      "label": "COCAL"
-  },
-  {
-      "value": "12360",
-      "label": "COCAL DE TELHA"
-  },
-  {
-      "value": "12696",
-      "label": "COCAL DOS ALVES"
-  },
-  {
-      "value": "10189",
-      "label": "COIVARAS"
-  },
-  {
-      "value": "10200",
-      "label": "COLÔNIA DO GURGUÉIA"
-  },
-  {
-      "value": "10227",
-      "label": "COLÔNIA DO PIAUÍ"
-  },
-  {
-      "value": "10553",
-      "label": "CONCEIÇÃO DO CANINDÉ"
-  },
-  {
-      "value": "10243",
-      "label": "CORONEL JOSÉ DIAS"
-  },
-  {
-      "value": "10570",
-      "label": "CORRENTE"
-  },
-  {
-      "value": "10596",
-      "label": "CRISTALÂNDIA DO PIAUÍ"
-  },
-  {
-      "value": "10618",
-      "label": "CRISTINO CASTRO"
-  },
-  {
-      "value": "10634",
-      "label": "CURIMATÁ"
-  },
-  {
-      "value": "10766",
-      "label": "CURRAIS"
-  },
-  {
-      "value": "12181",
-      "label": "CURRAL NOVO DO PIAUÍ"
-  },
-  {
-      "value": "12580",
-      "label": "CURRALINHOS"
-  },
-  {
-      "value": "10650",
-      "label": "DEMERVAL LOBÃO"
-  },
-  {
-      "value": "12297",
-      "label": "DIRCEU ARCOVERDE"
-  },
-  {
-      "value": "10677",
-      "label": "DOM EXPEDITO LOPES"
-  },
-  {
-      "value": "10685",
-      "label": "DOM INOCÊNCIO"
-  },
-  {
-      "value": "11410",
-      "label": "DOMINGOS MOURÃO"
-  },
-  {
-      "value": "10693",
-      "label": "ELESBÃO VELOSO"
-  },
-  {
-      "value": "10715",
-      "label": "ELISEU MARTINS"
-  },
-  {
-      "value": "10731",
-      "label": "ESPERANTINA"
-  },
-  {
-      "value": "10260",
-      "label": "FARTURA DO PIAUÍ"
-  },
-  {
-      "value": "10758",
-      "label": "FLORES DO PIAUÍ"
-  },
-  {
-      "value": "12637",
-      "label": "FLORESTA DO PIAUÍ"
-  },
-  {
-      "value": "10774",
-      "label": "FLORIANO"
-  },
-  {
-      "value": "10790",
-      "label": "FRANCINÓPOLIS"
-  },
-  {
-      "value": "10812",
-      "label": "FRANCISCO AYRES"
-  },
-  {
-      "value": "12378",
-      "label": "FRANCISCO MACEDO"
-  },
-  {
-      "value": "10839",
-      "label": "FRANCISCO SANTOS"
-  },
-  {
-      "value": "10855",
-      "label": "FRONTEIRAS"
-  },
-  {
-      "value": "10782",
-      "label": "GEMINIANO"
-  },
-  {
-      "value": "10871",
-      "label": "GILBUÉS"
-  },
-  {
-      "value": "10898",
-      "label": "GUADALUPE"
-  },
-  {
-      "value": "10804",
-      "label": "GUARIBAS"
-  },
-  {
-      "value": "10910",
-      "label": "HUGO NAPOLEÃO"
-  },
-  {
-      "value": "10820",
-      "label": "ILHA GRANDE"
-  },
-  {
-      "value": "10936",
-      "label": "INHUMA"
-  },
-  {
-      "value": "10952",
-      "label": "IPIRANGA DO PIAUÍ"
-  },
-  {
-      "value": "10979",
-      "label": "ISAÍAS COELHO"
-  },
-  {
-      "value": "10995",
-      "label": "ITAINÓPOLIS"
-  },
-  {
-      "value": "11010",
-      "label": "ITAUEIRA"
-  },
-  {
-      "value": "10286",
-      "label": "JACOBINA DO PIAUÍ"
-  },
-  {
-      "value": "11037",
-      "label": "JAICÓS"
-  },
-  {
-      "value": "10308",
-      "label": "JARDIM DO MULATO"
-  },
-  {
-      "value": "12394",
-      "label": "JATOBÁ DO PIAUÍ"
-  },
-  {
-      "value": "11053",
-      "label": "JERUMENHA"
-  },
-  {
-      "value": "12386",
-      "label": "JOÃO COSTA"
-  },
-  {
-      "value": "11070",
-      "label": "JOAQUIM PIRES"
-  },
-  {
-      "value": "12408",
-      "label": "JOCA MARQUES"
-  },
-  {
-      "value": "11096",
-      "label": "JOSÉ DE FREITAS"
-  },
-  {
-      "value": "12416",
-      "label": "JUAZEIRO DO PIAUÍ"
-  },
-  {
-      "value": "12203",
-      "label": "JÚLIO BORGES"
-  },
-  {
-      "value": "10847",
-      "label": "JUREMA"
-  },
-  {
-      "value": "10324",
-      "label": "LAGOA ALEGRE"
-  },
-  {
-      "value": "10863",
-      "label": "LAGOA DE SÃO FRANCISCO"
-  },
-  {
-      "value": "10340",
-      "label": "LAGOA DO BARRO DO PIAUÍ"
-  },
-  {
-      "value": "12424",
-      "label": "LAGOA DO PIAUÍ"
-  },
-  {
-      "value": "12220",
-      "label": "LAGOA DO SÍTIO"
-  },
-  {
-      "value": "12432",
-      "label": "LAGOINHA DO PIAUÍ"
-  },
-  {
-      "value": "11118",
-      "label": "LANDRI SALES"
-  },
-  {
-      "value": "11134",
-      "label": "LUIS CORREIA"
-  },
-  {
-      "value": "11150",
-      "label": "LUZILÂNDIA"
-  },
-  {
-      "value": "12440",
-      "label": "MADEIRO"
-  },
-  {
-      "value": "11177",
-      "label": "MANOEL EMÍDIO"
-  },
-  {
-      "value": "10367",
-      "label": "MARCOLÂNDIA"
-  },
-  {
-      "value": "11193",
-      "label": "MARCOS PARENTE"
-  },
-  {
-      "value": "12467",
-      "label": "MASSAPÊ DO PIAUÍ"
-  },
-  {
-      "value": "11215",
-      "label": "MATIAS OLÍMPIO"
-  },
-  {
-      "value": "11231",
-      "label": "MIGUEL ALVES"
-  },
-  {
-      "value": "11258",
-      "label": "MIGUEL LEÃO"
-  },
-  {
-      "value": "12246",
-      "label": "MILTON BRANDÃO"
-  },
-  {
-      "value": "11274",
-      "label": "MONSENHOR GIL"
-  },
-  {
-      "value": "11290",
-      "label": "MONSENHOR HIPÓLITO"
-  },
-  {
-      "value": "11312",
-      "label": "MONTE ALEGRE DO PIAUÍ"
-  },
-  {
-      "value": "10880",
-      "label": "MORRO CABEÇA NO TEMPO"
-  },
-  {
-      "value": "12459",
-      "label": "MORRO DO CHAPÉU DO PIAUÍ"
-  },
-  {
-      "value": "12475",
-      "label": "MURICI DOS PORTELAS"
-  },
-  {
-      "value": "11339",
-      "label": "NAZARÉ DO PIAUÍ"
-  },
-  {
-      "value": "12726",
-      "label": "NAZÁRIA"
-  },
-  {
-      "value": "10928",
-      "label": "NOSSA SENHORA DE NAZARÉ"
-  },
-  {
-      "value": "11355",
-      "label": "NOSSA SENHORA DOS REMÉDIOS"
-  },
-  {
-      "value": "10960",
-      "label": "NOVA SANTA RITA"
-  },
-  {
-      "value": "11371",
-      "label": "NOVO ORIENTE DO PIAUÍ"
-  },
-  {
-      "value": "10901",
-      "label": "NOVO SANTO ANTÔNIO"
-  },
-  {
-      "value": "11398",
-      "label": "OEIRAS"
-  },
-  {
-      "value": "12483",
-      "label": "OLHO D'ÁGUA DO PIAUÍ"
-  },
-  {
-      "value": "11436",
-      "label": "PADRE MARCOS"
-  },
-  {
-      "value": "11452",
-      "label": "PAES LANDIM"
-  },
-  {
-      "value": "12262",
-      "label": "PAJEÚ DO PIAUÍ"
-  },
-  {
-      "value": "11479",
-      "label": "PALMEIRA DO PIAUÍ"
-  },
-  {
-      "value": "11495",
-      "label": "PALMEIRAIS"
-  },
-  {
-      "value": "10944",
-      "label": "PAQUETÁ"
-  },
-  {
-      "value": "11517",
-      "label": "PARNAGUÁ"
-  },
-  {
-      "value": "11533",
-      "label": "PARNAÍBA"
-  },
-  {
-      "value": "10405",
-      "label": "PASSAGEM FRANCA DO PIAUÍ"
-  },
-  {
-      "value": "10383",
-      "label": "PATOS DO PIAUÍ"
-  },
-  {
-      "value": "12718",
-      "label": "PAU D'ARCO DO PIAUÍ"
-  },
-  {
-      "value": "11550",
-      "label": "PAULISTANA"
-  },
-  {
-      "value": "12289",
-      "label": "PAVUSSU"
-  },
-  {
-      "value": "11576",
-      "label": "PEDRO II"
-  },
-  {
-      "value": "12491",
-      "label": "PEDRO LAURENTINO"
-  },
-  {
-      "value": "11592",
-      "label": "PICOS"
-  },
-  {
-      "value": "11614",
-      "label": "PIMENTEIRAS"
-  },
-  {
-      "value": "11630",
-      "label": "PIO IX"
-  },
-  {
-      "value": "11657",
-      "label": "PIRACURUCA"
-  },
-  {
-      "value": "11673",
-      "label": "PIRIPIRI"
-  },
-  {
-      "value": "11690",
-      "label": "PORTO"
-  },
-  {
-      "value": "12599",
-      "label": "PORTO ALEGRE DO PIAUÍ"
-  },
-  {
-      "value": "11711",
-      "label": "PRATA DO PIAUÍ"
-  },
-  {
-      "value": "10421",
-      "label": "QUEIMADA NOVA"
-  },
-  {
-      "value": "11738",
-      "label": "REDENÇÃO DO GURGUÉIA"
-  },
-  {
-      "value": "11754",
-      "label": "REGENERAÇÃO"
-  },
-  {
-      "value": "12300",
-      "label": "RIACHO FRIO"
-  },
-  {
-      "value": "12602",
-      "label": "RIBEIRA DO PIAUÍ"
-  },
-  {
-      "value": "11770",
-      "label": "RIBEIRO GONÇALVES"
-  },
-  {
-      "value": "11797",
-      "label": "RIO GRANDE DO PIAUÍ"
-  },
-  {
-      "value": "11819",
-      "label": "SANTA CRUZ DO PIAUÍ"
-  },
-  {
-      "value": "10448",
-      "label": "SANTA CRUZ DOS MILAGRES"
-  },
-  {
-      "value": "11835",
-      "label": "SANTA FILOMENA"
-  },
-  {
-      "value": "11851",
-      "label": "SANTA LUZ"
-  },
-  {
-      "value": "10464",
-      "label": "SANTA ROSA DO PIAUÍ"
-  },
-  {
-      "value": "10480",
-      "label": "SANTANA DO PIAUÍ"
-  },
-  {
-      "value": "11878",
-      "label": "SANTO ANTÔNIO DE LISBOA"
-  },
-  {
-      "value": "12653",
-      "label": "SANTO ANTÔNIO DOS MILAGRES"
-  },
-  {
-      "value": "11894",
-      "label": "SANTO INÁCIO DO PIAUÍ"
-  },
-  {
-      "value": "10502",
-      "label": "SÃO BRAZ DO PIAUÍ"
-  },
-  {
-      "value": "11916",
-      "label": "SÃO FÉLIX DO PIAUÍ"
-  },
-  {
-      "value": "12505",
-      "label": "SÃO FRANCISCO DE ASSIS DO PIAUÍ"
-  },
-  {
-      "value": "11932",
-      "label": "SÃO FRANCISCO DO PIAUÍ"
-  },
-  {
-      "value": "12610",
-      "label": "SÃO GONÇALO DO GURGUÉIA"
-  },
-  {
-      "value": "11959",
-      "label": "SÃO GONÇALO DO PIAUÍ"
-  },
-  {
-      "value": "11088",
-      "label": "SÃO JOÃO DA CANABRAVA"
-  },
-  {
-      "value": "12009",
-      "label": "SÃO JOÃO DA FRONTEIRA"
-  },
-  {
-      "value": "11975",
-      "label": "SÃO JOÃO DA SERRA"
-  },
-  {
-      "value": "12025",
-      "label": "SÃO JOÃO DA VARJOTA"
-  },
-  {
-      "value": "10987",
-      "label": "SÃO JOÃO DO ARRAIAL"
-  },
-  {
-      "value": "11991",
-      "label": "SÃO JOÃO DO PIAUÍ"
-  },
-  {
-      "value": "10529",
-      "label": "SÃO JOSÉ DO DIVINO"
-  },
-  {
-      "value": "12017",
-      "label": "SÃO JOSÉ DO PEIXE"
-  },
-  {
-      "value": "12033",
-      "label": "SÃO JOSÉ DO PIAUÍ"
-  },
-  {
-      "value": "12050",
-      "label": "SÃO JULIÃO"
-  },
-  {
-      "value": "10561",
-      "label": "SÃO LOURENÇO DO PIAUÍ"
-  },
-  {
-      "value": "12629",
-      "label": "SÃO LUIS DO PIAUÍ"
-  },
-  {
-      "value": "12661",
-      "label": "SÃO MIGUEL DA BAIXA GRANDE"
-  },
-  {
-      "value": "12700",
-      "label": "SÃO MIGUEL DO FIDALGO"
-  },
-  {
-      "value": "12076",
-      "label": "SÃO MIGUEL DO TAPUIO"
-  },
-  {
-      "value": "12092",
-      "label": "SÃO PEDRO DO PIAUÍ"
-  },
-  {
-      "value": "12114",
-      "label": "SÃO RAIMUNDO NONATO"
-  },
-  {
-      "value": "12041",
-      "label": "SEBASTIÃO BARROS"
-  },
-  {
-      "value": "12068",
-      "label": "SEBASTIÃO LEAL"
-  },
-  {
-      "value": "10545",
-      "label": "SIGEFREDO PACHECO"
-  },
-  {
-      "value": "12130",
-      "label": "SIMÕES"
-  },
-  {
-      "value": "12157",
-      "label": "SIMPLÍCIO MENDES"
-  },
-  {
-      "value": "12173",
-      "label": "SOCORRO DO PIAUÍ"
-  },
-  {
-      "value": "12513",
-      "label": "SUSSUAPARA"
-  },
-  {
-      "value": "12530",
-      "label": "TAMBORIL DO PIAUÍ"
-  },
-  {
-      "value": "12521",
-      "label": "TANQUE DO PIAUÍ"
-  },
-  {
-      "value": "12190",
-      "label": "TERESINA"
-  },
-  {
-      "value": "12211",
-      "label": "UNIÃO"
-  },
-  {
-      "value": "12238",
-      "label": "URUÇUÍ"
-  },
-  {
-      "value": "12254",
-      "label": "VALENÇA DO PIAUÍ"
-  },
-  {
-      "value": "10588",
-      "label": "VÁRZEA BRANCA"
-  },
-  {
-      "value": "12270",
-      "label": "VÁRZEA GRANDE"
-  },
-  {
-      "value": "12556",
-      "label": "VERA MENDES"
-  },
-  {
-      "value": "12548",
-      "label": "VILA NOVA DO PIAUÍ"
-  },
-  {
-      "value": "12564",
-      "label": "WALL FERRAZ"
-  }
+    {
+        "value": "12327",
+        "label": "acauã"
+    },
+    {
+        "value": "10014",
+        "label": "agricolândia"
+    },
+    {
+        "value": "10030",
+        "label": "água branca"
+    },
+    {
+        "value": "12319",
+        "label": "alagoinha do piauí"
+    },
+    {
+        "value": "10022",
+        "label": "alegrete do piauí"
+    },
+    {
+        "value": "10057",
+        "label": "alto longá"
+    },
+    {
+        "value": "10073",
+        "label": "altos"
+    },
+    {
+        "value": "12084",
+        "label": "alvorada do gurguéia"
+    },
+    {
+        "value": "10090",
+        "label": "amarante"
+    },
+    {
+        "value": "10111",
+        "label": "angical do piauí"
+    },
+    {
+        "value": "10138",
+        "label": "anísio de abreu"
+    },
+    {
+        "value": "10154",
+        "label": "antônio almeida"
+    },
+    {
+        "value": "10170",
+        "label": "aroazes"
+    },
+    {
+        "value": "12734",
+        "label": "aroeiras do itaim"
+    },
+    {
+        "value": "10197",
+        "label": "arraial"
+    },
+    {
+        "value": "12106",
+        "label": "assunção do piauí"
+    },
+    {
+        "value": "10219",
+        "label": "avelino lopes"
+    },
+    {
+        "value": "10049",
+        "label": "baixa grande do ribeiro"
+    },
+    {
+        "value": "10600",
+        "label": "barra d'alcântara"
+    },
+    {
+        "value": "10235",
+        "label": "barras"
+    },
+    {
+        "value": "10251",
+        "label": "barreiras do piauí"
+    },
+    {
+        "value": "10278",
+        "label": "barro duro"
+    },
+    {
+        "value": "10294",
+        "label": "batalha"
+    },
+    {
+        "value": "10626",
+        "label": "bela vista do piauí"
+    },
+    {
+        "value": "12335",
+        "label": "belém do piauí"
+    },
+    {
+        "value": "10316",
+        "label": "beneditinos"
+    },
+    {
+        "value": "10332",
+        "label": "bertolínia"
+    },
+    {
+        "value": "12122",
+        "label": "betânia do piauí"
+    },
+    {
+        "value": "10669",
+        "label": "boa hora"
+    },
+    {
+        "value": "10359",
+        "label": "bocaina"
+    },
+    {
+        "value": "10375",
+        "label": "bom jesus"
+    },
+    {
+        "value": "10065",
+        "label": "bom princípio do piauí"
+    },
+    {
+        "value": "10081",
+        "label": "bonfim do piauí"
+    },
+    {
+        "value": "12149",
+        "label": "boqueirão do piauí"
+    },
+    {
+        "value": "10006",
+        "label": "brasileira"
+    },
+    {
+        "value": "10642",
+        "label": "brejo do piauí"
+    },
+    {
+        "value": "10391",
+        "label": "buriti dos lopes"
+    },
+    {
+        "value": "10103",
+        "label": "buriti dos montes"
+    },
+    {
+        "value": "10120",
+        "label": "cabeceiras do piauí"
+    },
+    {
+        "value": "12343",
+        "label": "cajazeiras do piauí"
+    },
+    {
+        "value": "12572",
+        "label": "cajueiro da praia"
+    },
+    {
+        "value": "10146",
+        "label": "caldeirão grande do piauí"
+    },
+    {
+        "value": "10413",
+        "label": "campinas do piauí"
+    },
+    {
+        "value": "12351",
+        "label": "campo alegre do fidalgo"
+    },
+    {
+        "value": "10723",
+        "label": "campo grande do piauí"
+    },
+    {
+        "value": "10740",
+        "label": "campo largo do piauí"
+    },
+    {
+        "value": "10430",
+        "label": "campo maior"
+    },
+    {
+        "value": "10162",
+        "label": "canavieira"
+    },
+    {
+        "value": "10456",
+        "label": "canto do buriti"
+    },
+    {
+        "value": "10472",
+        "label": "capitão de campos"
+    },
+    {
+        "value": "10707",
+        "label": "capitão gervásio oliveira"
+    },
+    {
+        "value": "10499",
+        "label": "caracol"
+    },
+    {
+        "value": "12670",
+        "label": "caraúbas do piauí"
+    },
+    {
+        "value": "12165",
+        "label": "caridade do piauí"
+    },
+    {
+        "value": "10510",
+        "label": "castelo do piauí"
+    },
+    {
+        "value": "12688",
+        "label": "caxingó"
+    },
+    {
+        "value": "10537",
+        "label": "cocal"
+    },
+    {
+        "value": "12360",
+        "label": "cocal de telha"
+    },
+    {
+        "value": "12696",
+        "label": "cocal dos alves"
+    },
+    {
+        "value": "10189",
+        "label": "coivaras"
+    },
+    {
+        "value": "10200",
+        "label": "colônia do gurguéia"
+    },
+    {
+        "value": "10227",
+        "label": "colônia do piauí"
+    },
+    {
+        "value": "10553",
+        "label": "conceição do canindé"
+    },
+    {
+        "value": "10243",
+        "label": "coronel josé dias"
+    },
+    {
+        "value": "10570",
+        "label": "corrente"
+    },
+    {
+        "value": "10596",
+        "label": "cristalândia do piauí"
+    },
+    {
+        "value": "10618",
+        "label": "cristino castro"
+    },
+    {
+        "value": "10634",
+        "label": "curimatá"
+    },
+    {
+        "value": "10766",
+        "label": "currais"
+    },
+    {
+        "value": "12181",
+        "label": "curral novo do piauí"
+    },
+    {
+        "value": "12580",
+        "label": "curralinhos"
+    },
+    {
+        "value": "10650",
+        "label": "demerval lobão"
+    },
+    {
+        "value": "12297",
+        "label": "dirceu arcoverde"
+    },
+    {
+        "value": "10677",
+        "label": "dom expedito lopes"
+    },
+    {
+        "value": "10685",
+        "label": "dom inocêncio"
+    },
+    {
+        "value": "11410",
+        "label": "domingos mourão"
+    },
+    {
+        "value": "10693",
+        "label": "elesbão veloso"
+    },
+    {
+        "value": "10715",
+        "label": "eliseu martins"
+    },
+    {
+        "value": "10731",
+        "label": "esperantina"
+    },
+    {
+        "value": "10260",
+        "label": "fartura do piauí"
+    },
+    {
+        "value": "10758",
+        "label": "flores do piauí"
+    },
+    {
+        "value": "12637",
+        "label": "floresta do piauí"
+    },
+    {
+        "value": "10774",
+        "label": "floriano"
+    },
+    {
+        "value": "10790",
+        "label": "francinópolis"
+    },
+    {
+        "value": "10812",
+        "label": "francisco ayres"
+    },
+    {
+        "value": "12378",
+        "label": "francisco macedo"
+    },
+    {
+        "value": "10839",
+        "label": "francisco santos"
+    },
+    {
+        "value": "10855",
+        "label": "fronteiras"
+    },
+    {
+        "value": "10782",
+        "label": "geminiano"
+    },
+    {
+        "value": "10871",
+        "label": "gilbués"
+    },
+    {
+        "value": "10898",
+        "label": "guadalupe"
+    },
+    {
+        "value": "10804",
+        "label": "guaribas"
+    },
+    {
+        "value": "10910",
+        "label": "hugo napoleão"
+    },
+    {
+        "value": "10820",
+        "label": "ilha grande"
+    },
+    {
+        "value": "10936",
+        "label": "inhuma"
+    },
+    {
+        "value": "10952",
+        "label": "ipiranga do piauí"
+    },
+    {
+        "value": "10979",
+        "label": "isaías coelho"
+    },
+    {
+        "value": "10995",
+        "label": "itainópolis"
+    },
+    {
+        "value": "11010",
+        "label": "itaueira"
+    },
+    {
+        "value": "10286",
+        "label": "jacobina do piauí"
+    },
+    {
+        "value": "11037",
+        "label": "jaicós"
+    },
+    {
+        "value": "10308",
+        "label": "jardim do mulato"
+    },
+    {
+        "value": "12394",
+        "label": "jatobá do piauí"
+    },
+    {
+        "value": "11053",
+        "label": "jerumenha"
+    },
+    {
+        "value": "12386",
+        "label": "joão costa"
+    },
+    {
+        "value": "11070",
+        "label": "joaquim pires"
+    },
+    {
+        "value": "12408",
+        "label": "joca marques"
+    },
+    {
+        "value": "11096",
+        "label": "josé de freitas"
+    },
+    {
+        "value": "12416",
+        "label": "juazeiro do piauí"
+    },
+    {
+        "value": "12203",
+        "label": "júlio borges"
+    },
+    {
+        "value": "10847",
+        "label": "jurema"
+    },
+    {
+        "value": "10324",
+        "label": "lagoa alegre"
+    },
+    {
+        "value": "10863",
+        "label": "lagoa de são francisco"
+    },
+    {
+        "value": "10340",
+        "label": "lagoa do barro do piauí"
+    },
+    {
+        "value": "12424",
+        "label": "lagoa do piauí"
+    },
+    {
+        "value": "12220",
+        "label": "lagoa do sítio"
+    },
+    {
+        "value": "12432",
+        "label": "lagoinha do piauí"
+    },
+    {
+        "value": "11118",
+        "label": "landri sales"
+    },
+    {
+        "value": "11134",
+        "label": "luis correia"
+    },
+    {
+        "value": "11150",
+        "label": "luzilândia"
+    },
+    {
+        "value": "12440",
+        "label": "madeiro"
+    },
+    {
+        "value": "11177",
+        "label": "manoel emídio"
+    },
+    {
+        "value": "10367",
+        "label": "marcolândia"
+    },
+    {
+        "value": "11193",
+        "label": "marcos parente"
+    },
+    {
+        "value": "12467",
+        "label": "massapê do piauí"
+    },
+    {
+        "value": "11215",
+        "label": "matias olímpio"
+    },
+    {
+        "value": "11231",
+        "label": "miguel alves"
+    },
+    {
+        "value": "11258",
+        "label": "miguel leão"
+    },
+    {
+        "value": "12246",
+        "label": "milton brandão"
+    },
+    {
+        "value": "11274",
+        "label": "monsenhor gil"
+    },
+    {
+        "value": "11290",
+        "label": "monsenhor hipólito"
+    },
+    {
+        "value": "11312",
+        "label": "monte alegre do piauí"
+    },
+    {
+        "value": "10880",
+        "label": "morro cabeça no tempo"
+    },
+    {
+        "value": "12459",
+        "label": "morro do chapéu do piauí"
+    },
+    {
+        "value": "12475",
+        "label": "murici dos portelas"
+    },
+    {
+        "value": "11339",
+        "label": "nazaré do piauí"
+    },
+    {
+        "value": "12726",
+        "label": "nazária"
+    },
+    {
+        "value": "10928",
+        "label": "nossa senhora de nazaré"
+    },
+    {
+        "value": "11355",
+        "label": "nossa senhora dos remédios"
+    },
+    {
+        "value": "10960",
+        "label": "nova santa rita"
+    },
+    {
+        "value": "11371",
+        "label": "novo oriente do piauí"
+    },
+    {
+        "value": "10901",
+        "label": "novo santo antônio"
+    },
+    {
+        "value": "11398",
+        "label": "oeiras"
+    },
+    {
+        "value": "12483",
+        "label": "olho d'água do piauí"
+    },
+    {
+        "value": "11436",
+        "label": "padre marcos"
+    },
+    {
+        "value": "11452",
+        "label": "paes landim"
+    },
+    {
+        "value": "12262",
+        "label": "pajeú do piauí"
+    },
+    {
+        "value": "11479",
+        "label": "palmeira do piauí"
+    },
+    {
+        "value": "11495",
+        "label": "palmeirais"
+    },
+    {
+        "value": "10944",
+        "label": "paquetá"
+    },
+    {
+        "value": "11517",
+        "label": "parnaguá"
+    },
+    {
+        "value": "11533",
+        "label": "parnaíba"
+    },
+    {
+        "value": "10405",
+        "label": "passagem franca do piauí"
+    },
+    {
+        "value": "10383",
+        "label": "patos do piauí"
+    },
+    {
+        "value": "12718",
+        "label": "pau d'arco do piauí"
+    },
+    {
+        "value": "11550",
+        "label": "paulistana"
+    },
+    {
+        "value": "12289",
+        "label": "pavussu"
+    },
+    {
+        "value": "11576",
+        "label": "pedro ii"
+    },
+    {
+        "value": "12491",
+        "label": "pedro laurentino"
+    },
+    {
+        "value": "11592",
+        "label": "picos"
+    },
+    {
+        "value": "11614",
+        "label": "pimenteiras"
+    },
+    {
+        "value": "11630",
+        "label": "pio ix"
+    },
+    {
+        "value": "11657",
+        "label": "piracuruca"
+    },
+    {
+        "value": "11673",
+        "label": "piripiri"
+    },
+    {
+        "value": "11690",
+        "label": "porto"
+    },
+    {
+        "value": "12599",
+        "label": "porto alegre do piauí"
+    },
+    {
+        "value": "11711",
+        "label": "prata do piauí"
+    },
+    {
+        "value": "10421",
+        "label": "queimada nova"
+    },
+    {
+        "value": "11738",
+        "label": "redenção do gurguéia"
+    },
+    {
+        "value": "11754",
+        "label": "regeneração"
+    },
+    {
+        "value": "12300",
+        "label": "riacho frio"
+    },
+    {
+        "value": "12602",
+        "label": "ribeira do piauí"
+    },
+    {
+        "value": "11770",
+        "label": "ribeiro gonçalves"
+    },
+    {
+        "value": "11797",
+        "label": "rio grande do piauí"
+    },
+    {
+        "value": "11819",
+        "label": "santa cruz do piauí"
+    },
+    {
+        "value": "10448",
+        "label": "santa cruz dos milagres"
+    },
+    {
+        "value": "11835",
+        "label": "santa filomena"
+    },
+    {
+        "value": "11851",
+        "label": "santa luz"
+    },
+    {
+        "value": "10464",
+        "label": "santa rosa do piauí"
+    },
+    {
+        "value": "10480",
+        "label": "santana do piauí"
+    },
+    {
+        "value": "11878",
+        "label": "santo antônio de lisboa"
+    },
+    {
+        "value": "12653",
+        "label": "santo antônio dos milagres"
+    },
+    {
+        "value": "11894",
+        "label": "santo inácio do piauí"
+    },
+    {
+        "value": "10502",
+        "label": "são braz do piauí"
+    },
+    {
+        "value": "11916",
+        "label": "são félix do piauí"
+    },
+    {
+        "value": "12505",
+        "label": "são francisco de assis do piauí"
+    },
+    {
+        "value": "11932",
+        "label": "são francisco do piauí"
+    },
+    {
+        "value": "12610",
+        "label": "são gonçalo do gurguéia"
+    },
+    {
+        "value": "11959",
+        "label": "são gonçalo do piauí"
+    },
+    {
+        "value": "11088",
+        "label": "são joão da canabrava"
+    },
+    {
+        "value": "12009",
+        "label": "são joão da fronteira"
+    },
+    {
+        "value": "11975",
+        "label": "são joão da serra"
+    },
+    {
+        "value": "12025",
+        "label": "são joão da varjota"
+    },
+    {
+        "value": "10987",
+        "label": "são joão do arraial"
+    },
+    {
+        "value": "11991",
+        "label": "são joão do piauí"
+    },
+    {
+        "value": "10529",
+        "label": "são josé do divino"
+    },
+    {
+        "value": "12017",
+        "label": "são josé do peixe"
+    },
+    {
+        "value": "12033",
+        "label": "são josé do piauí"
+    },
+    {
+        "value": "12050",
+        "label": "são julião"
+    },
+    {
+        "value": "10561",
+        "label": "são lourenço do piauí"
+    },
+    {
+        "value": "12629",
+        "label": "são luis do piauí"
+    },
+    {
+        "value": "12661",
+        "label": "são miguel da baixa grande"
+    },
+    {
+        "value": "12700",
+        "label": "são miguel do fidalgo"
+    },
+    {
+        "value": "12076",
+        "label": "são miguel do tapuio"
+    },
+    {
+        "value": "12092",
+        "label": "são pedro do piauí"
+    },
+    {
+        "value": "12114",
+        "label": "são raimundo nonato"
+    },
+    {
+        "value": "12041",
+        "label": "sebastião barros"
+    },
+    {
+        "value": "12068",
+        "label": "sebastião leal"
+    },
+    {
+        "value": "10545",
+        "label": "sigefredo pacheco"
+    },
+    {
+        "value": "12130",
+        "label": "simões"
+    },
+    {
+        "value": "12157",
+        "label": "simplício mendes"
+    },
+    {
+        "value": "12173",
+        "label": "socorro do piauí"
+    },
+    {
+        "value": "12513",
+        "label": "sussuapara"
+    },
+    {
+        "value": "12530",
+        "label": "tamboril do piauí"
+    },
+    {
+        "value": "12521",
+        "label": "tanque do piauí"
+    },
+    {
+        "value": "12190",
+        "label": "teresina"
+    },
+    {
+        "value": "12211",
+        "label": "união"
+    },
+    {
+        "value": "12238",
+        "label": "uruçuí"
+    },
+    {
+        "value": "12254",
+        "label": "valença do piauí"
+    },
+    {
+        "value": "10588",
+        "label": "várzea branca"
+    },
+    {
+        "value": "12270",
+        "label": "várzea grande"
+    },
+    {
+        "value": "12556",
+        "label": "vera mendes"
+    },
+    {
+        "value": "12548",
+        "label": "vila nova do piauí"
+    },
+    {
+        "value": "12564",
+        "label": "wall ferraz"
+    }
 ]
