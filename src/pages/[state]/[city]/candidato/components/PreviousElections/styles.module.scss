@@ -82,4 +82,29 @@
       background-color: rgba(145, 149, 72, 0.8);
     }
   }
+
+  @media(max-width: 650px) {
+    margin-left: 8px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    row-gap: 6px;
+
+    div {
+      strong {
+        font-size: 15px;
+      }
+    
+      p {
+        font-size: 14px;
+      }
+    }
+
+    > span {
+      margin-left: 0;
+      padding: 4px 8px;
+    }
+  }
 }

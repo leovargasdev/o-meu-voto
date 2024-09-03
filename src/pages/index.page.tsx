@@ -29,7 +29,7 @@ const LoginPage: NextPage = () => {
         <img src="/logo.png" />
         <h1>Veja a lista dos pré-candidatos do seu munípicio</h1>
 
-        <Link href="/busca">Iniciar pesquisa</Link>
+        <Link href="/busca">Iniciar busca</Link>
       </main>
 
       <Footer />

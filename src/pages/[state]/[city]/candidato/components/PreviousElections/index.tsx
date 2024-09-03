@@ -1,3 +1,4 @@
+import { maskSigla } from 'utils/mask'
 import { Archive } from '@phosphor-icons/react'
 import type { Candidate } from 'types/candidate'
 
@@ -21,7 +22,11 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
         <div className={styles.list}>
           {data.map(item => (
             <div key={item.id} className={styles.item}>
-              {/* <img src="/icons/PT.png" alt="" /> */}
+              {/* <img
+                src={`/icons/${maskSigla(item.partido)}.png`}
+                alt={`Logo do partido ${item.partido}`}
+              /> */}
+
               <div>
                 <strong>
                   {item.cargo} em <span>{item.local.toLocaleLowerCase()}</span>
@@ -29,9 +34,12 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
 
                 <p>Em {item.nrAno}</p>
               </div>
-              {/* https://omeuvoto.com.br/sc/80896-criciuma/candidato/240002290096-fabinho */}
+
               {item.situacaoTotalizacao === 'Eleito por QP' && (
                 <span className={styles.partial}>Eleito por legenda</span>
+              )}
+              {item.situacaoTotalizacao === 'Suplente' && (
+                <span className={styles.partial}>Suplente</span>
               )}
               {item.situacaoTotalizacao === 'Não eleito' && (
                 <span className={styles.fail}>Não eleito</span>

@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+
+  @media(max-width: 1400px) {
+    padding: 0 24px;
+  }
 }
 
 .breadcrumb {
@@ -36,7 +40,6 @@
   @media(max-width: 600px) {
     gap: 6px;
     flex-wrap: wrap;
-    padding: 0 8px 0 16px;
 
     a, > span {
       font-size: 12px;
@@ -50,10 +53,13 @@
   align-items: flex-start;
   column-gap: 40px;
 
-  @media(max-width: 600px) {
+  @media(max-width: 1000px) {
     flex-direction: column;
     row-gap: 32px;
-    align-items: center;
+  }
+
+  @media(max-width: 650px) {
+    row-gap: 24px;
   }
 }
 
@@ -73,8 +79,12 @@
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 20px;
+  }
 
-    @media(max-width: 600px) {
+  @media(max-width: 650px) {
+    row-gap: 24px;
+
+    > div > h2 {
       font-size: 18px;
     }
   }

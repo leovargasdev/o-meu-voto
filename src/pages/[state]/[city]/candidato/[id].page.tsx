@@ -4,7 +4,12 @@ import { useRouter } from 'next/router'
 import type { Candidate } from 'types/candidate'
 import { serviceGetCandidate } from 'services'
 import { GetStaticPaths, GetStaticProps } from 'next'
-import { CaretRight, City, IdentificationCard } from '@phosphor-icons/react'
+import {
+  CaretRight,
+  City,
+  IdentificationCard,
+  Mailbox
+} from '@phosphor-icons/react'
 
 import { Layout } from 'components'
 import { Profile } from './components/Profile'
@@ -32,7 +37,6 @@ const CandidatePage = (candidate: Candidate) => {
 
           <CaretRight size={12} />
 
-          {/* router.goback() ??? */}
           <Link href={hostCity + '/candidatos'}>
             <City size={17} />
             <p>
@@ -57,7 +61,7 @@ const CandidatePage = (candidate: Candidate) => {
             <div className={classNames('card', styles.info)}>
               <Tags {...candidate} />
               <News {...candidate} />
-              {/* {candidate.emails && (
+              {candidate.emails && (
                 <div>
                   <h2>
                     <Mailbox />
@@ -66,7 +70,7 @@ const CandidatePage = (candidate: Candidate) => {
 
                   <p>{candidate.emails.join(', ')}</p>
                 </div>
-              )} */}
+              )}
             </div>
 
             <Properties {...candidate} />

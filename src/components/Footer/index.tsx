@@ -17,7 +17,7 @@ export const Footer = () => (
     <p>
       Desenvolvido por{' '}
       <a
-        href="https://www.linkedin.com/in/leonardo-luis-de-vargas/"
+        href="https://www.leonardovargas.dev/"
         target="_blank"
         rel="noreferrer"
       >

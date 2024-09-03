@@ -24,6 +24,7 @@ interface PreviousElection {
   cargo: string
   nrAno: string
   local: string
+  partido: string
   situacaoTotalizacao: string
 }
 

@@ -63,7 +63,7 @@ const SearchPage = () => {
     <div className={styles.container}>
       <Head>
         <title>
-          Pesquise os pré-candidatos a Prefeito e Vereador - Eleições 2024
+          Busque os candidatos a Prefeito e Vereador - Eleições 2024
         </title>
         <meta
           name="description"
@@ -71,7 +71,7 @@ const SearchPage = () => {
         />
         <meta
           property="twitter:title"
-          content="Pesquise os pré-candidatos a Prefeito e Vereador - Eleições 2024"
+          content="Busque os candidatos a Prefeito e Vereador - Eleições 2024"
         />
         <meta
           property="twitter:description"
@@ -79,7 +79,7 @@ const SearchPage = () => {
         />
         <meta
           property="og:title"
-          content="Pesquise os pré-candidatos a Prefeito e Vereador - Eleições 2024"
+          content="Busque os candidatos a Prefeito e Vereador - Eleições 2024"
         />
         <meta
           property="og:description"

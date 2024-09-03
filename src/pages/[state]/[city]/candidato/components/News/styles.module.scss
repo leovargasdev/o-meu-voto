@@ -15,4 +15,13 @@
   background: rgba(0,0,0,0.05);
 
   align-self: flex-start;
+
+  @media(max-width: 650px) {
+    img {
+      width: 16px;
+    }
+
+    font-size: 12px;
+    padding: 6px 12px;
+  }
 }
