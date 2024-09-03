@@ -18,7 +18,11 @@ const Candidate = (candidate: CandidateSimple) => {
   const href = baseUrl + `/candidato/${candidate.id}-${name}`
 
   return (
-    <Link href={href} className={classNames('card', styles.candidate)}>
+    <Link
+      href={href}
+      prefetch={false}
+      className={classNames('card', styles.candidate)}
+    >
       <div className={styles.info}>
         <strong>{candidate.nomeUrna}</strong>
         <p>{candidate.nomeCompleto}</p>
