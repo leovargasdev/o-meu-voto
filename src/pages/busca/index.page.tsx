@@ -1,11 +1,10 @@
-import Head from 'next/head'
 import { useState } from 'react'
 import Select from 'react-select'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
 
 import type { Option } from 'types'
-import { MapBrazil } from 'components'
+import { MapBrazil, SEO } from 'components'
 import { maskToParamsURL } from 'utils/mask'
 import { citiesByState } from 'data/cities/'
 
@@ -61,32 +60,10 @@ const SearchPage = () => {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>
-          Busque os candidatos a Prefeito e Vereador - Eleições 2024
-        </title>
-        <meta
-          name="description"
-          content="Filtre pelo estado e pela cidade para localizar os pré-candidatos do seu município."
-        />
-        <meta
-          property="twitter:title"
-          content="Busque os candidatos a Prefeito e Vereador - Eleições 2024"
-        />
-        <meta
-          property="twitter:description"
-          content="Filtre pelo estado e pela cidade para localizar os pré-candidatos do seu município."
-        />
-        <meta
-          property="og:title"
-          content="Busque os candidatos a Prefeito e Vereador - Eleições 2024"
-        />
-        <meta
-          property="og:description"
-          content="Filtre pelo estado e pela cidade para localizar os pré-candidatos do seu município."
-        />
-        <meta property="og:url" content="https://www.omeuvoto.com.br/busca" />
-      </Head>
+      <SEO
+        title="Busque os candidatos a Prefeito e Vereador - Eleições 2024"
+        description="Escolha um estado e uma cidade para localizar os candidatos do seu município."
+      />
 
       <img src="/logo.png" alt="Logomarca do site meuvoto2024" />
 

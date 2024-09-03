@@ -20,19 +20,29 @@
 
   position: relative;
 
-  border-left: 1px solid var(--text-secondary);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
 
-  &::before {
+  &::before, &::after {
     content: '';
     width: 10px;
+
+    position: absolute;
+    left: -9px;
+  }
+
+  &::before {
     height: 10px;
     border: 4px solid #fff;
     border-radius: 100%;
     background: var(--text-secondary);
 
-    position: absolute;
-    top: 0;
-    left: -9px;
+    top: 4px;
+  }
+
+  &::after {
+    height: 6px;
+    background: #fff;
+    top: -2px;
   }
 
   display: flex;

@@ -1,0 +1,36 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+
+  a, > span {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+
+    font-size: 14px;
+    letter-spacing: -0.3px;
+
+    p span {
+      text-transform: capitalize;
+    }
+  }
+
+  a {
+    color: var(--blue);
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  @media(max-width: 600px) {
+    gap: 6px;
+    flex-wrap: wrap;
+
+    a, > span {
+      font-size: 12px;
+    }
+  }
+}

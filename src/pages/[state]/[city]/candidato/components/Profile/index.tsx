@@ -1,6 +1,5 @@
-import Head from 'next/head'
+import { SEO } from 'components'
 import classNames from 'classnames'
-import { useRouter } from 'next/router'
 import type { SocialLink, TypeLink, Candidate } from 'types'
 import {
   FacebookLogo,
@@ -48,46 +47,19 @@ const handleLinksCandidate = (sites: string[]): SocialLink[] => {
 }
 
 export const Profile = (candidate: Candidate) => {
-  const { asPath } = useRouter()
   const proposta = candidate.arquivos.find(item => item.codTipo === '5')
 
   const links = handleLinksCandidate(candidate.sites)
   const code = candidate.numero.toString().split('')
 
+  const seoTitle = `Candidato(a) ${candidate.nomeUrna} - Eleições 2024`
+  const seoDescription = `Confira os dados do candidato(a) que está concorrendo ao cargo de ${candidate.cargo.nome.toLocaleLowerCase()} no município de ${candidate.localCandidatura.toLocaleLowerCase()} pelo partido ${
+    candidate.partido.sigla
+  }`
+
   return (
     <div className={classNames('card', styles.profile)}>
-      <Head>
-        <title>Candidato(a) {candidate.nomeUrna} - Eleições 2024</title>
-
-        <meta
-          name="description"
-          content={`O candidato(a) está concorrendo ao cargo de ${candidate.cargo.nome.toLocaleLowerCase()} no município de ${candidate.localCandidatura.toLocaleLowerCase()} pelo partido ${
-            candidate.partido.sigla
-          }`}
-        />
-        <meta
-          property="twitter:title"
-          content={`Candidato(a) ${candidate.nomeUrna} - Eleições 2024`}
-        />
-        <meta
-          property="twitter:description"
-          content={`O candidato(a) está concorrendo ao cargo de ${candidate.cargo.nome.toLocaleLowerCase()} no município de ${candidate.localCandidatura.toLocaleLowerCase()} pelo partido ${
-            candidate.partido.sigla
-          }`}
-        />
-        <meta
-          property="og:title"
-          content={`Candidato(a) ${candidate.nomeUrna} - Eleições 2024`}
-        />
-        <meta
-          property="og:description"
-          content={`O candidato(a) está concorrendo ao cargo de ${candidate.cargo.nome.toLocaleLowerCase()} no município de ${candidate.localCandidatura.toLocaleLowerCase()} pelo partido ${
-            candidate.partido.sigla
-          }`}
-        />
-        <meta property="og:url" content={'https://omeuvoto.com.br' + asPath} />
-        <link rel="canonical" href={'https://omeuvoto.com.br' + asPath} />
-      </Head>
+      <SEO title={seoTitle} description={seoDescription} />
 
       <picture className={styles.cover}>
         <img

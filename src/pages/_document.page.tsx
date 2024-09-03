@@ -8,12 +8,12 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-          <link rel="icon" href="/favicon.png" />
+          <link rel="icon" href="/favicon.png" type="image/png" />
 
           <meta charSet="utf-8" />
           <meta property="og:type" content="article" />
           <meta property="og:locale" content="pt_BR" />
-          <meta property="og:site_name" content="Meu Voto | Eleições 2024" />
+          <meta property="og:site_name" content="Meu Voto 2024" />
           <meta name="author" content="Leonardo Luis de Vargas" />
           <meta name="robots" content="index, follow" />
 
