@@ -1,4 +1,3 @@
-import { maskSigla } from 'utils/mask'
 import { Archive } from '@phosphor-icons/react'
 import type { Candidate } from 'types/candidate'
 
@@ -8,6 +7,8 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
   const data = eleicoesAnteriores.filter(
     e => e.situacaoTotalizacao !== 'Concorrendo'
   )
+
+  console.log(data)
 
   return (
     <div className="card">
@@ -40,6 +41,9 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
               )}
               {item.situacaoTotalizacao === 'Suplente' && (
                 <span className={styles.partial}>Suplente</span>
+              )}
+              {item.situacaoTotalizacao === 'Eleito por média' && (
+                <span className={styles.partial}>Eleito por média</span>
               )}
               {item.situacaoTotalizacao === 'Não eleito' && (
                 <span className={styles.fail}>Não eleito</span>

@@ -4,9 +4,11 @@
   align-items: flex-start;
   column-gap: 32px;
 
-  @media(max-width: 600px) {
-    flex-direction: column;
+  @media(max-width: 1400px) {
+    padding: 0 24px;
+  }
 
+  @media(max-width: 600px) {
     padding: 0 16px;
   }
 }

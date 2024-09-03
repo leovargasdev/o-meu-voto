@@ -48,7 +48,6 @@
 
     @media(max-width: 650px) {
       flex-direction: row-reverse;
-      padding: 0 16px;
 
       h1 {
         display: flex;
@@ -61,5 +60,13 @@
         }
       }
     }
+  }
+
+  @media(max-width: 1400px) {
+    padding: 0 24px;
+  }
+
+  @media(max-width: 600px) {
+    padding: 0 16px;
   }
 }

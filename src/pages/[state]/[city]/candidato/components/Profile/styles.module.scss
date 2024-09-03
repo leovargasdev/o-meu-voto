@@ -16,14 +16,14 @@
 
   @media(max-width: 1000px) {
     width: 100%;
-    padding: 20px 20px 48px;
+    padding: 20px 20px 40px;
 
     .cover {
       display: none;
     }
   }
 
-  @media(max-width: 1000px) {
+  @media(max-width: 650px) {
     padding: 16px;
   }
 }
@@ -137,6 +137,12 @@
     h1 {
       font-size: 28px;
       padding: 0;
+    }
+
+    p.description {
+      margin: 0 auto;
+      max-width: 500px;
+      width: 100%;
     }
   
     aside {
