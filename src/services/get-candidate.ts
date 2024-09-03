@@ -6,7 +6,8 @@ import type { ParsedUrlQuery } from 'querystring'
 export const serviceGetCandidate = async (
   params: ParsedUrlQuery | undefined
 ): Promise<{ revalidate: boolean | number; props: Candidate }> => {
-  const id = maskOnlyNumber(params?.id as string)
+  let id = (params?.id as string) || '0-'
+  id = maskOnlyNumber(id.split('-')[0])
   const city = maskOnlyNumber(params?.city as string)
 
   try {
