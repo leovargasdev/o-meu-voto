@@ -8,8 +8,6 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
     e => e.situacaoTotalizacao !== 'Concorrendo'
   )
 
-  console.log(data)
-
   return (
     <div className="card">
       <h2>

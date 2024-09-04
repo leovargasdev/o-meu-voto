@@ -1,14 +1,16 @@
 import { useCandidates } from 'hooks'
-import partidosLogos from 'data/partidos.json'
+import partidos from 'data/partidos'
 
 import styles from './styles.module.scss'
+
+type Sigla = keyof typeof partidos
 
 export const SearchFilter = () => {
   const { candidates, filter, handleChangeFilter } = useCandidates()
 
   const data = candidates.mayor.concat(candidates.councilor)
 
-  const partidos = data.reduce((acc, item) => {
+  const siglas = data.reduce((acc, item) => {
     const key = item.partidoSigla
     acc[key] = acc[key] ? acc[key] + 1 : 1
 
@@ -17,22 +19,23 @@ export const SearchFilter = () => {
 
   return (
     <div className={styles.filter}>
-      {Object.keys(partidos).map(partido => (
+      {Object.keys(siglas).map(sigla => (
         <button
           type="button"
-          key={partido}
-          onClick={() => handleChangeFilter(partido)}
-          aria-pressed={filter.includes(partido) || filter.length === 0}
+          key={sigla}
+          onClick={() => handleChangeFilter(sigla)}
+          aria-pressed={filter.includes(sigla) || filter.length === 0}
         >
           <img
             loading="lazy"
             width={32}
             height="auto"
-            src={`/icons/${partido}.png`}
-            alt={`Logo do partido ${partido}`}
-            title={`Logo do partido ${partido}`}
+            src={`/icons/${sigla}.png`}
+            alt={`Logo do partido ${sigla}`}
+            title={`Logo do partido ${sigla}`}
           />
-          <span>({partidos[partido]})</span>
+          <p>{partidos[sigla.toLocaleLowerCase() as Sigla]?.name}</p>
+          <span>({siglas[sigla]})</span>
         </button>
       ))}
     </div>
