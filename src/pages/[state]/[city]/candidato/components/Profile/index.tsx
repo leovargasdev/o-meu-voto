@@ -61,7 +61,7 @@ export const Profile = (candidate: Candidate) => {
     <div className={classNames('card', styles.profile)}>
       <SEO title={seoTitle} description={seoDescription} />
 
-      <picture className={styles.cover}>
+      <picture className={styles.flag}>
         <img
           loading="lazy"
           src={`/flags/flag-${candidate.ufSuperiorCandidatura}.jpg`}
@@ -70,10 +70,12 @@ export const Profile = (candidate: Candidate) => {
       </picture>
 
       <div className={styles.profile__content}>
-        <img
-          src={candidate.fotoUrl}
-          alt={`Foto da campanha eleitoral do candidato ${candidate.nomeUrna}`}
-        />
+        <picture className={styles.profile__image}>
+          <img
+            src={candidate.fotoUrl}
+            alt={`Foto da campanha eleitoral do candidato ${candidate.nomeUrna}`}
+          />
+        </picture>
 
         <div className={styles.code}>
           {code.map((item, index) => (
