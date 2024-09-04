@@ -103,20 +103,17 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   let cityId = (params?.city as string) ?? ''
   cityId = maskOnlyNumber(cityId)
 
-  const isValidId = !!cities.find(city => city.value === cityId)
+  const isInvalidCity = !cities.find(city => city.value === cityId)
 
-  if (isValidId) {
-    console.log('entoru', { isValidId })
-    const data = await serviceGetCandidates(cityId)
-    const revalidate = data.mayor.length === 0 ? 60 : false
-
-    return { props: data, revalidate }
+  if (isInvalidCity) {
+    const destination = '/nao-encontrado/cidade'
+    return { props: {}, redirect: { destination, permanent: true } }
   }
 
-  return {
-    props: {},
-    redirect: { destination: '/nao-encontrado/cidade', permanent: true }
-  }
+  const data = await serviceGetCandidates(cityId)
+  const revalidate = data.mayor.length === 0 ? 60 : false
+
+  return { props: data, revalidate }
 }
 
 export default CandidatesPage

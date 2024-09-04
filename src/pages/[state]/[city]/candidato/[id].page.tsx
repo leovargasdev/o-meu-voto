@@ -14,6 +14,8 @@ import { ShareCandidate } from './components/Share'
 import { Breadcrumb } from './components/Breadcrumb'
 
 import styles from './styles.module.scss'
+import { cities } from 'data/cities'
+import { maskOnlyNumber } from 'utils/mask'
 
 const CandidatePage = (candidate: Candidate) => {
   if (!candidate) {
@@ -63,6 +65,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
+  let cityId = (params?.city as string) ?? ''
+  cityId = maskOnlyNumber(cityId)
+
+  const isInvalidCity = !cities.find(city => city.value === cityId)
+
+  if (isInvalidCity) {
+    const destination = '/nao-encontrado/cidade'
+    return { props: {}, redirect: { destination, permanent: true } }
+  }
+
   return serviceGetCandidate(params)
 }
 
