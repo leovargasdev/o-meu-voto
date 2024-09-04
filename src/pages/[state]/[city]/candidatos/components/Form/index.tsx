@@ -8,6 +8,7 @@ import { citiesByState, states } from 'data/cities/'
 import { maskOnlyNumber, maskToParamsURL } from 'utils/mask'
 
 import styles from './styles.module.scss'
+import { useCandidates } from 'hooks'
 
 // const roles = [
 //   { value: '11', label: 'Prefeito' },
@@ -18,11 +19,14 @@ import styles from './styles.module.scss'
 export const SearchForm = () => {
   const params = useParams()
   const { query, ...router } = useRouter()
+  const { handleChangeNameFilter } = useCandidates()
 
   const [state, setState] = useState<Option | undefined | null>()
   const [city, setCity] = useState<Option | undefined | null>()
   // const [role, setRole] = useState<Option | undefined | null>()
   const [loading, setLoading] = useState<boolean>(false)
+
+  const [name, setName] = useState<string>('')
 
   const cities = state ? citiesByState[state.value] : []
 
@@ -32,7 +36,8 @@ export const SearchForm = () => {
     if (city && state) {
       // const roleQuery = role ? `?role=${role}` : ''
       const cityPath = city.value + '-' + maskToParamsURL(city.label)
-      const route = `/${state.value}/${cityPath}/candidatos`
+      const nameQuery = name ? `?name=${encodeURIComponent(name)}` : ''
+      const route = `/${state.value}/${cityPath}/candidatos${nameQuery}`
 
       router.push(route)
       setLoading(true)
@@ -45,6 +50,8 @@ export const SearchForm = () => {
       setState(states.find(s => s.value === query.state))
       const city = maskOnlyNumber(params.city as string)
       setCity(citiesByState[query.state as string].find(c => c.value === city))
+      setName(query.name as string)
+      handleChangeNameFilter(query.name as string)
       // setRole(roles.find(r => r.value === query.role))
     }
   }, [params])
@@ -52,6 +59,12 @@ export const SearchForm = () => {
   const handleChangeState = (value: Option | null) => {
     setState(value)
     setCity(null)
+  }
+
+  const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newName = e.target.value
+    setName(newName)
+    handleChangeNameFilter(newName)
   }
 
   return (
@@ -74,6 +87,18 @@ export const SearchForm = () => {
           onChange={setCity}
           isSearchable
           options={cities}
+          className={styles.input}
+        />
+      </fieldset>
+
+      <fieldset>
+        <label>Nome</label>
+        <input
+          type="text"
+          value={name}
+          className={styles.input}
+          placeholder="Digite o nome do candidato"
+          onChange={handleNameChange}
         />
       </fieldset>
 

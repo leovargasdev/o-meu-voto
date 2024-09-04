@@ -8,6 +8,8 @@ export interface CandidatesContextData {
     mayor: CandidateSimple[]
     councilor: CandidateSimple[]
   }
+  nameFilter: string
+  handleChangeNameFilter: (value: string) => void
 }
 
 interface CandidatesProviderProps {
@@ -25,6 +27,7 @@ export function CandidatesProvider({
   children
 }: CandidatesProviderProps) {
   const [filter, setFilter] = useState<string[]>([])
+  const [nameFilter, setNameFilter] = useState<string>('')
 
   const handleChangeFilter = (keyFilter: string) => {
     setFilter(state => {
@@ -36,6 +39,10 @@ export function CandidatesProvider({
     })
   }
 
+  const handleChangeNameFilter = (value: string) => {
+    setNameFilter(value)
+  }
+
   useEffect(() => {
     if (filter.length > 0) {
       setFilter([])
@@ -44,7 +51,13 @@ export function CandidatesProvider({
 
   return (
     <CandidatesContext.Provider
-      value={{ filter, handleChangeFilter, candidates }}
+      value={{
+        filter,
+        handleChangeFilter,
+        candidates,
+        nameFilter,
+        handleChangeNameFilter
+      }}
     >
       {children}
     </CandidatesContext.Provider>
