@@ -42,6 +42,7 @@
     width: 140px;
     height: 180px;
     border-radius: 20px;
+    border: 4px solid #fff;
     overflow: hidden;
 
     grid-row: 1 / 5;
@@ -50,7 +51,6 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border: 4px solid #fff;
     }
   }
 
