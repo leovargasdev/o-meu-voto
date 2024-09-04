@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+
+  margin-top: 5vh;
+
+  svg {
+    width: 280px;
+    height: auto;
+
+    opacity: 0.8;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
+    color: var(--text-secondary);
+    font-weight: 600;
+  }
+
+  a {
+    margin-top: 12px;
+
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+
+    padding: 8px 32px;
+    border-radius: 8px;
+    background-color: var(--blue);
+
+    transition: all 0.4s;
+
+    &:hover {
+      filter: brightness(0.92);
+    }
+  }
+}

@@ -10,6 +10,8 @@ import { SearchFilter } from './components/Filter'
 import { Candidates } from './components/Candidates'
 
 import styles from './styles.module.scss'
+import { cities } from 'data/cities'
+import { maskOnlyNumber } from 'utils/mask'
 
 interface PageProps {
   city: string
@@ -98,10 +100,23 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const data = await serviceGetCandidates(params?.city as string)
-  const revalidate = data.mayor.length === 0 ? 60 : false
+  let cityId = (params?.city as string) ?? ''
+  cityId = maskOnlyNumber(cityId)
 
-  return { props: data, revalidate }
+  const isValidId = !!cities.find(city => city.value === cityId)
+
+  if (isValidId) {
+    console.log('entoru', { isValidId })
+    const data = await serviceGetCandidates(cityId)
+    const revalidate = data.mayor.length === 0 ? 60 : false
+
+    return { props: data, revalidate }
+  }
+
+  return {
+    props: {},
+    redirect: { destination: '/nao-encontrado/cidade', permanent: true }
+  }
 }
 
 export default CandidatesPage

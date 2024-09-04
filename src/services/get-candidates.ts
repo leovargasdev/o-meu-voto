@@ -1,6 +1,6 @@
 import api from 'lib/api'
+import { maskSigla } from 'utils/mask'
 import { Candidate, CandidateSimple } from 'types'
-import { maskOnlyNumber, maskSigla } from 'utils/mask'
 
 interface Response {
   candidatos: Candidate[]
@@ -40,10 +40,8 @@ const loadCandidates = async (cityId: string, role: string) => {
   return { candidates: [], city: '' }
 }
 
-export const serviceGetCandidates = async (city: string) => {
+export const serviceGetCandidates = async (cityId: string) => {
   try {
-    const cityId = maskOnlyNumber(city)
-
     const [mayor, councilor] = await Promise.all([
       loadCandidates(cityId, '11'),
       loadCandidates(cityId, '13')

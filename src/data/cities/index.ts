@@ -84,3 +84,32 @@ export const citiesByState: Record<string, Option[]> = {
   sp,
   to
 }
+
+export const cities = [
+  ...ac,
+  ...al,
+  ...am,
+  ...ap,
+  ...ba,
+  ...ce,
+  ...es,
+  ...go,
+  ...ma,
+  ...mg,
+  ...ms,
+  ...mt,
+  ...pa,
+  ...pb,
+  ...pe,
+  ...pi,
+  ...pr,
+  ...rj,
+  ...rn,
+  ...ro,
+  ...rr,
+  ...rs,
+  ...sc,
+  ...se,
+  ...sp,
+  ...to
+]
