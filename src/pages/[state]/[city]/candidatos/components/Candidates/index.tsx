@@ -55,7 +55,7 @@ const Section = ({ title, candidates }: SectionProps) => (
     ) : (
       <div className={styles.candidates}>
         {candidates.map(candidate => (
-          <Candidate {...candidate} key={candidate.id} />
+          <Candidate {...candidate} key={candidate.id + candidate.nomeUrna} />
         ))}
       </div>
     )}
@@ -70,7 +70,10 @@ export const Candidates = () => {
     return <></>
   }
 
-  const clearString = (str: string) => normalizeString(str).toLocaleLowerCase()
+  const clearString = (str: string) => {
+    if (!str) return ''
+    return normalizeString(str).toLocaleLowerCase()
+  }
 
   const handleFilterCandidates = (list: CandidateSimple[]) => {
     const termSearch = clearString(nameFilter)
