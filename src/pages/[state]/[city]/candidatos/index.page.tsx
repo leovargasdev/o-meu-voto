@@ -5,13 +5,12 @@ import { serviceGetCandidates } from 'services'
 import type { CandidateSimple } from 'types/candidate'
 
 import { Layout, SEO } from 'components'
-import { SearchForm } from './components/Form'
-import { SearchFilter } from './components/Filter'
 import { Candidates } from './components/Candidates'
 
 import styles from './styles.module.scss'
 import { cities } from 'data/cities'
 import { maskOnlyNumber } from 'utils/mask'
+import { Aside } from './components/Aside'
 
 interface PageProps {
   city: string
@@ -43,11 +42,7 @@ const CandidatesPage = ({ mayor, councilor, city }: PageProps) => {
         <SEO title={title} description={description} />
 
         <div className={styles.container}>
-          <div className={styles.form__and__filter}>
-            <SearchForm />
-            <SearchFilter />
-          </div>
-
+          <Aside />
           <Candidates />
         </div>
       </Layout>

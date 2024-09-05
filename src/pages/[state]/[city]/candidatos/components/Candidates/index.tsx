@@ -63,7 +63,7 @@ const Section = ({ title, candidates }: SectionProps) => (
 )
 
 export const Candidates = () => {
-  const { candidates, filter, nameFilter } = useCandidates()
+  const { candidates, filter } = useCandidates()
 
   // TODO - Add empty state
   if (candidates.councilor.length === 0 && candidates.mayor.length === 0) {
@@ -76,9 +76,9 @@ export const Candidates = () => {
   }
 
   const handleFilterCandidates = (list: CandidateSimple[]) => {
-    const termSearch = clearString(nameFilter)
+    const search = clearString(filter.candidateName)
 
-    if (termSearch.length === 0 && filter.length === 0) {
+    if (!search && filter.parties.length === 0) {
       return list
     }
 
@@ -86,14 +86,14 @@ export const Candidates = () => {
       let isMatch = true
       const { nomeUrna, nomeCompleto, partidoSigla } = candidate
 
-      if (filter.length > 0) {
-        isMatch = filter.includes(partidoSigla)
+      if (filter.parties.length > 0) {
+        isMatch = filter.parties.includes(partidoSigla)
       }
 
-      if (termSearch.length > 0) {
+      if (isMatch && search.length > 0) {
         isMatch =
-          clearString(nomeUrna).includes(termSearch) ||
-          clearString(nomeCompleto).includes(termSearch)
+          clearString(nomeUrna).includes(search) ||
+          clearString(nomeCompleto).includes(search)
       }
 
       return isMatch

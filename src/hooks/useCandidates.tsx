@@ -1,15 +1,19 @@
 import type { CandidateSimple } from 'types'
-import { createContext, useContext, useEffect, useState } from 'react'
+import { createContext, useContext, useState } from 'react'
+
+interface Filter {
+  parties: string[]
+  candidateName: string
+}
 
 export interface CandidatesContextData {
-  filter: string[]
-  handleChangeFilter: (value: string) => void
+  filter: Filter
   candidates: {
     mayor: CandidateSimple[]
     councilor: CandidateSimple[]
   }
-  nameFilter: string
-  handleChangeNameFilter: (value: string) => void
+  handleChangeFilter: (value: Partial<Filter>) => void
+  handleChangeFilterParties: (value: string) => void
 }
 
 interface CandidatesProviderProps {
@@ -26,37 +30,37 @@ export function CandidatesProvider({
   candidates,
   children
 }: CandidatesProviderProps) {
-  const [filter, setFilter] = useState<string[]>([])
-  const [nameFilter, setNameFilter] = useState<string>('')
-
-  const handleChangeFilter = (keyFilter: string) => {
-    setFilter(state => {
-      if (state.includes(keyFilter)) {
-        return state.filter(s => s !== keyFilter)
-      }
-
-      return [...state, keyFilter]
-    })
+  const [filter, setFilter] = useState<Filter>({
+    parties: [],
+    candidateName: ''
+  })
+  const handleChangeFilter = (update: Partial<Filter>) => {
+    setFilter(state => ({ ...state, ...update }))
   }
 
-  const handleChangeNameFilter = (value: string) => {
-    setNameFilter(value)
-  }
-
-  useEffect(() => {
-    if (filter.length > 0) {
-      setFilter([])
+  const handleChangeFilterParties = (partyId: string) => {
+    if (filter.parties.includes(partyId)) {
+      const parties = filter.parties.filter(p => p !== partyId)
+      handleChangeFilter({ parties })
+      return
     }
-  }, [candidates])
+
+    handleChangeFilter({ parties: [...filter.parties, partyId] })
+  }
+
+  // useEffect(() => {
+  //   if (filter.length > 0) {
+  //     setFilter([])
+  //   }
+  // }, [candidates])
 
   return (
     <CandidatesContext.Provider
       value={{
         filter,
-        handleChangeFilter,
         candidates,
-        nameFilter,
-        handleChangeNameFilter
+        handleChangeFilter,
+        handleChangeFilterParties
       }}
     >
       {children}

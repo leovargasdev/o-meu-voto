@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+  max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+
+  margin-top: 40px;
+
+  @media(max-width: 600px) {
+    display: none;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+
+    label {
+      font-size: 14px;
+    }
+
+    // Select
+    > div > div > div {
+      text-transform: capitalize;
+    }
+    
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  
+  border-radius: 6px;
+  border: 1px solid hsl(0, 0%, 80%);
+  background: #fff;
+  padding: 7px 7px 7px 12px;
+
+  > input {
+    flex: 1;
+    border: 0;
+    background: transparent;
+    outline: none;
+  }
+
+  &:focus-within {
+    border: thin solid var(--blue);
+  }
+}
+
+.form__button {
+  padding: 8px 24px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: var(--blue);
+
+  transition: all 0.4s;
+
+  &:disabled {
+    position: relative;
+    color: transparent;
+    background-color: #007bffa9;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      display: block;
+      width: 20px;
+      height: 20px;
+      background: transparent;
+
+      border-radius: 50%;
+      border: 1px solid transparent;
+      border-left-color: #fff;
+
+      animation: rotation 1s linear infinite;
+
+      @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+}
+
+
+.filter__parties {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+
+  button {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+
+    border: 0;
+    height: 40px;
+    border-radius: 2px;
+    padding: 0 6px;
+    background: #fff;
+    box-shadow: var(--shadow-border);
+
+    transition: all 0.4s;
+
+    p,
+    span {
+      font-size: 14px;
+      text-align: left;
+      line-height: 1.2;
+    }
+
+    span {
+      margin-left: auto;
+    }
+
+    &[aria-pressed='false'] {
+      filter: grayscale(1);
+      opacity: 0.4;
+    }
+
+    &:hover {
+      filter: grayscale(0);
+      opacity: 1;
+    }
+  }
+}
