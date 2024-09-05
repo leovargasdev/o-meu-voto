@@ -38,24 +38,34 @@ const Candidate = (candidate: CandidateSimple) => {
 }
 
 export const Candidates = () => {
-  const { candidates: data, filter } = useCandidates()
+  const { candidates, filter } = useCandidates()
 
-  const candidates = data.mayor.concat(data.councilor)
+  const filterCandidates = (candidatesList: CandidateSimple[]) =>
+    filter.length === 0
+      ? candidatesList
+      : candidatesList.filter(c => filter.includes(c.partidoSigla))
 
-  if (candidates.length === 0) {
-    return <></>
+  if (!candidates.mayor.length || !candidates.councilor.length) {
+    return null
   }
 
-  const candidatesFiltred =
-    filter.length === 0
-      ? candidates
-      : candidates.filter(c => filter.includes(c.partidoSigla))
+  const mayors = filterCandidates(candidates.mayor)
+  const councilors = filterCandidates(candidates.councilor)
 
   return (
-    <div className={styles.candidates}>
-      {candidatesFiltred.map(candidate => (
-        <Candidate {...candidate} key={candidate.id} />
-      ))}
+    <div className={styles.candidate__list}>
+      <h2>Candidatos a prefeito</h2>
+      <div className={styles.candidates}>
+        {mayors.map(candidate => (
+          <Candidate {...candidate} key={candidate.id} />
+        ))}
+      </div>
+      <h2>Candidatos a vereador</h2>
+      <div className={styles.candidates}>
+        {councilors.map(candidate => (
+          <Candidate {...candidate} key={candidate.id} />
+        ))}
+      </div>
     </div>
   )
 }

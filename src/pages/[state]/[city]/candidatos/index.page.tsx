@@ -42,14 +42,11 @@ const CandidatesPage = ({ mayor, councilor, city }: PageProps) => {
       >
         <SEO title={title} description={description} />
 
-        {/* <h2>Candidatos a prefeito</h2>
-        <h2>Candidatos a vereador</h2> */}
-
         <div className={styles.container}>
-          <div className={styles.form__and__filter}>
+          <aside className={styles.form__and__filter}>
             <SearchForm />
             <SearchFilter />
-          </div>
+          </aside>
 
           <Candidates />
         </div>

@@ -1,20 +1,27 @@
 .candidates {
   flex: 1;
-  
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 
-  @media(min-width: 1079px) {
+  @media (min-width: 1079px) {
     &:hover a:not(:hover) {
       filter: grayscale(0.45) opacity(0.65);
     }
   }
 
-  @media(max-width: 1000px) {
+  @media (max-width: 1000px) {
     display: flex;
     flex-direction: column;
   }
+}
+
+.candidate__list {
+  flex: 1 1;
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
 }
 
 .candidate {
@@ -27,15 +34,15 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
   transition: all 0.3s;
-  
+
   .info {
-    strong, p {
+    strong,
+    p {
       line-height: 1;
       display: block;
       text-transform: capitalize;
     }
 
-    
     strong {
       font-size: 16px;
       font-weight: 600;
