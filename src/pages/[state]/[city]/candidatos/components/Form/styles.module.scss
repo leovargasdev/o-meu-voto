@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  
+
   fieldset {
     display: flex;
     flex-direction: column;
@@ -17,6 +17,12 @@
     }
   }
 
+  input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid hsl(0, 0%, 80%);
+  }
+
   button {
     padding: 8px 24px;
     border-radius: 6px;
@@ -29,7 +35,7 @@
       position: relative;
       color: transparent;
       background-color: #007bffa9;
-  
+
       &::after {
         content: '';
         position: absolute;
@@ -39,13 +45,13 @@
         width: 20px;
         height: 20px;
         background: transparent;
-    
+
         border-radius: 50%;
         border: 1px solid transparent;
         border-left-color: #fff;
-    
+
         animation: rotation 1s linear infinite;
-        
+
         @keyframes rotation {
           0% {
             transform: rotate(0deg);
@@ -54,7 +60,7 @@
             transform: rotate(360deg);
           }
         }
-    }
+      }
     }
   }
 }

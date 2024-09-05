@@ -38,7 +38,7 @@ const Candidate = (candidate: CandidateSimple) => {
 }
 
 export const Candidates = () => {
-  const { candidates: data, filter } = useCandidates()
+  const { candidates: data, filter, nameFilter } = useCandidates()
 
   const candidates = data.mayor.concat(data.councilor)
 
@@ -46,14 +46,18 @@ export const Candidates = () => {
     return <></>
   }
 
-  const candidatesFiltred =
-    filter.length === 0
-      ? candidates
-      : candidates.filter(c => filter.includes(c.partidoSigla))
+  const candidatesFiltered = candidates.filter(c => {
+    const partyMatch = filter.length === 0 || filter.includes(c.partidoSigla)
+    const nameMatch = nameFilter
+      ? c.nomeUrna.toLowerCase().includes(nameFilter.toLowerCase()) ||
+        c.nomeCompleto.toLowerCase().includes(nameFilter.toLowerCase())
+      : true
 
+    return partyMatch && nameMatch
+  })
   return (
     <div className={styles.candidates}>
-      {candidatesFiltred.map(candidate => (
+      {candidatesFiltered.map(candidate => (
         <Candidate {...candidate} key={candidate.id} />
       ))}
     </div>
