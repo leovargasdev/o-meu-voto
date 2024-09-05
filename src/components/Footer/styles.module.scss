@@ -1,6 +1,6 @@
 .container {
   margin-top: auto;
-  padding: 32px 0 12px;
+  padding: 32px 24px 12px;
 
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
     }
   }
 
-  @media(max-width: 650px) {
+  @media (max-width: 650px) {
     flex-direction: column;
     row-gap: 16px;
     text-align: center;
