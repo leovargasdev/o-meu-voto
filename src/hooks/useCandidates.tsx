@@ -1,5 +1,5 @@
 import type { CandidateSimple } from 'types'
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useEffect, useState } from 'react'
 
 interface Filter {
   parties: string[]
@@ -48,11 +48,11 @@ export function CandidatesProvider({
     handleChangeFilter({ parties: [...filter.parties, partyId] })
   }
 
-  // useEffect(() => {
-  //   if (filter.length > 0) {
-  //     setFilter([])
-  //   }
-  // }, [candidates])
+  useEffect(() => {
+    if (filter.parties.length > 0) {
+      handleChangeFilter({ parties: [] })
+    }
+  }, [candidates])
 
   return (
     <CandidatesContext.Provider

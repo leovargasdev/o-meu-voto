@@ -1,8 +1,9 @@
 import { Aside } from '../Aside'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { motion, Variants } from 'framer-motion'
 
 import styles from './styles.module.scss'
+import { useCandidates } from 'hooks'
 
 export const container: Variants = {
   open: {
@@ -25,6 +26,7 @@ export const container: Variants = {
 }
 
 export const FilterMobile = () => {
+  const { candidates } = useCandidates()
   const [enabled, setEnabled] = useState(false)
 
   const toggleFilterMobile = () => {
@@ -34,6 +36,10 @@ export const FilterMobile = () => {
       return !state
     })
   }
+
+  useEffect(() => {
+    if (enabled) toggleFilterMobile()
+  }, [candidates])
 
   return (
     <div className={styles.filter}>
