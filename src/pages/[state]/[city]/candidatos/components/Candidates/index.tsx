@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
+import { BookmarkSimple } from '@phosphor-icons/react'
 
 import { useCandidates } from 'hooks'
-import { maskToParamsURL } from 'utils/mask'
-import type { CandidateSimple } from 'types/candidate'
+import { maskToParamsURL, normalizeString } from 'utils/mask'
+import type { Candidate, CandidateSimple } from 'types/candidate'
 
 import styles from './styles.module.scss'
 
@@ -37,29 +38,72 @@ const Candidate = (candidate: CandidateSimple) => {
   )
 }
 
+interface SectionProps {
+  title: string
+  candidates: CandidateSimple[]
+}
+
+const Section = ({ title, candidates }: SectionProps) => (
+  <section className={styles.section}>
+    <h2>
+      <BookmarkSimple weight="fill" />
+      {title}
+    </h2>
+
+    {candidates.length === 0 ? (
+      <p>A lista de candidatos está fazia.</p>
+    ) : (
+      <div className={styles.candidates}>
+        {candidates.map(candidate => (
+          <Candidate {...candidate} key={candidate.id} />
+        ))}
+      </div>
+    )}
+  </section>
+)
+
 export const Candidates = () => {
-  const { candidates: data, filter, nameFilter } = useCandidates()
+  const { candidates, filter, nameFilter } = useCandidates()
 
-  const candidates = data.mayor.concat(data.councilor)
-
-  if (candidates.length === 0) {
+  // TODO - Add empty state
+  if (candidates.councilor.length === 0 && candidates.mayor.length === 0) {
     return <></>
   }
 
-  const candidatesFiltered = candidates.filter(c => {
-    const partyMatch = filter.length === 0 || filter.includes(c.partidoSigla)
-    const nameMatch = nameFilter
-      ? c.nomeUrna.toLowerCase().includes(nameFilter.toLowerCase()) ||
-        c.nomeCompleto.toLowerCase().includes(nameFilter.toLowerCase())
-      : true
+  const clearString = (str: string) => normalizeString(str).toLocaleLowerCase()
 
-    return partyMatch && nameMatch
-  })
+  const handleFilterCandidates = (list: CandidateSimple[]) => {
+    const termSearch = clearString(nameFilter)
+
+    if (termSearch.length === 0 && filter.length === 0) {
+      return list
+    }
+
+    return list.filter(candidate => {
+      let isMatch = true
+      const { nomeUrna, nomeCompleto, partidoSigla } = candidate
+
+      if (filter.length > 0) {
+        isMatch = filter.includes(partidoSigla)
+      }
+
+      if (termSearch.length > 0) {
+        isMatch =
+          clearString(nomeUrna).includes(termSearch) ||
+          clearString(nomeCompleto).includes(termSearch)
+      }
+
+      return isMatch
+    })
+  }
+
+  const mayorFiltered = handleFilterCandidates(candidates.mayor)
+  const councilorFiltered = handleFilterCandidates(candidates.councilor)
+
   return (
-    <div className={styles.candidates}>
-      {candidatesFiltered.map(candidate => (
-        <Candidate {...candidate} key={candidate.id} />
-      ))}
+    <div className={styles.container}>
+      <Section title="Cargo de Prefeito" candidates={mayorFiltered} />
+      <Section title="Cargo de Vereador" candidates={councilorFiltered} />
     </div>
   )
 }

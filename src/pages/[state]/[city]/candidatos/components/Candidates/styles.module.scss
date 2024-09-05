@@ -1,19 +1,40 @@
-.candidates {
+.container {
   flex: 1;
-  
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
 
-  @media(min-width: 1079px) {
-    &:hover a:not(:hover) {
-      filter: grayscale(0.45) opacity(0.65);
-    }
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  h2 {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+
+    font-size: 22px;
+    font-weight: 500;
   }
 
-  @media(max-width: 1000px) {
-    display: flex;
-    flex-direction: column;
+  .candidates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  
+    @media(min-width: 1079px) {
+      &:hover a:not(:hover) {
+        filter: grayscale(0.45) opacity(0.65);
+      }
+    }
+  
+    @media(max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 
