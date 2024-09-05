@@ -2,19 +2,13 @@ import { Option } from 'types'
 import Select from 'react-select'
 import { useRouter } from 'next/router'
 import { useParams } from 'next/navigation'
-import { FormEvent, useEffect, useState } from 'react'
+import { ChangeEvent, FormEvent, useEffect, useState } from 'react'
 
+import { useCandidates } from 'hooks'
 import { citiesByState, states } from 'data/cities/'
 import { maskOnlyNumber, maskToParamsURL } from 'utils/mask'
 
 import styles from './styles.module.scss'
-import { useCandidates } from 'hooks'
-
-// const roles = [
-//   { value: '11', label: 'Prefeito' },
-//   { value: '12', label: 'Vice-prefeito' },
-//   { value: '13', label: 'Vereador' }
-// ]
 
 export const SearchForm = () => {
   const params = useParams()
@@ -23,10 +17,8 @@ export const SearchForm = () => {
 
   const [state, setState] = useState<Option | undefined | null>()
   const [city, setCity] = useState<Option | undefined | null>()
-  // const [role, setRole] = useState<Option | undefined | null>()
   const [loading, setLoading] = useState<boolean>(false)
-
-  const [name, setName] = useState<string>('')
+  const [timeoutId, setTimeoutId] = useState<NodeJS.Timeout | null>(null)
 
   const cities = state ? citiesByState[state.value] : []
 
@@ -34,10 +26,8 @@ export const SearchForm = () => {
     event.preventDefault()
 
     if (city && state) {
-      // const roleQuery = role ? `?role=${role}` : ''
       const cityPath = city.value + '-' + maskToParamsURL(city.label)
-      const nameQuery = name ? `?name=${encodeURIComponent(name)}` : ''
-      const route = `/${state.value}/${cityPath}/candidatos${nameQuery}`
+      const route = `/${state.value}/${cityPath}/candidatos/`
 
       router.push(route)
       setLoading(true)
@@ -50,9 +40,6 @@ export const SearchForm = () => {
       setState(states.find(s => s.value === query.state))
       const city = maskOnlyNumber(params.city as string)
       setCity(citiesByState[query.state as string].find(c => c.value === city))
-      setName(query.name as string)
-      handleChangeNameFilter(query.name as string)
-      // setRole(roles.find(r => r.value === query.role))
     }
   }, [params])
 
@@ -61,10 +48,11 @@ export const SearchForm = () => {
     setCity(null)
   }
 
-  const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newName = e.target.value
-    setName(newName)
-    handleChangeNameFilter(newName)
+  const handleNameChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value.trimStart()
+
+    timeoutId && clearTimeout(timeoutId)
+    setTimeoutId(setTimeout(() => handleChangeNameFilter(value), 500))
   }
 
   return (
@@ -95,23 +83,11 @@ export const SearchForm = () => {
         <label>Nome</label>
         <input
           type="text"
-          value={name}
           className={styles.input}
           placeholder="Digite o nome do candidato"
           onChange={handleNameChange}
         />
       </fieldset>
-
-      {/* <fieldset>
-        <label>Cargo</label>
-        <Select
-          value={role}
-          placeholder="Selecionar"
-          onChange={setRole}
-          defaultValue={role}
-          options={roles}
-        />
-      </fieldset> */}
 
       <button type="submit" disabled={loading}>
         Buscar

@@ -30,8 +30,8 @@ const Candidate = (candidate: CandidateSimple) => {
       </div>
 
       <div className={styles.code}>
-        {code.map(item => (
-          <span key={item}>{item}</span>
+        {code.map((item, index) => (
+          <span key={index + candidate.nomeUrna}>{item}</span>
         ))}
       </div>
     </Link>
