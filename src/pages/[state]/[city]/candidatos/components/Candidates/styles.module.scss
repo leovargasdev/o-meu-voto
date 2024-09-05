@@ -4,6 +4,10 @@
   display: flex;
   flex-direction: column;
   row-gap: 24px;
+
+  @media(max-width: 1000px) {
+    width: 100%;
+  }
 }
 
 .section {
@@ -18,6 +22,10 @@
 
     font-size: 22px;
     font-weight: 500;
+
+    @media(max-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   .candidates {
@@ -31,7 +39,7 @@
       }
     }
   
-    @media(max-width: 1000px) {
+    @media(max-width: 768px) {
       display: flex;
       flex-direction: column;
     }

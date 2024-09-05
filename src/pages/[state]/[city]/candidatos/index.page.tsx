@@ -1,16 +1,17 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
 
+import { cities } from 'data/cities'
 import { CandidatesProvider } from 'hooks'
+import { maskOnlyNumber } from 'utils/mask'
 import { serviceGetCandidates } from 'services'
 import type { CandidateSimple } from 'types/candidate'
 
 import { Layout, SEO } from 'components'
+import { Aside } from './components/Aside'
 import { Candidates } from './components/Candidates'
+import { FilterMobile } from './components/FilterMobile'
 
 import styles from './styles.module.scss'
-import { cities } from 'data/cities'
-import { maskOnlyNumber } from 'utils/mask'
-import { Aside } from './components/Aside'
 
 interface PageProps {
   city: string
@@ -42,8 +43,9 @@ const CandidatesPage = ({ mayor, councilor, city }: PageProps) => {
         <SEO title={title} description={description} />
 
         <div className={styles.container}>
-          <Aside />
           <Candidates />
+          <Aside />
+          <FilterMobile />
         </div>
       </Layout>
     </CandidatesProvider>

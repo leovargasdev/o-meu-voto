@@ -1,7 +1,8 @@
 import Link from 'next/link'
-import styles from './styles.module.scss'
-import { useRouter } from 'next/router'
 import { Footer } from 'components'
+import { useRouter } from 'next/router'
+
+import styles from './styles.module.scss'
 
 interface LayoutProps {
   title?: string | React.ReactNode
@@ -15,7 +16,7 @@ export const Layout = ({ children, title = '' }: LayoutProps) => {
     <div className={styles.container}>
       {router.pathname !== '/' && (
         <header className={styles.header}>
-          <div>
+          <div className={styles.header__content}>
             <Link href="/">
               <img src="/logo.png" alt="Logomarca meu voto 2024" />
             </Link>
