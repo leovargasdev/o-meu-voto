@@ -77,7 +77,7 @@ const SearchPage = () => {
           </div>
         </Question>
 
-        <Question label="Selecione um munípio" enabled={question === 1}>
+        <Question label="Selecione um município" enabled={question === 1}>
           <div className={styles.cities}>
             <Select
               placeholder="Selecionar"
