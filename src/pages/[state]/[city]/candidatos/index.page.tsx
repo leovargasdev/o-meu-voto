@@ -53,12 +53,6 @@ const CandidatesPage = ({ mayor, councilor, city }: PageProps) => {
   )
 }
 
-const EmptyPage = () => (
-  <Layout>
-    <h1 style={{ textAlign: 'center' }}>Página em manutenção!</h1>
-  </Layout>
-)
-
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
     fallback: true,
@@ -110,6 +104,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   }
 
   const data = await serviceGetCandidates(cityId)
+
+  if (data?.error) {
+    const destination = '/nao-encontrado/cidade'
+    return { props: {}, redirect: { destination, permanent: false } }
+  }
+
   const revalidate = data.mayor.length === 0 ? 60 : false
 
   return { props: data, revalidate }

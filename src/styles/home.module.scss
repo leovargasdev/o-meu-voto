@@ -29,7 +29,7 @@
     margin: 40px 0 48px;
   }
 
-  a {
+  > a {
     font-size: 18px;
     text-transform: uppercase;
     color: #fff;
@@ -40,6 +40,12 @@
     background-color: var(--blue);
 
     transition: all 0.4s;
+
+    &[aria-disabled="true"] {
+      filter: grayscale(0.8);
+      opacity: 0.4;
+      pointer-events: none;
+    }
 
     &:hover {
       filter: brightness(0.92);
@@ -54,11 +60,34 @@
       font-size: 24px;
     }
   
-    a {
+    > a {
       font-size: 18px;
   
       padding: 8px 32px;
       border-radius: 8px;
     }
+  }
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+
+  border-radius: 8px;
+  padding: 12px 16px;
+  border: 2px solid #beb200;
+  background-color: rgba(250, 238, 11, 0.6);
+
+  margin: -24px 0 32px;
+
+  a {
+    color: var(--text); 
+    text-decoration: underline;
+  }
+
+  svg {
+    width: auto;
+    height: 45px;
   }
 }

@@ -32,33 +32,30 @@ const loadCandidates = async (cityId: string, role: string) => {
     const { nome, sigla } = data.unidadeEleitoral
     const city = `${nome.toLocaleLowerCase()} (${sigla})`
 
-    return { candidates, city }
+    return { candidates, city, error: false }
   } catch (err) {
     console.log(err)
   }
 
-  return { candidates: [], city: '' }
+  return { candidates: [], city: '', error: true }
 }
 
 export const serviceGetCandidates = async (cityId: string) => {
   try {
-    const [mayor, councilor] = await Promise.all([
-      loadCandidates(cityId, '11'),
-      loadCandidates(cityId, '13')
-    ])
+    const mayor = await loadCandidates(cityId, '11')
 
-    return {
-      city: mayor.city,
-      mayor: mayor.candidates,
-      councilor: councilor.candidates
+    if (!mayor.error) {
+      const councilor = await loadCandidates(cityId, '13')
+
+      return {
+        city: mayor.city,
+        mayor: mayor.candidates,
+        councilor: councilor.candidates
+      }
     }
   } catch (e) {
     console.log(e)
   }
 
-  return {
-    city: '',
-    mayor: [],
-    councilor: []
-  }
+  return { error: true, mayor: [] }
 }
