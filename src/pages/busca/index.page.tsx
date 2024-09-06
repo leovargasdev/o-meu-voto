@@ -6,9 +6,11 @@ import { useRouter } from 'next/router'
 import type { Option } from 'types'
 import { MapBrazil, SEO } from 'components'
 import { maskToParamsURL } from 'utils/mask'
-import { citiesByState } from 'data/cities/'
+import { citiesByState, states } from 'data/cities/'
 
 import styles from './styles.module.scss'
+import toast, { Toaster } from 'react-hot-toast'
+import { MapPin } from '@phosphor-icons/react/dist/ssr'
 
 interface QuestionProps {
   label: string
@@ -32,6 +34,10 @@ const SearchPage = () => {
   // const [city, setCity] = useState<Option | null>()
 
   const handleQuestionUF = (value: string) => {
+    const stateLabelValue = states.filter((city)=>city.value === value)[0]
+    toast.success(stateLabelValue.label, {
+      icon: <MapPin />
+    })
     setState(value)
     setQuestion(1)
   }
@@ -60,6 +66,7 @@ const SearchPage = () => {
 
   return (
     <div className={styles.container}>
+      <Toaster position='top-left'/>
       <SEO
         title="Busque os candidatos a Prefeito e Vereador - Eleições 2024"
         description="Escolha um estado e uma cidade para localizar os candidatos do seu município."

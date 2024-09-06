@@ -33,9 +33,9 @@ export const ShareCandidate = () => {
         <TelegramShareButton url={url}>
           <TelegramIcon size={20} borderRadius={10} />
         </TelegramShareButton>
-        <TwitterShareButton url={url}>
+        {/* <TwitterShareButton url={url}>
           <TwitterIcon size={20} borderRadius={10} />
-        </TwitterShareButton>
+        </TwitterShareButton> */}
         <EmailShareButton url={url}>
           <EmailIcon size={20} borderRadius={10} />
         </EmailShareButton>
