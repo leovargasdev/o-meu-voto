@@ -9,12 +9,12 @@ const LoginPage: NextPage = () => {
     <div className={styles.container}>
       <SEO
         title="Meu voto 2024"
-        description="Busque os candidatos do seu munípicio para as eleições de 2024"
+        description="Busque os candidatos do seu município para as eleições de 2024"
       />
 
       <main className={styles.content}>
         <img src="/logo.png" />
-        <h1>Veja a lista dos candidatos do seu munípicio</h1>
+        <h1>Veja a lista dos candidatos do seu município</h1>
 
         <Link href="/busca">Iniciar busca</Link>
       </main>
