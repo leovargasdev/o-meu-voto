@@ -60,65 +60,59 @@ const EmptyPage = () => (
 )
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  return { fallback: true, paths: [] }
-  // return {
-  //   fallback: true,
-  //   paths: [
-  //     { params: { state: 'sc', city: '80810-chapeco' } },
-  //     { params: { state: 'sc', city: '81051-florianopolis' } },
-  //     { params: { state: 'sc', city: '80470-blumenau' } },
-  //     { params: { state: 'sc', city: '81795-joinville' } },
-  //     { params: { state: 'sc', city: '80896-criciuma' } },
-  //     { params: { state: 'sc', city: '80390-balneario-camboriu' } },
-  //     { params: { state: 'rs', city: '88013-porto-alegre' } },
-  //     { params: { state: 'rs', city: '85995-caxias-do-sul' } },
-  //     { params: { state: 'rs', city: '87718-novo-hamburgo' } },
-  //     { params: { state: 'rs', city: '88412-santa-maria' } },
-  //     { params: { state: 'rs', city: '87912-pelotas' } },
-  //     { params: { state: 'rs', city: '89630-viamao' } },
-  //     { params: { state: 'pr', city: '75353-curitiba' } },
-  //     { params: { state: 'pr', city: '76910-maringa' } },
-  //     { params: { state: 'pr', city: '77771-ponta-grossa' } },
-  //     { params: { state: 'pr', city: '75639-foz-do-iguacu' } },
-  //     { params: { state: 'pr', city: '74934-cascavel' } },
-  //     // { params: { state: 'sp', city: '71072-sao-paulo' } },
-  //     { params: { state: 'sp', city: '64777-guarulhos' } },
-  //     { params: { state: 'sp', city: '67890-osasco' } },
-  //     { params: { state: 'sp', city: '71455-sorocaba' } },
-  //     { params: { state: 'ms', city: '90514-campo-grande' } },
-  //     { params: { state: 'ms', city: '90735-dourados' } },
-  //     { params: { state: 'ms', city: '91650-tres-lagoas' } },
-  //     { params: { state: 'ms', city: '90638-corumba' } },
-  //     { params: { state: 'ms', city: '98035-costa-rica' } },
-  //     // { params: { state: 'rj', city: '60011-rio-de-janeiro' } },
-  //     { params: { state: 'rj', city: '58130-cabo-frio' } },
-  //     { params: { state: 'rj', city: '58033-araruama' } },
-  //     { params: { state: 'rj', city: '58653-niteroi' } },
-  //     { params: { state: 'rj', city: '58696-nova-iguacu' } },
-  //     { params: { state: 'ba', city: '38490-salvador' } },
-  //     { params: { state: 'ba', city: '37710-palmeiras' } }
-  //   ]
-  // }
+  return {
+    fallback: true,
+    paths: [
+      { params: { state: 'sc', city: '80810-chapeco' } },
+      { params: { state: 'sc', city: '81051-florianopolis' } },
+      { params: { state: 'sc', city: '80470-blumenau' } },
+      { params: { state: 'sc', city: '81795-joinville' } },
+      { params: { state: 'sc', city: '80896-criciuma' } },
+      { params: { state: 'sc', city: '80390-balneario-camboriu' } },
+      { params: { state: 'rs', city: '88013-porto-alegre' } },
+      { params: { state: 'rs', city: '85995-caxias-do-sul' } },
+      { params: { state: 'rs', city: '87718-novo-hamburgo' } },
+      { params: { state: 'rs', city: '88412-santa-maria' } },
+      { params: { state: 'rs', city: '87912-pelotas' } },
+      { params: { state: 'rs', city: '89630-viamao' } },
+      { params: { state: 'pr', city: '75353-curitiba' } },
+      { params: { state: 'pr', city: '76910-maringa' } },
+      { params: { state: 'pr', city: '77771-ponta-grossa' } },
+      { params: { state: 'pr', city: '75639-foz-do-iguacu' } },
+      { params: { state: 'pr', city: '74934-cascavel' } },
+      { params: { state: 'sp', city: '64777-guarulhos' } },
+      { params: { state: 'sp', city: '67890-osasco' } },
+      { params: { state: 'sp', city: '71455-sorocaba' } },
+      { params: { state: 'ms', city: '90514-campo-grande' } },
+      { params: { state: 'ms', city: '90735-dourados' } },
+      { params: { state: 'ms', city: '91650-tres-lagoas' } },
+      { params: { state: 'ms', city: '90638-corumba' } },
+      { params: { state: 'ms', city: '98035-costa-rica' } },
+      { params: { state: 'rj', city: '58130-cabo-frio' } },
+      { params: { state: 'rj', city: '58033-araruama' } },
+      { params: { state: 'rj', city: '58653-niteroi' } },
+      { params: { state: 'rj', city: '58696-nova-iguacu' } },
+      { params: { state: 'ba', city: '38490-salvador' } },
+      { params: { state: 'ba', city: '37710-palmeiras' } }
+    ]
+  }
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  return { props: {}, revalidate: false }
+  let cityId = (params?.city as string) ?? ''
+  cityId = maskOnlyNumber(cityId)
 
-  // let cityId = (params?.city as string) ?? ''
-  // cityId = maskOnlyNumber(cityId)
+  const isInvalidCity = !cities.find(city => city.value === cityId)
 
-  // const isInvalidCity = !cities.find(city => city.value === cityId)
+  if (isInvalidCity) {
+    const destination = '/nao-encontrado/cidade'
+    return { props: {}, redirect: { destination, permanent: true } }
+  }
 
-  // if (isInvalidCity) {
-  //   const destination = '/nao-encontrado/cidade'
-  //   return { props: {}, redirect: { destination, permanent: true } }
-  // }
+  const data = await serviceGetCandidates(cityId)
+  const revalidate = data.mayor.length === 0 ? 60 : false
 
-  // const data = await serviceGetCandidates(cityId)
-  // const revalidate = data.mayor.length === 0 ? 60 : false
-
-  // return { props: data, revalidate }
+  return { props: data, revalidate }
 }
 
-// export default CandidatesPage
-export default EmptyPage
+export default CandidatesPage
