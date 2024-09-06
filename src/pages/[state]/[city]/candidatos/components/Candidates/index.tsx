@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
 import { BookmarkSimple } from '@phosphor-icons/react'
@@ -19,11 +18,7 @@ const Candidate = (candidate: CandidateSimple) => {
   const href = baseUrl + `/candidato/${candidate.id}-${name}`
 
   return (
-    <Link
-      href={href}
-      prefetch={false}
-      className={classNames('card', styles.candidate)}
-    >
+    <a href={href} className={classNames('card', styles.candidate)}>
       <div className={styles.info}>
         <strong>{candidate.nomeUrna}</strong>
         <p>{candidate.nomeCompleto}</p>
@@ -34,7 +29,7 @@ const Candidate = (candidate: CandidateSimple) => {
           <span key={index + candidate.nomeUrna}>{item}</span>
         ))}
       </div>
-    </Link>
+    </a>
   )
 }
 

@@ -14,7 +14,11 @@ import styles from './styles.module.scss'
 
 type Sigla = keyof typeof listParties
 
-export const Aside = () => {
+interface AsideProps {
+  isDisabledAction?: boolean
+}
+
+export const Aside = ({ isDisabledAction = false }: AsideProps) => {
   const {
     candidates: data,
     filter,
@@ -85,6 +89,7 @@ export const Aside = () => {
             onChange={handleChangeState}
             options={states}
             value={state}
+            isDisabled={isDisabledAction}
           />
         </fieldset>
 
@@ -95,12 +100,14 @@ export const Aside = () => {
             placeholder="Selecionar"
             onChange={setCity}
             options={cities}
+            isDisabled={isDisabledAction}
           />
         </fieldset>
 
         <button
           type="submit"
-          disabled={loading}
+          data-state={loading ? 'loading' : 'read'}
+          disabled={loading || isDisabledAction}
           className={styles.form__button}
         >
           Buscar
@@ -114,6 +121,7 @@ export const Aside = () => {
           className={styles.input}
           placeholder="Digite o nome do candidato"
           onChange={handleNameChange}
+          disabled={isDisabledAction}
         />
       </div>
 

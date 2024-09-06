@@ -1,8 +1,11 @@
 import classNames from 'classnames'
 import { Mailbox } from '@phosphor-icons/react'
-import type { Candidate } from 'types/candidate'
-import { serviceGetCandidate } from 'services'
 import { GetStaticPaths, GetStaticProps } from 'next'
+
+import { cities } from 'data/cities'
+import { maskOnlyNumber } from 'utils/mask'
+import { serviceGetCandidate } from 'services'
+import type { Candidate } from 'types/candidate'
 
 import { Layout } from 'components'
 import { Profile } from './components/Profile'
@@ -12,14 +15,13 @@ import { Properties } from './components/Properties'
 import { PreviousElections } from './components/PreviousElections'
 import { ShareCandidate } from './components/Share'
 import { Breadcrumb } from './components/Breadcrumb'
+import { CandidateSkeleton } from './components/Skeleton'
 
 import styles from './styles.module.scss'
-import { cities } from 'data/cities'
-import { maskOnlyNumber } from 'utils/mask'
 
 const CandidatePage = (candidate: Candidate) => {
-  if (!candidate) {
-    return <></>
+  if (!candidate?.nomeUrna) {
+    return <CandidateSkeleton />
   }
 
   return (
@@ -61,7 +63,7 @@ const CandidatePage = (candidate: Candidate) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  return { fallback: 'blocking', paths: [] }
+  return { fallback: true, paths: [] }
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {

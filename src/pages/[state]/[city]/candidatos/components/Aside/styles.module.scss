@@ -33,7 +33,7 @@
       font-size: 14px;
     }
 
-    // Select
+    // Select value
     > div > div > div {
       text-transform: capitalize;
     }
@@ -97,32 +97,35 @@
 
   &:disabled {
     position: relative;
-    color: transparent;
     background-color: #007bffa9;
 
-    &::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      margin: auto;
-      display: block;
-      width: 20px;
-      height: 20px;
-      background: transparent;
+    &[data-state="loading"]{
+      color: transparent;
+    }
+  }
 
-      border-radius: 50%;
-      border: 1px solid transparent;
-      border-left-color: #fff;
+  &[data-state="loading"]::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: transparent;
 
-      animation: rotation 1s linear infinite;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    border-left-color: #fff;
 
-      @keyframes rotation {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
+    animation: rotation 1s linear infinite;
+
+    @keyframes rotation {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
       }
     }
   }
