@@ -29,7 +29,6 @@ const SearchPage = () => {
   const router = useRouter()
   const [question, setQuestion] = useState<number>(0)
   const [state, setState] = useState<string>('')
-  // const [city, setCity] = useState<Option | null>()
 
   const handleQuestionUF = (value: string) => {
     setState(value)
@@ -37,7 +36,6 @@ const SearchPage = () => {
   }
 
   const handleQuestionCity = (option: Option | null) => {
-    // setCity(option)
     if (option) {
       setQuestion(2)
 
@@ -45,16 +43,6 @@ const SearchPage = () => {
       router.push(`/${state}/${cityPath}/candidatos`)
     }
   }
-
-  // const handleSearch = (role?: string) => {
-  //   if (!city) return
-
-  //   const roleQuery = role ? `?role=${role}` : ''
-  //   const cityPath = city.value + '-' + maskToParamsURL(city.label)
-  //   const route = `/${state}/${cityPath}/candidatos` + roleQuery
-
-  //   router.push(route)
-  // }
 
   const cities = state ? citiesByState[state] : []
 
@@ -87,29 +75,6 @@ const SearchPage = () => {
             />
           </div>
         </Question>
-
-        {/* <Question
-          label="Escolha o cargo do pré-candidato"
-          enabled={question === 2}
-        >
-          <div className={styles.roles}>
-            <div className={styles.buttons}>
-              <button type="button" onClick={() => handleSearch('11')}>
-                Prefeito
-              </button>
-              <button type="button" onClick={() => handleSearch('12')}>
-                Vice-prefeito
-              </button>
-              <button type="button" onClick={() => handleSearch('13')}>
-                Vereador
-              </button>
-            </div>
-
-            <button type="button" onClick={() => handleSearch()}>
-              Pular pergunta <CaretDoubleRight />
-            </button>
-          </div>
-        </Question> */}
       </div>
     </div>
   )
