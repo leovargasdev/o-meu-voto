@@ -59,24 +59,22 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { fallback: true, paths: [] }
 }
 
+const handleRedirect = (permanent = true) => {
+  const destination = '/nao-encontrado/cidade'
+  return { props: {}, redirect: { destination, permanent } }
+}
+
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   let cityId = (params?.city as string) ?? ''
   cityId = maskOnlyNumber(cityId)
 
   const isInvalidCity = !cities.find(city => city.value === cityId)
 
-  if (isInvalidCity) {
-    const destination = '/nao-encontrado/cidade'
-    return { props: {}, redirect: { destination, permanent: true } }
-  }
+  if (isInvalidCity) return handleRedirect()
 
-  // TODO - Remove prop city
   const data = await serviceGetCandidates(cityId)
 
-  if (data?.error) {
-    const destination = '/nao-encontrado/cidade'
-    return { props: {}, redirect: { destination, permanent: false } }
-  }
+  if (!data) return handleRedirect(false)
 
   const revalidate = data.mayor.length === 0 ? 60 : false
 

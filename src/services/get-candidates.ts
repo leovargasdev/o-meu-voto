@@ -15,7 +15,7 @@ const loadCandidates = async (cityId: string, role: string) => {
     const route = `/listar/2024/${cityId}/2045202024/${role}/candidatos`
     const { data } = await api.get<Response>(route)
 
-    const candidates = data.candidatos.reduce((acc, candidate) => {
+    return data.candidatos.reduce((acc, candidate) => {
       if (candidate.descricaoSituacao !== 'Indeferido') {
         acc.push({
           nomeCompleto: candidate.nomeCompleto.toLocaleLowerCase(),
@@ -28,34 +28,24 @@ const loadCandidates = async (cityId: string, role: string) => {
 
       return acc
     }, [] as CandidateSimple[])
-
-    const { nome, sigla } = data.unidadeEleitoral
-    const city = `${nome.toLocaleLowerCase()} (${sigla})`
-
-    return { candidates, city, error: false }
   } catch (err) {
     console.log(err)
   }
 
-  return { candidates: [], city: '', error: true }
+  return null
 }
 
 export const serviceGetCandidates = async (cityId: string) => {
   try {
     const mayor = await loadCandidates(cityId, '11')
 
-    if (!mayor.error) {
+    if (mayor) {
       const councilor = await loadCandidates(cityId, '13')
-
-      return {
-        city: mayor.city,
-        mayor: mayor.candidates,
-        councilor: councilor.candidates
-      }
+      return { mayor, councilor }
     }
   } catch (e) {
     console.log(e)
   }
 
-  return { error: true, mayor: [] }
+  return null
 }
