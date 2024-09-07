@@ -7,7 +7,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
-
   
     span {
       height: 56px;
@@ -16,6 +15,28 @@
       padding: 12px 16px;
       border-radius: 4px;
       box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2.6px;
+    }
+  }
+
+  @media(max-width: 1400px) {
+    padding: 0 24px;
+  }
+
+  @media(max-width: 1000px) {
+    > aside {
+      display: none;
+    }
+  }
+
+  @media(max-width: 650px) {
+    padding: 0 16px;
+
+    .candidates {
+      grid-template-columns: 1fr;
+
+      span:nth-child(n + 5) {
+        display: none;
+      }
     }
   }
 }
@@ -39,6 +60,10 @@
 
       font-size: 22px;
       font-weight: 500;
+
+      @media(max-width: 650px) {
+        font-size: 20px;
+      }
     }
   }
 }
