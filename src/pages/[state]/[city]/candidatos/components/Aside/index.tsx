@@ -1,8 +1,8 @@
-import Select from 'react-select'
+import Select, { SelectInstance } from 'react-select'
 import { useRouter } from 'next/router'
 import { useParams } from 'next/navigation'
 import { MagnifyingGlass } from '@phosphor-icons/react'
-import { ChangeEvent, FormEvent, useEffect, useState } from 'react'
+import { ChangeEvent, FormEvent, useEffect, useRef, useState } from 'react'
 
 import type { Option } from 'types'
 import { useCandidates } from 'hooks'
@@ -67,9 +67,12 @@ export const Aside = ({ isDisabledAction = false }: AsideProps) => {
     }
   }, [params])
 
+  const refSelect = useRef<SelectInstance<Option | null>>(null)
+
   const handleChangeState = (value: Option | null) => {
     setState(value)
     setCity(null)
+    refSelect?.current && refSelect.current.focus()
   }
 
   const handleNameChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -96,11 +99,13 @@ export const Aside = ({ isDisabledAction = false }: AsideProps) => {
         <fieldset>
           <label>Cidade</label>
           <Select
+            ref={refSelect}
             value={city}
             placeholder="Selecionar"
             onChange={setCity}
             options={cities}
             isDisabled={isDisabledAction}
+            openMenuOnFocus
           />
         </fieldset>
 
