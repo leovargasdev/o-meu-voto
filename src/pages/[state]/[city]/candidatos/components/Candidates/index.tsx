@@ -34,16 +34,18 @@ const Candidate = (candidate: CandidateSimple) => {
 }
 
 interface SectionProps {
-  title: string
+  title?: string
   candidates: CandidateSimple[]
 }
 
-const Section = ({ title, candidates }: SectionProps) => (
+const Section = ({ title = '', candidates }: SectionProps) => (
   <section className={styles.section}>
-    <h2>
-      <BookmarkSimple weight="fill" />
-      {title}
-    </h2>
+    {title && (
+      <h2>
+        <BookmarkSimple weight="fill" />
+        {title}
+      </h2>
+    )}
 
     {candidates.length === 0 ? (
       <p>A lista de candidatos está fazia.</p>
@@ -96,12 +98,22 @@ export const Candidates = () => {
   }
 
   const mayorFiltered = handleFilterCandidates(candidates.mayor)
+  const deputyMayorFiltered = handleFilterCandidates(candidates.deputyMayor)
   const councilorFiltered = handleFilterCandidates(candidates.councilor)
+
+  if (filter.role) {
+    // eslint-disable-next-line prettier/prettier
+    if (filter.role === 'prefeito') return <Section candidates={mayorFiltered} />
+    // eslint-disable-next-line prettier/prettier
+    if (filter.role === 'vice') return <Section candidates={deputyMayorFiltered} />
+    return <Section candidates={councilorFiltered} />
+  }
 
   return (
     <div className={styles.container}>
-      <Section title="Cargo de Prefeito" candidates={mayorFiltered} />
-      <Section title="Cargo de Vereador" candidates={councilorFiltered} />
+      <Section title="Prefeito" candidates={mayorFiltered} />
+      <Section title="Vice Prefeito" candidates={deputyMayorFiltered} />
+      <Section title="Vereador" candidates={councilorFiltered} />
     </div>
   )
 }

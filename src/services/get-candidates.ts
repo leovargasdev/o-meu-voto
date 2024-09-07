@@ -40,8 +40,9 @@ export const serviceGetCandidates = async (cityId: string) => {
     const mayor = await loadCandidates(cityId, '11')
 
     if (mayor) {
+      const deputyMayor = await loadCandidates(cityId, '12')
       const councilor = await loadCandidates(cityId, '13')
-      return { mayor, councilor }
+      return { mayor, deputyMayor, councilor }
     }
   } catch (e) {
     console.log(e)

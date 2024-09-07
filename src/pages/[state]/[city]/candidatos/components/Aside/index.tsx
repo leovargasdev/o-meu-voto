@@ -82,6 +82,11 @@ export const Aside = ({ isDisabledAction = false }: AsideProps) => {
     setTimeoutId(setTimeout(() => handleChangeFilter({ candidateName }), 500))
   }
 
+  const handleChangeFilterRole = (role: string) => {
+    const isClear = role === filter.role
+    handleChangeFilter({ role: isClear ? '' : role })
+  }
+
   return (
     <aside className={styles.container}>
       <form className={styles.form} onSubmit={handleSearchCandidates}>
@@ -128,6 +133,40 @@ export const Aside = ({ isDisabledAction = false }: AsideProps) => {
           onChange={handleNameChange}
           disabled={isDisabledAction}
         />
+      </div>
+
+      <div className={styles.roles}>
+        <button
+          type="button"
+          className={
+            !filter.role || filter.role === 'prefeito'
+              ? styles.role__active
+              : ''
+          }
+          onClick={() => handleChangeFilterRole('prefeito')}
+        >
+          Prefeito
+        </button>
+        <button
+          type="button"
+          className={
+            !filter.role || filter.role === 'vice' ? styles.role__active : ''
+          }
+          onClick={() => handleChangeFilterRole('vice')}
+        >
+          Vice
+        </button>
+        <button
+          type="button"
+          className={
+            !filter.role || filter.role === 'vereador'
+              ? styles.role__active
+              : ''
+          }
+          onClick={() => handleChangeFilterRole('vereador')}
+        >
+          Vereador
+        </button>
       </div>
 
       <div className={styles.filter__parties}>

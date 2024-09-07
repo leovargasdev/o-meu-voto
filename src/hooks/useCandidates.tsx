@@ -4,23 +4,24 @@ import { createContext, useContext, useEffect, useState } from 'react'
 interface Filter {
   parties: string[]
   candidateName: string
+  role: string
+}
+
+interface Candidates {
+  mayor: CandidateSimple[]
+  deputyMayor: CandidateSimple[]
+  councilor: CandidateSimple[]
 }
 
 export interface CandidatesContextData {
   filter: Filter
-  candidates: {
-    mayor: CandidateSimple[]
-    councilor: CandidateSimple[]
-  }
+  candidates: Candidates
   handleChangeFilter: (value: Partial<Filter>) => void
   handleChangeFilterParties: (value: string) => void
 }
 
 interface CandidatesProviderProps {
-  candidates: {
-    mayor: CandidateSimple[]
-    councilor: CandidateSimple[]
-  }
+  candidates: Candidates
   children: React.ReactNode
 }
 
@@ -32,8 +33,10 @@ export function CandidatesProvider({
 }: CandidatesProviderProps) {
   const [filter, setFilter] = useState<Filter>({
     parties: [],
-    candidateName: ''
+    candidateName: '',
+    role: ''
   })
+
   const handleChangeFilter = (update: Partial<Filter>) => {
     setFilter(state => ({ ...state, ...update }))
   }

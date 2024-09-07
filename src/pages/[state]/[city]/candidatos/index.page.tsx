@@ -19,10 +19,15 @@ import styles from './styles.module.scss'
 
 interface PageProps {
   mayor: CandidateSimple[]
+  deputyMayor: CandidateSimple[]
   councilor: CandidateSimple[]
 }
 
-const CandidatesPage = ({ mayor = [], councilor = [] }: PageProps) => {
+const CandidatesPage = ({
+  mayor = [],
+  deputyMayor = [],
+  councilor = []
+}: PageProps) => {
   const params = useParams()
 
   const cityId = params?.city ? maskOnlyNumber(params.city as string) : ''
@@ -37,7 +42,7 @@ const CandidatesPage = ({ mayor = [], councilor = [] }: PageProps) => {
   const elemTitle = (<>Eleições 2024 em <span>{city}</span></>)
 
   return (
-    <CandidatesProvider candidates={{ mayor, councilor }}>
+    <CandidatesProvider candidates={{ mayor, deputyMayor, councilor }}>
       <Layout title={elemTitle}>
         <SEO title={title} description={description} />
 

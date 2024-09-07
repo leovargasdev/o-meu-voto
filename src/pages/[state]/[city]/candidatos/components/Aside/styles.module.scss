@@ -87,6 +87,29 @@
   }
 }
 
+.roles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 8px;
+
+  button {
+    font-size: 15px;
+    text-align: center;
+    
+    padding: 4px 0;
+    border-radius: 16px;
+    background-color: transparent;
+    border: 2px solid var(--green);
+
+    transition: all 0.4s;
+
+    &.role__active, &:hover {
+      color: #fff;
+      background-color: var(--green);
+    }
+  }
+}
+
 .form__button {
   padding: 8px 24px;
   border-radius: 6px;
