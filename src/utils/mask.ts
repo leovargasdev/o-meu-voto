@@ -17,3 +17,7 @@ export const maskToParamsURL = (str: string) =>
 export const maskSigla = (value: string) => {
   return normalizeString(value).replace(/\s/g, '').toUpperCase()
 }
+
+export const capitalizeString = (str: string) => {
+  return str.replace(/(^\w|\s\w)/g, m => m.toUpperCase())
+}

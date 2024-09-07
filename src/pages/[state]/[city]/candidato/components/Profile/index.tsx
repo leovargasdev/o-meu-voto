@@ -11,7 +11,7 @@ import {
   TiktokLogo,
   LinkSimple
 } from '@phosphor-icons/react'
-
+import { capitalizeString } from 'utils/mask'
 import styles from './styles.module.scss'
 
 const icons: Record<TypeLink, React.ReactNode> = {
@@ -53,9 +53,10 @@ export const Profile = (candidate: Candidate) => {
   const code = candidate.numero.toString().split('')
 
   const seoTitle = `Candidato(a) ${candidate.nomeUrna} - Eleições 2024`
-  const seoDescription = `Confira os dados do candidato(a) que está concorrendo ao cargo de ${candidate.cargo.nome.toLocaleLowerCase()} no município de ${candidate.localCandidatura.toLocaleLowerCase()} pelo partido ${
-    candidate.partido.sigla
-  }`
+  const seoCargo = candidate.cargo.nome.toLocaleLowerCase()
+  const seoMunicipio = capitalizeString(candidate.localCandidatura)
+  const seoSigla = candidate.partido.sigla
+  const seoDescription = `Confira os dados do candidato(a) que está concorrendo ao cargo de ${seoCargo} no município de ${seoMunicipio} pelo partido ${seoSigla}`
 
   return (
     <div className={classNames('card', styles.profile)}>
