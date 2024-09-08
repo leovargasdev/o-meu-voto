@@ -14,4 +14,17 @@
     align-items: center;
     column-gap: 4px;
   }
+
+  @media(max-width: 650px) {
+    p {
+      width: 90px;
+      font-size: 11px;
+      text-align: right;
+    }
+
+    > div svg {
+      width: 14px;
+      height: auto;
+    }
+  }
 }

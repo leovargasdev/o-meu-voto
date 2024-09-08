@@ -65,8 +65,21 @@
       -webkit-box-orient: vertical;
     }
 
-    p {
+    span {
       font-size: 17px;
+    }
+  }
+
+  @media(max-width: 650px) {
+    > span {
+      width: 36px;
+      height: 36px;
+    }
+
+    div {
+      span, strong {
+        font-size: 14px;
+      }
     }
   }
 }

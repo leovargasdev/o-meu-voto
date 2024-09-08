@@ -29,7 +29,6 @@ const CandidatePage = (candidate: Candidate) => {
       <div className={styles.container}>
         <div className={styles.head}>
           <Breadcrumb {...candidate} />
-
           <ShareCandidate />
         </div>
 
