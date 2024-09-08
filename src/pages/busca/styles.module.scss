@@ -10,7 +10,6 @@
     top: 20px;
     right: 24px;
     z-index: 10;
-    
 
     width: 150px;
     height: auto;
@@ -49,7 +48,7 @@
 .label {
   display: block;
 
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
   color: var(--text);
 
@@ -62,8 +61,9 @@
 
 .map {
   svg {
-    width: 40vw;
-    height: auto;
+    width: auto;
+    height: 75vh;
+    max-height: 800px;
   }
 
   svg g:hover path {
@@ -74,6 +74,7 @@
   @media(max-width: 600px) {
     svg {
       width: 110vw;
+      height: auto;
       margin-left: 38px;
     }
   }
