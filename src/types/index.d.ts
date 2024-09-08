@@ -13,6 +13,8 @@ export type TypeLink =
   | 'facebook'
   | 'instagram'
   | 'threads'
+  | 'telegram'
+  | 'linkedin'
   | 'tiktok'
 
 export interface SocialLink {

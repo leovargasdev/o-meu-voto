@@ -9,9 +9,12 @@ import {
   YoutubeLogo,
   ThreadsLogo,
   TiktokLogo,
-  LinkSimple
+  LinkSimple,
+  TelegramLogo,
+  LinkedinLogo
 } from '@phosphor-icons/react'
 import { capitalizeString } from 'utils/mask'
+
 import styles from './styles.module.scss'
 
 const icons: Record<TypeLink, React.ReactNode> = {
@@ -21,7 +24,9 @@ const icons: Record<TypeLink, React.ReactNode> = {
   facebook: <FacebookLogo size={32} />,
   instagram: <InstagramLogo size={32} />,
   threads: <ThreadsLogo size={32} />,
-  tiktok: <TiktokLogo size={32} />
+  tiktok: <TiktokLogo size={32} />,
+  linkedin: <LinkedinLogo size={32} />,
+  telegram: <TelegramLogo size={32} />
 }
 
 const handleLinksCandidate = (sites: string[]): SocialLink[] => {
@@ -40,6 +45,10 @@ const handleLinksCandidate = (sites: string[]): SocialLink[] => {
       type = 'threads'
     } else if (url.includes('tiktok.com')) {
       type = 'tiktok'
+    } else if (url.includes('https://t.me')) {
+      type = 'telegram'
+    } else if (url.includes('linkedin.com')) {
+      type = 'linkedin'
     }
 
     return [...acc, { type, url }] as never
@@ -52,11 +61,13 @@ export const Profile = (candidate: Candidate) => {
   const links = handleLinksCandidate(candidate.sites)
   const code = candidate.numero.toString().split('')
 
-  const seoTitle = `Candidato(a) ${candidate.nomeUrna} - Eleições 2024`
-  const seoCargo = candidate.cargo.nome.toLocaleLowerCase()
-  const seoMunicipio = capitalizeString(candidate.localCandidatura)
-  const seoSigla = candidate.partido.sigla
-  const seoDescription = `Confira os dados do candidato(a) que está concorrendo ao cargo de ${seoCargo} no município de ${seoMunicipio} pelo partido ${seoSigla}`
+  const candidateName = capitalizeString(candidate.nomeUrna.toLocaleLowerCase())
+  const seoTitle = `Candidato(a) ${candidateName} - Eleições 2024`
+
+  const role = candidate.cargo.nome.toLocaleLowerCase()
+  const city = capitalizeString(candidate.localCandidatura)
+  const acronym = candidate.partido.sigla
+  const seoDescription = `Confira os dados do candidato(a) que está concorrendo ao cargo de ${role} no município de ${city} pelo partido ${acronym}`
 
   return (
     <div className={classNames('card', styles.profile)}>
@@ -105,7 +116,7 @@ export const Profile = (candidate: Candidate) => {
         )}
 
         <aside>
-          {links.map(link => (
+          {links.slice(0, 7).map(link => (
             <a
               href={link.url}
               key={link.url}
