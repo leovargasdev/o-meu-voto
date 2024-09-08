@@ -15,7 +15,7 @@ import { CandidatesSkeleton } from './components/Skeleton'
 
 import styles from './styles.module.scss'
 
-// import paths from 'data/static-paths-candidate.json'
+import paths from 'data/static-paths-candidate.json'
 
 interface PageProps {
   mayor: CandidateSimple[]
@@ -61,7 +61,7 @@ const CandidatesPage = ({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  return { fallback: true, paths: [] }
+  return { fallback: true, paths }
 }
 
 const handleRedirect = (permanent = true) => {
