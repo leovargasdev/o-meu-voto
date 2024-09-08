@@ -2,6 +2,7 @@ import Head from 'next/head'
 import classNames from 'classnames'
 import { Layout } from 'components'
 import { useParams } from 'next/navigation'
+import { capitalizeString } from 'utils/mask'
 import { Archive, Receipt } from '@phosphor-icons/react'
 
 import styles from './styles.module.scss'
@@ -9,10 +10,16 @@ import styles from './styles.module.scss'
 export const CandidateSkeleton = () => {
   const params = useParams()
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [_, ...candidateName] = ((params?.id as string) || '-').split('-')
+  const title = `Carregando candidato  ${capitalizeString(
+    candidateName.join(' ')
+  )}`
+
   return (
     <Layout>
       <Head>
-        <title>Carregando candidato...</title>
+        <title>{title}</title>
       </Head>
 
       <div className={styles.container}>

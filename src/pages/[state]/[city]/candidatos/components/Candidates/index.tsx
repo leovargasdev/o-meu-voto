@@ -48,7 +48,7 @@ const Section = ({ title = '', candidates }: SectionProps) => (
     )}
 
     {candidates.length === 0 ? (
-      <p>A lista de candidatos está fazia.</p>
+      <p>A lista de candidatos está vazia.</p>
     ) : (
       <div className={styles.candidates}>
         {candidates.map(candidate => (

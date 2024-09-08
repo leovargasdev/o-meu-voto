@@ -24,7 +24,7 @@ export const Tags = (candidate: Candidate) => (
     </span>
 
     <span>
-      <span>{emoji.find('🎁')?.emoji}</span>
+      <span>{emoji.find('🎂')?.emoji}</span>
       {differenceInYears(new Date(), new Date(candidate.dataDeNascimento))} anos
     </span>
 
