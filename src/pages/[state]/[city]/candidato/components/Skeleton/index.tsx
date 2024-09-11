@@ -24,32 +24,22 @@ export const CandidateSkeleton = () => {
 
       <div className={styles.container}>
         <div className={classNames('card', styles.profile)}>
-          <picture className={styles.flag}>
-            <img
-              loading="lazy"
-              src={`/flags/flag-${params?.state}.jpg`}
-              alt={`Bandeira do estado de ${params?.state}`}
-            />
-          </picture>
+          <span className={classNames('skeleton', styles.profile__image)} />
 
-          <div>
-            <span className={classNames('skeleton', styles.profile__image)} />
+          <div className={styles.code}>
+            <span>0</span>
+            <span>0</span>
+            <span>0</span>
+            <span>0</span>
+            <span>0</span>
+          </div>
 
-            <div className={styles.code}>
-              <span>0</span>
-              <span>0</span>
-              <span>0</span>
-              <span>0</span>
-              <span>0</span>
-            </div>
+          <div className={classNames('skeleton', styles.title)} />
 
-            <div className={classNames('skeleton', styles.title)} />
-
-            <div className={styles.description}>
-              <span className="skeleton" />
-              <span className="skeleton" />
-              <span className="skeleton" />
-            </div>
+          <div className={styles.description}>
+            <span className="skeleton" />
+            <span className="skeleton" />
+            <span className="skeleton" />
           </div>
         </div>
 
