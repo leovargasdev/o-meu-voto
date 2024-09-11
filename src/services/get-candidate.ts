@@ -1,7 +1,31 @@
 import api from 'lib/api'
 import type { Candidate } from 'types'
-import { maskOnlyNumber, maskSigla } from 'utils/mask'
 import type { ParsedUrlQuery } from 'querystring'
+import { maskOnlyNumber, maskSigla } from 'utils/mask'
+
+interface Vice {
+  sq_CANDIDATO: number
+  urlFoto: string
+  nm_CANDIDATO: string
+  nm_URNA: string
+}
+
+interface ResponseCandidate extends Candidate {
+  vices: Vice[] | null
+}
+
+const getOtherCandidate = (vices: Vice[] | null) => {
+  if (vices && vices.length > 0) {
+    return {
+      id: vices[0].sq_CANDIDATO,
+      urlFoto: vices[0].urlFoto,
+      nomeCompleto: vices[0].nm_CANDIDATO.toLocaleLowerCase(),
+      nomeUrna: vices[0].nm_URNA
+    }
+  }
+
+  return null
+}
 
 export const serviceGetCandidate = async (
   params: ParsedUrlQuery | undefined
@@ -12,7 +36,7 @@ export const serviceGetCandidate = async (
 
   try {
     const route = `/buscar/2024/${city}/2045202024/candidato/${id}`
-    const { data } = await api.get<Candidate>(route)
+    const { data } = await api.get<ResponseCandidate>(route)
 
     const candidate: Candidate = {
       nomeCompleto: data.nomeCompleto.toLocaleLowerCase(),
@@ -38,7 +62,8 @@ export const serviceGetCandidate = async (
       totalDeBens: data.totalDeBens,
       ufSuperiorCandidatura: data.ufSuperiorCandidatura.toLocaleLowerCase(),
       bens: data.bens,
-      eleicoesAnteriores: data.eleicoesAnteriores
+      eleicoesAnteriores: data.eleicoesAnteriores,
+      otherCandidate: getOtherCandidate(data?.vices)
     }
 
     return { props: candidate, revalidate: false }

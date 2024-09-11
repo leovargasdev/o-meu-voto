@@ -52,4 +52,10 @@ export interface Candidate extends CandidateSimple {
     nome: string
   }
   eleicoesAnteriores: PreviousElection[]
+  otherCandidate: {
+    id: number
+    nomeCompleto: string
+    nomeUrna: string
+    urlFoto: string
+  } | null
 }

@@ -1,9 +1,24 @@
-.profile {
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  row-gap: 32px;
+
   width: 350px;
-  padding: 0 0 32px;
 
   top: 32px;
   position: sticky;
+
+  @media(max-width: 1000px) {
+    position: relative;
+    top: 0;
+    
+    width: 100%;
+  }
+}
+
+.candidate {
+  padding: 0 0 24px;
 
   .flag {
     width: 100%;
@@ -18,10 +33,6 @@
   }
 
   @media(max-width: 1000px) {
-    position: relative;
-    top: 0;
-    
-    width: 100%;
     padding: 20px 20px 40px;
 
     .flag {
@@ -210,6 +221,51 @@
   
     > a {
       margin: 8px auto;
+    }
+  }
+}
+
+.otherCandidate {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+
+  padding: 12px;
+
+  @media(max-width: 1000px) {
+    display: none;
+  }
+
+  picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 0 -8px;
+    }
+  }
+
+  div {
+    strong, p {
+      line-height: 1;
+      display: block;
+      text-transform: capitalize;
+    }
+    
+    strong {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    p {
+      color: var(--text-secondary);
+      font-size: 16px;
     }
   }
 }

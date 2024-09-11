@@ -13,9 +13,11 @@ import {
   TelegramLogo,
   LinkedinLogo
 } from '@phosphor-icons/react'
-import { capitalizeString } from 'utils/mask'
+import { capitalizeString, maskToParamsURL } from 'utils/mask'
 
 import styles from './styles.module.scss'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const icons: Record<TypeLink, React.ReactNode> = {
   default: <LinkSimple size={32} />,
@@ -55,6 +57,38 @@ const handleLinksCandidate = (sites: string[]): SocialLink[] => {
   }, [])
 }
 
+export const OtherCandidate = ({ otherCandidate: candidate }: Candidate) => {
+  const { asPath } = useRouter()
+
+  if (!candidate) {
+    return <></>
+  }
+
+  const baseUrl = asPath.split('/candidato')[0]
+  const pathName = maskToParamsURL(candidate.nomeUrna)
+  const candidateUrl = `${baseUrl}/candidato/${candidate.id}-${pathName}`
+
+  return (
+    <Link
+      href={candidateUrl}
+      className={classNames('card', styles.otherCandidate)}
+    >
+      <picture>
+        <img
+          loading="lazy"
+          src={candidate.urlFoto}
+          alt={`Foto do candidato ${candidate.nomeCompleto}`}
+        />
+      </picture>
+
+      <div>
+        <strong>{candidate.nomeUrna}</strong>
+        <p>{candidate.nomeCompleto}</p>
+      </div>
+    </Link>
+  )
+}
+
 export const Profile = (candidate: Candidate) => {
   const proposta = candidate.arquivos.find(item => item.codTipo === '5')
 
@@ -70,65 +104,69 @@ export const Profile = (candidate: Candidate) => {
   const seoDescription = `Confira os dados do candidato(a) que está concorrendo ao cargo de ${role} no município de ${city} pelo partido ${acronym}`
 
   return (
-    <div className={classNames('card', styles.profile)}>
-      <SEO title={seoTitle} description={seoDescription} />
+    <div className={styles.container}>
+      <div className={classNames('card', styles.candidate)}>
+        <SEO title={seoTitle} description={seoDescription} />
 
-      <picture className={styles.flag}>
-        <img
-          loading="lazy"
-          src={`/flags/flag-${candidate.ufSuperiorCandidatura}.jpg`}
-          alt={`Bandeira do estado de ${candidate.ufSuperiorCandidatura}`}
-        />
-      </picture>
-
-      <div className={styles.profile__content}>
-        <picture className={styles.profile__image}>
+        <picture className={styles.flag}>
           <img
-            src={candidate.fotoUrl}
-            alt={`Foto da campanha eleitoral do candidato ${candidate.nomeUrna}`}
+            loading="lazy"
+            src={`/flags/flag-${candidate.ufSuperiorCandidatura}.jpg`}
+            alt={`Bandeira do estado de ${candidate.ufSuperiorCandidatura}`}
           />
         </picture>
 
-        <div className={styles.code}>
-          {code.map((item, index) => (
-            <span key={index}>{item}</span>
-          ))}
-        </div>
+        <div className={styles.profile__content}>
+          <picture className={styles.profile__image}>
+            <img
+              src={candidate.fotoUrl}
+              alt={`Foto da campanha eleitoral do candidato ${candidate.nomeUrna}`}
+            />
+          </picture>
 
-        <h1>{candidate.nomeUrna}</h1>
+          <div className={styles.code}>
+            {code.map((item, index) => (
+              <span key={index}>{item}</span>
+            ))}
+          </div>
 
-        <p className={styles.description}>
-          O candidato(a) está concorrendo ao{' '}
-          <i>cargo de {candidate.cargo.nome}</i> no município de{' '}
-          <i>{candidate.localCandidatura}</i> pelo partido{' '}
-          <i>{candidate.partido.sigla}</i>.
-        </p>
+          <h1>{candidate.nomeUrna}</h1>
 
-        {proposta && (
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href={`https://divulgacandcontas.tse.jus.br/${proposta.url}/${proposta.nome}`}
-          >
-            <FileText size={24} />
-            Proposta de governo
-          </a>
-        )}
+          <p className={styles.description}>
+            O candidato(a) está concorrendo ao{' '}
+            <i>cargo de {candidate.cargo.nome}</i> no município de{' '}
+            <i>{candidate.localCandidatura}</i> pelo partido{' '}
+            <i>{candidate.partido.sigla}</i>.
+          </p>
 
-        <aside>
-          {links.slice(0, 7).map(link => (
+          {proposta && (
             <a
-              href={link.url}
-              key={link.url}
               target="_blank"
               rel="noreferrer"
-              title={`Link para o perfil da rede social ${link.type}`}
+              href={`https://divulgacandcontas.tse.jus.br/${proposta.url}/${proposta.nome}`}
             >
-              {icons[link.type]}
+              <FileText size={24} />
+              Proposta de governo
             </a>
-          ))}
-        </aside>
+          )}
+
+          <aside>
+            {links.slice(0, 7).map(link => (
+              <a
+                href={link.url}
+                key={link.url}
+                target="_blank"
+                rel="noreferrer"
+                title={`Link para o perfil da rede social ${link.type}`}
+              >
+                {icons[link.type]}
+              </a>
+            ))}
+          </aside>
+        </div>
       </div>
+
+      <OtherCandidate {...candidate} />
     </div>
   )
 }
