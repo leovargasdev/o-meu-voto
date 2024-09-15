@@ -22,7 +22,7 @@ export interface CandidateSimple {
 interface PreviousElection {
   id: string
   cargo: string
-  nrAno: string
+  nrAno: number
   local: string
   partido: string
   situacaoTotalizacao: string
@@ -51,6 +51,9 @@ export interface Candidate extends CandidateSimple {
     sigla: string
     nome: string
   }
+  reelicao: boolean
+  nomeColigacao: string
+  composicaoColigacao: string
   eleicoesAnteriores: PreviousElection[]
   otherCandidate: {
     id: number

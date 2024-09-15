@@ -16,6 +16,7 @@ import { PreviousElections } from './components/PreviousElections'
 import { ShareCandidate } from './components/Share'
 import { Breadcrumb } from './components/Breadcrumb'
 import { CandidateSkeleton } from './components/Skeleton'
+import { InfoPoliticalParty } from './components/InfoPoliticalParty'
 
 import styles from './styles.module.scss'
 
@@ -50,6 +51,8 @@ const CandidatePage = (candidate: Candidate) => {
                 </div>
               )}
             </div>
+
+            <InfoPoliticalParty {...candidate} />
 
             <Properties {...candidate} />
 

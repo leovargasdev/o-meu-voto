@@ -1,0 +1,53 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 64px;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+
+    strong {
+      font-size: 16px;
+    }
+  
+    p, a {
+      font-size: 18px;
+      text-transform: capitalize;
+    }
+
+    a {
+      color: var(--blue);
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @media(max-width: 650px) {
+    gap: 18px 32px;
+
+    > div {
+      strong {
+        font-size: 14px;
+      }
+    
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  img {
+    width: 28px;
+    height: auto;
+  }
+}

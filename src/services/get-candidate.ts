@@ -1,5 +1,5 @@
 import api from 'lib/api'
-import type { Candidate } from 'types'
+import type { Candidate, PreviousElection } from 'types'
 import type { ParsedUrlQuery } from 'querystring'
 import { maskOnlyNumber, maskSigla } from 'utils/mask'
 
@@ -25,6 +25,18 @@ const getOtherCandidate = (vices: Vice[] | null) => {
   }
 
   return null
+}
+
+const isReelection = (previousElection: PreviousElection[], role: string) => {
+  const oldElection = previousElection.find(
+    pe => pe.nrAno === 2020 && pe.cargo === role
+  )
+
+  if (!oldElection) {
+    return false
+  }
+
+  return oldElection.situacaoTotalizacao === 'Eleito'
 }
 
 export const serviceGetCandidate = async (
@@ -63,7 +75,10 @@ export const serviceGetCandidate = async (
       ufSuperiorCandidatura: data.ufSuperiorCandidatura.toLocaleLowerCase(),
       bens: data.bens,
       eleicoesAnteriores: data.eleicoesAnteriores,
-      otherCandidate: getOtherCandidate(data?.vices)
+      otherCandidate: getOtherCandidate(data?.vices),
+      nomeColigacao: data.nomeColigacao,
+      composicaoColigacao: data.composicaoColigacao,
+      reelicao: isReelection(data.eleicoesAnteriores, data.cargo.nome)
     }
 
     return { props: candidate, revalidate: false }
