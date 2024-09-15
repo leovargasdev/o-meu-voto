@@ -7,25 +7,23 @@ import styles from './styles.module.scss'
 
 type KeyParty = keyof typeof listParties
 
-const getGroupParties = (value: string, currentParty: string) => {
+const getGroupParties = (value: string) => {
   const parties = value.split(' / ')
 
   return parties.reduce((acc, party) => {
     const key = maskSigla(party).toLocaleLowerCase()
 
-    if (key !== currentParty) {
-      const data = listParties[key as KeyParty]
-      data?.name && acc.push(data)
-    }
+    const data = listParties[key as KeyParty]
+    data?.name && acc.push(data)
 
     return acc
   }, [] as any[])
 }
 
 export const InfoPoliticalParty = (candidate: Candidate) => {
-  const sigla = candidate.partidoSigla.toLocaleLowerCase() as KeyParty
-  const groupParties = getGroupParties(candidate.composicaoColigacao, sigla)
+  const groupParties = getGroupParties(candidate.composicaoColigacao)
 
+  const sigla = candidate.partidoSigla.toLocaleLowerCase() as KeyParty
   const linkParty = listParties[sigla]?.link
 
   return (
@@ -46,7 +44,7 @@ export const InfoPoliticalParty = (candidate: Candidate) => {
           <strong>Coligação</strong>
           <p>{candidate.nomeColigacao.toLocaleLowerCase()}</p>
         </div>
-        {!!groupParties.length && (
+        {groupParties.length > 1 && (
           <div>
             <strong>Composição da coligação</strong>
             <div className={styles.images}>

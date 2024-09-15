@@ -21,14 +21,9 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
         <div className={styles.list}>
           {data.map(item => (
             <div key={item.id} className={styles.item}>
-              {/* <img
-                src={`/icons/${maskSigla(item.partido)}.png`}
-                alt={`Logo do partido ${item.partido}`}
-              /> */}
-
               <div>
                 <strong>
-                  {item.cargo} em <span>{item.local.toLocaleLowerCase()}</span>
+                  {item.cargo} - <span>{item.local.toLocaleLowerCase()}</span>
                 </strong>
 
                 <p>Em {item.nrAno}</p>
