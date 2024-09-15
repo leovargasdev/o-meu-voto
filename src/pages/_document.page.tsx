@@ -8,7 +8,19 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-          <link rel="icon" href="/favicon.png" type="image/png" />
+          <link
+            rel="icon"
+            type="image/png"
+            href="/favicon-32x32.png"
+            sizes="32x32"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            href="/favicon-192x192.png"
+            sizes="192x192"
+          />
+          <link rel="apple-touch-icon" href="/favicon-180x180.png" />
 
           <meta charSet="utf-8" />
           <meta property="og:type" content="article" />
