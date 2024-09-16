@@ -27,16 +27,30 @@ const getOtherCandidate = (vices: Vice[] | null) => {
   return null
 }
 
-const isReelection = (previousElection: PreviousElection[], role: string) => {
+const getInfoReelection = async (
+  previousElection: PreviousElection[],
+  role: string
+) => {
   const oldElection = previousElection.find(
     pe => pe.nrAno === 2020 && pe.cargo === role
   )
 
-  if (!oldElection) {
-    return false
+  if (!oldElection || oldElection.situacaoTotalizacao !== 'Eleito') {
+    return { eleito: false }
   }
 
-  return oldElection.situacaoTotalizacao === 'Eleito'
+  if (oldElection.cargo === 'Prefeito') {
+    const route = `/buscar/2020/${oldElection.sgUe}/2030402020/candidato/${oldElection.id}`
+    const { data } = await api.get<ResponseCandidate>(route)
+    const file = data.arquivos.find(item => item.codTipo === '5')
+
+    if (file) {
+      const proposta = `https://divulgacandcontas.tse.jus.br/${file.url}/${file.nome}`
+      return { eleito: true, proposta }
+    }
+  }
+
+  return { eleito: true }
 }
 
 export const serviceGetCandidate = async (
@@ -49,6 +63,11 @@ export const serviceGetCandidate = async (
   try {
     const route = `/buscar/2024/${city}/2045202024/candidato/${id}`
     const { data } = await api.get<ResponseCandidate>(route)
+
+    const reelicao = await getInfoReelection(
+      data.eleicoesAnteriores,
+      data.cargo.nome
+    )
 
     const candidate: Candidate = {
       nomeCompleto: data.nomeCompleto.toLocaleLowerCase(),
@@ -78,7 +97,7 @@ export const serviceGetCandidate = async (
       otherCandidate: getOtherCandidate(data?.vices),
       nomeColigacao: data.nomeColigacao,
       composicaoColigacao: data.composicaoColigacao,
-      reelicao: isReelection(data.eleicoesAnteriores, data.cargo.nome)
+      reelicao
     }
 
     return { props: candidate, revalidate: false }

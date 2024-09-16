@@ -1,6 +1,7 @@
 import classNames from 'classnames'
 import { Mailbox } from '@phosphor-icons/react'
 import { GetStaticPaths, GetStaticProps } from 'next'
+import { WarningCircle } from '@phosphor-icons/react/dist/ssr'
 
 import { cities } from 'data/cities'
 import { maskOnlyNumber } from 'utils/mask'
@@ -37,6 +38,28 @@ const CandidatePage = (candidate: Candidate) => {
           <Profile {...candidate} />
 
           <div className={styles.cards}>
+            {candidate.reelicao.eleito && (
+              <div className={styles.alert}>
+                <strong>
+                  <WarningCircle size={20} color="#FF9800" weight="bold" />{' '}
+                  Releição de cargo
+                </strong>
+                <p>
+                  O candidato <b>{candidate.nomeCompleto}</b> foi eleito em 2020
+                  para o cargo de {candidate.cargo.nome}!
+                </p>
+                {candidate.reelicao.proposta && (
+                  <a
+                    href={candidate.reelicao.proposta}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Acessar plano de governo de 2020
+                  </a>
+                )}
+              </div>
+            )}
+
             <div className={classNames('card', styles.info)}>
               <Tags {...candidate} />
               <News {...candidate} />

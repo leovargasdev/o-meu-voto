@@ -25,6 +25,7 @@ interface PreviousElection {
   nrAno: number
   local: string
   partido: string
+  sgUe: string
   situacaoTotalizacao: string
 }
 
@@ -51,7 +52,10 @@ export interface Candidate extends CandidateSimple {
     sigla: string
     nome: string
   }
-  reelicao: boolean
+  reelicao: {
+    eleito: boolean
+    proposta?: string
+  }
   nomeColigacao: string
   composicaoColigacao: string
   eleicoesAnteriores: PreviousElection[]
