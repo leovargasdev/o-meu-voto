@@ -40,14 +40,16 @@ const CandidatePage = (candidate: Candidate) => {
           <div className={styles.cards}>
             {candidate.reelicao.eleito && (
               <div className={styles.alert}>
-                <strong>
-                  <WarningCircle size={20} color="#FF9800" weight="bold" />{' '}
-                  Releição de cargo
-                </strong>
-                <p>
-                  O candidato <b>{candidate.nomeCompleto}</b> foi eleito em 2020
-                  para o cargo de {candidate.cargo.nome}!
-                </p>
+                <div>
+                  <WarningCircle size={36} color="#FF9800" weight="regular" />{' '}
+                  <div>
+                    <strong>Releição de cargo</strong>
+                    <p>
+                      O candidato <b>{candidate.nomeCompleto}</b> foi eleito em
+                      2020 para o cargo de {candidate.cargo.nome}!
+                    </p>
+                  </div>
+                </div>
                 {candidate.reelicao.proposta && (
                   <a
                     href={candidate.reelicao.proposta}
