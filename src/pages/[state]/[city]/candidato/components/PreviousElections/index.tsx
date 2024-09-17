@@ -41,7 +41,7 @@ export const PreviousElections = ({ eleicoesAnteriores }: Candidate) => {
               {item.situacaoTotalizacao === 'Não eleito' && (
                 <span className={styles.fail}>Não eleito</span>
               )}
-              {item.situacaoTotalizacao === 'Eleito' && (
+              {['2º turno', 'Eleito'].includes(item.situacaoTotalizacao) && (
                 <span className={styles.success}>Eleito</span>
               )}
             </div>

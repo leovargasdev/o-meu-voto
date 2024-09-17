@@ -35,10 +35,12 @@ const getInfoReelection = async (
     pe => pe.nrAno === 2020 && pe.cargo === role
   )
 
-  if (
-    !oldElection ||
-    !oldElection.situacaoTotalizacao.toLocaleLowerCase().includes('eleito')
-  ) {
+  const statusElection = oldElection
+    ? oldElection.situacaoTotalizacao.toLocaleLowerCase()
+    : ''
+  const wasElected = ['eleito', '2º turno'].includes(statusElection)
+
+  if (!oldElection || !wasElected) {
     return { eleito: false }
   }
 
