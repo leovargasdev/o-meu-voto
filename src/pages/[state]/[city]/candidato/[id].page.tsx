@@ -1,7 +1,6 @@
 import classNames from 'classnames'
-import { Mailbox } from '@phosphor-icons/react'
 import { GetStaticPaths, GetStaticProps } from 'next'
-import { WarningCircle } from '@phosphor-icons/react/dist/ssr'
+import { Mailbox, WarningCircle } from '@phosphor-icons/react'
 
 import { cities } from 'data/cities'
 import { maskOnlyNumber } from 'utils/mask'
